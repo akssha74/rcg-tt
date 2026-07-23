@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code or the derived artifacts, please cite the paper."
+title: "Resolution Consistency Gate with Threshold Transfer for Trust Collapse under Variable GSD in Disaster Remote Sensing"
+authors:
+  - family-names: Sharma
+    given-names: Akshay
+    affiliation: "SAGE University, Indore, India"
+  - family-names: Prasad
+    given-names: Lalji
+    affiliation: "SAGE University, Indore, India"
+year: 2026
+preferred-citation:
+  type: article
+  title: "Resolution Consistency Gate with Threshold Transfer for Trust Collapse under Variable GSD in Disaster Remote Sensing"
+  authors:
+    - family-names: Sharma
+      given-names: Akshay
+    - family-names: Prasad
+      given-names: Lalji
+  journal: "IEEE Transactions on Geoscience and Remote Sensing"
+  year: 2026

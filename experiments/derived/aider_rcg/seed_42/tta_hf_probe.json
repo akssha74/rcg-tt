@@ -1,0 +1,10 @@
+{
+  "seed": 42,
+  "tta_accuracy": 0.21030927835051547,
+  "auroc_error_given_tta_disagreement": 0.48787948599805453,
+  "auroc_error_given_neg_hf_energy_native": 0.36558644345466645,
+  "auroc_error_given_neg_hf_energy_scale4": 0.3859466943579093,
+  "mean_hf_energy": 0.4688125747688038,
+  "mean_hf_energy_on_errors_native": 0.4797738602983111,
+  "mean_hf_energy_on_correct_native": 0.42765402224133997
+}

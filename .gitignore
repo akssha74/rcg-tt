@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+# Full re-computation scratch (level B); the released derived/ artifacts are tracked.
+experiments/derived/**/test_arrays.npz

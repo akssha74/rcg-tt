@@ -1,0 +1,14 @@
+{
+  "checkpoint": "seed_local",
+  "native_accuracy": 0.9958762886597938,
+  "s8_accuracy": 0.9154639175257732,
+  "tta_accuracy": 0.9948453608247423,
+  "auroc_error_given_tta_disagreement_native": 0.599481865284974,
+  "auroc_error_given_neg_hf_energy_native": 0.4197722567287785,
+  "auroc_error_s8_given_neg_hf_native_energy": 0.5522824653922215,
+  "auroc_error_s8_given_neg_hf_degraded_sub500": 0.483815361041946,
+  "mean_hf_native": 0.4688125747688038,
+  "mean_hf_s8_sub500": 0.18490672843158246,
+  "mean_hf_drop_s8": 0.28289961312711237,
+  "n_test": 970
+}

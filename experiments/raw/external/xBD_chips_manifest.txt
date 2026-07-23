@@ -1,0 +1,11 @@
+xBD building-damage chips (negative control)
+Public source: xView2 / xBD dataset -- https://xview2.org/dataset
+Reference: Gupta et al., "xBD: A Dataset for Assessing Building Damage from
+  Satellite Imagery", CVPR Workshops 2019.
+
+Usage in this study:
+- 64x64 building chips from the Hurricane Harvey hold-out, binarized as
+  damage-level >= 2. Used ONLY as a negative control (no AUROC lift expected),
+  see artifacts/derived/strengthen_unambiguous/summary.json.
+- The xBD imagery is redistributed under its own license; obtain it from the
+  official xView2 site rather than from this repository.

@@ -1,0 +1,11 @@
+# RCG-TT reproducibility environment.
+# Tested with Python 3.10 on macOS (Apple Silicon / MPS) and CPU.
+# Versions are pinned to those used for the results reported in the paper.
+torch==2.12.1
+torchvision==0.27.1
+numpy==2.2.6
+scikit-learn==1.7.2
+matplotlib==3.10.9
+pillow==12.2.0
+# Only needed to reload the Satellite Hurricane Damage corpus from Hugging Face:
+datasets>=2.19

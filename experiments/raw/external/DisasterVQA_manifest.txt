@@ -1,0 +1,3 @@
+DisasterVQA -- exploratory only.
+Not required to reproduce any confirmatory result (W1-W4) or immunization table
+in the paper. Listed here for completeness of the exploratory record.

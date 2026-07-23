@@ -1,0 +1,12 @@
+AIDER -- Aerial Image Dataset for Emergency Response applications
+Classes used: collapsed_building / fire / flood / traffic_incident / normal
+Public source: https://zenodo.org/records/3888300 (Kyrkou & Theocharides, AIDER)
+Project page: https://github.com/ckyrkou/AIDER
+
+Usage in this study:
+- Downloaded the public AIDER image folders and built a stratified train/val/test
+  split; the exact split (file lists + labels) is recorded in
+  artifacts/derived/aider_rcg/aider_splits.json so evaluation is reproducible
+  without redistributing the copyrighted images.
+- To reproduce from raw images, point run_aider_resolution.py at your local
+  AIDER root (set the AIDER_ROOT environment variable) and regenerate the split.
