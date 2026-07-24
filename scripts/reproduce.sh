@@ -7,8 +7,8 @@
 #       regenerate every LaTeX table and figure from the derived result JSON in
 #       experiments/derived/ and confirm they match the committed paper assets.
 #
-#   (B) FULL RE-COMPUTATION (optional, requires the datasets + a GPU/MPS):
-#       retrain/evaluate from raw imagery. See the README; not run here.
+#   (B) CHECKPOINT RE-EVALUATION (optional, requires datasets + a GPU/MPS):
+#       evaluate released checkpoints where code is provided. See the README.
 #
 # Usage:
 #   bash scripts/reproduce.sh            # packaging + integrity check
@@ -30,6 +30,7 @@ cp -r paper/figures "$TMP/figures_committed"
 python3 experiments/code/generate_paper_artifacts.py
 python3 experiments/code/generate_transfer_figures.py
 python3 experiments/code/run_immune_packaging.py
+python3 experiments/code/generate_revision_tables.py
 
 echo
 echo "=== [3/3] Diffing regenerated LaTeX tables vs committed ==="

@@ -12,10 +12,20 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[2]
 DER = ROOT / "experiments/derived/aider_rcg"
-FIG = ROOT / "paper/figures"
-TAB = ROOT / "paper/tables"
-FIG.mkdir(parents=True, exist_ok=True)
-TAB.mkdir(parents=True, exist_ok=True)
+PAPER_DIRS = (ROOT / "paper",)
+if (ROOT / "paper-ijrs").exists():
+    PAPER_DIRS += (ROOT / "paper-ijrs",)
+for paper_dir in PAPER_DIRS:
+    (paper_dir / "figures").mkdir(parents=True, exist_ok=True)
+    (paper_dir / "tables").mkdir(parents=True, exist_ok=True)
+
+plt.rcParams.update(
+    {
+        "font.family": "DejaVu Sans",
+        "pdf.fonttype": 42,
+        "ps.fonttype": 42,
+    }
+)
 
 
 def sha(p: Path) -> str:
@@ -39,26 +49,33 @@ def main():
     ax[0].plot(scales, errc, "s--", label="Mean conf on errors")
     ax[0].set_xlabel("Downsample factor s")
     ax[0].set_ylabel("Rate")
-    ax[0].set_title("Trust collapse (local CNN)")
     ax[0].legend(fontsize=8)
     ax[0].set_xticks(scales)
+    ax[0].text(0.02, 0.96, "(a)", transform=ax[0].transAxes, va="top", fontweight="bold")
 
     ax[1].plot(scales, fcr, "o-", color="crimson")
     ax[1].set_xlabel("Downsample factor s")
     ax[1].set_ylabel("False-critical rate")
-    ax[1].set_title("False critical vs resolution")
     ax[1].set_xticks(scales)
+    ax[1].text(0.02, 0.96, "(b)", transform=ax[1].transAxes, va="top", fontweight="bold")
 
     ax[2].bar([str(s) for s in scales], lift, color=["#4c72b0" if v >= 0 else "#c44e52" for v in lift])
-    ax[2].axhline(0.05, color="gray", ls=":", label="W1 bar (0.05)")
+    ax[2].axhline(0.05, color="gray", ls=":", label="Confirmatory threshold (0.05)")
     ax[2].set_xlabel("Operating scale s")
     ax[2].set_ylabel("AUROC lift (JS − (1−conf))")
-    ax[2].set_title("RCG-JS vs confidence")
     ax[2].legend(fontsize=8)
+    ax[2].text(0.02, 0.96, "(c)", transform=ax[2].transAxes, va="top", fontweight="bold")
     fig.tight_layout()
-    fig_path = FIG / "trust_collapse_rcg.pdf"
-    fig.savefig(fig_path)
-    fig.savefig(FIG / "trust_collapse_rcg.png", dpi=150)
+    figure_paths = []
+    for paper_dir in PAPER_DIRS:
+        fig_path = paper_dir / "figures/trust_collapse_rcg.pdf"
+        fig.savefig(
+            fig_path,
+            bbox_inches="tight",
+            metadata={"CreationDate": None, "ModDate": None},
+        )
+        fig.savefig(paper_dir / "figures/trust_collapse_rcg.png", dpi=600, bbox_inches="tight")
+        figure_paths.append(fig_path)
     plt.close()
 
     # main results table
@@ -97,8 +114,11 @@ def main():
         tex.append(" & ".join(r) + "\\\\")
     tex.append("\\bottomrule")
     tex.append("\\end{tabular}")
-    tab_path = TAB / "main_rcg_s8.tex"
-    tab_path.write_text("\n".join(tex) + "\n")
+    table_paths = []
+    for paper_dir in PAPER_DIRS:
+        tab_path = paper_dir / "tables/main_rcg_s8.tex"
+        tab_path.write_text("\n".join(tex) + "\n")
+        table_paths.append(tab_path)
 
     # claim ledger helper values
     claims = {
@@ -109,8 +129,8 @@ def main():
         "local_err_conf_ladder": [local[str(s)]["err_conf"] for s in scales],
         "scratch_s8_lift_mean": conf["aggregate_scratch_s8_js_lift"]["mean"],
         "scratch_s8_lift_std": conf["aggregate_scratch_s8_js_lift"]["std"],
-        "figure_sha256": sha(fig_path),
-        "table_sha256": sha(tab_path),
+        "figure_sha256": sha(figure_paths[0]),
+        "table_sha256": sha(table_paths[0]),
     }
     (DER / "paper_values.json").write_text(json.dumps(claims, indent=2))
     print(json.dumps(claims, indent=2))

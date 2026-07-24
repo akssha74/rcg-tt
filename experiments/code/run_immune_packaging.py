@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Package immunization JSON into paper tables/figures (deterministic).
+"""Package robustness-audit JSON into paper tables/figures (deterministic).
 
 Heavy experiment JSON under experiments/derived/immune/ must already exist.
 This script only regenerates LaTeX tables and PDF figures from those files,
@@ -19,8 +19,43 @@ import numpy as np
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "experiments/derived/immune"
-TABLES = ROOT / "paper/tables"
-FIGS = ROOT / "paper/figures"
+PAPER_DIRS = (ROOT / "paper",)
+if (ROOT / "paper-ijrs").exists():
+    PAPER_DIRS += (ROOT / "paper-ijrs",)
+
+plt.rcParams.update(
+    {
+        "font.family": "DejaVu Sans",
+        "pdf.fonttype": 42,
+        "ps.fonttype": 42,
+    }
+)
+
+
+def write_table(name: str, content: str) -> list[Path]:
+    paths = []
+    for paper_dir in PAPER_DIRS:
+        path = paper_dir / "tables" / name
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(content)
+        paths.append(path)
+    return paths
+
+
+def save_figure(fig, name: str) -> list[Path]:
+    paths = []
+    for paper_dir in PAPER_DIRS:
+        figure_dir = paper_dir / "figures"
+        figure_dir.mkdir(parents=True, exist_ok=True)
+        path = figure_dir / f"{name}.pdf"
+        fig.savefig(
+            path,
+            bbox_inches="tight",
+            metadata={"CreationDate": None, "ModDate": None},
+        )
+        fig.savefig(figure_dir / f"{name}.png", dpi=600, bbox_inches="tight")
+        paths.append(path)
+    return paths
 
 
 def sha256(path: Path) -> str:
@@ -34,7 +69,7 @@ def main() -> None:
     hurr = json.loads((OUT / "hurricane_immune.json").read_text())
     scr = json.loads((OUT / "scratch_seed_immune.json").read_text())
     # Confirmatory (pairwise-native) RCG-JS AUROC at s=8, reported alongside the
-    # mean-posterior immunization estimator in the strong-baseline table.
+    # mean-posterior robustness estimator in the strong-baseline table.
     conf = json.loads(
         (ROOT / "experiments/derived/aider_rcg/confirmatory_summary.json").read_text()
     )
@@ -57,7 +92,7 @@ def main() -> None:
             f"{v['auroc_msp']:.3f} & {v['lift']:.3f}\\\\"
         )
     lines += [r"\bottomrule", r"\end{tabular}"]
-    (TABLES / "multi_degradation.tex").write_text("\n".join(lines) + "\n")
+    multi_table_paths = write_table("multi_degradation.tex", "\n".join(lines) + "\n")
 
     b = aider["baselines"]
     blines = [
@@ -72,12 +107,12 @@ def main() -> None:
         rf"3-seed ensemble MSP & {b['ensemble_msp']:.3f} \\",
         rf"3-seed ensemble disagreement & {b['ensemble_disagreement']:.3f} \\",
         rf"RCG-JS pairwise-native (confirmatory) & {rcg_js_pairwise:.3f} \\",
-        rf"RCG-JS mean-posterior (immunization) & {b['rcg_js']:.3f} \\",
+        rf"RCG-JS mean-posterior (robustness) & {b['rcg_js']:.3f} \\",
         r"\bottomrule",
         r"\end{tabular}",
     ]
     text = "\n".join(blines) + "\n"
-    (TABLES / "baselines_s8.tex").write_text(text)
+    baseline_table_paths = write_table("baselines_s8.tex", text)
 
     glines = [
         r"\begin{tabular}{lcccc}",
@@ -96,7 +131,7 @@ def main() -> None:
             f"Hurricane & {g} & {v['conf_cov']:.3f} & {v['js_cov']:.3f} & {v['cov_gap']:.3f}\\\\"
         )
     glines += [r"\bottomrule", r"\end{tabular}"]
-    (TABLES / "tt_multi_gamma.tex").write_text("\n".join(glines) + "\n")
+    gamma_table_paths = write_table("tt_multi_gamma.tex", "\n".join(glines) + "\n")
 
     slines = [
         r"\begin{tabular}{lcccc}",
@@ -111,7 +146,7 @@ def main() -> None:
             f"{s8['conf_cov']:.3f} & {s8['js_cov']:.3f}\\\\"
         )
     slines += [r"\bottomrule", r"\end{tabular}"]
-    (TABLES / "scratch_seed_tt.tex").write_text("\n".join(slines) + "\n")
+    scratch_table_paths = write_table("scratch_seed_tt.tex", "\n".join(slines) + "\n")
 
     fig, ax = plt.subplots(figsize=(6.2, 3.2))
     modes = list(aider["multi_degradation"].keys())
@@ -133,9 +168,8 @@ def main() -> None:
     ax.set_xticklabels(modes, rotation=15)
     ax.set_ylabel("AUROC lift (JS - MSP)")
     ax.legend(frameon=False)
-    ax.set_title("Multi-operator GSD-proxy robustness")
     fig.tight_layout()
-    fig.savefig(FIGS / "multi_degradation.pdf")
+    multi_figure_paths = save_figure(fig, "multi_degradation")
     plt.close()
 
     fig, ax = plt.subplots(figsize=(6.2, 3.2))
@@ -173,21 +207,20 @@ def main() -> None:
     ax.set_xlabel(r"Native coverage target $\gamma$")
     ax.set_ylabel("Test coverage at $s=8$")
     ax.legend(frameon=False, fontsize=8)
-    ax.set_title(r"Threshold-transfer coverage across $\gamma$")
     fig.tight_layout()
-    fig.savefig(FIGS / "tt_multi_gamma.pdf")
+    gamma_figure_paths = save_figure(fig, "tt_multi_gamma")
     plt.close()
 
     paths = [
         OUT / "aider_immune.json",
         OUT / "hurricane_immune.json",
         OUT / "scratch_seed_immune.json",
-        TABLES / "multi_degradation.tex",
-        TABLES / "baselines_s8.tex",
-        TABLES / "tt_multi_gamma.tex",
-        TABLES / "scratch_seed_tt.tex",
-        FIGS / "multi_degradation.pdf",
-        FIGS / "tt_multi_gamma.pdf",
+        multi_table_paths[0],
+        baseline_table_paths[0],
+        gamma_table_paths[0],
+        scratch_table_paths[0],
+        multi_figure_paths[0],
+        gamma_figure_paths[0],
     ]
     for p in paths:
         print(f"{p.relative_to(ROOT)} {sha256(p)}")
