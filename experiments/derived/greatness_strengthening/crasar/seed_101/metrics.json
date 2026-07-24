@@ -1,0 +1,77 @@
+{
+  "seed": 101,
+  "best_val_macro_f1": 0.7871148459383753,
+  "fine_validation_thresholds": {
+    "gsd_m": 0.03651,
+    "confidence": 0.8530944585800171,
+    "rcg": 0.008490274660289288
+  },
+  "strata": {
+    "0.03651": {
+      "n": 153,
+      "n_errors": 31,
+      "accuracy": 0.7973856209150327,
+      "error_confidence": 0.7468689680099487,
+      "auroc_confidence": 0.7149656266525648,
+      "auroc_rcg": 0.6842940243257536,
+      "lift_rcg_minus_confidence": -0.03067160232681121
+    },
+    "0.04672": {
+      "n": 94,
+      "n_errors": 34,
+      "accuracy": 0.6382978723404256,
+      "error_confidence": 0.7870643734931946,
+      "auroc_confidence": 0.5279411764705882,
+      "auroc_rcg": 0.5397058823529411,
+      "lift_rcg_minus_confidence": 0.0117647058823529
+    },
+    "0.127": {
+      "n": 194,
+      "n_errors": 19,
+      "accuracy": 0.9020618556701031,
+      "error_confidence": 0.7896290421485901,
+      "auroc_confidence": 0.7864661654135338,
+      "auroc_rcg": 0.7046616541353383,
+      "lift_rcg_minus_confidence": -0.08180451127819544
+    }
+  },
+  "transfer": {
+    "0.03651": {
+      "confidence": {
+        "coverage": 0.6143790849673203,
+        "fcr": 0.0,
+        "n": 94
+      },
+      "rcg": {
+        "coverage": 0.6405228758169934,
+        "fcr": 0.0,
+        "n": 98
+      }
+    },
+    "0.04672": {
+      "confidence": {
+        "coverage": 0.46808510638297873,
+        "fcr": 0.36363636363636365,
+        "n": 44
+      },
+      "rcg": {
+        "coverage": 0.07446808510638298,
+        "fcr": 0.0,
+        "n": 7
+      }
+    },
+    "0.127": {
+      "confidence": {
+        "coverage": 0.8092783505154639,
+        "fcr": 0.006369426751592357,
+        "n": 157
+      },
+      "rcg": {
+        "coverage": 0.8144329896907216,
+        "fcr": 0.0,
+        "n": 158
+      }
+    }
+  },
+  "runtime_seconds": 47.386727809906006
+}

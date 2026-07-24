@@ -31,6 +31,7 @@ python3 experiments/code/generate_paper_artifacts.py
 python3 experiments/code/generate_transfer_figures.py
 python3 experiments/code/run_immune_packaging.py
 python3 experiments/code/generate_revision_tables.py
+python3 experiments/code/generate_strengthening_artifacts.py
 
 echo
 echo "=== [3/3] Diffing regenerated LaTeX tables vs committed ==="

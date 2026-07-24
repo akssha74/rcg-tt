@@ -18,6 +18,9 @@ auto-decision coverage under resolution change.
 This repository lets a reviewer (a) verify that each table and figure in the
 paper is backed by a hashed result artifact, and (b) regenerate all tables and
 figures from those artifacts, without any dataset download.
+The final strengthening release includes three independently trained primary
+ResNet-18 seeds per corpus, an EO-specific k-nearest-neighbour OOD comparison,
+and paired operational UAS/satellite evidence at measured GSD.
 
 ---
 
@@ -32,6 +35,7 @@ paper/figures/              Figures (PDF for LaTeX, PNG previews)
 evidence/                   Artifact, claim, and citation ledgers (provenance)
 scripts/                    reproduce.sh, verify_hashes.py, make_manifest.py
 RELEASE_SHA256SUMS.txt      SHA-256 of every file in this distribution
+requirements-full.txt       pinned environment for training/re-evaluation
 ```
 
 ## Quick start
@@ -57,14 +61,17 @@ paper's LaTeX tables and figures.
 computed results (AUROC, coverage, lifts, per-operator/per-γ sweeps). The scripts
 `generate_paper_artifacts.py`, `generate_transfer_figures.py`, and
 `run_immune_packaging.py`, followed by `generate_revision_tables.py`, turn them
-into the exact LaTeX tables in `paper/tables/`.
+into the legacy LaTeX assets; `generate_strengthening_artifacts.py` packages the
+multi-seed, EO-OOD, and measured-GSD results.
 `reproduce.sh` regenerates and diffs these; tables reproduce byte-for-byte.
 
-**(B) Checkpoint re-evaluation — optional, needs data + GPU/MPS.** The release
-contains the AIDER MobileNet checkpoints and result artifacts used by the article.
-AIDER MobileNet re-evaluation code is included. AIDER ResNet-18 and Hurricane
-results are released as hashed summary artifacts without their fitted checkpoints;
-the release does not claim full retraining reproduction for all reported models.
+**(B) Checkpoint re-evaluation / full retraining — optional, needs data +
+GPU/MPS.** The release contains all AIDER, Hurricane, and measured-GSD primary
+seed checkpoints plus score arrays and histories. Install the full environment:
+
+```bash
+pip install -r requirements-full.txt
+```
 
 - **AIDER** (5 classes): obtain the public dataset (see
   `experiments/raw/external/AIDER_manifest.txt`), set `AIDER_ROOT` to its path, then
@@ -82,15 +89,31 @@ the release does not claim full retraining reproduction for all reported models.
 - **Satellite Images of Hurricane Damage**: the exact Hugging Face source
   (`jonathan-roberts1/Satellite-Images-of-Hurricane-Damage`) is recorded in
   `experiments/raw/external/HurricaneDamage_manifest.txt`; the released
-  checkpoint summaries are under `experiments/derived/`.
+  checkpoints and summaries are under
+  `experiments/derived/greatness_strengthening/hurricane/`.
 
 - **xBD** (negative control): obtain from https://xview2.org/dataset .
+
+- **CRASAR-U-DROIDs measured GSD**: source snapshot, selected orthomosaics,
+  GSDs, and licence are fixed in `experiments/raw/external/CRASAR_manifest.txt`.
+  Imagery is fetched from Hugging Face by `run_measured_gsd_crasar.py`; no
+  third-party image patches are redistributed.
+
+Primary strengthening commands:
+
+```bash
+export AIDER_ROOT=/path/to/AIDER
+python3 experiments/code/run_primary_multiseed.py --datasets aider hurricane
+python3 experiments/code/run_measured_gsd_crasar.py --epochs 5
+python3 experiments/code/run_paired_measured_gsd.py
+python3 experiments/code/generate_strengthening_artifacts.py
+```
 
 ## Datasets and licensing
 
 No third-party imagery is redistributed here. AIDER, Satellite Images of Hurricane
-Damage, and xBD are public but governed by their own licenses — obtain them from
-the official sources listed in `experiments/raw/external/`.
+Damage, xBD, and CRASAR-U-DROIDs are public but governed by their own licenses —
+obtain them from the official sources listed in `experiments/raw/external/`.
 
 Repository licensing is split by content type: source code under
 `experiments/code/` and `scripts/` is MIT-licensed; generated figures, tables,
