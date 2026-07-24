@@ -20,7 +20,8 @@ paper is backed by a hashed result artifact, and (b) regenerate all tables and
 figures from those artifacts, without any dataset download.
 The final strengthening release includes three independently trained primary
 ResNet-18 seeds per corpus, an EO-specific k-nearest-neighbour OOD comparison,
-and paired operational UAS/satellite evidence at measured GSD.
+and 125 paired operational UAS/satellite buildings across two sites at measured
+GSD.
 
 ---
 
@@ -106,6 +107,7 @@ export AIDER_ROOT=/path/to/AIDER
 python3 experiments/code/run_primary_multiseed.py --datasets aider hurricane
 python3 experiments/code/run_measured_gsd_crasar.py --epochs 5
 python3 experiments/code/run_paired_measured_gsd.py
+python3 experiments/code/run_multisite_paired_gsd.py
 python3 experiments/code/generate_strengthening_artifacts.py
 ```
 

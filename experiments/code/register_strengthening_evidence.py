@@ -56,12 +56,17 @@ def main() -> None:
         "experiments/derived/greatness_strengthening/"
         "crasar/paired_measured_gsd.json"
     )
+    multisite_path = (
+        "experiments/derived/greatness_strengthening/"
+        "crasar/multisite_paired_gsd.json"
+    )
     summary_path = (
         "experiments/derived/greatness_strengthening/strengthening_summary.json"
     )
     primary = json.loads((ROOT / primary_path).read_text())
     measured = json.loads((ROOT / measured_path).read_text())
     paired = json.loads((ROOT / paired_path).read_text())
+    multisite = json.loads((ROOT / multisite_path).read_text())
     summary = json.loads((ROOT / summary_path).read_text())
 
     claims = [
@@ -169,6 +174,28 @@ def main() -> None:
             "result": paired["aggregate"],
             "paper_locations": ["abstract", "results", "discussion"],
         },
+        {
+            "claim_id": "C025",
+            "claim": (
+                "Across 125 held-out same-building CRASAR pairs at two sites, "
+                "UAS GSD 3.839--4.672 cm/px versus satellite GSD 30.518 "
+                "cm/px reduces pooled mean accuracy by "
+                f"{multisite['aggregate']['pooled']['accuracy_drop']:.3f}; "
+                "satellite-view RCG exceeds confidence AUROC by "
+                f"{multisite['aggregate']['pooled']['satellite_rcg_lift']:.3f} "
+                "across three seeds."
+            ),
+            "type": "quantitative",
+            "scope": "CRASAR two-site pooled paired UAS/satellite same-label buildings, 3 seeds",
+            "status": "verified",
+            "verified_at": now,
+            "source_artifacts": [source(multisite_path)],
+            "analysis_command": (
+                "python experiments/code/run_multisite_paired_gsd.py"
+            ),
+            "result": multisite["aggregate"],
+            "paper_locations": ["abstract", "results", "discussion"],
+        },
     ]
     upsert_jsonl(CLAIMS, claims, "claim_id")
 
@@ -217,8 +244,13 @@ def main() -> None:
             "algorithm-output",
             summary_path,
             "experiments/code/generate_strengthening_artifacts.py",
-            ["C020", "C021", "C022", "C023", "C024"],
-            [source(primary_path), source(measured_path), source(paired_path)],
+            ["C020", "C021", "C022", "C023", "C024", "C025"],
+            [
+                source(primary_path),
+                source(measured_path),
+                source(paired_path),
+                source(multisite_path),
+            ],
         ),
         (
             "A-tab-primary-multiseed",
@@ -233,8 +265,8 @@ def main() -> None:
             "table",
             "paper/tables/measured_gsd.tex",
             "experiments/code/generate_strengthening_artifacts.py",
-            ["C024"],
-            [source(paired_path)],
+            ["C025"],
+            [source(multisite_path)],
         ),
         (
             "A-tab-measured-gsd-unpaired",
@@ -249,8 +281,16 @@ def main() -> None:
             "figure",
             "paper/figures/greatness_strengthening.pdf",
             "experiments/code/generate_strengthening_artifacts.py",
-            ["C020", "C021", "C022", "C024"],
-            [source(primary_path), source(paired_path)],
+            ["C020", "C021", "C022", "C025"],
+            [source(primary_path), source(multisite_path)],
+        ),
+        (
+            "A-strength-measured-multisite",
+            "algorithm-output",
+            multisite_path,
+            "experiments/code/run_multisite_paired_gsd.py",
+            ["C025"],
+            checkpoint_sources[6:],
         ),
     ]
     artifacts = []

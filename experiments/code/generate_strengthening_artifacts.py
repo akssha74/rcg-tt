@@ -68,9 +68,11 @@ def main() -> None:
     primary_path = DERIVED / "primary_multiseed.json"
     measured_path = DERIVED / "crasar/measured_gsd_crasar.json"
     paired_path = DERIVED / "crasar/paired_measured_gsd.json"
+    multisite_path = DERIVED / "crasar/multisite_paired_gsd.json"
     primary = json.loads(primary_path.read_text())
     measured = json.loads(measured_path.read_text())
     paired = json.loads(paired_path.read_text())
+    multisite = json.loads(multisite_path.read_text())
 
     table = [
         r"\begin{tabular}{lccccc}",
@@ -102,18 +104,17 @@ def main() -> None:
         r"AUROC$_{RCG}$ & Lift \\",
         r"\midrule",
     ]
-    paired_aggregate = paired["aggregate"]
+    paired_aggregate = multisite["aggregate"]["pooled"]
     measured_rows = [
-        ("UAS", paired["protocol"]["uas_gsd_m"], paired_aggregate["uas"]),
+        ("UAS 3.84--4.67", paired_aggregate["uas"]),
         (
-            "Satellite",
-            paired["protocol"]["satellite_gsd_m"],
+            "Satellite 30.52",
             paired_aggregate["satellite"],
         ),
     ]
-    for modality, gsd, row in measured_rows:
+    for label, row in measured_rows:
         measured_table.append(
-            f"{modality} {float(gsd) * 100:.2f}\\,cm\\,px$^{{-1}}$ & "
+            f"{label}\\,cm\\,px$^{{-1}}$ & "
             f"{mean_sd(row['accuracy'])} & "
             f"{mean_sd(row['error_confidence'])} & "
             f"{mean_sd(row['auroc_confidence'])} & "
@@ -185,14 +186,19 @@ def main() -> None:
         0.02, 0.96, "(a)", transform=axes[0].transAxes, va="top", fontweight="bold"
     )
 
-    gsd_cm = np.asarray([row[1] * 100 for row in measured_rows])
-    accuracy = np.asarray([row[2]["accuracy"]["mean"] for row in measured_rows])
+    accuracy = np.asarray([row[1]["accuracy"]["mean"] for row in measured_rows])
     lift = np.asarray(
-        [row[2]["lift_rcg_minus_confidence"]["mean"] for row in measured_rows]
+        [row[1]["lift_rcg_minus_confidence"]["mean"] for row in measured_rows]
     )
-    axes[1].plot(gsd_cm, accuracy, "o-", label="Accuracy")
-    axes[1].plot(gsd_cm, lift, "s--", label="RCG AUROC lift")
+    modality_x = np.arange(2)
+    axes[1].bar(modality_x - 0.18, accuracy, width=0.36, label="Accuracy")
+    axes[1].bar(modality_x + 0.18, lift, width=0.36, label="RCG AUROC lift")
     axes[1].axhline(0, color="0.4", linewidth=0.8)
+    axes[1].set_xticks(
+        modality_x,
+        [r"UAS 3.84--4.67", r"Satellite 30.52"],
+        rotation=8,
+    )
     axes[1].set_xlabel(r"Measured GSD (cm px$^{-1}$)")
     axes[1].set_ylabel("Mean across seeds")
     axes[1].legend(frameon=False, fontsize=7)
@@ -219,7 +225,8 @@ def main() -> None:
         },
         "measured_gsd": {
             "initial_unpaired": measured["aggregate"],
-            "paired": paired["aggregate"],
+            "paired_single_site": paired["aggregate"],
+            "paired_multisite": multisite["aggregate"],
         },
         "all_w5_pass": all(
             primary[key]["aggregate"]["w5_pass"] for key in ("aider", "hurricane")
@@ -229,7 +236,8 @@ def main() -> None:
         ),
         "w6_initial_unpaired_pass": measured["aggregate"]["w6_pass"],
         "w6b_paired_pass": paired["aggregate"]["w6b_pass"],
-        "w6_pass": paired["aggregate"]["w6b_pass"],
+        "w6c_multisite_pass": multisite["aggregate"]["w6c_pass"],
+        "w6_pass": multisite["aggregate"]["w6c_pass"],
         "artifacts": {
             "primary_table": {
                 "path": str(primary_tables[0].relative_to(ROOT)),
