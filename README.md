@@ -61,9 +61,10 @@ into the exact LaTeX tables in `paper/tables/`.
 `reproduce.sh` regenerates and diffs these; tables reproduce byte-for-byte.
 
 **(B) Checkpoint re-evaluation — optional, needs data + GPU/MPS.** The release
-contains the checkpoints and result artifacts used by the article. AIDER
-re-evaluation code is included; the release does not claim that every historical
-training run can be reproduced byte-for-byte from a fresh environment.
+contains the AIDER MobileNet checkpoints and result artifacts used by the article.
+AIDER MobileNet re-evaluation code is included. AIDER ResNet-18 and Hurricane
+results are released as hashed summary artifacts without their fitted checkpoints;
+the release does not claim full retraining reproduction for all reported models.
 
 - **AIDER** (5 classes): obtain the public dataset (see
   `experiments/raw/external/AIDER_manifest.txt`), set `AIDER_ROOT` to its path, then
@@ -89,9 +90,12 @@ training run can be reproduced byte-for-byte from a fresh environment.
 
 No third-party imagery is redistributed here. AIDER, Satellite Images of Hurricane
 Damage, and xBD are public but governed by their own licenses — obtain them from
-the official sources listed in `experiments/raw/external/`. The code and the
-derived result artifacts in this repository are released under the MIT License
-(see `LICENSE`).
+the official sources listed in `experiments/raw/external/`.
+
+Repository licensing is split by content type: source code under
+`experiments/code/` and `scripts/` is MIT-licensed; generated figures, tables,
+result summaries, trained checkpoints, provenance ledgers, and documentation are
+licensed under CC BY 4.0. See `LICENSING.md` and `LICENSE`.
 
 ## Provenance and integrity
 
