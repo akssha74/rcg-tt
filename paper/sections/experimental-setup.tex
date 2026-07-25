@@ -6,12 +6,10 @@ AIDER version 1.0 (CC BY 4.0) supplies five disaster-scene classes and the
 primary synthetic resolution audit~\citep{aiderdata}. Its corrected
 train/validation/test counts are 4,499/961/969. Satellite Images of Hurricane
 Damage (CC BY 4.0) supplies an independent binary corpus through the
-Hugging Face revision
-\texttt{4bb60de01b2d9e323d364d76d8b08c2eaeef1a64}; corrected counts are
+fixed Hugging Face revision recorded in the public data-source ledger; corrected counts are
 6,997/997/2,000~\citep{hurricanedata}. CRASAR-U-DROIDs (CC BY 4.0) provides
 source coordinates, building-damage labels, measured GSD metadata, and aligned
-UAS/satellite products at revision
-\texttt{47cf4ab3a94d42978975f7d23338a996125ac0e9}~\citep{crasar2024data}.
+UAS/satellite products at the fixed released revision~\citep{crasar2024data}.
 
 The AIDER frozen split is corrected only by excluding every member of the two
 conflicting-label exact-duplicate groups discovered by the pre-specified hash
@@ -28,8 +26,8 @@ training or model selection.
 \subsection{Training}
 
 The primary classifier is the ImageNet-1K-initialised
-\texttt{microsoft/resnet-18} checkpoint at revision
-\texttt{65a5785d9156231087c481e0c7dd33a5ff6f7e3e}. We train independent seeds
+\texttt{microsoft/resnet-18} checkpoint at the revision recorded in the
+environment manifest. We train independent seeds
 101, 202 and 303 with AdamW (learning rate \(3\times10^{-4}\), weight decay
 \(10^{-4}\)), batch size 64, and class-weighted cross-entropy. For class \(c\),
 the loss weight is \(N/(C n_c)\), where \(N\) is the training-set size, \(C\)

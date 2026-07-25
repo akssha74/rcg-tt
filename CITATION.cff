@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this software or evidence package, please cite it."
 title: "When Resolution Consistency Fails: Information-Matched Audit Reproducibility Package"
-version: 2.0.2
+version: 2.0.3
 date-released: 2026-07-25
 authors:
   - family-names: Sharma

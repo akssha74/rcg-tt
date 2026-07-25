@@ -16,17 +16,17 @@
   },
   {
     "path": "paper/main.pdf",
-    "sha256": "6b5f71319507928f11d86f2e91a08346519e27ffd3bb9ebf7560713cd6ca9f2f",
-    "bytes": 151874
+    "sha256": "1ab6cd1f9f88a0dcad9863fd662dee06d5af32f40741d8ccaa68b7b2b1a766b0",
+    "bytes": 151535
   },
   {
     "path": "paper/main.tex",
-    "sha256": "ee178aa09c1c27ce733ec5adc3ed4a445446fc15eeb06e2c7b7dfe793aa66bf8",
-    "bytes": 3099
+    "sha256": "2e925ec03656ad7cd79c1cd358a2a291dc731ab36ce710d793fad35ffd7e7408",
+    "bytes": 3019
   },
   {
     "path": "paper/references.bib",
-    "sha256": "6b4ad895d3e9574ee56643b5004b20617de0a87d7db21f0135fcf96cf3073497",
+    "sha256": "8f657ed493af69fe5a7bba0db2158bc3b035f2a77e6ce9d19f86dc8df1cbd7b7",
     "bytes": 6391
   },
   {
@@ -51,8 +51,8 @@
   },
   {
     "path": "paper/sections/experimental-setup.tex",
-    "sha256": "2cac583e86c5dd06b466e91660ebc979a9051d5e5defda7e0df7b242b8401ebd",
-    "bytes": 4076
+    "sha256": "753c5699e41830d587e1250ba7d8d04287f97f64e0448ba6f7875c98812ba45c",
+    "bytes": 4034
   },
   {
     "path": "paper/sections/introduction.tex",
@@ -66,8 +66,8 @@
   },
   {
     "path": "paper/sections/method.tex",
-    "sha256": "b3dc7133f0b051a36c6837eb7015e7625ba0c58f082f2299a3a9ae571eabfaf7",
-    "bytes": 4970
+    "sha256": "65d30000b34c4b304ede95d0c022425d6aaf5eb09fbca7a092865d302eb303a9",
+    "bytes": 4906
   },
   {
     "path": "paper/sections/related-work.tex",

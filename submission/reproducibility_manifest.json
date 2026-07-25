@@ -16,12 +16,12 @@
   },
   {
     "path": "evidence/artifact-ledger.jsonl",
-    "sha256": "c75cbe51f9ecf31f9d701717492801386404b8579ce7b4fb369b2089dce1eea5",
+    "sha256": "358bb6aa6177aac8a0d640e9ac0baff83fa446652088af4e6a66c55160a70781",
     "bytes": 11625
   },
   {
     "path": "evidence/citation-ledger.jsonl",
-    "sha256": "02d4d097429c7acc84ff655ff2ed86d093d57878c51b521706cb3cc35ae0495f",
+    "sha256": "cfbee68d0ad8b56b9514980680b920781b4b3e3a82ee8ec836447c3420baa27a",
     "bytes": 10063
   },
   {
@@ -61,7 +61,7 @@
   },
   {
     "path": "experiments/code/sync_public_release.py",
-    "sha256": "d0920933898765816b35280c65ed372b4695e6832ecd61b7f3f08ca9a7f51d1b",
+    "sha256": "ff293d8b627f8c7e218b15073fd1d2c266aef6c84e68b6cafd4fdbbf9755702a",
     "bytes": 4620
   },
   {
@@ -546,8 +546,8 @@
   },
   {
     "path": "experiments/logs/R-paper-build-final.log",
-    "sha256": "611e67c8fb5e5e7058c2ef290b9009a50ca146da758da1137e65f971881028e0",
-    "bytes": 4921
+    "sha256": "d5bc759f70ba2d6146e98502f14caa79a14d6a7d9ea69d98988ad19a07ba418f",
+    "bytes": 3293
   },
   {
     "path": "experiments/logs/R-per-example-verify.log",
@@ -561,12 +561,12 @@
   },
   {
     "path": "experiments/logs/R-submission-verify.log",
-    "sha256": "52458cc8051626d095fc1559689b64854079dae4ae8d405b45bab3f68dc5ca2a",
+    "sha256": "bc364da84114be28845e3be553a55b526bf3f524546bc5515b6802a5ea642f8c",
     "bytes": 258
   },
   {
     "path": "experiments/run-ledger.jsonl",
-    "sha256": "8e045e87f7c1820af7864c2362f8bfea6f37354d590b60024444d63412d3eb1b",
+    "sha256": "764d5a139830208d011a0923e2b8bb46843bcaced67ce30a33bf51cff5ec2e39",
     "bytes": 18509
   },
   {
@@ -591,17 +591,17 @@
   },
   {
     "path": "paper/main.pdf",
-    "sha256": "6b5f71319507928f11d86f2e91a08346519e27ffd3bb9ebf7560713cd6ca9f2f",
-    "bytes": 151874
+    "sha256": "1ab6cd1f9f88a0dcad9863fd662dee06d5af32f40741d8ccaa68b7b2b1a766b0",
+    "bytes": 151535
   },
   {
     "path": "paper/main.tex",
-    "sha256": "ee178aa09c1c27ce733ec5adc3ed4a445446fc15eeb06e2c7b7dfe793aa66bf8",
-    "bytes": 3099
+    "sha256": "2e925ec03656ad7cd79c1cd358a2a291dc731ab36ce710d793fad35ffd7e7408",
+    "bytes": 3019
   },
   {
     "path": "paper/references.bib",
-    "sha256": "6b4ad895d3e9574ee56643b5004b20617de0a87d7db21f0135fcf96cf3073497",
+    "sha256": "8f657ed493af69fe5a7bba0db2158bc3b035f2a77e6ce9d19f86dc8df1cbd7b7",
     "bytes": 6391
   },
   {
@@ -626,8 +626,8 @@
   },
   {
     "path": "paper/sections/experimental-setup.tex",
-    "sha256": "2cac583e86c5dd06b466e91660ebc979a9051d5e5defda7e0df7b242b8401ebd",
-    "bytes": 4076
+    "sha256": "753c5699e41830d587e1250ba7d8d04287f97f64e0448ba6f7875c98812ba45c",
+    "bytes": 4034
   },
   {
     "path": "paper/sections/introduction.tex",
@@ -641,8 +641,8 @@
   },
   {
     "path": "paper/sections/method.tex",
-    "sha256": "b3dc7133f0b051a36c6837eb7015e7625ba0c58f082f2299a3a9ae571eabfaf7",
-    "bytes": 4970
+    "sha256": "65d30000b34c4b304ede95d0c022425d6aaf5eb09fbca7a092865d302eb303a9",
+    "bytes": 4906
   },
   {
     "path": "paper/sections/related-work.tex",
@@ -765,14 +765,29 @@
     "bytes": 92241
   },
   {
+    "path": "reviews/Review_Report_IJRS_Resolution_Audit_Round3_Final.docx",
+    "sha256": "de038afe991e0e44182f20cff26f556eb914b0d0fcd96c9bf1af4f7d86da665a",
+    "bytes": 137270
+  },
+  {
+    "path": "reviews/greatness-independent.md",
+    "sha256": "3608324c0f80e50731dee35a2591904f15b70b45cdd3608f627115bf942f17cd",
+    "bytes": 1392
+  },
+  {
     "path": "reviews/greatness-verdict.json",
-    "sha256": "05632e7fd6d3b1329e8cd535aeba6a59e98d94b64ac5a1a8c5930a5c5b5825e7",
-    "bytes": 1467
+    "sha256": "27f3bc3698fc1cb6257ca8da235efac013bd24fc8af19fd25c8ee6e540b8d2e5",
+    "bytes": 4620
   },
   {
     "path": "reviews/readiness.json",
-    "sha256": "e3ddc5a457889e045d897bb103dfc1b0f82c7fdcda5380a9e1913abbb8cde505",
-    "bytes": 2741
+    "sha256": "e7b02a6bd02e63ecc299af3c670e4b09a04683cbed63800beb2e72e06cc7930c",
+    "bytes": 8273
+  },
+  {
+    "path": "reviews/scientific-independent.md",
+    "sha256": "95df08fd0ce5289fd5ca0910f5393013cc5d3f7a5c3b867bbcff9d01c5652271",
+    "bytes": 1326
   },
   {
     "path": "study.json",

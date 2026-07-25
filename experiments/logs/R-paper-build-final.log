@@ -1,13 +1,5 @@
 note: Running TeX ...
-warning: sections/method:97: Overfull \hbox (2.27359pt too wide) in paragraph at lines 92--97
-warning: sections/experimental-setup:15: Underfull \hbox (badness 10000) in paragraph at lines 5--15
-warning: sections/experimental-setup:15: Underfull \hbox (badness 5787) in paragraph at lines 5--15
-warning: sections/experimental-setup:15: Underfull \hbox (badness 10000) in paragraph at lines 5--15
-warning: sections/experimental-setup:15: Underfull \hbox (badness 2020) in paragraph at lines 5--15
-warning: sections/experimental-setup:15: Underfull \hbox (badness 10000) in paragraph at lines 5--15
-warning: sections/experimental-setup:15: Underfull \hbox (badness 5504) in paragraph at lines 5--15
-warning: sections/experimental-setup:15: Underfull \hbox (badness 3302) in paragraph at lines 5--15
-warning: sections/experimental-setup:15: Underfull \hbox (badness 6047) in paragraph at lines 5--15
+warning: main.tex:71: Underfull \hbox (badness 2173) in paragraph at lines 63--71
 warning: main.bbl:13: Underfull \hbox (badness 10000) in paragraph at lines 8--13
 warning: main.bbl:13: Underfull \hbox (badness 10000) in paragraph at lines 8--13
 warning: main.bbl:44: Underfull \hbox (badness 6510) in paragraph at lines 40--44
@@ -26,15 +18,7 @@ warning: main.bbl:106: Underfull \hbox (badness 10000) in paragraph at lines 101
 warning: main.bbl:106: Underfull \hbox (badness 10000) in paragraph at lines 101--106
 note: Running BibTeX on main.aux ...
 note: Rerunning TeX because bibtex was run ...
-warning: sections/method:97: Overfull \hbox (2.27359pt too wide) in paragraph at lines 92--97
-warning: sections/experimental-setup:15: Underfull \hbox (badness 10000) in paragraph at lines 5--15
-warning: sections/experimental-setup:15: Underfull \hbox (badness 5787) in paragraph at lines 5--15
-warning: sections/experimental-setup:15: Underfull \hbox (badness 10000) in paragraph at lines 5--15
-warning: sections/experimental-setup:15: Underfull \hbox (badness 2020) in paragraph at lines 5--15
-warning: sections/experimental-setup:15: Underfull \hbox (badness 10000) in paragraph at lines 5--15
-warning: sections/experimental-setup:15: Underfull \hbox (badness 5504) in paragraph at lines 5--15
-warning: sections/experimental-setup:15: Underfull \hbox (badness 3302) in paragraph at lines 5--15
-warning: sections/experimental-setup:15: Underfull \hbox (badness 6047) in paragraph at lines 5--15
+warning: main.tex:71: Underfull \hbox (badness 2173) in paragraph at lines 63--71
 warning: main.bbl:13: Underfull \hbox (badness 10000) in paragraph at lines 8--13
 warning: main.bbl:13: Underfull \hbox (badness 10000) in paragraph at lines 8--13
 warning: main.bbl:44: Underfull \hbox (badness 6510) in paragraph at lines 40--44
@@ -53,9 +37,9 @@ warning: main.bbl:106: Underfull \hbox (badness 10000) in paragraph at lines 101
 warning: main.bbl:106: Underfull \hbox (badness 10000) in paragraph at lines 101--106
 warning: warnings were issued by the TeX engine; use --print and/or --keep-logs for details.
 note: Running xdvipdfmx ...
-note: Writing `main.blg` (191 B)
-note: Writing `main.aux` (10.1640625 KiB)
-note: Writing `main.log` (19.181640625 KiB)
-note: Writing `main.pdf` (148.314453125 KiB)
-note: Writing `main.out` (4.359375 KiB)
+note: Writing `main.log` (17.8447265625 KiB)
 note: Writing `main.bbl` (5.5185546875 KiB)
+note: Writing `main.out` (4.359375 KiB)
+note: Writing `main.pdf` (147.9833984375 KiB)
+note: Writing `main.aux` (10.1640625 KiB)
+note: Writing `main.blg` (191 B)

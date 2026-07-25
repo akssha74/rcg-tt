@@ -3,51 +3,116 @@
   "presumption": "not-great",
   "adjudicator": "independent",
   "human_reviewers_used": false,
-  "independent_default_reject_reviews": [],
-  "strongest_rejection": "",
-  "rejection_points": [],
+  "independent_default_reject_reviews": [
+    {
+      "type": "scientific",
+      "path": "reviews/scientific-independent.md",
+      "adjudicator": "independent",
+      "reviewer_kind": "agent",
+      "authoring_pass": false,
+      "presumption": "not-great",
+      "verdict": "not-great"
+    },
+    {
+      "type": "greatness",
+      "path": "reviews/greatness-independent.md",
+      "adjudicator": "independent",
+      "reviewer_kind": "agent",
+      "authoring_pass": false,
+      "presumption": "not-great",
+      "verdict": "not-great"
+    }
+  ],
+  "strongest_rejection": "The contribution remains an integrative audit of a bounded internal counterexample; published field-wide prevalence and architecture/event generality are not established.",
+  "rejection_points": [
+    {
+      "id": "G1",
+      "point": "W13 was misadjudicated against a post-hoc all-seed rule.",
+      "status": "rebutted",
+      "evidence": ["C007", "experiments/derived/paired_protocol_adjudication.json"]
+    },
+    {
+      "id": "G2",
+      "point": "Per-example auditability and archive portability were incomplete.",
+      "status": "rebutted",
+      "evidence": ["C009", "submission/verification.json", "https://github.com/akssha74/rcg-tt/releases/tag/v2.0.3"]
+    },
+    {
+      "id": "G3",
+      "point": "The oracle-received difference was over-attributed causally.",
+      "status": "rebutted",
+      "evidence": ["C008", "paper/sections/method.tex", "paper/sections/limitations.tex"]
+    },
+    {
+      "id": "G4",
+      "point": "The remaining novelty is integrative and the exact failure mode is not shown prevalent in published EO practice.",
+      "status": "standing",
+      "evidence": ["research/novelty-matrix.md", "reviews/greatness-independent.md"]
+    },
+    {
+      "id": "G5",
+      "point": "Central generality is limited to one backbone, bicubic degradation, three geographies, and two hurricane events.",
+      "status": "standing",
+      "evidence": ["paper/sections/limitations.tex", "C010", "reviews/scientific-independent.md"]
+    }
+  ],
   "standing_rejections": [
-    "Independent default-reject greatness reviews not completed"
+    "Incremental/integrative novelty remains unresolved.",
+    "Architecture, degradation, hazard, and event generality remain insufficient for the locked greatness bar."
   ],
   "hard_failure_checks": {
     "proxy_only_operational_evidence": {
-      "status": "unresolved",
-      "evidence": [],
-      "measured_gsd_required": null,
-      "measured_gsd_artifacts": [],
+      "status": "cleared",
+      "evidence": ["C005", "C006", "C007", "C010"],
+      "measured_gsd_required": true,
+      "measured_gsd_artifacts": [
+        "experiments/imported/experiments/derived/greatness_iteration3/crasar/leakage_free_paired_gsd.json",
+        "experiments/imported/experiments/derived/greatness_iteration3/crasar/leakage_free_paired_gsd_v2.json"
+      ],
       "not_applicable_reason": null
     },
     "primary_seed_fragility": {
-      "status": "unresolved",
-      "evidence": [],
+      "status": "cleared",
+      "evidence": ["C002", "C003", "C008"],
       "minimum_primary_seeds": 3,
-      "primary_models": [],
+      "primary_models": [
+        {"name": "AIDER ResNet-18", "seeds": [101, 202, 303], "evidence": ["C002"]},
+        {"name": "Hurricane ResNet-18", "seeds": [101, 202, 303], "evidence": ["C002"]},
+        {"name": "CRASAR ResNet-18", "seeds": [101, 202, 303], "evidence": ["C004", "C005"]}
+      ],
       "not_applicable_reason": null
     },
     "strongest_domain_baseline_missing": {
-      "status": "unresolved",
-      "evidence": [],
-      "eo_ood_baseline_required": null,
-      "domain_specific_baselines": [],
-      "comparison_artifacts": [],
+      "status": "cleared",
+      "evidence": ["C003", "C009", "paper/sections/related-work.tex"],
+      "eo_ood_baseline_required": true,
+      "domain_specific_baselines": ["EO-kNN", "ViM"],
+      "comparison_artifacts": [
+        "experiments/imported/experiments/derived/greatness_iteration3/information_matched_audit.json",
+        "experiments/derived/per_example_verification.json"
+      ],
       "not_applicable_reason": null
     },
     "incremental_novelty": {
       "status": "unresolved",
-      "evidence": []
+      "evidence": ["research/novelty-matrix.md", "reviews/greatness-independent.md"]
     },
     "insufficient_real_world_generalization": {
       "status": "unresolved",
-      "evidence": []
+      "evidence": ["C010", "paper/sections/limitations.tex", "reviews/scientific-independent.md"]
     },
     "incomplete_public_artifacts": {
-      "status": "unresolved",
-      "evidence": []
+      "status": "cleared",
+      "evidence": [
+        "https://github.com/akssha74/rcg-tt/releases/tag/v2.0.3",
+        "https://doi.org/10.5281/zenodo.21510152",
+        "submission/verification.json"
+      ]
     }
   },
   "venue_ready": false,
   "scientifically_great": false,
   "submission_recommended": false,
   "verdict": "not-great",
-  "adjudicated_at": null
+  "adjudicated_at": "2026-07-25T04:25:00Z"
 }

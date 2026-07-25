@@ -1,10 +1,10 @@
 {
   "source_manifest_files": 23,
-  "reproducibility_manifest_files": 156,
+  "reproducibility_manifest_files": 159,
   "clean_source_build": {
     "exit_code": 0,
-    "pdf_sha256": "aeaa4f81e4b25d58cab69af6de234c9f39d66dad379f0e3c64fcfd7014374028",
-    "pdf_bytes": 151875
+    "pdf_sha256": "5d355163972a1b24cc73399c27ab719dcfb4d287c516a328a3c90ad9c6501e49",
+    "pdf_bytes": 151538
   },
   "all_pass": true
 }

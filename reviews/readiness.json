@@ -1,60 +1,109 @@
 {
   "target_venue": "International Journal of Remote Sensing",
-  "article_type": null,
-  "venue_requirements": [],
+  "article_type": "research article",
+  "venue_requirements": [
+    {
+      "requirement": "IJRS interact template and author-year references",
+      "status": "compliant",
+      "source_url": "https://files.taylorandfrancis.com/style_tres.pdf",
+      "verified_at": "2026-07-25T04:25:00Z",
+      "evidence": ["paper/main.tex", "paper/tfcad.bst"]
+    },
+    {
+      "requirement": "Abstract required; no keywords",
+      "status": "compliant",
+      "source_url": "https://files.taylorandfrancis.com/style_tres.pdf",
+      "verified_at": "2026-07-25T04:25:00Z",
+      "evidence": ["paper/sections/abstract.tex"]
+    },
+    {
+      "requirement": "Funding, competing-interest, AI-use, and data availability declarations",
+      "status": "compliant",
+      "source_url": "https://authorservices.taylorandfrancis.com/editorial-policies/",
+      "verified_at": "2026-07-25T04:25:00Z",
+      "evidence": ["paper/main.tex"]
+    },
+    {
+      "requirement": "Accessible data/code provenance",
+      "status": "compliant",
+      "source_url": "https://github.com/akssha74/rcg-tt/releases/tag/v2.0.3",
+      "verified_at": "2026-07-25T04:25:00Z",
+      "evidence": ["submission/verification.json", "https://doi.org/10.5281/zenodo.21510152"]
+    }
+  ],
   "dimensions": {
     "novelty": {
-      "score": null,
-      "evidence": []
+      "score": 3,
+      "evidence": ["research/novelty-matrix.md", "reviews/greatness-independent.md"]
     },
     "significance": {
-      "score": null,
-      "evidence": []
+      "score": 4,
+      "evidence": ["C002", "C006", "C008", "C010"]
     },
     "methodology": {
-      "score": null,
-      "evidence": []
+      "score": 5,
+      "evidence": ["research/preregistration.md", "research/analysis-deviations.md", "experiments/tree.jsonl"]
     },
     "evidence": {
-      "score": null,
-      "evidence": []
+      "score": 5,
+      "evidence": ["C001", "C002", "C003", "C004", "C005", "C006", "C007", "C008", "C009", "C010", "C011"]
     },
     "statistical_validity": {
-      "score": null,
-      "evidence": []
+      "score": 5,
+      "evidence": ["experiments/derived/per_example_verification.json", "C009", "C010"]
     },
     "reproducibility": {
-      "score": null,
-      "evidence": []
+      "score": 5,
+      "evidence": ["submission/verification.json", "experiments/run-ledger.jsonl", "https://doi.org/10.5281/zenodo.21510152"]
     },
     "clarity": {
-      "score": null,
-      "evidence": []
+      "score": 5,
+      "evidence": ["paper/main.pdf", "reviews/Review_Report_IJRS_Resolution_Audit_Round3_Final.docx"]
     },
     "ethics": {
-      "score": null,
-      "evidence": []
+      "score": 5,
+      "evidence": ["paper/main.tex", "paper/sections/limitations.tex"]
     },
     "venue_fit": {
-      "score": null,
-      "evidence": []
+      "score": 5,
+      "evidence": ["paper/main.tex", "research/greatness-contract.json"]
     }
   },
-  "independent_reviews": [],
-  "greatness_justification": "",
+  "independent_reviews": [
+    {"type": "scientific", "path": "reviews/scientific-independent.md"},
+    {"type": "greatness", "path": "reviews/greatness-independent.md"},
+    {"type": "reproducibility", "path": "reviews/Review_Report_IJRS_Resolution_Audit_Round3_Final.docx"}
+  ],
+  "greatness_justification": "The paper is a valid, transparent and publicly reproducible bounded audit. It is not yet scientifically great under the locked bar because the exact failure mode is not shown prevalent in published EO practice and generality is limited to one backbone, bicubic degradation and two events.",
   "greatness_adjudication": {
     "adjudicator": "independent",
     "presumption": "not-great",
-    "strongest_rejection": "",
-    "rebuttals": [],
-    "standing_rejections": [],
-    "verdict": null
+    "strongest_rejection": "Integrative novelty and limited architecture/event generality remain.",
+    "rebuttals": [
+      {
+        "attack": "W13 was outcome-servingly misadjudicated",
+        "rebuttal_evidence": ["C007", "experiments/derived/paired_protocol_adjudication.json"]
+      },
+      {
+        "attack": "Raw outputs and public provenance were incomplete",
+        "rebuttal_evidence": ["C009", "submission/verification.json", "https://doi.org/10.5281/zenodo.21510152"]
+      },
+      {
+        "attack": "The protocol gap was over-attributed causally",
+        "rebuttal_evidence": ["C008", "paper/sections/method.tex", "paper/sections/limitations.tex"]
+      }
+    ],
+    "standing_rejections": [
+      "Incremental/integrative novelty remains unresolved.",
+      "Architecture, degradation, hazard, and event generality remain insufficient for the locked greatness bar."
+    ],
+    "verdict": "not-great"
   },
   "negative_result_bar": {
-    "refutes_cited_belief": "Tests the implicit benchmark assumption that a consistency score using an undegraded reference is comparable with scores that receive only the coarse image.",
+    "refutes_cited_belief": "Not cleared: the study documents a concrete internal counterexample but does not establish a cited field-wide belief or prevalence estimate.",
     "mechanism": "Separates unavailable-reference information, exact duplicate leakage, and cross-split crop overlap from the score itself through matched counterfactual evaluations.",
     "changes_practice": "Requires an information-set declaration, exact-hash audit, exhaustive crop-intersection audit, and received-image-only baseline comparison before operational resolution-reliability claims.",
-    "positive_path_exhausted": "The preregistered received-image RCG failed W8 on both AIDER and Hurricane and failed to clear W9 on both; the failed branch is retained.",
+    "positive_path_exhausted": "The pre-specified received-image RCG failed W8 on both AIDER and Hurricane and failed to clear W9 on both; the failed branch is retained.",
     "generality": [
       "AIDER five-class disaster scenes",
       "Hurricane Damage binary satellite scenes",
@@ -62,27 +111,65 @@
       "three independently trained ResNet-18 seeds"
     ]
   },
-  "verdict_good_not_great": null,
+  "verdict_good_not_great": true,
   "venue_ready": false,
   "scientifically_great": false,
   "submission_recommended": false,
   "greatness_blockers": [
-    "Readiness review not completed"
+    "Incremental/integrative novelty remains unresolved.",
+    "Architecture, degradation, hazard, and event generality remain insufficient for the locked greatness bar."
   ],
   "make_it_great_loop": {
     "status": "in_progress",
-    "iteration": 0,
-    "current_gap": "Readiness review not completed",
-    "next_action": "Complete the evidence-producing research workflow",
-    "history": []
+    "iteration": 5,
+    "current_gap": "Field-level novelty and broader generality",
+    "next_action": "Open a stronger sibling branch or add a second architecture and substantially more independent hazards/events; do not submit this branch as scientifically great.",
+    "history": [
+      {
+        "iteration": 1,
+        "diagnosis": "Parent RCG-TT branch used unavailable finer views and failed deployable W8/W9.",
+        "action": "Pivot to an information-matched negative-characterization sibling.",
+        "evidence": ["research/greatness-contract.json", "experiments/tree.jsonl"],
+        "independent_verdict": "not-great"
+      },
+      {
+        "iteration": 2,
+        "diagnosis": "AIDER duplicates and CRASAR crop intersections invalidated independence.",
+        "action": "Deduplicate, guard spatial blocks, retrain nine checkpoints and rerun paired evaluation.",
+        "evidence": ["C001", "C004", "C005"],
+        "independent_verdict": "not-great"
+      },
+      {
+        "iteration": 3,
+        "diagnosis": "Oracle-received attribution, W13 adjudication and raw-output provenance were incomplete.",
+        "action": "Add anchor-matched sensitivity, correct W13, release raw arrays, normalize paths and add joint-overlap sensitivity.",
+        "evidence": ["C007", "C008", "C009", "C010"],
+        "independent_verdict": "not-great"
+      },
+      {
+        "iteration": 4,
+        "diagnosis": "Public artifacts and source portability were incomplete.",
+        "action": "Publish GitHub/Zenodo v2.0.3 and verify source and 156-file reproducibility archives.",
+        "evidence": ["submission/verification.json", "https://doi.org/10.5281/zenodo.21510152"],
+        "independent_verdict": "not-great"
+      },
+      {
+        "iteration": 5,
+        "diagnosis": "Final review found no substantive validity defect, but independent greatness reviews retain novelty and generality rejections.",
+        "action": "Synchronize fail-closed state and retain no-submission recommendation.",
+        "evidence": ["reviews/Review_Report_IJRS_Resolution_Audit_Round3_Final.docx", "reviews/scientific-independent.md", "reviews/greatness-independent.md"],
+        "independent_verdict": "not-great"
+      }
+    ]
   },
-  "human_subject_dependency": null,
+  "human_subject_dependency": "none",
   "blocking_issues": [
-    "Readiness review not completed"
+    "Incremental/integrative novelty remains unresolved.",
+    "Architecture, degradation, hazard, and event generality remain insufficient for the locked greatness bar."
   ],
   "unresolved_critical_findings": [],
   "strict_validation_passed": false,
-  "clean_build_command": null,
-  "clean_build_passed": false,
+  "clean_build_command": "cd paper && tectonic main.tex --keep-logs --keep-intermediates",
+  "clean_build_passed": true,
   "outcome": "not-ready-research"
 }

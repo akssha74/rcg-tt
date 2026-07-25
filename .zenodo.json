@@ -1,7 +1,7 @@
 {
   "title": "When Resolution Consistency Fails: Information-Matched Audit Reproducibility Package",
   "upload_type": "software",
-  "description": "Version 2.0.2 source, checkpoints, per-example scores, logs, ledgers, and IJRS manuscript for an information-matched audit of resolution reliability in disaster remote sensing.",
+  "description": "Version 2.0.3 source, checkpoints, per-example scores, logs, ledgers, and IJRS manuscript for an information-matched audit of resolution reliability in disaster remote sensing.",
   "creators": [
     {
       "name": "Sharma, Akshay",
@@ -13,7 +13,7 @@
     }
   ],
   "license": "cc-by-4.0",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "keywords": [
     "remote sensing",
     "resolution shift",
