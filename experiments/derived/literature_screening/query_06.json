@@ -1,0 +1,2032 @@
+{
+  "meta": {
+    "count": 839,
+    "db_response_time_ms": 65,
+    "page": 1,
+    "per_page": 50,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where full text has (test-time augmentation scale uncertainty Jensen Shannon divergence classification)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "test-time augmentation scale uncertainty Jensen Shannon divergence classification",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:test-time augmentation scale uncertainty Jensen Shannon divergence classification&per_page=50"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W4289519099",
+      "doi": "https://doi.org/10.2196/36427",
+      "title": "Uncertainty Estimation in Medical Image Classification: Systematic Review",
+      "publication_year": 2022,
+      "type": "review",
+      "primary_location": {
+        "id": "doi:10.2196/36427",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.2196/36427",
+        "pdf_url": "https://medinform.jmir.org/2022/8/e36427/PDF",
+        "source": {
+          "id": "https://openalex.org/S2764650051",
+          "display_name": "JMIR Medical Informatics",
+          "issn_l": "2291-9694",
+          "issn": [
+            "2291-9694"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320608",
+          "host_organization_name": "JMIR Publications",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320608"
+          ],
+          "host_organization_lineage_names": [
+            "JMIR Publications"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "JMIR Medical Informatics",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 66
+    },
+    {
+      "id": "https://openalex.org/W4324046881",
+      "doi": "https://doi.org/10.3390/make5010019",
+      "title": "A Survey on GAN Techniques for Data Augmentation to Address the Imbalanced Data Issues in Credit Card Fraud Detection",
+      "publication_year": 2023,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/make5010019",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/make5010019",
+        "pdf_url": "https://www.mdpi.com/2504-4990/5/1/19/pdf?version=1678528537",
+        "source": {
+          "id": "https://openalex.org/S4210213891",
+          "display_name": "Machine Learning and Knowledge Extraction",
+          "issn_l": "2504-4990",
+          "issn": [
+            "2504-4990"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Machine Learning and Knowledge Extraction",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 84
+    },
+    {
+      "id": "https://openalex.org/W3171929138",
+      "doi": "https://doi.org/10.1109/access.2021.3085418",
+      "title": "Improving Uncertainty Estimation With Semi-Supervised Deep Learning for COVID-19 Detection Using Chest X-Ray Images",
+      "publication_year": 2021,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1109/access.2021.3085418",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1109/access.2021.3085418",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2485537415",
+          "display_name": "IEEE Access",
+          "issn_l": "2169-3536",
+          "issn": [
+            "2169-3536"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Access",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 46
+    },
+    {
+      "id": "https://openalex.org/W4402754056",
+      "doi": "https://doi.org/10.1109/cvpr52733.2024.01682",
+      "title": "Fourier-Basis Functions to Bridge Augmentation Gap: Rethinking Frequency Augmentation in Image Classification",
+      "publication_year": 2024,
+      "type": "conference-paper",
+      "primary_location": {
+        "id": "doi:10.1109/cvpr52733.2024.01682",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/cvpr52733.2024.01682",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "raw_type": "proceedings-article"
+      },
+      "cited_by_count": 14
+    },
+    {
+      "id": "https://openalex.org/W4382632361",
+      "doi": "https://doi.org/10.1093/bioinformatics/btad239",
+      "title": "GAN-based data augmentation for transcriptomics: survey and comparative assessment",
+      "publication_year": 2023,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1093/bioinformatics/btad239",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1093/bioinformatics/btad239",
+        "pdf_url": "https://academic.oup.com/bioinformatics/article-pdf/39/Supplement_1/i111/50741877/btad239.pdf",
+        "source": {
+          "id": "https://openalex.org/S52395412",
+          "display_name": "Bioinformatics",
+          "issn_l": "1367-4803",
+          "issn": [
+            "1367-4803",
+            "1367-4811"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310311648",
+          "host_organization_name": "Oxford University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311648",
+            "https://openalex.org/P4310311647"
+          ],
+          "host_organization_lineage_names": [
+            "Oxford University Press",
+            "University of Oxford"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Bioinformatics",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 34
+    },
+    {
+      "id": "https://openalex.org/W4385416665",
+      "doi": "https://doi.org/10.3390/fi15080260",
+      "title": "The Power of Generative AI: A Review of Requirements, Models, Input\u2013Output Formats, Evaluation Metrics, and Challenges",
+      "publication_year": 2023,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/fi15080260",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/fi15080260",
+        "pdf_url": "https://www.mdpi.com/1999-5903/15/8/260/pdf?version=1690812126",
+        "source": {
+          "id": "https://openalex.org/S34838331",
+          "display_name": "Future Internet",
+          "issn_l": "1999-5903",
+          "issn": [
+            "1999-5903"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Future Internet",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 587
+    },
+    {
+      "id": "https://openalex.org/W4319866187",
+      "doi": "https://doi.org/10.1109/tmc.2023.3240821",
+      "title": "Distributed Traffic Synthesis and Classification in Edge Networks: A Federated Self-Supervised Learning Approach",
+      "publication_year": 2023,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1109/tmc.2023.3240821",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/tmc.2023.3240821",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S69141925",
+          "display_name": "IEEE Transactions on Mobile Computing",
+          "issn_l": "1536-1233",
+          "issn": [
+            "1536-1233",
+            "1558-0660",
+            "2161-9875"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320439",
+          "host_organization_name": "IEEE Computer Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320439",
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "IEEE Computer Society",
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Mobile Computing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 48
+    },
+    {
+      "id": "https://openalex.org/W4384827940",
+      "doi": "https://doi.org/10.3390/app13148313",
+      "title": "Deepfake Detection Algorithm Based on Dual-Branch Data Augmentation and Modified Attention Mechanism",
+      "publication_year": 2023,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/app13148313",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/app13148313",
+        "pdf_url": "https://www.mdpi.com/2076-3417/13/14/8313/pdf?version=1689687828",
+        "source": {
+          "id": "https://openalex.org/S4210205812",
+          "display_name": "Applied Sciences",
+          "issn_l": "2076-3417",
+          "issn": [
+            "2076-3417"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied Sciences",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 12
+    },
+    {
+      "id": "https://openalex.org/W4411051984",
+      "doi": "https://doi.org/10.1007/s10994-025-06791-4",
+      "title": "Jensen\u2013Tsallis divergence for supervised classification under data imbalance",
+      "publication_year": 2025,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1007/s10994-025-06791-4",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1007/s10994-025-06791-4",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10994-025-06791-4.pdf",
+        "source": {
+          "id": "https://openalex.org/S62148650",
+          "display_name": "Machine Learning",
+          "issn_l": "0885-6125",
+          "issn": [
+            "0885-6125",
+            "1573-0565"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Machine Learning",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 2
+    },
+    {
+      "id": "https://openalex.org/W4378508505",
+      "doi": "https://doi.org/10.48550/arxiv.2305.13948",
+      "title": "Decoupled Kullback-Leibler Divergence Loss",
+      "publication_year": 2023,
+      "type": "preprint",
+      "primary_location": {
+        "id": "pmh:oai:arXiv.org:2305.13948",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2305.13948",
+        "pdf_url": "https://arxiv.org/pdf/2305.13948",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "text"
+      },
+      "cited_by_count": 18
+    },
+    {
+      "id": "https://openalex.org/W3135495209",
+      "doi": "https://doi.org/10.1109/access.2021.3062187",
+      "title": "An Efficient Data Augmentation Network for Out-of-Distribution Image Detection",
+      "publication_year": 2021,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1109/access.2021.3062187",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1109/access.2021.3062187",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/9312710/09363111.pdf",
+        "source": {
+          "id": "https://openalex.org/S2485537415",
+          "display_name": "IEEE Access",
+          "issn_l": "2169-3536",
+          "issn": [
+            "2169-3536"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Access",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 14
+    },
+    {
+      "id": "https://openalex.org/W3129850062",
+      "doi": "https://doi.org/10.1109/tpami.2022.3170559",
+      "title": "Self-Supervised Learning of Graph Neural Networks: A Unified Review",
+      "publication_year": 2022,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1109/tpami.2022.3170559",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/tpami.2022.3170559",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S199944782",
+          "display_name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+          "issn_l": "0162-8828",
+          "issn": [
+            "0162-8828",
+            "1939-3539",
+            "2160-9292"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320439",
+          "host_organization_name": "IEEE Computer Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320439",
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "IEEE Computer Society",
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 368
+    },
+    {
+      "id": "https://openalex.org/W4400438459",
+      "doi": "https://doi.org/10.1016/j.csbj.2024.07.005",
+      "title": "Synthetic data generation methods in healthcare: A review on open-source tools and methods",
+      "publication_year": 2024,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1016/j.csbj.2024.07.005",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.csbj.2024.07.005",
+        "pdf_url": "http://www.csbj.org/article/S2001037024002393/pdf",
+        "source": {
+          "id": "https://openalex.org/S2764539591",
+          "display_name": "Computational and Structural Biotechnology Journal",
+          "issn_l": "2001-0370",
+          "issn": [
+            "2001-0370"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Computational and Structural Biotechnology Journal",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 225
+    },
+    {
+      "id": "https://openalex.org/W4319296823",
+      "doi": "https://doi.org/10.3390/math11040820",
+      "title": "A Survey on Active Learning: State-of-the-Art, Practical Challenges and Research Directions",
+      "publication_year": 2023,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/math11040820",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/math11040820",
+        "pdf_url": "https://www.mdpi.com/2227-7390/11/4/820/pdf?version=1675678080",
+        "source": {
+          "id": "https://openalex.org/S4210192031",
+          "display_name": "Mathematics",
+          "issn_l": "2227-7390",
+          "issn": [
+            "2227-7390"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Mathematics",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 153
+    },
+    {
+      "id": "https://openalex.org/W3093100255",
+      "doi": "https://doi.org/10.1049/iet-ipr.2020.0087",
+      "title": "Deep visual unsupervised domain adaptation for classification tasks: a survey",
+      "publication_year": 2020,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1049/iet-ipr.2020.0087",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1049/iet-ipr.2020.0087",
+        "pdf_url": "https://ietresearch.onlinelibrary.wiley.com/doi/pdfdirect/10.1049/iet-ipr.2020.0087",
+        "source": {
+          "id": "https://openalex.org/S83215360",
+          "display_name": "IET Image Processing",
+          "issn_l": "1751-9659",
+          "issn": [
+            "1751-9659",
+            "1751-9667"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310311714",
+          "host_organization_name": "Institution of Engineering and Technology",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311714"
+          ],
+          "host_organization_lineage_names": [
+            "Institution of Engineering and Technology"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IET Image Processing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 39
+    },
+    {
+      "id": "https://openalex.org/W4379958229",
+      "doi": "https://doi.org/10.48550/arxiv.2306.04344",
+      "title": "ViDA: Homeostatic Visual Domain Adapter for Continual Test Time Adaptation",
+      "publication_year": 2023,
+      "type": "preprint",
+      "primary_location": {
+        "id": "pmh:oai:arXiv.org:2306.04344",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2306.04344",
+        "pdf_url": "https://arxiv.org/pdf/2306.04344",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "text"
+      },
+      "cited_by_count": 13
+    },
+    {
+      "id": "https://openalex.org/W3031915703",
+      "doi": "https://doi.org/10.21037/qims-19-982",
+      "title": "Combination of generative adversarial network and convolutional neural network for automatic subcentimeter pulmonary adenocarcinoma classification",
+      "publication_year": 2020,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.21037/qims-19-982",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.21037/qims-19-982",
+        "pdf_url": "https://qims.amegroups.com/article/viewFile/43812/pdf",
+        "source": {
+          "id": "https://openalex.org/S2764457454",
+          "display_name": "Quantitative Imaging in Medicine and Surgery",
+          "issn_l": "2223-4292",
+          "issn": [
+            "2223-4292",
+            "2223-4306"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310321814",
+          "host_organization_name": "AME Publishing Company",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310321814"
+          ],
+          "host_organization_lineage_names": [
+            "AME Publishing Company"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Quantitative Imaging in Medicine and Surgery",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 36
+    },
+    {
+      "id": "https://openalex.org/W4400512529",
+      "doi": "https://doi.org/10.3389/fnhum.2024.1421922",
+      "title": "Harnessing Few-Shot Learning for EEG signal classification: a survey of state-of-the-art techniques and future directions",
+      "publication_year": 2024,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3389/fnhum.2024.1421922",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3389/fnhum.2024.1421922",
+        "pdf_url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2024.1421922/pdf",
+        "source": {
+          "id": "https://openalex.org/S146364893",
+          "display_name": "Frontiers in Human Neuroscience",
+          "issn_l": "1662-5161",
+          "issn": [
+            "1662-5161"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320527",
+          "host_organization_name": "Frontiers Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320527"
+          ],
+          "host_organization_lineage_names": [
+            "Frontiers Media"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Frontiers in Human Neuroscience",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 27
+    },
+    {
+      "id": "https://openalex.org/W4405036242",
+      "doi": "https://doi.org/10.48550/arxiv.2402.19460",
+      "title": "Benchmarking Uncertainty Disentanglement: Specialized Uncertainties for Specialized Tasks",
+      "publication_year": 2024,
+      "type": "preprint",
+      "primary_location": {
+        "id": "pmh:oai:arXiv.org:2402.19460",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2402.19460",
+        "pdf_url": "https://arxiv.org/pdf/2402.19460",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "text"
+      },
+      "cited_by_count": 10
+    },
+    {
+      "id": "https://openalex.org/W4296457157",
+      "doi": "https://doi.org/10.1186/s13636-022-00255-6",
+      "title": "Comparison of semi-supervised deep learning algorithms for audio classification",
+      "publication_year": 2022,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1186/s13636-022-00255-6",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1186/s13636-022-00255-6",
+        "pdf_url": "https://asmp-eurasipjournals.springeropen.com/counter/pdf/10.1186/s13636-022-00255-6",
+        "source": {
+          "id": "https://openalex.org/S19605986",
+          "display_name": "EURASIP Journal on Audio Speech and Music Processing",
+          "issn_l": "1687-4714",
+          "issn": [
+            "1687-4714",
+            "1687-4722"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319965",
+          "host_organization_name": "Springer Nature",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "EURASIP Journal on Audio, Speech, and Music Processing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 16
+    },
+    {
+      "id": "https://openalex.org/W4401587065",
+      "doi": "https://doi.org/10.1007/s11042-024-20016-1",
+      "title": "Generative artificial intelligence: a systematic review and applications",
+      "publication_year": 2024,
+      "type": "review",
+      "primary_location": {
+        "id": "doi:10.1007/s11042-024-20016-1",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1007/s11042-024-20016-1",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11042-024-20016-1.pdf",
+        "source": {
+          "id": "https://openalex.org/S110206669",
+          "display_name": "Multimedia Tools and Applications",
+          "issn_l": "1380-7501",
+          "issn": [
+            "1380-7501",
+            "1573-7721"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Multimedia Tools and Applications",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 378
+    },
+    {
+      "id": "https://openalex.org/W4392939870",
+      "doi": "https://doi.org/10.1109/access.2024.3379276",
+      "title": "Multi-Fruit Classification and Grading Using a Same-Domain Transfer Learning Approach",
+      "publication_year": 2024,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1109/access.2024.3379276",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1109/access.2024.3379276",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/10475330.pdf",
+        "source": {
+          "id": "https://openalex.org/S2485537415",
+          "display_name": "IEEE Access",
+          "issn_l": "2169-3536",
+          "issn": [
+            "2169-3536"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Access",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 17
+    },
+    {
+      "id": "https://openalex.org/W4286423725",
+      "doi": "https://doi.org/10.1088/2632-2153/ac7f1a",
+      "title": "DeepAdversaries: examining the robustness of deep learning models for galaxy morphology classification",
+      "publication_year": 2022,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1088/2632-2153/ac7f1a",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1088/2632-2153/ac7f1a",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210200687",
+          "display_name": "Machine Learning Science and Technology",
+          "issn_l": "2632-2153",
+          "issn": [
+            "2632-2153"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320083",
+          "host_organization_name": "IOP Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320083",
+            "https://openalex.org/P4310311669"
+          ],
+          "host_organization_lineage_names": [
+            "IOP Publishing",
+            "Institute of Physics"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Machine Learning: Science and Technology",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 20
+    },
+    {
+      "id": "https://openalex.org/W4322775687",
+      "doi": "https://doi.org/10.1007/s10518-023-01645-7",
+      "title": "Generative adversarial networks review in earthquake-related engineering fields",
+      "publication_year": 2023,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1007/s10518-023-01645-7",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1007/s10518-023-01645-7",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10518-023-01645-7.pdf",
+        "source": {
+          "id": "https://openalex.org/S144568777",
+          "display_name": "Bulletin of Earthquake Engineering",
+          "issn_l": "1570-761X",
+          "issn": [
+            "1570-761X",
+            "1573-1456"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Bulletin of Earthquake Engineering",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 89
+    },
+    {
+      "id": "https://openalex.org/W4392859891",
+      "doi": "https://doi.org/10.1049/cit2.12307",
+      "title": "GAN\u2010MD: A myocarditis detection using multi\u2010channel convolutional neural networks and generative adversarial network\u2010based data augmentation",
+      "publication_year": 2024,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1049/cit2.12307",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1049/cit2.12307",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1049/cit2.12307",
+        "source": {
+          "id": "https://openalex.org/S2898415742",
+          "display_name": "CAAI Transactions on Intelligence Technology",
+          "issn_l": "2468-2322",
+          "issn": [
+            "2468-2322",
+            "2468-6557"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310311714",
+          "host_organization_name": "Institution of Engineering and Technology",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311714"
+          ],
+          "host_organization_lineage_names": [
+            "Institution of Engineering and Technology"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "CAAI Transactions on Intelligence Technology",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 13
+    },
+    {
+      "id": "https://openalex.org/W4365482845",
+      "doi": "https://doi.org/10.1109/tip.2023.3266172",
+      "title": "FS-BAN: Born-Again Networks for Domain Generalization Few-Shot Classification",
+      "publication_year": 2023,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1109/tip.2023.3266172",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1109/tip.2023.3266172",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/83/4358840/10102807.pdf",
+        "source": {
+          "id": "https://openalex.org/S4210173141",
+          "display_name": "IEEE Transactions on Image Processing",
+          "issn_l": "1057-7149",
+          "issn": [
+            "1057-7149",
+            "1941-0042"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Image Processing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 23
+    },
+    {
+      "id": "https://openalex.org/W4312107756",
+      "doi": "https://doi.org/10.48550/arxiv.2212.10888",
+      "title": "A Survey of Mix-based Data Augmentation: Taxonomy, Methods, Applications, and Explainability",
+      "publication_year": 2022,
+      "type": "preprint",
+      "primary_location": {
+        "id": "pmh:oai:arXiv.org:2212.10888",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2212.10888",
+        "pdf_url": "https://arxiv.org/pdf/2212.10888",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "text"
+      },
+      "cited_by_count": 10
+    },
+    {
+      "id": "https://openalex.org/W7108666729",
+      "doi": "https://doi.org/10.3390/safety11040120",
+      "title": "Uncertainty-Aware Adaptive Intrusion Detection Using Hybrid CNN-LSTM with cWGAN-GP Augmentation and Human-in-the-Loop Feedback",
+      "publication_year": 2025,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/safety11040120",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/safety11040120",
+        "pdf_url": "https://www.mdpi.com/2313-576X/11/4/120/pdf?version=1764947041",
+        "source": {
+          "id": "https://openalex.org/S2738376968",
+          "display_name": "Safety",
+          "issn_l": "2313-576X",
+          "issn": [
+            "2313-576X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Safety",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 4
+    },
+    {
+      "id": "https://openalex.org/W4385337322",
+      "doi": "https://doi.org/10.1016/j.knosys.2023.110851",
+      "title": "Deep transfer learning for automatic speech recognition: Towards better generalization",
+      "publication_year": 2023,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1016/j.knosys.2023.110851",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.knosys.2023.110851",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S10169007",
+          "display_name": "Knowledge-Based Systems",
+          "issn_l": "0950-7051",
+          "issn": [
+            "0950-7051",
+            "1872-7409"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Knowledge-Based Systems",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 139
+    },
+    {
+      "id": "https://openalex.org/W4405896196",
+      "doi": "https://doi.org/10.1007/s40747-024-01729-0",
+      "title": "OMSF2: optimizing multi-scale feature fusion learning for pneumoconiosis staging diagnosis through data specificity augmentation",
+      "publication_year": 2024,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1007/s40747-024-01729-0",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1007/s40747-024-01729-0",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40747-024-01729-0.pdf",
+        "source": {
+          "id": "https://openalex.org/S3035462843",
+          "display_name": "Complex & Intelligent Systems",
+          "issn_l": "2198-6053",
+          "issn": [
+            "2198-6053",
+            "2199-4536"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Complex &amp; Intelligent Systems",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 5
+    },
+    {
+      "id": "https://openalex.org/W3173233831",
+      "doi": "https://doi.org/10.18653/v1/2021.findings-acl.365",
+      "title": "Unsupervised Label Refinement Improves Dataless Text Classification",
+      "publication_year": 2021,
+      "type": "conference-paper",
+      "primary_location": {
+        "id": "doi:10.18653/v1/2021.findings-acl.365",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.18653/v1/2021.findings-acl.365",
+        "pdf_url": "https://aclanthology.org/2021.findings-acl.365.pdf",
+        "source": null,
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021",
+        "raw_type": "proceedings-article"
+      },
+      "cited_by_count": 14
+    },
+    {
+      "id": "https://openalex.org/W4282027013",
+      "doi": "https://doi.org/10.1145/3534678.3539438",
+      "title": "Toward Learning Robust and Invariant Representations with Alignment Regularization and Data Augmentation",
+      "publication_year": 2022,
+      "type": "conference-paper",
+      "primary_location": {
+        "id": "doi:10.1145/3534678.3539438",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1145/3534678.3539438",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3534678.3539438",
+        "source": {
+          "id": "https://openalex.org/S4363608767",
+          "display_name": "Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "conference"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+        "raw_type": "proceedings-article"
+      },
+      "cited_by_count": 7
+    },
+    {
+      "id": "https://openalex.org/W4361756166",
+      "doi": "https://doi.org/10.1109/jstsp.2023.3262358",
+      "title": "Pain Level and Pain-Related Behaviour Classification Using GRU-Based Sparsely-Connected RNNs",
+      "publication_year": 2023,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1109/jstsp.2023.3262358",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/jstsp.2023.3262358",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S42167783",
+          "display_name": "IEEE Journal of Selected Topics in Signal Processing",
+          "issn_l": "1932-4553",
+          "issn": [
+            "1932-4553",
+            "1941-0484"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Journal of Selected Topics in Signal Processing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 22
+    },
+    {
+      "id": "https://openalex.org/W3185048024",
+      "doi": "https://doi.org/10.1007/s40747-021-00463-1",
+      "title": "HatchEnsemble: an efficient and practical uncertainty quantification method for deep neural networks",
+      "publication_year": 2021,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1007/s40747-021-00463-1",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1007/s40747-021-00463-1",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40747-021-00463-1.pdf",
+        "source": {
+          "id": "https://openalex.org/S3035462843",
+          "display_name": "Complex & Intelligent Systems",
+          "issn_l": "2198-6053",
+          "issn": [
+            "2198-6053",
+            "2199-4536"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Complex &amp; Intelligent Systems",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 8
+    },
+    {
+      "id": "https://openalex.org/W2987705220",
+      "doi": "https://doi.org/10.48550/arxiv.1911.02685",
+      "title": "A Comprehensive Survey on Transfer Learning",
+      "publication_year": 2019,
+      "type": "preprint",
+      "primary_location": {
+        "id": "pmh:oai:arXiv.org:1911.02685",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/1911.02685",
+        "pdf_url": "https://arxiv.org/pdf/1911.02685",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "text"
+      },
+      "cited_by_count": 228
+    },
+    {
+      "id": "https://openalex.org/W3002944878",
+      "doi": "https://doi.org/10.48550/arxiv.2001.06937",
+      "title": "A Review on Generative Adversarial Networks: Algorithms, Theory, and Applications",
+      "publication_year": 2020,
+      "type": "preprint",
+      "primary_location": {
+        "id": "pmh:oai:arXiv.org:2001.06937",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2001.06937",
+        "pdf_url": "https://arxiv.org/pdf/2001.06937",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "text"
+      },
+      "cited_by_count": 261
+    },
+    {
+      "id": "https://openalex.org/W4293057377",
+      "doi": "https://doi.org/10.1109/tpami.2022.3201576",
+      "title": "Semi-Supervised and Unsupervised Deep Visual Learning: A Survey",
+      "publication_year": 2022,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1109/tpami.2022.3201576",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/tpami.2022.3201576",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S199944782",
+          "display_name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+          "issn_l": "0162-8828",
+          "issn": [
+            "0162-8828",
+            "1939-3539",
+            "2160-9292"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320439",
+          "host_organization_name": "IEEE Computer Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320439",
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "IEEE Computer Society",
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 191
+    },
+    {
+      "id": "https://openalex.org/W4400340432",
+      "doi": "https://doi.org/10.1016/j.eswa.2024.124678",
+      "title": "Physics-informed machine learning: A comprehensive review on applications in anomaly detection and condition monitoring",
+      "publication_year": 2024,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1016/j.eswa.2024.124678",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.eswa.2024.124678",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S13144211",
+          "display_name": "Expert Systems with Applications",
+          "issn_l": "0957-4174",
+          "issn": [
+            "0957-4174",
+            "1873-6793"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Expert Systems with Applications",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 270
+    },
+    {
+      "id": "https://openalex.org/W1516391399",
+      "doi": null,
+      "title": "Selection and information: a class-based approach to lexical relationships",
+      "publication_year": 1993,
+      "type": "article",
+      "primary_location": {
+        "id": "pmh:oai:repository.upenn.edu:ircs_reports-1192",
+        "is_oa": true,
+        "landing_page_url": "https://repository.upenn.edu/ircs_reports/200",
+        "pdf_url": "https://repository.upenn.edu/cgi/viewcontent.cgi?article=1192&context=ircs_reports",
+        "source": {
+          "id": "https://openalex.org/S4377196331",
+          "display_name": "Scholarly Commons (University of Pennsylvania)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I79576946",
+          "host_organization_name": "University of Pennsylvania",
+          "host_organization_lineage": [
+            "https://openalex.org/I79576946"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "IRCS Technical Reports Series",
+        "raw_type": "text"
+      },
+      "cited_by_count": 432
+    },
+    {
+      "id": "https://openalex.org/W4210305140",
+      "doi": "https://doi.org/10.1109/jproc.2022.3141367",
+      "title": "AI-Based Reconstruction for Fast MRI\u2014A Systematic Review and Meta-Analysis",
+      "publication_year": 2022,
+      "type": "review",
+      "primary_location": {
+        "id": "doi:10.1109/jproc.2022.3141367",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1109/jproc.2022.3141367",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S68686220",
+          "display_name": "Proceedings of the IEEE",
+          "issn_l": "0018-9219",
+          "issn": [
+            "0018-9219",
+            "1558-2256"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the IEEE",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 117
+    },
+    {
+      "id": "https://openalex.org/W4391321561",
+      "doi": "https://doi.org/10.1007/s10462-023-10624-y",
+      "title": "A survey on training challenges in generative adversarial networks for biomedical image analysis",
+      "publication_year": 2024,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1007/s10462-023-10624-y",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1007/s10462-023-10624-y",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10462-023-10624-y.pdf",
+        "source": {
+          "id": "https://openalex.org/S122814990",
+          "display_name": "Artificial Intelligence Review",
+          "issn_l": "0269-2821",
+          "issn": [
+            "0269-2821",
+            "1573-7462"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Artificial Intelligence Review",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 92
+    },
+    {
+      "id": "https://openalex.org/W3156717587",
+      "doi": "https://doi.org/10.1109/jbhi.2021.3074893",
+      "title": "COVID-19 Automatic Diagnosis With Radiographic Imaging: Explainable Attention Transfer Deep Neural Networks",
+      "publication_year": 2021,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1109/jbhi.2021.3074893",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1109/jbhi.2021.3074893",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6221020/9497060/09410346.pdf",
+        "source": {
+          "id": "https://openalex.org/S2495854775",
+          "display_name": "IEEE Journal of Biomedical and Health Informatics",
+          "issn_l": "2168-2194",
+          "issn": [
+            "2168-2194",
+            "2168-2208"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Journal of Biomedical and Health Informatics",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 86
+    },
+    {
+      "id": "https://openalex.org/W2783102654",
+      "doi": "https://doi.org/10.1103/physrevd.97.094506",
+      "title": "Machine learning action parameters in lattice quantum chromodynamics",
+      "publication_year": 2018,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1103/physrevd.97.094506",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1103/physrevd.97.094506",
+        "pdf_url": "http://link.aps.org/pdf/10.1103/PhysRevD.97.094506",
+        "source": {
+          "id": "https://openalex.org/S4210238307",
+          "display_name": "Physical review. D/Physical review. D.",
+          "issn_l": "2470-0010",
+          "issn": [
+            "2470-0010",
+            "2470-0029",
+            "2470-0037"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320261",
+          "host_organization_name": "American Physical Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320261"
+          ],
+          "host_organization_lineage_names": [
+            "American Physical Society"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Physical Review D",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 70
+    },
+    {
+      "id": "https://openalex.org/W4200444669",
+      "doi": "https://doi.org/10.1613/jair.1.12752",
+      "title": "Learning from Disagreement: A Survey",
+      "publication_year": 2021,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1613/jair.1.12752",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1613/jair.1.12752",
+        "pdf_url": "https://jair.org/index.php/jair/article/download/12752/26751",
+        "source": {
+          "id": "https://openalex.org/S139930977",
+          "display_name": "Journal of Artificial Intelligence Research",
+          "issn_l": "1076-9757",
+          "issn": [
+            "1076-9757",
+            "1943-5037"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310315760",
+          "host_organization_name": "AI Access Foundation",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315760"
+          ],
+          "host_organization_lineage_names": [
+            "AI Access Foundation"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Artificial Intelligence Research",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 131
+    },
+    {
+      "id": "https://openalex.org/W4389518883",
+      "doi": "https://doi.org/10.18653/v1/2023.findings-emnlp.681",
+      "title": "MixEdit: Revisiting Data Augmentation and Beyond for Grammatical Error Correction",
+      "publication_year": 2023,
+      "type": "conference-paper",
+      "primary_location": {
+        "id": "doi:10.18653/v1/2023.findings-emnlp.681",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.18653/v1/2023.findings-emnlp.681",
+        "pdf_url": "https://aclanthology.org/2023.findings-emnlp.681.pdf",
+        "source": null,
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+        "raw_type": "proceedings-article"
+      },
+      "cited_by_count": 6
+    },
+    {
+      "id": "https://openalex.org/W4392539097",
+      "doi": "https://doi.org/10.48550/arxiv.2403.01944",
+      "title": "Fourier-basis Functions to Bridge Augmentation Gap: Rethinking Frequency Augmentation in Image Classification",
+      "publication_year": 2024,
+      "type": "preprint",
+      "primary_location": {
+        "id": "pmh:oai:arXiv.org:2403.01944",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2403.01944",
+        "pdf_url": "https://arxiv.org/pdf/2403.01944",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      "cited_by_count": 1
+    },
+    {
+      "id": "https://openalex.org/W4213426835",
+      "doi": "https://doi.org/10.1109/tccn.2022.3153004",
+      "title": "Machine Learning in NextG Networks via Generative Adversarial Networks",
+      "publication_year": 2022,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1109/tccn.2022.3153004",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/tccn.2022.3153004",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2484188435",
+          "display_name": "IEEE Transactions on Cognitive Communications and Networking",
+          "issn_l": "2332-7731",
+          "issn": [
+            "2332-7731",
+            "2372-2045"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Cognitive Communications and Networking",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 55
+    },
+    {
+      "id": "https://openalex.org/W4395453605",
+      "doi": "https://doi.org/10.3390/info15050246",
+      "title": "A Critical Analysis of Deep Semi-Supervised Learning Approaches for Enhanced Medical Image Classification",
+      "publication_year": 2024,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/info15050246",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/info15050246",
+        "pdf_url": "https://www.mdpi.com/2078-2489/15/5/246/pdf?version=1713970690",
+        "source": {
+          "id": "https://openalex.org/S4210219776",
+          "display_name": "Information",
+          "issn_l": "2078-2489",
+          "issn": [
+            "2078-2489"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Information",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 13
+    },
+    {
+      "id": "https://openalex.org/W2969912704",
+      "doi": "https://doi.org/10.21468/scipostphys.8.1.011",
+      "title": "Mass agnostic jet taggers",
+      "publication_year": 2020,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.21468/scipostphys.8.1.011",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.21468/scipostphys.8.1.011",
+        "pdf_url": "https://scipost.org/10.21468/SciPostPhys.8.1.011/pdf",
+        "source": {
+          "id": "https://openalex.org/S4210195687",
+          "display_name": "SciPost Physics",
+          "issn_l": "2542-4653",
+          "issn": [
+            "2542-4653"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310318585",
+          "host_organization_name": "SciPost.org",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310318585"
+          ],
+          "host_organization_lineage_names": [
+            "SciPost.org"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "SciPost Physics",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 36
+    },
+    {
+      "id": "https://openalex.org/W4393148824",
+      "doi": "https://doi.org/10.1609/aaai.v38i4.28076",
+      "title": "Object-Aware Domain Generalization for Object Detection",
+      "publication_year": 2024,
+      "type": "conference-paper",
+      "primary_location": {
+        "id": "doi:10.1609/aaai.v38i4.28076",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1609/aaai.v38i4.28076",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/28076/28158",
+        "source": {
+          "id": "https://openalex.org/S4210191458",
+          "display_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "issn_l": "2159-5399",
+          "issn": [
+            "2159-5399",
+            "2374-3468"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310320058",
+          "host_organization_name": "Association for the Advancement of Artificial Intelligence",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320058"
+          ],
+          "host_organization_lineage_names": [
+            "Association for the Advancement of Artificial Intelligence"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 40
+    }
+  ],
+  "group_by": []
+}

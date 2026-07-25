@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "count": 919,
+    "db_response_time_ms": 157,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where full text has (Spatial Dependence between Training \"and\" Test Sets: Another Pitfall of Classification Accuracy Assessment in Remote Sensing)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "Spatial Dependence between Training and Test Sets: Another Pitfall of Classification Accuracy Assessment in Remote Sensing",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:Spatial Dependence between Training and Test Sets: Another Pitfall of Classification Accuracy Assessment in Remote Sensing&per_page=5"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W3159278315",
+      "doi": "https://doi.org/10.1007/s10994-021-05972-1",
+      "title": "Spatial dependence between training and test sets: another pitfall of classification accuracy assessment in remote sensing",
+      "publication_year": 2021,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1007/s10994-021-05972-1",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1007/s10994-021-05972-1",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10994-021-05972-1.pdf",
+        "source": {
+          "id": "https://openalex.org/S62148650",
+          "display_name": "Machine Learning",
+          "issn_l": "0885-6125",
+          "issn": [
+            "0885-6125",
+            "1573-0565"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Machine Learning",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 138
+    },
+    {
+      "id": "https://openalex.org/W2790063226",
+      "doi": "https://doi.org/10.1016/j.rse.2018.02.026",
+      "title": "A comparison of resampling methods for remote sensing classification and accuracy assessment",
+      "publication_year": 2018,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1016/j.rse.2018.02.026",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.rse.2018.02.026",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S141808269",
+          "display_name": "Remote Sensing of Environment",
+          "issn_l": "0034-4257",
+          "issn": [
+            "0034-4257",
+            "1879-0704"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Remote Sensing of Environment",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 281
+    },
+    {
+      "id": "https://openalex.org/W2782485997",
+      "doi": "https://doi.org/10.1007/s10462-017-9611-1",
+      "title": "Selecting training sets for support vector machines: a review",
+      "publication_year": 2018,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1007/s10462-017-9611-1",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1007/s10462-017-9611-1",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10462-017-9611-1.pdf",
+        "source": {
+          "id": "https://openalex.org/S122814990",
+          "display_name": "Artificial Intelligence Review",
+          "issn_l": "0269-2821",
+          "issn": [
+            "0269-2821",
+            "1573-7462"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Artificial Intelligence Review",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 420
+    },
+    {
+      "id": "https://openalex.org/W2625648638",
+      "doi": "https://doi.org/10.3390/horticulturae3020040",
+      "title": "Remote Sensing for Irrigation of Horticultural Crops",
+      "publication_year": 2017,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/horticulturae3020040",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/horticulturae3020040",
+        "pdf_url": "https://www.mdpi.com/2311-7524/3/2/40/pdf?version=1497618045",
+        "source": {
+          "id": "https://openalex.org/S2737241975",
+          "display_name": "Horticulturae",
+          "issn_l": "2311-7524",
+          "issn": [
+            "2311-7524"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Horticulturae",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 99
+    },
+    {
+      "id": "https://openalex.org/W2165338797",
+      "doi": "https://doi.org/10.1371/journal.pone.0091001",
+      "title": "A Methodology for Adaptable and Robust Ecosystem Services Assessment",
+      "publication_year": 2014,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1371/journal.pone.0091001",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1371/journal.pone.0091001",
+        "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0091001&type=printable",
+        "source": {
+          "id": "https://openalex.org/S202381698",
+          "display_name": "PLoS ONE",
+          "issn_l": "1932-6203",
+          "issn": [
+            "1932-6203"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310315706",
+          "host_organization_name": "Public Library of Science",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315706"
+          ],
+          "host_organization_lineage_names": [
+            "Public Library of Science"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "PLoS ONE",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 453
+    }
+  ],
+  "group_by": []
+}

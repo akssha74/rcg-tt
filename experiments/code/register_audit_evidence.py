@@ -221,6 +221,13 @@ def main() -> None:
         f"experiments/derived/idalia_paired/seed_{seed}.npz"
         for seed in (101, 202, 303)
     ]
+    literature_screening_outputs = [
+        str(path.relative_to(ROOT))
+        for path in sorted(
+            (ROOT / "experiments/derived/literature_screening").glob("*")
+        )
+        if path.is_file()
+    ]
     runs = [
         local_run(
             "R-aider-dedup-prep",
@@ -421,6 +428,14 @@ def main() -> None:
             1.0,
         ),
         local_run(
+            "R-literature-screening",
+            "analysis",
+            "python experiments/code/export_literature_screening.py",
+            "experiments/logs/R-literature-screening.log",
+            literature_screening_outputs,
+            16.0,
+        ),
+        local_run(
             "R-architecture-verification",
             "analysis",
             "python experiments/code/verify_architecture_replication.py",
@@ -578,6 +593,9 @@ def main() -> None:
     )
     literature_audit_path = (
         "experiments/derived/information_set_literature_audit.json"
+    )
+    literature_screening_path = (
+        "experiments/derived/literature_screening/summary.json"
     )
     reveal_mask_path = (
         "experiments/derived/reference_reveal_mask/reveal_mask_summary.json"
@@ -764,10 +782,13 @@ def main() -> None:
             "scope": "Six documented search queries across disagreement, TTA, EO OOD, multi-resolution EO and spatial validation",
             "status": "verified",
             "verified_at": NOW,
-            "source_artifacts": [source(literature_audit_path)],
+            "source_artifacts": [
+                source(literature_audit_path),
+                source(literature_screening_path),
+            ],
             "analysis_command": "python experiments/code/build_information_set_literature_audit.py",
             "paper_locations": ["related-work", "appendix"],
-            "run_ids": ["R-literature-audit"],
+            "run_ids": ["R-literature-audit", "R-literature-screening"],
         },
         {
             "claim_id": "C014",
@@ -994,6 +1015,19 @@ def main() -> None:
             "verified_at": NOW,
             "run_ids": ["R-literature-audit"],
             "source_artifacts": [source("research/literature.jsonl")],
+            "claim_ids": ["C013"],
+        },
+        {
+            "artifact_id": "A-literature-screening",
+            "type": "appendix",
+            **record(literature_screening_path),
+            "generator_code": "experiments/code/export_literature_screening.py",
+            "generator_command": "python experiments/code/export_literature_screening.py",
+            "justification": "Records raw OpenAlex exports, candidate counts, direct lookups, and row-level screening provenance.",
+            "latex_reference": "literature_screening/summary.json",
+            "verified_at": NOW,
+            "run_ids": ["R-literature-screening"],
+            "source_artifacts": [source(literature_audit_path)],
             "claim_ids": ["C013"],
         },
         {

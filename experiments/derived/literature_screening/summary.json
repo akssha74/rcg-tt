@@ -1,0 +1,564 @@
+{
+  "status": "post-hoc reproducibility strengthening",
+  "source": "OpenAlex API",
+  "accessed_at": "2026-07-25",
+  "queries": [
+    {
+      "query_id": 1,
+      "query": "remote sensing multi-resolution prediction consistency disagreement uncertainty",
+      "url": "https://api.openalex.org/works?search=remote+sensing+multi-resolution+prediction+consistency+disagreement+uncertainty&per-page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location%2Ccited_by_count",
+      "returned": 50,
+      "raw_path": "experiments/derived/literature_screening/query_01.json"
+    },
+    {
+      "query_id": 2,
+      "query": "resolution consistency uncertainty image classification remote sensing",
+      "url": "https://api.openalex.org/works?search=resolution+consistency+uncertainty+image+classification+remote+sensing&per-page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location%2Ccited_by_count",
+      "returned": 50,
+      "raw_path": "experiments/derived/literature_screening/query_02.json"
+    },
+    {
+      "query_id": 3,
+      "query": "multi-scale disagreement out-of-distribution detection image classification",
+      "url": "https://api.openalex.org/works?search=multi-scale+disagreement+out-of-distribution+detection+image+classification&per-page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location%2Ccited_by_count",
+      "returned": 50,
+      "raw_path": "experiments/derived/literature_screening/query_03.json"
+    },
+    {
+      "query_id": 4,
+      "query": "scale consistency misclassification detection uncertainty",
+      "url": "https://api.openalex.org/works?search=scale+consistency+misclassification+detection+uncertainty&per-page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location%2Ccited_by_count",
+      "returned": 50,
+      "raw_path": "experiments/derived/literature_screening/query_04.json"
+    },
+    {
+      "query_id": 5,
+      "query": "ground sampling distance model uncertainty resolution shift remote sensing classification",
+      "url": "https://api.openalex.org/works?search=ground+sampling+distance+model+uncertainty+resolution+shift+remote+sensing+classification&per-page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location%2Ccited_by_count",
+      "returned": 50,
+      "raw_path": "experiments/derived/literature_screening/query_05.json"
+    },
+    {
+      "query_id": 6,
+      "query": "test-time augmentation scale uncertainty Jensen Shannon divergence classification",
+      "url": "https://api.openalex.org/works?search=test-time+augmentation+scale+uncertainty+Jensen+Shannon+divergence+classification&per-page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location%2Ccited_by_count",
+      "returned": 50,
+      "raw_path": "experiments/derived/literature_screening/query_06.json"
+    }
+  ],
+  "unique_candidates": 280,
+  "included_matches": 0,
+  "included_records_not_returned_by_top50_search": [
+    "bahat2020tta",
+    "conde2023atta",
+    "doerksen2026earthshift",
+    "ekim2025tardis",
+    "gawlikowski2022dpnrs",
+    "hendrycks2020augmix",
+    "karasiak2022spatial",
+    "li2023scaleeffect",
+    "li2024tenood",
+    "schirmer2023divergence",
+    "wang2021sanet",
+    "xu2019upscaling"
+  ],
+  "direct_included_lookups": [
+    {
+      "key": "schirmer2023divergence",
+      "query_url": "https://api.openalex.org/works?search=Beyond+Top-Class+Agreement%3A+Using+Divergences+to+Forecast+Performance+under+Distribution+Shift&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location%2Ccited_by_count",
+      "raw_path": "experiments/derived/literature_screening/included_01.json",
+      "openalex_match": null,
+      "matched": false
+    },
+    {
+      "key": "hendrycks2020augmix",
+      "query_url": "https://api.openalex.org/works?search=AugMix%3A+A+Simple+Data+Processing+Method+to+Improve+Robustness+and+Uncertainty&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location%2Ccited_by_count",
+      "raw_path": "experiments/derived/literature_screening/included_02.json",
+      "openalex_match": {
+        "id": "https://openalex.org/W2994088087",
+        "doi": "https://doi.org/10.48550/arxiv.1912.02781",
+        "title": "AugMix: A Simple Data Processing Method to Improve Robustness and Uncertainty",
+        "publication_year": 2019,
+        "type": "preprint",
+        "primary_location": {
+          "id": "pmh:oai:arXiv.org:1912.02781",
+          "is_oa": true,
+          "landing_page_url": "http://arxiv.org/abs/1912.02781",
+          "pdf_url": "https://arxiv.org/pdf/1912.02781",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "text"
+        },
+        "cited_by_count": 569
+      },
+      "matched": true
+    },
+    {
+      "key": "bahat2020tta",
+      "query_url": "https://api.openalex.org/works?search=Classification+Confidence+Estimation+with+Test-Time+Data-Augmentation&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location%2Ccited_by_count",
+      "raw_path": "experiments/derived/literature_screening/included_03.json",
+      "openalex_match": {
+        "id": "https://openalex.org/W3038321616",
+        "doi": "https://doi.org/10.48550/arxiv.2006.16705",
+        "title": "Classification Confidence Estimation with Test-Time Data-Augmentation",
+        "publication_year": 2020,
+        "type": "preprint",
+        "primary_location": {
+          "id": "pmh:oai:arXiv.org:2006.16705",
+          "is_oa": true,
+          "landing_page_url": "http://arxiv.org/abs/2006.16705",
+          "pdf_url": "https://arxiv.org/pdf/2006.16705",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "text"
+        },
+        "cited_by_count": 8
+      },
+      "matched": true
+    },
+    {
+      "key": "conde2023atta",
+      "query_url": "https://api.openalex.org/works?search=Approaching+Test+Time+Augmentation+in+the+Context+of+Uncertainty+Calibration+for+Deep+Neural+Networks&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location%2Ccited_by_count",
+      "raw_path": "experiments/derived/literature_screening/included_04.json",
+      "openalex_match": {
+        "id": "https://openalex.org/W4365205391",
+        "doi": "https://doi.org/10.48550/arxiv.2304.05104",
+        "title": "Approaching Test Time Augmentation in the Context of Uncertainty Calibration for Deep Neural Networks",
+        "publication_year": 2023,
+        "type": "preprint",
+        "primary_location": {
+          "id": "pmh:oai:arXiv.org:2304.05104",
+          "is_oa": true,
+          "landing_page_url": "http://arxiv.org/abs/2304.05104",
+          "pdf_url": "https://arxiv.org/pdf/2304.05104",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": "",
+          "raw_type": "text"
+        },
+        "cited_by_count": 2
+      },
+      "matched": true
+    },
+    {
+      "key": "gawlikowski2022dpnrs",
+      "query_url": "https://api.openalex.org/works?search=An+Advanced+Dirichlet+Prior+Network+for+Out-of-Distribution+Detection+in+Remote+Sensing&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location%2Ccited_by_count",
+      "raw_path": "experiments/derived/literature_screening/included_05.json",
+      "openalex_match": {
+        "id": "https://openalex.org/W4205319111",
+        "doi": "https://doi.org/10.1109/tgrs.2022.3140324",
+        "title": "An Advanced Dirichlet Prior Network for Out-of-Distribution Detection in Remote Sensing",
+        "publication_year": 2022,
+        "type": "article",
+        "primary_location": {
+          "id": "doi:10.1109/tgrs.2022.3140324",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1109/tgrs.2022.3140324",
+          "pdf_url": "https://ieeexplore.ieee.org/ielx7/36/9633014/09668955.pdf",
+          "source": {
+            "id": "https://openalex.org/S111326731",
+            "display_name": "IEEE Transactions on Geoscience and Remote Sensing",
+            "issn_l": "0196-2892",
+            "issn": [
+              "0196-2892",
+              "1558-0644"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "IEEE Transactions on Geoscience and Remote Sensing",
+          "raw_type": "journal-article"
+        },
+        "cited_by_count": 55
+      },
+      "matched": true
+    },
+    {
+      "key": "li2024tenood",
+      "query_url": "https://api.openalex.org/works?search=Evaluation+of+Ten+Deep-Learning-Based+Out-of-Distribution+Detection+Methods+for+Remote+Sensing+Image+Scene+Classification&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location%2Ccited_by_count",
+      "raw_path": "experiments/derived/literature_screening/included_06.json",
+      "openalex_match": {
+        "id": "https://openalex.org/W4395082323",
+        "doi": "https://doi.org/10.3390/rs16091501",
+        "title": "Evaluation of Ten Deep-Learning-Based Out-of-Distribution Detection Methods for Remote Sensing Image Scene Classification",
+        "publication_year": 2024,
+        "type": "article",
+        "primary_location": {
+          "id": "doi:10.3390/rs16091501",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.3390/rs16091501",
+          "pdf_url": "https://www.mdpi.com/2072-4292/16/9/1501/pdf?version=1713963603",
+          "source": {
+            "id": "https://openalex.org/S43295729",
+            "display_name": "Remote Sensing",
+            "issn_l": "2072-4292",
+            "issn": [
+              "2072-4292"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310310987",
+            "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310310987"
+            ],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Remote Sensing",
+          "raw_type": "journal-article"
+        },
+        "cited_by_count": 7
+      },
+      "matched": true
+    },
+    {
+      "key": "ekim2025tardis",
+      "query_url": "https://api.openalex.org/works?search=Distribution+Shifts+at+Scale%3A+Out-of-Distribution+Detection+in+Earth+Observation&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location%2Ccited_by_count",
+      "raw_path": "experiments/derived/literature_screening/included_07.json",
+      "openalex_match": {
+        "id": "https://openalex.org/W4414199196",
+        "doi": "https://doi.org/10.1109/cvprw67362.2025.00213",
+        "title": "Distribution Shifts at Scale: Out-of-distribution Detection in Earth Observation",
+        "publication_year": 2025,
+        "type": "conference-paper",
+        "primary_location": {
+          "id": "doi:10.1109/cvprw67362.2025.00213",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/cvprw67362.2025.00213",
+          "pdf_url": null,
+          "source": null,
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+          "raw_type": "proceedings-article"
+        },
+        "cited_by_count": 2
+      },
+      "matched": true
+    },
+    {
+      "key": "doerksen2026earthshift",
+      "query_url": "https://api.openalex.org/works?search=EarthShift%3A+A+Benchmark+for+Measuring+Robustness+to+Real-World+Distribution+Shifts+in+Earth+Observation&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location%2Ccited_by_count",
+      "raw_path": "experiments/derived/literature_screening/included_08.json",
+      "openalex_match": {
+        "id": "https://openalex.org/W7162893038",
+        "doi": null,
+        "title": "EarthShift: a benchmark for measuring robustness to real-world distribution shifts in Earth observation",
+        "publication_year": 2026,
+        "type": "preprint",
+        "primary_location": {
+          "id": "pmh:oai:arXiv.org:2605.29330",
+          "is_oa": true,
+          "landing_page_url": "https://arxiv.org/abs/2605.29330",
+          "pdf_url": "https://arxiv.org/pdf/2605.29330",
+          "source": {
+            "id": "https://openalex.org/S4306400194",
+            "display_name": "arXiv (Cornell University)",
+            "issn_l": null,
+            "issn": null,
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/I205783295",
+            "host_organization_name": "Cornell University",
+            "host_organization_lineage": [
+              "https://openalex.org/I205783295"
+            ],
+            "host_organization_lineage_names": [],
+            "type": "repository"
+          },
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+          "version": "submittedVersion",
+          "is_accepted": false,
+          "is_published": false,
+          "raw_source_name": null,
+          "raw_type": "text"
+        },
+        "cited_by_count": 0
+      },
+      "matched": true
+    },
+    {
+      "key": "wang2021sanet",
+      "query_url": "https://api.openalex.org/works?search=Scale-Aware+Neural+Network+for+Semantic+Segmentation+of+Multi-Resolution+Remote+Sensing+Images&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location%2Ccited_by_count",
+      "raw_path": "experiments/derived/literature_screening/included_09.json",
+      "openalex_match": {
+        "id": "https://openalex.org/W4200142823",
+        "doi": "https://doi.org/10.3390/rs13245015",
+        "title": "Scale-Aware Neural Network for Semantic Segmentation of Multi-Resolution Remote Sensing Images",
+        "publication_year": 2021,
+        "type": "article",
+        "primary_location": {
+          "id": "doi:10.3390/rs13245015",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.3390/rs13245015",
+          "pdf_url": "https://www.mdpi.com/2072-4292/13/24/5015/pdf?version=1639118052",
+          "source": {
+            "id": "https://openalex.org/S43295729",
+            "display_name": "Remote Sensing",
+            "issn_l": "2072-4292",
+            "issn": [
+              "2072-4292"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310310987",
+            "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310310987"
+            ],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Remote Sensing",
+          "raw_type": "journal-article"
+        },
+        "cited_by_count": 32
+      },
+      "matched": true
+    },
+    {
+      "key": "li2023scaleeffect",
+      "query_url": "https://api.openalex.org/works?search=Scale+Effect+of+Land+Cover+Classification+from+Multi-Resolution+Satellite+Remote+Sensing+Data&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location%2Ccited_by_count",
+      "raw_path": "experiments/derived/literature_screening/included_10.json",
+      "openalex_match": {
+        "id": "https://openalex.org/W4383262716",
+        "doi": "https://doi.org/10.3390/s23136136",
+        "title": "Scale Effect of Land Cover Classification from Multi-Resolution Satellite Remote Sensing Data",
+        "publication_year": 2023,
+        "type": "article",
+        "primary_location": {
+          "id": "doi:10.3390/s23136136",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.3390/s23136136",
+          "pdf_url": "https://www.mdpi.com/1424-8220/23/13/6136/pdf?version=1688458591",
+          "source": {
+            "id": "https://openalex.org/S101949793",
+            "display_name": "Sensors",
+            "issn_l": "1424-8220",
+            "issn": [
+              "1424-8220"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310310987",
+            "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310310987"
+            ],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Sensors",
+          "raw_type": "journal-article"
+        },
+        "cited_by_count": 22
+      },
+      "matched": true
+    },
+    {
+      "key": "xu2019upscaling",
+      "query_url": "https://api.openalex.org/works?search=How+Up-Scaling+of+Remote-Sensing+Images+Affects+Land-Cover+Classification+by+Comparison+with+Multiscale+Satellite+Images&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location%2Ccited_by_count",
+      "raw_path": "experiments/derived/literature_screening/included_11.json",
+      "openalex_match": {
+        "id": "https://openalex.org/W2898327539",
+        "doi": "https://doi.org/10.1080/01431161.2018.1533656",
+        "title": "How up-scaling of remote-sensing images affects land-cover classification by comparison with multiscale satellite images",
+        "publication_year": 2018,
+        "type": "article",
+        "primary_location": {
+          "id": "doi:10.1080/01431161.2018.1533656",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1080/01431161.2018.1533656",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S117411352",
+            "display_name": "International Journal of Remote Sensing",
+            "issn_l": "0143-1161",
+            "issn": [
+              "0143-1161",
+              "1366-5901"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310320547",
+            "host_organization_name": "Taylor & Francis",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320547"
+            ],
+            "host_organization_lineage_names": [
+              "Taylor & Francis"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "International Journal of Remote Sensing",
+          "raw_type": "journal-article"
+        },
+        "cited_by_count": 36
+      },
+      "matched": true
+    },
+    {
+      "key": "karasiak2022spatial",
+      "query_url": "https://api.openalex.org/works?search=Spatial+Dependence+between+Training+and+Test+Sets%3A+Another+Pitfall+of+Classification+Accuracy+Assessment+in+Remote+Sensing&per-page=5&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Ctype%2Cprimary_location%2Ccited_by_count",
+      "raw_path": "experiments/derived/literature_screening/included_12.json",
+      "openalex_match": {
+        "id": "https://openalex.org/W3159278315",
+        "doi": "https://doi.org/10.1007/s10994-021-05972-1",
+        "title": "Spatial dependence between training and test sets: another pitfall of classification accuracy assessment in remote sensing",
+        "publication_year": 2021,
+        "type": "article",
+        "primary_location": {
+          "id": "doi:10.1007/s10994-021-05972-1",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1007/s10994-021-05972-1",
+          "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10994-021-05972-1.pdf",
+          "source": {
+            "id": "https://openalex.org/S62148650",
+            "display_name": "Machine Learning",
+            "issn_l": "0885-6125",
+            "issn": [
+              "0885-6125",
+              "1573-0565"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "host_organization": "https://openalex.org/P4310319900",
+            "host_organization_name": "Springer Science+Business Media",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
+            ],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Machine Learning",
+          "raw_type": "journal-article"
+        },
+        "cited_by_count": 138
+      },
+      "matched": true
+    }
+  ],
+  "direct_included_matches": 11,
+  "screening_path": "experiments/derived/literature_screening/screening.jsonl",
+  "limitation": "Top-50 relevance-ranked OpenAlex exports per query; not an exhaustive systematic review or prevalence estimator."
+}

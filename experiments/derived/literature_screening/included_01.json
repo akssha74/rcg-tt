@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "count": 6653,
+    "db_response_time_ms": 215,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where full text has (Beyond Top-Class Agreement: Using Divergences to Forecast Performance under Distribution Shift)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "Beyond Top-Class Agreement: Using Divergences to Forecast Performance under Distribution Shift",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:Beyond Top-Class Agreement: Using Divergences to Forecast Performance under Distribution Shift&per_page=5"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2130089609",
+      "doi": "https://doi.org/10.1016/j.envsoft.2012.09.011",
+      "title": "Characterising performance of environmental models",
+      "publication_year": 2012,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1016/j.envsoft.2012.09.011",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.envsoft.2012.09.011",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S113611870",
+          "display_name": "Environmental Modelling & Software",
+          "issn_l": "1364-8152",
+          "issn": [
+            "1364-8152",
+            "1873-6726"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Environmental Modelling &amp; Software",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 1546
+    },
+    {
+      "id": "https://openalex.org/W3033513666",
+      "doi": "https://doi.org/10.1016/j.physrep.2020.05.004",
+      "title": "Networks beyond pairwise interactions: Structure and dynamics",
+      "publication_year": 2020,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1016/j.physrep.2020.05.004",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.physrep.2020.05.004",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0370157320302489?via%3Dihub",
+        "source": {
+          "id": "https://openalex.org/S48633963",
+          "display_name": "Physics Reports",
+          "issn_l": "0370-1573",
+          "issn": [
+            "0370-1573",
+            "1873-6270"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Physics Reports",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 1480
+    },
+    {
+      "id": "https://openalex.org/W2910713426",
+      "doi": "https://doi.org/10.1126/sciadv.aat4858",
+      "title": "Standards for distribution models in biodiversity assessments",
+      "publication_year": 2019,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1126/sciadv.aat4858",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1126/sciadv.aat4858",
+        "pdf_url": "https://advances.sciencemag.org/content/advances/5/1/eaat4858.full.pdf",
+        "source": {
+          "id": "https://openalex.org/S2737427234",
+          "display_name": "Science Advances",
+          "issn_l": "2375-2548",
+          "issn": [
+            "2375-2548"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310315823",
+          "host_organization_name": "American Association for the Advancement of Science",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315823"
+          ],
+          "host_organization_lineage_names": [
+            "American Association for the Advancement of Science"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Science Advances",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 1118
+    },
+    {
+      "id": "https://openalex.org/W2107120420",
+      "doi": "https://doi.org/10.1111/j.1548-2456.2011.00123.x",
+      "title": "A Leader Without Followers? The Growing Divergence Between the Regional and Global Performance of Brazilian Foreign Policy",
+      "publication_year": 2011,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1111/j.1548-2456.2011.00123.x",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1111/j.1548-2456.2011.00123.x",
+        "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/93B2DA654950F3127673AA38AE03FDAF/S1531426X0000964Xa.pdf/div-class-title-a-leader-without-followers-the-growing-divergence-between-the-regional-and-global-performance-of-brazilian-foreign-policy-div.pdf",
+        "source": {
+          "id": "https://openalex.org/S195250056",
+          "display_name": "Latin American Politics and Society",
+          "issn_l": "1531-426X",
+          "issn": [
+            "1531-426X",
+            "1548-2456"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310311721",
+          "host_organization_name": "Cambridge University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311721",
+            "https://openalex.org/P4310311702"
+          ],
+          "host_organization_lineage_names": [
+            "Cambridge University Press",
+            "University of Cambridge"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Latin American Politics and Society",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 324
+    },
+    {
+      "id": "https://openalex.org/W2139345294",
+      "doi": "https://doi.org/10.1787/5kmmp8lncrns-en",
+      "title": "The Emerging Middle Class in Developing Countries",
+      "publication_year": 2010,
+      "type": "report",
+      "primary_location": {
+        "id": "doi:10.1787/5kmmp8lncrns-en",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1787/5kmmp8lncrns-en",
+        "pdf_url": "https://www.oecd-ilibrary.org/the-emerging-middle-class-in-developing-countries_5kmmp8lncrns.pdf?itemId=%2Fcontent%2Fpaper%2F5kmmp8lncrns-en&mimeType=pdf",
+        "source": {
+          "id": "https://openalex.org/S4210234223",
+          "display_name": "OECD Development Centre working papers",
+          "issn_l": "1815-1949",
+          "issn": [
+            "1815-1949"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "OECD Development Centre Working Papers",
+        "raw_type": "report"
+      },
+      "cited_by_count": 571
+    }
+  ],
+  "group_by": []
+}

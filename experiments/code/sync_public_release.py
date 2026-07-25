@@ -75,7 +75,7 @@ def main() -> None:
         ),
         "upload_type": "software",
         "description": (
-            "Version 3.0.0 source, checkpoints, per-example scores, logs, "
+            "Version 3.1.0 source, checkpoints, per-example scores, logs, "
             "ledgers, and IJRS manuscript for an information-matched audit of "
             "resolution reliability in disaster remote sensing."
         ),
@@ -90,7 +90,7 @@ def main() -> None:
             },
         ],
         "license": "cc-by-4.0",
-        "version": "3.0.0",
+        "version": "3.1.0",
         "keywords": [
             "remote sensing",
             "resolution shift",
@@ -111,7 +111,7 @@ def main() -> None:
         """cff-version: 1.2.0
 message: "If you use this software or evidence package, please cite it."
 title: "When Resolution Consistency Fails: Information-Matched Audit Reproducibility Package"
-version: 3.0.0
+version: 3.1.0
 date-released: 2026-07-25
 authors:
   - family-names: Sharma

@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "count": 4542,
+    "db_response_time_ms": 133,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where full text has (How Up-Scaling of Remote-Sensing Images Affects Land-Cover Classification by Comparison with Multiscale Satellite Images)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "How Up-Scaling of Remote-Sensing Images Affects Land-Cover Classification by Comparison with Multiscale Satellite Images",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:How Up-Scaling of Remote-Sensing Images Affects Land-Cover Classification by Comparison with Multiscale Satellite Images&per_page=5"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2898327539",
+      "doi": "https://doi.org/10.1080/01431161.2018.1533656",
+      "title": "How up-scaling of remote-sensing images affects land-cover classification by comparison with multiscale satellite images",
+      "publication_year": 2018,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1080/01431161.2018.1533656",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1080/01431161.2018.1533656",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S117411352",
+          "display_name": "International Journal of Remote Sensing",
+          "issn_l": "0143-1161",
+          "issn": [
+            "0143-1161",
+            "1366-5901"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320547",
+          "host_organization_name": "Taylor & Francis",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320547"
+          ],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International Journal of Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 36
+    },
+    {
+      "id": "https://openalex.org/W3022140654",
+      "doi": "https://doi.org/10.1109/jstars.2020.3005403",
+      "title": "Remote Sensing Image Scene Classification Meets Deep Learning: Challenges, Methods, Benchmarks, and Opportunities",
+      "publication_year": 2020,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1109/jstars.2020.3005403",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1109/jstars.2020.3005403",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/4609443/8994817/09127795.pdf",
+        "source": {
+          "id": "https://openalex.org/S117727964",
+          "display_name": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+          "issn_l": "1939-1404",
+          "issn": [
+            "1939-1404",
+            "2151-1535"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 972
+    },
+    {
+      "id": "https://openalex.org/W4213124617",
+      "doi": "https://doi.org/10.3390/rs14040871",
+      "title": "Deep Learning-Based Change Detection in Remote Sensing Images: A Review",
+      "publication_year": 2022,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/rs14040871",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/rs14040871",
+        "pdf_url": "https://www.mdpi.com/2072-4292/14/4/871/pdf?version=1645431892",
+        "source": {
+          "id": "https://openalex.org/S43295729",
+          "display_name": "Remote Sensing",
+          "issn_l": "2072-4292",
+          "issn": [
+            "2072-4292"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 385
+    },
+    {
+      "id": "https://openalex.org/W3118660027",
+      "doi": "https://doi.org/10.1109/access.2021.3051085",
+      "title": "Classification of Remote Sensing Images Using EfficientNet-B3 CNN Model With Attention",
+      "publication_year": 2021,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1109/access.2021.3051085",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1109/access.2021.3051085",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/9312710/09320487.pdf",
+        "source": {
+          "id": "https://openalex.org/S2485537415",
+          "display_name": "IEEE Access",
+          "issn_l": "2169-3536",
+          "issn": [
+            "2169-3536"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Access",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 348
+    },
+    {
+      "id": "https://openalex.org/W3047317383",
+      "doi": "https://doi.org/10.3390/rs12152495",
+      "title": "Deep Learning for Land Use and Land Cover Classification Based on Hyperspectral and Multispectral Earth Observation Data: A Review",
+      "publication_year": 2020,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/rs12152495",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/rs12152495",
+        "pdf_url": "https://www.mdpi.com/2072-4292/12/15/2495/pdf?version=1596620773",
+        "source": {
+          "id": "https://openalex.org/S43295729",
+          "display_name": "Remote Sensing",
+          "issn_l": "2072-4292",
+          "issn": [
+            "2072-4292"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 436
+    }
+  ],
+  "group_by": []
+}

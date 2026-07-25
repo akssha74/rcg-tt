@@ -1,0 +1,2134 @@
+{
+  "meta": {
+    "count": 32121,
+    "db_response_time_ms": 79,
+    "page": 1,
+    "per_page": 50,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where full text has (resolution consistency uncertainty image classification remote sensing)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "resolution consistency uncertainty image classification remote sensing",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:resolution consistency uncertainty image classification remote sensing&per_page=50"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2307094448",
+      "doi": "https://doi.org/10.1016/j.isprsjprs.2016.03.008",
+      "title": "Optical remotely sensed time series data for land cover classification: A review",
+      "publication_year": 2016,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1016/j.isprsjprs.2016.03.008",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.isprsjprs.2016.03.008",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S173339282",
+          "display_name": "ISPRS Journal of Photogrammetry and Remote Sensing",
+          "issn_l": "0924-2716",
+          "issn": [
+            "0924-2716",
+            "1872-8235"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "ISPRS Journal of Photogrammetry and Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 1203
+    },
+    {
+      "id": "https://openalex.org/W2923750943",
+      "doi": "https://doi.org/10.1029/2018rg000618",
+      "title": "Ground, Proximal, and Satellite Remote Sensing of Soil Moisture",
+      "publication_year": 2019,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1029/2018rg000618",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1029/2018rg000618",
+        "pdf_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2018RG000618",
+        "source": {
+          "id": "https://openalex.org/S129102366",
+          "display_name": "Reviews of Geophysics",
+          "issn_l": "0096-1043",
+          "issn": [
+            "0096-1043",
+            "1944-9208",
+            "8755-1209"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Reviews of Geophysics",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 675
+    },
+    {
+      "id": "https://openalex.org/W4312954132",
+      "doi": "https://doi.org/10.1109/jstars.2022.3220875",
+      "title": "Domain Adaptation in Remote Sensing Image Classification: A Survey",
+      "publication_year": 2022,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1109/jstars.2022.3220875",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1109/jstars.2022.3220875",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/4609443/4609444/09944086.pdf",
+        "source": {
+          "id": "https://openalex.org/S117727964",
+          "display_name": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+          "issn_l": "1939-1404",
+          "issn": [
+            "1939-1404",
+            "2151-1535"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 195
+    },
+    {
+      "id": "https://openalex.org/W4213124617",
+      "doi": "https://doi.org/10.3390/rs14040871",
+      "title": "Deep Learning-Based Change Detection in Remote Sensing Images: A Review",
+      "publication_year": 2022,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/rs14040871",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/rs14040871",
+        "pdf_url": "https://www.mdpi.com/2072-4292/14/4/871/pdf?version=1645431892",
+        "source": {
+          "id": "https://openalex.org/S43295729",
+          "display_name": "Remote Sensing",
+          "issn_l": "2072-4292",
+          "issn": [
+            "2072-4292"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 385
+    },
+    {
+      "id": "https://openalex.org/W4229002315",
+      "doi": "https://doi.org/10.3390/rs14071552",
+      "title": "A Survey on Deep Learning-Based Change Detection from High-Resolution Remote Sensing Images",
+      "publication_year": 2022,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/rs14071552",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/rs14071552",
+        "pdf_url": "https://www.mdpi.com/2072-4292/14/7/1552/pdf?version=1648046350",
+        "source": {
+          "id": "https://openalex.org/S43295729",
+          "display_name": "Remote Sensing",
+          "issn_l": "2072-4292",
+          "issn": [
+            "2072-4292"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 267
+    },
+    {
+      "id": "https://openalex.org/W2728224506",
+      "doi": "https://doi.org/10.3389/fpls.2017.01111",
+      "title": "Unmanned Aerial Vehicle Remote Sensing for Field-Based Crop Phenotyping: Current Status and Perspectives",
+      "publication_year": 2017,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3389/fpls.2017.01111",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3389/fpls.2017.01111",
+        "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpls.2017.01111/pdf",
+        "source": {
+          "id": "https://openalex.org/S2493613807",
+          "display_name": "Frontiers in Plant Science",
+          "issn_l": "1664-462X",
+          "issn": [
+            "1664-462X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320527",
+          "host_organization_name": "Frontiers Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320527"
+          ],
+          "host_organization_lineage_names": [
+            "Frontiers Media"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Frontiers in Plant Science",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 750
+    },
+    {
+      "id": "https://openalex.org/W2145971409",
+      "doi": "https://doi.org/10.5194/angeo-27-2755-2009",
+      "title": "Uncertainties in satellite remote sensing of aerosols and impact on monitoring its long-term trend: a review and perspective",
+      "publication_year": 2009,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.5194/angeo-27-2755-2009",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.5194/angeo-27-2755-2009",
+        "pdf_url": "https://angeo.copernicus.org/articles/27/2755/2009/angeo-27-2755-2009.pdf",
+        "source": {
+          "id": "https://openalex.org/S63956823",
+          "display_name": "Annales Geophysicae",
+          "issn_l": "0992-7689",
+          "issn": [
+            "0992-7689",
+            "1432-0576"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310313756",
+          "host_organization_name": "Copernicus Publications",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310313756"
+          ],
+          "host_organization_lineage_names": [
+            "Copernicus Publications"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Annales Geophysicae",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 371
+    },
+    {
+      "id": "https://openalex.org/W2971653617",
+      "doi": "https://doi.org/10.1016/j.rse.2019.111383",
+      "title": "Remote sensing of the terrestrial carbon cycle: A review of advances over 50 years",
+      "publication_year": 2019,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1016/j.rse.2019.111383",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.rse.2019.111383",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S141808269",
+          "display_name": "Remote Sensing of Environment",
+          "issn_l": "0034-4257",
+          "issn": [
+            "0034-4257",
+            "1879-0704"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Remote Sensing of Environment",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 637
+    },
+    {
+      "id": "https://openalex.org/W3183048323",
+      "doi": "https://doi.org/10.1007/s10462-023-10562-9",
+      "title": "A survey of uncertainty in deep neural networks",
+      "publication_year": 2023,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1007/s10462-023-10562-9",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1007/s10462-023-10562-9",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10462-023-10562-9.pdf",
+        "source": {
+          "id": "https://openalex.org/S122814990",
+          "display_name": "Artificial Intelligence Review",
+          "issn_l": "0269-2821",
+          "issn": [
+            "0269-2821",
+            "1573-7462"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Artificial Intelligence Review",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 1211
+    },
+    {
+      "id": "https://openalex.org/W1929270595",
+      "doi": "https://doi.org/10.1029/2012wr012063",
+      "title": "Global monitoring of large reservoir storage from satellite remote sensing",
+      "publication_year": 2012,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1029/2012wr012063",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1029/2012wr012063",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2012WR012063",
+        "source": {
+          "id": "https://openalex.org/S204847658",
+          "display_name": "Water Resources Research",
+          "issn_l": "0043-1397",
+          "issn": [
+            "0043-1397",
+            "1944-7973"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Water Resources Research",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 425
+    },
+    {
+      "id": "https://openalex.org/W4312203760",
+      "doi": "https://doi.org/10.1029/2022rg000777",
+      "title": "Satellite Remote Sensing of Global Land Surface Temperature: Definition, Methods, Products, and Applications",
+      "publication_year": 2022,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1029/2022rg000777",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1029/2022rg000777",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2022RG000777",
+        "source": {
+          "id": "https://openalex.org/S129102366",
+          "display_name": "Reviews of Geophysics",
+          "issn_l": "0096-1043",
+          "issn": [
+            "0096-1043",
+            "1944-9208",
+            "8755-1209"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Reviews of Geophysics",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 607
+    },
+    {
+      "id": "https://openalex.org/W3009942016",
+      "doi": "https://doi.org/10.1109/jstars.2020.3037893",
+      "title": "DASNet: Dual Attentive Fully Convolutional Siamese Networks for Change Detection in High-Resolution Satellite Images",
+      "publication_year": 2020,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1109/jstars.2020.3037893",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1109/jstars.2020.3037893",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/4609443/9314330/09259045.pdf",
+        "source": {
+          "id": "https://openalex.org/S117727964",
+          "display_name": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+          "issn_l": "1939-1404",
+          "issn": [
+            "1939-1404",
+            "2151-1535"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 653
+    },
+    {
+      "id": "https://openalex.org/W2931894371",
+      "doi": "https://doi.org/10.3390/rs11070818",
+      "title": "Spatiotemporal Image Fusion in Remote Sensing",
+      "publication_year": 2019,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/rs11070818",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/rs11070818",
+        "pdf_url": "https://www.mdpi.com/2072-4292/11/7/818/pdf?version=1554893775",
+        "source": {
+          "id": "https://openalex.org/S43295729",
+          "display_name": "Remote Sensing",
+          "issn_l": "2072-4292",
+          "issn": [
+            "2072-4292"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 190
+    },
+    {
+      "id": "https://openalex.org/W2270845284",
+      "doi": "https://doi.org/10.3390/rs8020118",
+      "title": "Remote Sensing of Coral Reefs for Monitoring and Management: A Review",
+      "publication_year": 2016,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/rs8020118",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/rs8020118",
+        "pdf_url": "https://www.mdpi.com/2072-4292/8/2/118/pdf?version=1456214068",
+        "source": {
+          "id": "https://openalex.org/S43295729",
+          "display_name": "Remote Sensing",
+          "issn_l": "2072-4292",
+          "issn": [
+            "2072-4292"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 408
+    },
+    {
+      "id": "https://openalex.org/W2591466624",
+      "doi": "https://doi.org/10.3390/rs9030185",
+      "title": "Individual Tree Detection and Classification with UAV-Based Photogrammetric Point Clouds and Hyperspectral Imaging",
+      "publication_year": 2017,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/rs9030185",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/rs9030185",
+        "pdf_url": "https://www.mdpi.com/2072-4292/9/3/185/pdf?version=1487848321",
+        "source": {
+          "id": "https://openalex.org/S43295729",
+          "display_name": "Remote Sensing",
+          "issn_l": "2072-4292",
+          "issn": [
+            "2072-4292"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 416
+    },
+    {
+      "id": "https://openalex.org/W2086693959",
+      "doi": "https://doi.org/10.1029/2005jg000142",
+      "title": "Global distribution and seasonality of active fires as observed with the Terra and Aqua Moderate Resolution Imaging Spectroradiometer (MODIS) sensors",
+      "publication_year": 2006,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1029/2005jg000142",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1029/2005jg000142",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2005JG000142",
+        "source": {
+          "id": "https://openalex.org/S207178839",
+          "display_name": "Journal of Geophysical Research Atmospheres",
+          "issn_l": "0148-0227",
+          "issn": [
+            "0148-0227",
+            "2156-2202",
+            "2169-897X",
+            "2169-8996"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310315809",
+          "host_organization_name": "American Geophysical Union",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315809"
+          ],
+          "host_organization_lineage_names": [
+            "American Geophysical Union"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Geophysical Research: Biogeosciences",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 722
+    },
+    {
+      "id": "https://openalex.org/W2120496201",
+      "doi": "https://doi.org/10.1175/jcli3790.1",
+      "title": "Development of a 50-Year High-Resolution Global Dataset of Meteorological Forcings for Land Surface Modeling",
+      "publication_year": 2006,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1175/jcli3790.1",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1175/jcli3790.1",
+        "pdf_url": "https://journals.ametsoc.org/downloadpdf/journals/clim/19/13/jcli3790.1.pdf",
+        "source": {
+          "id": "https://openalex.org/S80591372",
+          "display_name": "Journal of Climate",
+          "issn_l": "0894-8755",
+          "issn": [
+            "0894-8755",
+            "1520-0442"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320260",
+          "host_organization_name": "American Meteorological Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320260"
+          ],
+          "host_organization_lineage_names": [
+            "American Meteorological Society"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Climate",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 2058
+    },
+    {
+      "id": "https://openalex.org/W3045585619",
+      "doi": "https://doi.org/10.3390/rs12152411",
+      "title": "Land Cover Classification using Google Earth Engine and Random Forest Classifier\u2014The Role of Image Composition",
+      "publication_year": 2020,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/rs12152411",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/rs12152411",
+        "pdf_url": "https://www.mdpi.com/2072-4292/12/15/2411/pdf?version=1595933829",
+        "source": {
+          "id": "https://openalex.org/S43295729",
+          "display_name": "Remote Sensing",
+          "issn_l": "2072-4292",
+          "issn": [
+            "2072-4292"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 615
+    },
+    {
+      "id": "https://openalex.org/W2802938233",
+      "doi": "https://doi.org/10.1029/2017rg000593",
+      "title": "Remote Sensing of Droplet Number Concentration in Warm Clouds: A Review of the Current State of Knowledge and Perspectives",
+      "publication_year": 2018,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1029/2017rg000593",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1029/2017rg000593",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2017RG000593",
+        "source": {
+          "id": "https://openalex.org/S129102366",
+          "display_name": "Reviews of Geophysics",
+          "issn_l": "0096-1043",
+          "issn": [
+            "0096-1043",
+            "1944-9208",
+            "8755-1209"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Reviews of Geophysics",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 439
+    },
+    {
+      "id": "https://openalex.org/W2025690933",
+      "doi": "https://doi.org/10.1175/2006jas2375.1",
+      "title": "The Remote Sensing of Clouds and Precipitation from Space: A Review",
+      "publication_year": 2007,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1175/2006jas2375.1",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1175/2006jas2375.1",
+        "pdf_url": "https://journals.ametsoc.org/downloadpdf/journals/atsc/64/11/2006jas2375.1.pdf",
+        "source": {
+          "id": "https://openalex.org/S131264402",
+          "display_name": "Journal of the Atmospheric Sciences",
+          "issn_l": "0022-4928",
+          "issn": [
+            "0022-4928",
+            "1520-0469"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320260",
+          "host_organization_name": "American Meteorological Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320260"
+          ],
+          "host_organization_lineage_names": [
+            "American Meteorological Society"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of the Atmospheric Sciences",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 352
+    },
+    {
+      "id": "https://openalex.org/W2599868771",
+      "doi": "https://doi.org/10.1002/2016rg000543",
+      "title": "A review of spatial downscaling of satellite remotely sensed soil moisture",
+      "publication_year": 2017,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1002/2016rg000543",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1002/2016rg000543",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2016RG000543",
+        "source": {
+          "id": "https://openalex.org/S129102366",
+          "display_name": "Reviews of Geophysics",
+          "issn_l": "0096-1043",
+          "issn": [
+            "0096-1043",
+            "1944-9208",
+            "8755-1209"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Reviews of Geophysics",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 757
+    },
+    {
+      "id": "https://openalex.org/W2116607071",
+      "doi": "https://doi.org/10.3189/002214311796905604",
+      "title": "Glacier changes in the Garhwal Himalaya, India, from 1968 to 2006 based on remote sensing",
+      "publication_year": 2011,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3189/002214311796905604",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3189/002214311796905604",
+        "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/8E7DE744591AFEFE0C9DBF6341CE6BEE/S0022143000205625a.pdf/div-class-title-glacier-changes-in-the-garhwal-himalaya-india-from-1968-to-2006-based-on-remote-sensing-div.pdf",
+        "source": {
+          "id": "https://openalex.org/S140216511",
+          "display_name": "Journal of Glaciology",
+          "issn_l": "0022-1430",
+          "issn": [
+            "0022-1430",
+            "1727-5652"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310311721",
+          "host_organization_name": "Cambridge University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311721",
+            "https://openalex.org/P4310311702"
+          ],
+          "host_organization_lineage_names": [
+            "Cambridge University Press",
+            "University of Cambridge"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Glaciology",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 421
+    },
+    {
+      "id": "https://openalex.org/W4376139050",
+      "doi": "https://doi.org/10.1093/forestry/cpad024",
+      "title": "Remote sensing in forestry: current challenges, considerations and directions",
+      "publication_year": 2023,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1093/forestry/cpad024",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1093/forestry/cpad024",
+        "pdf_url": "https://academic.oup.com/forestry/advance-article-pdf/doi/10.1093/forestry/cpad024/50267700/cpad024.pdf",
+        "source": {
+          "id": "https://openalex.org/S152552278",
+          "display_name": "Forestry An International Journal of Forest Research",
+          "issn_l": "0015-752X",
+          "issn": [
+            "0015-752X",
+            "1464-3626"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310311648",
+          "host_organization_name": "Oxford University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311648",
+            "https://openalex.org/P4310311647"
+          ],
+          "host_organization_lineage_names": [
+            "Oxford University Press",
+            "University of Oxford"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Forestry: An International Journal of Forest Research",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 326
+    },
+    {
+      "id": "https://openalex.org/W2045297017",
+      "doi": "https://doi.org/10.3390/rs4051462",
+      "title": "Sensor Correction of a 6-Band Multispectral Imaging Sensor for UAV Remote Sensing",
+      "publication_year": 2012,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/rs4051462",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/rs4051462",
+        "pdf_url": "https://www.mdpi.com/2072-4292/4/5/1462/pdf?version=1403130055",
+        "source": {
+          "id": "https://openalex.org/S43295729",
+          "display_name": "Remote Sensing",
+          "issn_l": "2072-4292",
+          "issn": [
+            "2072-4292"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 228
+    },
+    {
+      "id": "https://openalex.org/W2069579482",
+      "doi": "https://doi.org/10.1175/jhm-d-12-0140.1",
+      "title": "An Intercomparison of Drought Indicators Based on Thermal Remote Sensing and NLDAS-2 Simulations with U.S. Drought Monitor Classifications",
+      "publication_year": 2013,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1175/jhm-d-12-0140.1",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1175/jhm-d-12-0140.1",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S37844757",
+          "display_name": "Journal of Hydrometeorology",
+          "issn_l": "1525-7541",
+          "issn": [
+            "1525-7541",
+            "1525-755X"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320260",
+          "host_organization_name": "American Meteorological Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320260"
+          ],
+          "host_organization_lineage_names": [
+            "American Meteorological Society"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Hydrometeorology",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 297
+    },
+    {
+      "id": "https://openalex.org/W3004932743",
+      "doi": "https://doi.org/10.3390/rs12030502",
+      "title": "Landslide Susceptibility Prediction Based on Remote Sensing Images and GIS: Comparisons of Supervised and Unsupervised Machine Learning Models",
+      "publication_year": 2020,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/rs12030502",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/rs12030502",
+        "pdf_url": "https://www.mdpi.com/2072-4292/12/3/502/pdf?version=1580884749",
+        "source": {
+          "id": "https://openalex.org/S43295729",
+          "display_name": "Remote Sensing",
+          "issn_l": "2072-4292",
+          "issn": [
+            "2072-4292"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 280
+    },
+    {
+      "id": "https://openalex.org/W4210430392",
+      "doi": "https://doi.org/10.3390/s22030960",
+      "title": "Remote Sensing Methods for Flood Prediction: A Review",
+      "publication_year": 2022,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/s22030960",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/s22030960",
+        "pdf_url": "https://www.mdpi.com/1424-8220/22/3/960/pdf?version=1643200689",
+        "source": {
+          "id": "https://openalex.org/S101949793",
+          "display_name": "Sensors",
+          "issn_l": "1424-8220",
+          "issn": [
+            "1424-8220"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Sensors",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 272
+    },
+    {
+      "id": "https://openalex.org/W2019604241",
+      "doi": "https://doi.org/10.1002/ldr.634",
+      "title": "Mapping soil erosion risk in Rond\u00f4nia, Brazilian Amazonia: using RUSLE, remote sensing and GIS",
+      "publication_year": 2004,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1002/ldr.634",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1002/ldr.634",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/ldr.634",
+        "source": {
+          "id": "https://openalex.org/S153614898",
+          "display_name": "Land Degradation and Development",
+          "issn_l": "1085-3278",
+          "issn": [
+            "1085-3278",
+            "1099-145X"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Land Degradation &amp; Development",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 375
+    },
+    {
+      "id": "https://openalex.org/W4312039421",
+      "doi": "https://doi.org/10.1093/nsr/nwac290",
+      "title": "Challenges and opportunities in remote sensing-based crop monitoring: a review",
+      "publication_year": 2022,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1093/nsr/nwac290",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1093/nsr/nwac290",
+        "pdf_url": "https://academic.oup.com/nsr/advance-article-pdf/doi/10.1093/nsr/nwac290/49274708/nwac290.pdf",
+        "source": {
+          "id": "https://openalex.org/S2734413303",
+          "display_name": "National Science Review",
+          "issn_l": "2053-714X",
+          "issn": [
+            "2053-714X",
+            "2095-5138"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310311648",
+          "host_organization_name": "Oxford University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311648",
+            "https://openalex.org/P4310311647"
+          ],
+          "host_organization_lineage_names": [
+            "Oxford University Press",
+            "University of Oxford"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "National Science Review",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 303
+    },
+    {
+      "id": "https://openalex.org/W4324342656",
+      "doi": "https://doi.org/10.1016/j.iswcr.2023.03.002",
+      "title": "Remote sensing of soil degradation: Progress and perspective",
+      "publication_year": 2023,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1016/j.iswcr.2023.03.002",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.iswcr.2023.03.002",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764733428",
+          "display_name": "International Soil and Water Conservation Research",
+          "issn_l": "2095-6339",
+          "issn": [
+            "2095-6339",
+            "2589-059X"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International Soil and Water Conservation Research",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 285
+    },
+    {
+      "id": "https://openalex.org/W4409709894",
+      "doi": "https://doi.org/10.1038/s41598-025-96314-x",
+      "title": "Research on object detection and recognition in remote sensing images based on YOLOv11",
+      "publication_year": 2025,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1038/s41598-025-96314-x",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/s41598-025-96314-x",
+        "pdf_url": "https://www.nature.com/articles/s41598-025-96314-x.pdf",
+        "source": {
+          "id": "https://openalex.org/S196734849",
+          "display_name": "Scientific Reports",
+          "issn_l": "2045-2322",
+          "issn": [
+            "2045-2322"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Scientific Reports",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 163
+    },
+    {
+      "id": "https://openalex.org/W4387141420",
+      "doi": "https://doi.org/10.1038/s41559-023-02206-6",
+      "title": "A high-resolution canopy height model of the Earth",
+      "publication_year": 2023,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1038/s41559-023-02206-6",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/s41559-023-02206-6",
+        "pdf_url": "https://www.nature.com/articles/s41559-023-02206-6.pdf",
+        "source": {
+          "id": "https://openalex.org/S2764884935",
+          "display_name": "Nature Ecology & Evolution",
+          "issn_l": "2397-334X",
+          "issn": [
+            "2397-334X"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature Ecology &amp; Evolution",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 607
+    },
+    {
+      "id": "https://openalex.org/W2057442840",
+      "doi": "https://doi.org/10.1371/journal.pone.0107042",
+      "title": "Disaggregating Census Data for Population Mapping Using Random Forests with Remotely-Sensed and Ancillary Data",
+      "publication_year": 2015,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1371/journal.pone.0107042",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1371/journal.pone.0107042",
+        "pdf_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0107042&type=printable",
+        "source": {
+          "id": "https://openalex.org/S202381698",
+          "display_name": "PLoS ONE",
+          "issn_l": "1932-6203",
+          "issn": [
+            "1932-6203"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310315706",
+          "host_organization_name": "Public Library of Science",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315706"
+          ],
+          "host_organization_lineage_names": [
+            "Public Library of Science"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "PLOS ONE",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 1100
+    },
+    {
+      "id": "https://openalex.org/W1977844360",
+      "doi": "https://doi.org/10.1029/2004jc002573",
+      "title": "Diffuse attenuation coefficient of downwelling irradiance: An evaluation of remote sensing methods",
+      "publication_year": 2005,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1029/2004jc002573",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1029/2004jc002573",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2004JC002573",
+        "source": {
+          "id": "https://openalex.org/S207178839",
+          "display_name": "Journal of Geophysical Research Atmospheres",
+          "issn_l": "0148-0227",
+          "issn": [
+            "0148-0227",
+            "2156-2202",
+            "2169-897X",
+            "2169-8996"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310315809",
+          "host_organization_name": "American Geophysical Union",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315809"
+          ],
+          "host_organization_lineage_names": [
+            "American Geophysical Union"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Geophysical Research: Oceans",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 319
+    },
+    {
+      "id": "https://openalex.org/W4389352554",
+      "doi": "https://doi.org/10.1109/jstars.2023.3339235",
+      "title": "Small Object Detection Algorithm Based on Improved YOLOv8 for Remote Sensing",
+      "publication_year": 2023,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1109/jstars.2023.3339235",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1109/jstars.2023.3339235",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/4609443/4609444/10342786.pdf",
+        "source": {
+          "id": "https://openalex.org/S117727964",
+          "display_name": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+          "issn_l": "1939-1404",
+          "issn": [
+            "1939-1404",
+            "2151-1535"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 290
+    },
+    {
+      "id": "https://openalex.org/W1964839977",
+      "doi": "https://doi.org/10.1007/s11434-012-5235-7",
+      "title": "China\u2019s urban expansion from 1990 to 2010 determined with satellite remote sensing",
+      "publication_year": 2012,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1007/s11434-012-5235-7",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1007/s11434-012-5235-7",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s11434-012-5235-7.pdf",
+        "source": {
+          "id": "https://openalex.org/S4210205735",
+          "display_name": "Chinese Science Bulletin",
+          "issn_l": "1001-6538",
+          "issn": [
+            "1001-6538",
+            "1861-9541"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319965",
+          "host_organization_name": "Springer Nature",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Chinese Science Bulletin",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 327
+    },
+    {
+      "id": "https://openalex.org/W2946882019",
+      "doi": "https://doi.org/10.1029/2019wr024873",
+      "title": "MERIT Hydro: A High\u2010Resolution Global Hydrography Map Based on Latest Topography Dataset",
+      "publication_year": 2019,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1029/2019wr024873",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1029/2019wr024873",
+        "pdf_url": "https://agupubs.onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2019WR024873",
+        "source": {
+          "id": "https://openalex.org/S204847658",
+          "display_name": "Water Resources Research",
+          "issn_l": "0043-1397",
+          "issn": [
+            "0043-1397",
+            "1944-7973"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Water Resources Research",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 1176
+    },
+    {
+      "id": "https://openalex.org/W2158803142",
+      "doi": "https://doi.org/10.5194/tc-8-1509-2014",
+      "title": "The Greenland Ice Mapping Project (GIMP) land classification and surface elevation data sets",
+      "publication_year": 2014,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.5194/tc-8-1509-2014",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.5194/tc-8-1509-2014",
+        "pdf_url": "https://tc.copernicus.org/articles/8/1509/2014/tc-8-1509-2014.pdf",
+        "source": {
+          "id": "https://openalex.org/S169796457",
+          "display_name": "\u0098The \u009ccryosphere",
+          "issn_l": "1994-0416",
+          "issn": [
+            "1994-0416",
+            "1994-0424"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310313756",
+          "host_organization_name": "Copernicus Publications",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310313756"
+          ],
+          "host_organization_lineage_names": [
+            "Copernicus Publications"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The Cryosphere",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 631
+    },
+    {
+      "id": "https://openalex.org/W2581906016",
+      "doi": "https://doi.org/10.3390/rs9010095",
+      "title": "Operational High Resolution Land Cover Map Production at the Country Scale Using Satellite Image Time Series",
+      "publication_year": 2017,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/rs9010095",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/rs9010095",
+        "pdf_url": "https://www.mdpi.com/2072-4292/9/1/95/pdf?version=1485085471",
+        "source": {
+          "id": "https://openalex.org/S43295729",
+          "display_name": "Remote Sensing",
+          "issn_l": "2072-4292",
+          "issn": [
+            "2072-4292"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 474
+    },
+    {
+      "id": "https://openalex.org/W3122028341",
+      "doi": "https://doi.org/10.1109/jstars.2021.3133021",
+      "title": "Hyperspectral Image Classification\u2014Traditional to Deep Models: A Survey for Future Prospects",
+      "publication_year": 2021,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1109/jstars.2021.3133021",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1109/jstars.2021.3133021",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/4609443/9656571/09645266.pdf",
+        "source": {
+          "id": "https://openalex.org/S117727964",
+          "display_name": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+          "issn_l": "1939-1404",
+          "issn": [
+            "1939-1404",
+            "2151-1535"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 400
+    },
+    {
+      "id": "https://openalex.org/W2606788270",
+      "doi": "https://doi.org/10.3390/rs9040368",
+      "title": "Segment-before-Detect: Vehicle Detection and Classification through Semantic Segmentation of Aerial Images",
+      "publication_year": 2017,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/rs9040368",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/rs9040368",
+        "pdf_url": "https://www.mdpi.com/2072-4292/9/4/368/pdf?version=1492143772",
+        "source": {
+          "id": "https://openalex.org/S43295729",
+          "display_name": "Remote Sensing",
+          "issn_l": "2072-4292",
+          "issn": [
+            "2072-4292"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 280
+    },
+    {
+      "id": "https://openalex.org/W3145752794",
+      "doi": "https://doi.org/10.34133/2021/5289697",
+      "title": "Finer-Resolution Mapping of Global Land Cover: Recent Developments, Consistency Analysis, and Prospects",
+      "publication_year": 2021,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.34133/2021/5289697",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.34133/2021/5289697",
+        "pdf_url": "https://downloads.spj.sciencemag.org/remotesensing/2021/5289697.pdf",
+        "source": {
+          "id": "https://openalex.org/S4210236127",
+          "display_name": "Journal of Remote Sensing",
+          "issn_l": "2097-0064",
+          "issn": [
+            "2097-0064",
+            "2694-1589"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310315823",
+          "host_organization_name": "American Association for the Advancement of Science",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315823"
+          ],
+          "host_organization_lineage_names": [
+            "American Association for the Advancement of Science"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 233
+    },
+    {
+      "id": "https://openalex.org/W2181836542",
+      "doi": "https://doi.org/10.5194/amt-8-4699-2015",
+      "title": "Known and unknown unknowns: uncertainty estimation in satellite remote sensing",
+      "publication_year": 2015,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.5194/amt-8-4699-2015",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.5194/amt-8-4699-2015",
+        "pdf_url": "https://www.atmos-meas-tech.net/8/4699/2015/amt-8-4699-2015.pdf",
+        "source": {
+          "id": "https://openalex.org/S70769875",
+          "display_name": "Atmospheric measurement techniques",
+          "issn_l": "1867-1381",
+          "issn": [
+            "1867-1381",
+            "1867-8548"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310313756",
+          "host_organization_name": "Copernicus Publications",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310313756"
+          ],
+          "host_organization_lineage_names": [
+            "Copernicus Publications"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Atmospheric Measurement Techniques",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 117
+    },
+    {
+      "id": "https://openalex.org/W2138373856",
+      "doi": "https://doi.org/10.3189/002214308785836922",
+      "title": "Decadal changes in glacier parameters in the Cordillera Blanca, Peru, derived from remote sensing",
+      "publication_year": 2008,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3189/002214308785836922",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3189/002214308785836922",
+        "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5722814E0DF45D532A20F645CDD0A5FA/S0022143000207703a.pdf/div-class-title-decadal-changes-in-glacier-parameters-in-the-cordillera-blanca-peru-derived-from-remote-sensing-div.pdf",
+        "source": {
+          "id": "https://openalex.org/S140216511",
+          "display_name": "Journal of Glaciology",
+          "issn_l": "0022-1430",
+          "issn": [
+            "0022-1430",
+            "1727-5652"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310311721",
+          "host_organization_name": "Cambridge University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311721",
+            "https://openalex.org/P4310311702"
+          ],
+          "host_organization_lineage_names": [
+            "Cambridge University Press",
+            "University of Cambridge"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Glaciology",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 295
+    },
+    {
+      "id": "https://openalex.org/W3130585423",
+      "doi": "https://doi.org/10.3389/frsen.2021.619818",
+      "title": "Grand Challenges in Satellite Remote Sensing",
+      "publication_year": 2021,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3389/frsen.2021.619818",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3389/frsen.2021.619818",
+        "pdf_url": "https://www.frontiersin.org/articles/10.3389/frsen.2021.619818/pdf",
+        "source": {
+          "id": "https://openalex.org/S4210194326",
+          "display_name": "Frontiers in Remote Sensing",
+          "issn_l": "2673-6187",
+          "issn": [
+            "2673-6187"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320527",
+          "host_organization_name": "Frontiers Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320527"
+          ],
+          "host_organization_lineage_names": [
+            "Frontiers Media"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Frontiers in Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 195
+    },
+    {
+      "id": "https://openalex.org/W2772366318",
+      "doi": "https://doi.org/10.1038/s41467-017-02142-7",
+      "title": "An assessment of the global impact of 21st century land use change on soil erosion",
+      "publication_year": 2017,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1038/s41467-017-02142-7",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/s41467-017-02142-7",
+        "pdf_url": "https://www.nature.com/articles/s41467-017-02142-7.pdf",
+        "source": {
+          "id": "https://openalex.org/S64187185",
+          "display_name": "Nature Communications",
+          "issn_l": "2041-1723",
+          "issn": [
+            "2041-1723"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature Communications",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 2702
+    },
+    {
+      "id": "https://openalex.org/W3194719203",
+      "doi": "https://doi.org/10.1016/j.rse.2021.112631",
+      "title": "Satellite remote sensing of pelagic Sargassum macroalgae: The power of high resolution and deep learning",
+      "publication_year": 2021,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1016/j.rse.2021.112631",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/j.rse.2021.112631",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S141808269",
+          "display_name": "Remote Sensing of Environment",
+          "issn_l": "0034-4257",
+          "issn": [
+            "0034-4257",
+            "1879-0704"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Remote Sensing of Environment",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 133
+    },
+    {
+      "id": "https://openalex.org/W2894470772",
+      "doi": "https://doi.org/10.1016/j.rse.2018.09.006",
+      "title": "A methodology to derive global maps of leaf traits using remote sensing and climate data",
+      "publication_year": 2018,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1016/j.rse.2018.09.006",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.rse.2018.09.006",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S0034425718304176",
+        "source": {
+          "id": "https://openalex.org/S141808269",
+          "display_name": "Remote Sensing of Environment",
+          "issn_l": "0034-4257",
+          "issn": [
+            "0034-4257",
+            "1879-0704"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Remote Sensing of Environment",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 238
+    },
+    {
+      "id": "https://openalex.org/W3002608077",
+      "doi": "https://doi.org/10.5194/essd-12-1625-2020",
+      "title": "Development of a global 30\u2009m impervious surface map using multisource and multitemporal remote sensing datasets with the Google Earth Engine platform",
+      "publication_year": 2020,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.5194/essd-12-1625-2020",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.5194/essd-12-1625-2020",
+        "pdf_url": "https://essd.copernicus.org/articles/12/1625/2020/essd-12-1625-2020.pdf",
+        "source": {
+          "id": "https://openalex.org/S106909380",
+          "display_name": "Earth system science data",
+          "issn_l": "1866-3508",
+          "issn": [
+            "1866-3508",
+            "1866-3516"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310313756",
+          "host_organization_name": "Copernicus Publications",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310313756"
+          ],
+          "host_organization_lineage_names": [
+            "Copernicus Publications"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Earth System Science Data",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 314
+    },
+    {
+      "id": "https://openalex.org/W4380853827",
+      "doi": "https://doi.org/10.1016/j.isprsjprs.2023.05.028",
+      "title": "Nighttime light remote sensing for urban applications: Progress, challenges, and prospects",
+      "publication_year": 2023,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1016/j.isprsjprs.2023.05.028",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.isprsjprs.2023.05.028",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S173339282",
+          "display_name": "ISPRS Journal of Photogrammetry and Remote Sensing",
+          "issn_l": "0924-2716",
+          "issn": [
+            "0924-2716",
+            "1872-8235"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "ISPRS Journal of Photogrammetry and Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 265
+    }
+  ],
+  "group_by": []
+}

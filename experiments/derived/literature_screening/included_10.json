@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "count": 58121,
+    "db_response_time_ms": 264,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where full text has (Scale Effect of Land Cover Classification from Multi-Resolution Satellite Remote Sensing Data)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "Scale Effect of Land Cover Classification from Multi-Resolution Satellite Remote Sensing Data",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:Scale Effect of Land Cover Classification from Multi-Resolution Satellite Remote Sensing Data&per_page=5"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W4383262716",
+      "doi": "https://doi.org/10.3390/s23136136",
+      "title": "Scale Effect of Land Cover Classification from Multi-Resolution Satellite Remote Sensing Data",
+      "publication_year": 2023,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/s23136136",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/s23136136",
+        "pdf_url": "https://www.mdpi.com/1424-8220/23/13/6136/pdf?version=1688458591",
+        "source": {
+          "id": "https://openalex.org/S101949793",
+          "display_name": "Sensors",
+          "issn_l": "1424-8220",
+          "issn": [
+            "1424-8220"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Sensors",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 22
+    },
+    {
+      "id": "https://openalex.org/W4375841206",
+      "doi": "https://doi.org/10.20944/preprints202305.0371.v1",
+      "title": "Scale Effect of Land Cover Classification from Multi-Resolution Satellite Remote Sensing Data",
+      "publication_year": 2023,
+      "type": "preprint",
+      "primary_location": {
+        "id": "doi:10.20944/preprints202305.0371.v1",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.20944/preprints202305.0371.v1",
+        "pdf_url": "https://www.preprints.org/manuscript/202305.0371/v1/download",
+        "source": {
+          "id": "https://openalex.org/S6309402219",
+          "display_name": "Preprints.org",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "posted-content"
+      },
+      "cited_by_count": 16
+    },
+    {
+      "id": "https://openalex.org/W2119132330",
+      "doi": "https://doi.org/10.1175/bams-85-3-381",
+      "title": "The Global Land Data Assimilation System",
+      "publication_year": 2004,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1175/bams-85-3-381",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1175/bams-85-3-381",
+        "pdf_url": "https://journals.ametsoc.org/downloadpdf/journals/bams/85/3/bams-85-3-381.pdf",
+        "source": {
+          "id": "https://openalex.org/S140302479",
+          "display_name": "Bulletin of the American Meteorological Society",
+          "issn_l": "0003-0007",
+          "issn": [
+            "0003-0007",
+            "1520-0477"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320260",
+          "host_organization_name": "American Meteorological Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320260"
+          ],
+          "host_organization_lineage_names": [
+            "American Meteorological Society"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Bulletin of the American Meteorological Society",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 5744
+    },
+    {
+      "id": "https://openalex.org/W2617056706",
+      "doi": "https://doi.org/10.1155/2017/1353691",
+      "title": "Significant Remote Sensing Vegetation Indices: A Review of Developments and Applications",
+      "publication_year": 2017,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1155/2017/1353691",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1155/2017/1353691",
+        "pdf_url": "http://downloads.hindawi.com/journals/js/2017/1353691.pdf",
+        "source": {
+          "id": "https://openalex.org/S96783963",
+          "display_name": "Journal of Sensors",
+          "issn_l": "1687-725X",
+          "issn": [
+            "1687-725X",
+            "1687-7268"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319869",
+          "host_organization_name": "Hindawi Publishing Corporation",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319869"
+          ],
+          "host_organization_lineage_names": [
+            "Hindawi Publishing Corporation"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Sensors",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 2431
+    },
+    {
+      "id": "https://openalex.org/W2098676252",
+      "doi": "https://doi.org/10.3390/rs71114680",
+      "title": "Transferring Deep Convolutional Neural Networks for the Scene Classification of High-Resolution Remote Sensing Imagery",
+      "publication_year": 2015,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/rs71114680",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/rs71114680",
+        "pdf_url": "https://www.mdpi.com/2072-4292/7/11/14680/pdf?version=1446720431",
+        "source": {
+          "id": "https://openalex.org/S43295729",
+          "display_name": "Remote Sensing",
+          "issn_l": "2072-4292",
+          "issn": [
+            "2072-4292"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 1211
+    }
+  ],
+  "group_by": []
+}

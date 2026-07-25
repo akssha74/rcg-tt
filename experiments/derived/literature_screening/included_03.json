@@ -1,0 +1,232 @@
+{
+  "meta": {
+    "count": 40364,
+    "db_response_time_ms": 163,
+    "page": 1,
+    "per_page": 5,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where full text has (Classification Confidence Estimation with Test-Time Data-Augmentation)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "Classification Confidence Estimation with Test-Time Data-Augmentation",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:Classification Confidence Estimation with Test-Time Data-Augmentation&per_page=5"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2954996726",
+      "doi": "https://doi.org/10.1186/s40537-019-0197-0",
+      "title": "A survey on Image Data Augmentation for Deep Learning",
+      "publication_year": 2019,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1186/s40537-019-0197-0",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1186/s40537-019-0197-0",
+        "pdf_url": "https://journalofbigdata.springeropen.com/track/pdf/10.1186/s40537-019-0197-0",
+        "source": {
+          "id": "https://openalex.org/S2737955091",
+          "display_name": "Journal Of Big Data",
+          "issn_l": "2196-1115",
+          "issn": [
+            "2196-1115"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Big Data",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 12627
+    },
+    {
+      "id": "https://openalex.org/W3038321616",
+      "doi": "https://doi.org/10.48550/arxiv.2006.16705",
+      "title": "Classification Confidence Estimation with Test-Time Data-Augmentation",
+      "publication_year": 2020,
+      "type": "preprint",
+      "primary_location": {
+        "id": "pmh:oai:arXiv.org:2006.16705",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2006.16705",
+        "pdf_url": "https://arxiv.org/pdf/2006.16705",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "text"
+      },
+      "cited_by_count": 8
+    },
+    {
+      "id": "https://openalex.org/W2887976372",
+      "doi": "https://doi.org/10.1016/j.neucom.2019.01.103",
+      "title": "Aleatoric uncertainty estimation with test-time augmentation for medical image segmentation with convolutional neural networks",
+      "publication_year": 2019,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1016/j.neucom.2019.01.103",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.neucom.2019.01.103",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S45693802",
+          "display_name": "Neurocomputing",
+          "issn_l": "0925-2312",
+          "issn": [
+            "0925-2312",
+            "1872-8286"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Neurocomputing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 648
+    },
+    {
+      "id": "https://openalex.org/W2219591537",
+      "doi": "https://doi.org/10.2147/clep.s91125",
+      "title": "The Danish National Patient Registry: a review of content, data quality, and research potential",
+      "publication_year": 2015,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.2147/clep.s91125",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.2147/clep.s91125",
+        "pdf_url": "https://www.dovepress.com/getfile.php?fileID=28043",
+        "source": {
+          "id": "https://openalex.org/S2736481244",
+          "display_name": "Clinical Epidemiology",
+          "issn_l": "1179-1349",
+          "issn": [
+            "1179-1349"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320348",
+          "host_organization_name": "Dove Medical Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320348"
+          ],
+          "host_organization_lineage_names": [
+            "Dove Medical Press"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Clinical Epidemiology",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 4822
+    },
+    {
+      "id": "https://openalex.org/W2998434318",
+      "doi": "https://doi.org/10.1609/aaai.v34i07.6944",
+      "title": "SiamFC++: Towards Robust and Accurate Visual Tracking with Target Estimation Guidelines",
+      "publication_year": 2020,
+      "type": "conference-paper",
+      "primary_location": {
+        "id": "doi:10.1609/aaai.v34i07.6944",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1609/aaai.v34i07.6944",
+        "pdf_url": "https://ojs.aaai.org/index.php/AAAI/article/download/6944/6798",
+        "source": {
+          "id": "https://openalex.org/S4210191458",
+          "display_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+          "issn_l": "2159-5399",
+          "issn": [
+            "2159-5399",
+            "2374-3468"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4310320058",
+          "host_organization_name": "Association for the Advancement of Artificial Intelligence",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320058"
+          ],
+          "host_organization_lineage_names": [
+            "Association for the Advancement of Artificial Intelligence"
+          ],
+          "type": "conference"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the AAAI Conference on Artificial Intelligence",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 935
+    }
+  ],
+  "group_by": []
+}

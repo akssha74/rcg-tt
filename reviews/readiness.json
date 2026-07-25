@@ -26,7 +26,7 @@
     {
       "requirement": "Accessible data/code provenance",
       "status": "compliant",
-      "source_url": "https://github.com/akssha74/rcg-tt/releases/tag/v2.0.3",
+      "source_url": "https://github.com/akssha74/rcg-tt/releases/tag/v3.0.0",
       "verified_at": "2026-07-25T04:25:00Z",
       "evidence": ["submission/verification.json", "https://doi.org/10.5281/zenodo.21510152"]
     }
@@ -34,11 +34,11 @@
   "dimensions": {
     "novelty": {
       "score": 3,
-      "evidence": ["research/novelty-matrix.md", "reviews/greatness-independent.md"]
+      "evidence": ["C013", "research/novelty-matrix.md", "reviews/greatness-v3-independent.md"]
     },
     "significance": {
-      "score": 4,
-      "evidence": ["C002", "C006", "C008", "C010"]
+      "score": 5,
+      "evidence": ["C002", "C006", "C008", "C010", "C012", "C014", "C015"]
     },
     "methodology": {
       "score": 5,
@@ -71,14 +71,14 @@
   },
   "independent_reviews": [
     {"type": "scientific", "path": "reviews/scientific-independent.md"},
-    {"type": "greatness", "path": "reviews/greatness-independent.md"},
+    {"type": "greatness", "path": "reviews/greatness-v3-independent.md"},
     {"type": "reproducibility", "path": "reviews/Review_Report_IJRS_Resolution_Audit_Round3_Final.docx"}
   ],
-  "greatness_justification": "The paper is a valid, transparent and publicly reproducible bounded audit. It is not yet scientifically great under the locked bar because the exact failure mode is not shown prevalent in published EO practice and generality is limited to one backbone, bicubic degradation and two events.",
+  "greatness_justification": "The paper is valid, transparent and publicly reproducible. Architecture/operator robustness, fine-reference correspondence mechanism, and a third measured-GSD event are now established. It remains not-great under the locked negative-characterization bar because the exact failure mode is not shown prevalent in published EO practice and real-world evidence remains hurricane/task-family limited.",
   "greatness_adjudication": {
     "adjudicator": "independent",
     "presumption": "not-great",
-    "strongest_rejection": "Integrative novelty and limited architecture/event generality remain.",
+    "strongest_rejection": "No specific cited widespread published practice is refuted, and real-world evidence remains hurricane/task-family limited.",
     "rebuttals": [
       {
         "attack": "W13 was outcome-servingly misadjudicated",
@@ -95,7 +95,7 @@
     ],
     "standing_rejections": [
       "Incremental/integrative novelty remains unresolved.",
-      "Architecture, degradation, hazard, and event generality remain insufficient for the locked greatness bar."
+      "Hazard, task, and real-sensor generality remain insufficient for the locked greatness bar."
     ],
     "verdict": "not-great"
   },
@@ -108,7 +108,10 @@
       "AIDER five-class disaster scenes",
       "Hurricane Damage binary satellite scenes",
       "CRASAR paired UAS/satellite measured-GSD imagery",
-      "three independently trained ResNet-18 seeds"
+      "Hurricane Idalia paired UAS/crewed-aircraft imagery",
+      "three independently trained ResNet-18 seeds",
+      "three independently trained MobileNetV3-Small seeds",
+      "bicubic, bilinear, nearest-neighbour and box operators"
     ]
   },
   "verdict_good_not_great": true,
@@ -117,13 +120,13 @@
   "submission_recommended": false,
   "greatness_blockers": [
     "Incremental/integrative novelty remains unresolved.",
-    "Architecture, degradation, hazard, and event generality remain insufficient for the locked greatness bar."
+    "Hazard, task, and real-sensor generality remain insufficient for the locked greatness bar."
   ],
   "make_it_great_loop": {
     "status": "in_progress",
-    "iteration": 5,
-    "current_gap": "Field-level novelty and broader generality",
-    "next_action": "Open a stronger sibling branch or add a second architecture and substantially more independent hazards/events; do not submit this branch as scientifically great.",
+    "iteration": 6,
+    "current_gap": "Published-practice target and non-hurricane hazard/task generality",
+    "next_action": "If a broader reproducible search still finds no actual published misuse, pivot to a new-guarantee sibling rather than claim negative-characterization greatness; otherwise add non-hurricane native-resolution tasks.",
     "history": [
       {
         "iteration": 1,
@@ -159,13 +162,20 @@
         "action": "Synchronize fail-closed state and retain no-submission recommendation.",
         "evidence": ["reviews/Review_Report_IJRS_Resolution_Audit_Round3_Final.docx", "reviews/scientific-independent.md", "reviews/greatness-independent.md"],
         "independent_verdict": "not-great"
+      },
+      {
+        "iteration": 6,
+        "diagnosis": "Independent review retained one-architecture/operator, mechanism-identification, and event-generalisation objections.",
+        "action": "Add three MobileNet seeds, four operators across ResNet/MobileNet, a 24-combination reveal/mask identification experiment, a 12-work literature audit, and a 458-pair third-event Idalia sensitivity.",
+        "evidence": ["C012", "C013", "C014", "C015", "https://github.com/akssha74/rcg-tt/releases/tag/v3.0.0"],
+        "independent_verdict": "pending fresh v3 review"
       }
     ]
   },
   "human_subject_dependency": "none",
   "blocking_issues": [
     "Incremental/integrative novelty remains unresolved.",
-    "Architecture, degradation, hazard, and event generality remain insufficient for the locked greatness bar."
+    "Hazard, task, and real-sensor generality remain insufficient for the locked greatness bar."
   ],
   "unresolved_critical_findings": [],
   "strict_validation_passed": false,

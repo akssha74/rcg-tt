@@ -1,0 +1,2104 @@
+{
+  "meta": {
+    "count": 13301,
+    "db_response_time_ms": 56,
+    "page": 1,
+    "per_page": 50,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where full text has (scale consistency misclassification detection uncertainty)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "fulltext.search",
+            "value": "scale consistency misclassification detection uncertainty",
+            "operator": "has"
+          }
+        ]
+      },
+      "url": "/works?filter=fulltext.search:scale consistency misclassification detection uncertainty&per_page=50"
+    },
+    "cost_usd": 0.001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2031489346",
+      "doi": "https://doi.org/10.1007/s11263-009-0275-4",
+      "title": "The Pascal Visual Object Classes (VOC) Challenge",
+      "publication_year": 2009,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1007/s11263-009-0275-4",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/s11263-009-0275-4",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S25538012",
+          "display_name": "International Journal of Computer Vision",
+          "issn_l": "0920-5691",
+          "issn": [
+            "0920-5691",
+            "1573-1405"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International Journal of Computer Vision",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 19649
+    },
+    {
+      "id": "https://openalex.org/W3183048323",
+      "doi": "https://doi.org/10.1007/s10462-023-10562-9",
+      "title": "A survey of uncertainty in deep neural networks",
+      "publication_year": 2023,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1007/s10462-023-10562-9",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1007/s10462-023-10562-9",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10462-023-10562-9.pdf",
+        "source": {
+          "id": "https://openalex.org/S122814990",
+          "display_name": "Artificial Intelligence Review",
+          "issn_l": "0269-2821",
+          "issn": [
+            "0269-2821",
+            "1573-7462"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Artificial Intelligence Review",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 1211
+    },
+    {
+      "id": "https://openalex.org/W2125065061",
+      "doi": "https://doi.org/10.1016/s0140-6736(12)61728-0",
+      "title": "Global and regional mortality from 235 causes of death for 20 age groups in 1990 and 2010: a systematic analysis for the Global Burden of Disease Study 2010",
+      "publication_year": 2012,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1016/s0140-6736(12)61728-0",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1016/s0140-6736(12)61728-0",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S49861241",
+          "display_name": "The Lancet",
+          "issn_l": "0099-5355",
+          "issn": [
+            "0099-5355",
+            "0140-6736",
+            "1474-547X"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The Lancet",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 14299
+    },
+    {
+      "id": "https://openalex.org/W2154026962",
+      "doi": "https://doi.org/10.1038/ismej.2011.139",
+      "title": "An improved Greengenes taxonomy with explicit ranks for ecological and evolutionary analyses of bacteria and archaea",
+      "publication_year": 2011,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1038/ismej.2011.139",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/ismej.2011.139",
+        "pdf_url": "https://www.nature.com/articles/ismej2011139.pdf",
+        "source": {
+          "id": "https://openalex.org/S149218730",
+          "display_name": "The ISME Journal",
+          "issn_l": "1751-7362",
+          "issn": [
+            "1751-7362",
+            "1751-7370"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319965",
+          "host_organization_name": "Springer Nature",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-sa",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-sa",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The ISME Journal",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 5354
+    },
+    {
+      "id": "https://openalex.org/W2954996726",
+      "doi": "https://doi.org/10.1186/s40537-019-0197-0",
+      "title": "A survey on Image Data Augmentation for Deep Learning",
+      "publication_year": 2019,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1186/s40537-019-0197-0",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1186/s40537-019-0197-0",
+        "pdf_url": "https://journalofbigdata.springeropen.com/track/pdf/10.1186/s40537-019-0197-0",
+        "source": {
+          "id": "https://openalex.org/S2737955091",
+          "display_name": "Journal Of Big Data",
+          "issn_l": "2196-1115",
+          "issn": [
+            "2196-1115"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Big Data",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 12627
+    },
+    {
+      "id": "https://openalex.org/W2345175558",
+      "doi": "https://doi.org/10.3390/rs8050359",
+      "title": "Evaluation of MODIS LAI/FPAR Product Collection 6. Part 1: Consistency and Improvements",
+      "publication_year": 2016,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/rs8050359",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/rs8050359",
+        "pdf_url": "https://www.mdpi.com/2072-4292/8/5/359/pdf?version=1461659546",
+        "source": {
+          "id": "https://openalex.org/S43295729",
+          "display_name": "Remote Sensing",
+          "issn_l": "2072-4292",
+          "issn": [
+            "2072-4292"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 246
+    },
+    {
+      "id": "https://openalex.org/W2047977265",
+      "doi": "https://doi.org/10.1017/s1355617708080521",
+      "title": "Potential for misclassification of mild cognitive impairment: A study of memory scores on the Wechsler Memory Scale-III in healthy older adults",
+      "publication_year": 2008,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1017/s1355617708080521",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1017/s1355617708080521",
+        "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/3C2E97FAF622EE11981C274B673EF2AC/S1355617708080521a.pdf/div-class-title-potential-for-misclassification-of-mild-cognitive-impairment-a-study-of-memory-scores-on-the-wechsler-memory-scale-iii-in-healthy-older-adults-div.pdf",
+        "source": {
+          "id": "https://openalex.org/S9803440",
+          "display_name": "Journal of the International Neuropsychological Society",
+          "issn_l": "1355-6177",
+          "issn": [
+            "1355-6177",
+            "1469-7661"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310311721",
+          "host_organization_name": "Cambridge University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311721",
+            "https://openalex.org/P4310311702"
+          ],
+          "host_organization_lineage_names": [
+            "Cambridge University Press",
+            "University of Cambridge"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of the International Neuropsychological Society",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 158
+    },
+    {
+      "id": "https://openalex.org/W3044049599",
+      "doi": "https://doi.org/10.1038/s41467-020-17316-z",
+      "title": "Non-invasive early detection of cancer four years before conventional diagnosis using a blood test",
+      "publication_year": 2020,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1038/s41467-020-17316-z",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/s41467-020-17316-z",
+        "pdf_url": "https://www.nature.com/articles/s41467-020-17316-z.pdf",
+        "source": {
+          "id": "https://openalex.org/S64187185",
+          "display_name": "Nature Communications",
+          "issn_l": "2041-1723",
+          "issn": [
+            "2041-1723"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature Communications",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 657
+    },
+    {
+      "id": "https://openalex.org/W1969415786",
+      "doi": "https://doi.org/10.1214/009053604000001147",
+      "title": "Spike and slab variable selection: Frequentist and Bayesian strategies",
+      "publication_year": 2005,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1214/009053604000001147",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1214/009053604000001147",
+        "pdf_url": "https://projecteuclid.org/journals/annals-of-statistics/volume-33/issue-2/Spike-and-slab-variable-selection-Frequentist-and-Bayesian-strategies/10.1214/009053604000001147.pdf",
+        "source": {
+          "id": "https://openalex.org/S119757635",
+          "display_name": "The Annals of Statistics",
+          "issn_l": "0090-5364",
+          "issn": [
+            "0090-5364",
+            "2168-8966"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319881",
+          "host_organization_name": "Institute of Mathematical Statistics",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319881"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Mathematical Statistics"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The Annals of Statistics",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 1082
+    },
+    {
+      "id": "https://openalex.org/W2919686168",
+      "doi": "https://doi.org/10.1029/2018jd029598",
+      "title": "Validation, Stability, and Consistency of MODIS Collection 6.1 and VIIRS Version 1 Deep Blue Aerosol Data Over Land",
+      "publication_year": 2019,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1029/2018jd029598",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1029/2018jd029598",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2018JD029598",
+        "source": {
+          "id": "https://openalex.org/S207178839",
+          "display_name": "Journal of Geophysical Research Atmospheres",
+          "issn_l": "0148-0227",
+          "issn": [
+            "0148-0227",
+            "2156-2202",
+            "2169-897X",
+            "2169-8996"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310315809",
+          "host_organization_name": "American Geophysical Union",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315809"
+          ],
+          "host_organization_lineage_names": [
+            "American Geophysical Union"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Geophysical Research: Atmospheres",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 279
+    },
+    {
+      "id": "https://openalex.org/W2592829405",
+      "doi": "https://doi.org/10.5194/essd-9-511-2017",
+      "title": "Uncertainty information in climate data records from Earth observation",
+      "publication_year": 2017,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.5194/essd-9-511-2017",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.5194/essd-9-511-2017",
+        "pdf_url": "https://www.earth-syst-sci-data.net/9/511/2017/essd-9-511-2017.pdf",
+        "source": {
+          "id": "https://openalex.org/S106909380",
+          "display_name": "Earth system science data",
+          "issn_l": "1866-3508",
+          "issn": [
+            "1866-3508",
+            "1866-3516"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310313756",
+          "host_organization_name": "Copernicus Publications",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310313756"
+          ],
+          "host_organization_lineage_names": [
+            "Copernicus Publications"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Earth System Science Data",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 191
+    },
+    {
+      "id": "https://openalex.org/W3184566187",
+      "doi": "https://doi.org/10.3390/rs13245094",
+      "title": "S2Looking: A Satellite Side-Looking Dataset for Building Change Detection",
+      "publication_year": 2021,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/rs13245094",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/rs13245094",
+        "pdf_url": "https://www.mdpi.com/2072-4292/13/24/5094/pdf?version=1639697420",
+        "source": {
+          "id": "https://openalex.org/S43295729",
+          "display_name": "Remote Sensing",
+          "issn_l": "2072-4292",
+          "issn": [
+            "2072-4292"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 209
+    },
+    {
+      "id": "https://openalex.org/W4391753792",
+      "doi": "https://doi.org/10.3390/rs16040656",
+      "title": "Flood Detection with SAR: A Review of Techniques and Datasets",
+      "publication_year": 2024,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/rs16040656",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/rs16040656",
+        "pdf_url": "https://www.mdpi.com/2072-4292/16/4/656/pdf?version=1707555609",
+        "source": {
+          "id": "https://openalex.org/S43295729",
+          "display_name": "Remote Sensing",
+          "issn_l": "2072-4292",
+          "issn": [
+            "2072-4292"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 188
+    },
+    {
+      "id": "https://openalex.org/W2991305957",
+      "doi": "https://doi.org/10.1109/access.2019.2954791",
+      "title": "A Comprehensive Survey for Intelligent Spam Email Detection",
+      "publication_year": 2019,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1109/access.2019.2954791",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1109/access.2019.2954791",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08907831.pdf",
+        "source": {
+          "id": "https://openalex.org/S2485537415",
+          "display_name": "IEEE Access",
+          "issn_l": "2169-3536",
+          "issn": [
+            "2169-3536"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Access",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 242
+    },
+    {
+      "id": "https://openalex.org/W1981501248",
+      "doi": "https://doi.org/10.3310/hta7270",
+      "title": "Evaluating non-randomised intervention studies",
+      "publication_year": 2003,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3310/hta7270",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3310/hta7270",
+        "pdf_url": "https://njl-admin.nihr.ac.uk/document/download/2004687",
+        "source": {
+          "id": "https://openalex.org/S191206091",
+          "display_name": "Health Technology Assessment",
+          "issn_l": "1366-5278",
+          "issn": [
+            "1366-5278",
+            "2046-4924",
+            "2046-4932"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310311817",
+          "host_organization_name": "NIHR Journals Library",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311817"
+          ],
+          "host_organization_lineage_names": [
+            "NIHR Journals Library"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Health Technology Assessment",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 2932
+    },
+    {
+      "id": "https://openalex.org/W3205985117",
+      "doi": "https://doi.org/10.1145/3472753",
+      "title": "A Survey on Data-driven Network Intrusion Detection",
+      "publication_year": 2021,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1145/3472753",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1145/3472753",
+        "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3472753",
+        "source": {
+          "id": "https://openalex.org/S157921468",
+          "display_name": "ACM Computing Surveys",
+          "issn_l": "0360-0300",
+          "issn": [
+            "0360-0300",
+            "1557-7341"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319798",
+          "host_organization_name": "Association for Computing Machinery",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319798"
+          ],
+          "host_organization_lineage_names": [
+            "Association for Computing Machinery"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "ACM Computing Surveys",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 171
+    },
+    {
+      "id": "https://openalex.org/W2109041929",
+      "doi": "https://doi.org/10.1175/waf989.1",
+      "title": "Uncertainty and Inference for Verification Measures",
+      "publication_year": 2007,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1175/waf989.1",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1175/waf989.1",
+        "pdf_url": "https://journals.ametsoc.org/downloadpdf/journals/wefo/22/3/waf989_1.pdf",
+        "source": {
+          "id": "https://openalex.org/S203100778",
+          "display_name": "Weather and Forecasting",
+          "issn_l": "0882-8156",
+          "issn": [
+            "0882-8156",
+            "1520-0434"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320260",
+          "host_organization_name": "American Meteorological Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320260"
+          ],
+          "host_organization_lineage_names": [
+            "American Meteorological Society"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Weather and Forecasting",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 119
+    },
+    {
+      "id": "https://openalex.org/W2746455801",
+      "doi": "https://doi.org/10.1056/nejmoa1603693",
+      "title": "Global, Regional, and National Burden of Rheumatic Heart Disease, 1990\u20132015",
+      "publication_year": 2017,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1056/nejmoa1603693",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1056/nejmoa1603693",
+        "pdf_url": "https://www.nejm.org/doi/pdf/10.1056/NEJMoa1603693?articleTools=true",
+        "source": {
+          "id": "https://openalex.org/S62468778",
+          "display_name": "New England Journal of Medicine",
+          "issn_l": "0028-4793",
+          "issn": [
+            "0028-4793",
+            "1533-4406"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320239",
+          "host_organization_name": "Massachusetts Medical Society",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320239"
+          ],
+          "host_organization_lineage_names": [
+            "Massachusetts Medical Society"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "New England Journal of Medicine",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 1213
+    },
+    {
+      "id": "https://openalex.org/W3044129898",
+      "doi": "https://doi.org/10.1109/access.2020.3010274",
+      "title": "Anomalous Example Detection in Deep Learning: A Survey",
+      "publication_year": 2020,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1109/access.2020.3010274",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1109/access.2020.3010274",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/09144212.pdf",
+        "source": {
+          "id": "https://openalex.org/S2485537415",
+          "display_name": "IEEE Access",
+          "issn_l": "2169-3536",
+          "issn": [
+            "2169-3536"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Access",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 181
+    },
+    {
+      "id": "https://openalex.org/W2581906016",
+      "doi": "https://doi.org/10.3390/rs9010095",
+      "title": "Operational High Resolution Land Cover Map Production at the Country Scale Using Satellite Image Time Series",
+      "publication_year": 2017,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/rs9010095",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/rs9010095",
+        "pdf_url": "https://www.mdpi.com/2072-4292/9/1/95/pdf?version=1485085471",
+        "source": {
+          "id": "https://openalex.org/S43295729",
+          "display_name": "Remote Sensing",
+          "issn_l": "2072-4292",
+          "issn": [
+            "2072-4292"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 474
+    },
+    {
+      "id": "https://openalex.org/W2606788270",
+      "doi": "https://doi.org/10.3390/rs9040368",
+      "title": "Segment-before-Detect: Vehicle Detection and Classification through Semantic Segmentation of Aerial Images",
+      "publication_year": 2017,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/rs9040368",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/rs9040368",
+        "pdf_url": "https://www.mdpi.com/2072-4292/9/4/368/pdf?version=1492143772",
+        "source": {
+          "id": "https://openalex.org/S43295729",
+          "display_name": "Remote Sensing",
+          "issn_l": "2072-4292",
+          "issn": [
+            "2072-4292"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 280
+    },
+    {
+      "id": "https://openalex.org/W1984525543",
+      "doi": "https://doi.org/10.1007/s11263-007-0060-1",
+      "title": "On the Design of Cascades of Boosted Ensembles for Face Detection",
+      "publication_year": 2007,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1007/s11263-007-0060-1",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1007/s11263-007-0060-1",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S25538012",
+          "display_name": "International Journal of Computer Vision",
+          "issn_l": "0920-5691",
+          "issn": [
+            "0920-5691",
+            "1573-1405"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International Journal of Computer Vision",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 167
+    },
+    {
+      "id": "https://openalex.org/W4304195579",
+      "doi": "https://doi.org/10.1016/j.artmed.2024.102830",
+      "title": "Trustworthy clinical AI solutions: A unified review of uncertainty quantification in Deep Learning models for medical image analysis",
+      "publication_year": 2024,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1016/j.artmed.2024.102830",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.artmed.2024.102830",
+        "pdf_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0933365724000721-ga1_lrg.jpg",
+        "source": {
+          "id": "https://openalex.org/S42468263",
+          "display_name": "Artificial Intelligence in Medicine",
+          "issn_l": "0933-3657",
+          "issn": [
+            "0933-3657",
+            "1873-2860"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Artificial Intelligence in Medicine",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 213
+    },
+    {
+      "id": "https://openalex.org/W2173562516",
+      "doi": "https://doi.org/10.3390/ijgi4042519",
+      "title": "Evaluation of the Consistency of MODIS Land Cover Product (MCD12Q1) Based on Chinese 30 m GlobeLand30 Datasets: A Case Study in Anhui Province, China",
+      "publication_year": 2015,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/ijgi4042519",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/ijgi4042519",
+        "pdf_url": "https://www.mdpi.com/2220-9964/4/4/2519/pdf?version=1447666593",
+        "source": {
+          "id": "https://openalex.org/S2764431341",
+          "display_name": "ISPRS International Journal of Geo-Information",
+          "issn_l": "2220-9964",
+          "issn": [
+            "2220-9964"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "ISPRS International Journal of Geo-Information",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 122
+    },
+    {
+      "id": "https://openalex.org/W4380225220",
+      "doi": "https://doi.org/10.3390/diagnostics13111911",
+      "title": "Skin Cancer Detection Using Deep Learning\u2014A Review",
+      "publication_year": 2023,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/diagnostics13111911",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/diagnostics13111911",
+        "pdf_url": "https://www.mdpi.com/2075-4418/13/11/1911/pdf?version=1685429659",
+        "source": {
+          "id": "https://openalex.org/S4210172076",
+          "display_name": "Diagnostics",
+          "issn_l": "2075-4418",
+          "issn": [
+            "2075-4418"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Diagnostics",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 171
+    },
+    {
+      "id": "https://openalex.org/W2914845865",
+      "doi": "https://doi.org/10.1109/access.2019.2894183",
+      "title": "Intrusion Detection Systems for Intra-Vehicle Networks: A Review",
+      "publication_year": 2019,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1109/access.2019.2894183",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1109/access.2019.2894183",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08642311.pdf",
+        "source": {
+          "id": "https://openalex.org/S2485537415",
+          "display_name": "IEEE Access",
+          "issn_l": "2169-3536",
+          "issn": [
+            "2169-3536"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Access",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 177
+    },
+    {
+      "id": "https://openalex.org/W2132029553",
+      "doi": "https://doi.org/10.3389/fnhum.2015.00011",
+      "title": "Traumatic Brain Injury Detection Using Electrophysiological Methods",
+      "publication_year": 2015,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3389/fnhum.2015.00011",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3389/fnhum.2015.00011",
+        "pdf_url": "https://www.frontiersin.org/articles/10.3389/fnhum.2015.00011/pdf",
+        "source": {
+          "id": "https://openalex.org/S146364893",
+          "display_name": "Frontiers in Human Neuroscience",
+          "issn_l": "1662-5161",
+          "issn": [
+            "1662-5161"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320527",
+          "host_organization_name": "Frontiers Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320527"
+          ],
+          "host_organization_lineage_names": [
+            "Frontiers Media"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Frontiers in Human Neuroscience",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 171
+    },
+    {
+      "id": "https://openalex.org/W2122430069",
+      "doi": "https://doi.org/10.1373/clinchem.2004.038950",
+      "title": "Evaluation of Serum Protein Profiling by Surface-Enhanced Laser Desorption/Ionization Time-of-Flight Mass Spectrometry for the Detection of Prostate Cancer: I. Assessment of Platform Reproducibility",
+      "publication_year": 2004,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1373/clinchem.2004.038950",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1373/clinchem.2004.038950",
+        "pdf_url": "https://academic.oup.com/clinchem/article-pdf/51/1/102/32682360/clinchem0102.pdf",
+        "source": {
+          "id": "https://openalex.org/S139212996",
+          "display_name": "Clinical Chemistry",
+          "issn_l": "0009-9147",
+          "issn": [
+            "0009-9147",
+            "1530-8561"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320272",
+          "host_organization_name": "American Association for Clinical Chemistry",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320272"
+          ],
+          "host_organization_lineage_names": [
+            "American Association for Clinical Chemistry"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Clinical Chemistry",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 343
+    },
+    {
+      "id": "https://openalex.org/W4409709894",
+      "doi": "https://doi.org/10.1038/s41598-025-96314-x",
+      "title": "Research on object detection and recognition in remote sensing images based on YOLOv11",
+      "publication_year": 2025,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1038/s41598-025-96314-x",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1038/s41598-025-96314-x",
+        "pdf_url": "https://www.nature.com/articles/s41598-025-96314-x.pdf",
+        "source": {
+          "id": "https://openalex.org/S196734849",
+          "display_name": "Scientific Reports",
+          "issn_l": "2045-2322",
+          "issn": [
+            "2045-2322"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Scientific Reports",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 163
+    },
+    {
+      "id": "https://openalex.org/W2134962551",
+      "doi": "https://doi.org/10.3390/rs2051217",
+      "title": "Automatic Detection of Buildings and Changes in Buildings for Updating of Maps",
+      "publication_year": 2010,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/rs2051217",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/rs2051217",
+        "pdf_url": "https://www.mdpi.com/2072-4292/2/5/1217/pdf?version=1403129175",
+        "source": {
+          "id": "https://openalex.org/S43295729",
+          "display_name": "Remote Sensing",
+          "issn_l": "2072-4292",
+          "issn": [
+            "2072-4292"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 136
+    },
+    {
+      "id": "https://openalex.org/W2018796325",
+      "doi": "https://doi.org/10.3310/hta9400",
+      "title": "A randomised controlled trial and cost-effectiveness study of systematic screening (targeted and total population screening) versus routine practice for the detection of atrial fibrillation in people aged 65 and over. The SAFE study",
+      "publication_year": 2005,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3310/hta9400",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3310/hta9400",
+        "pdf_url": "https://njl-admin.nihr.ac.uk/document/download/2004990",
+        "source": {
+          "id": "https://openalex.org/S191206091",
+          "display_name": "Health Technology Assessment",
+          "issn_l": "1366-5278",
+          "issn": [
+            "1366-5278",
+            "2046-4924",
+            "2046-4932"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310311817",
+          "host_organization_name": "NIHR Journals Library",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311817"
+          ],
+          "host_organization_lineage_names": [
+            "NIHR Journals Library"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Health Technology Assessment",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 436
+    },
+    {
+      "id": "https://openalex.org/W4366083832",
+      "doi": "https://doi.org/10.1109/tnnls.2023.3265051",
+      "title": "Few-Shot Object Detection: A Comprehensive Survey",
+      "publication_year": 2023,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1109/tnnls.2023.3265051",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1109/tnnls.2023.3265051",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/5962385/6104215/10103630.pdf",
+        "source": {
+          "id": "https://openalex.org/S4210175523",
+          "display_name": "IEEE Transactions on Neural Networks and Learning Systems",
+          "issn_l": "2162-237X",
+          "issn": [
+            "2162-237X",
+            "2162-2388"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Neural Networks and Learning Systems",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 124
+    },
+    {
+      "id": "https://openalex.org/W3176923149",
+      "doi": "https://doi.org/10.1186/s40537-021-00492-0",
+      "title": "Text Data Augmentation for Deep Learning",
+      "publication_year": 2021,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1186/s40537-021-00492-0",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1186/s40537-021-00492-0",
+        "pdf_url": "https://journalofbigdata.springeropen.com/track/pdf/10.1186/s40537-021-00492-0",
+        "source": {
+          "id": "https://openalex.org/S2737955091",
+          "display_name": "Journal Of Big Data",
+          "issn_l": "2196-1115",
+          "issn": [
+            "2196-1115"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Big Data",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 1685
+    },
+    {
+      "id": "https://openalex.org/W2943316090",
+      "doi": "https://doi.org/10.1029/2018rg000608",
+      "title": "An Overview of Global Leaf Area Index (LAI): Methods, Products, Validation, and Applications",
+      "publication_year": 2019,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1029/2018rg000608",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1029/2018rg000608",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2018RG000608",
+        "source": {
+          "id": "https://openalex.org/S129102366",
+          "display_name": "Reviews of Geophysics",
+          "issn_l": "0096-1043",
+          "issn": [
+            "0096-1043",
+            "1944-9208",
+            "8755-1209"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Reviews of Geophysics",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 922
+    },
+    {
+      "id": "https://openalex.org/W4285247275",
+      "doi": "https://doi.org/10.1109/access.2022.3183083",
+      "title": "A Systematic Literature Review on Phishing Email Detection Using Natural Language Processing Techniques",
+      "publication_year": 2022,
+      "type": "review",
+      "primary_location": {
+        "id": "doi:10.1109/access.2022.3183083",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1109/access.2022.3183083",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09795286.pdf",
+        "source": {
+          "id": "https://openalex.org/S2485537415",
+          "display_name": "IEEE Access",
+          "issn_l": "2169-3536",
+          "issn": [
+            "2169-3536"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Access",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 192
+    },
+    {
+      "id": "https://openalex.org/W3139790935",
+      "doi": "https://doi.org/10.1002/rse2.200",
+      "title": "21\u00a0000 birds in 4.5\u00a0h: efficient large\u2010scale seabird detection with machine learning",
+      "publication_year": 2021,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1002/rse2.200",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1002/rse2.200",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/rse2.200",
+        "source": {
+          "id": "https://openalex.org/S2737234030",
+          "display_name": "Remote Sensing in Ecology and Conservation",
+          "issn_l": "2056-3485",
+          "issn": [
+            "2056-3485"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Remote Sensing in Ecology and Conservation",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 61
+    },
+    {
+      "id": "https://openalex.org/W4206500717",
+      "doi": "https://doi.org/10.1007/s40747-021-00608-2",
+      "title": "ETHOS: a multi-label hate speech detection dataset",
+      "publication_year": 2022,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1007/s40747-021-00608-2",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1007/s40747-021-00608-2",
+        "pdf_url": "https://link.springer.com/content/pdf/10.1007/s40747-021-00608-2.pdf",
+        "source": {
+          "id": "https://openalex.org/S3035462843",
+          "display_name": "Complex & Intelligent Systems",
+          "issn_l": "2198-6053",
+          "issn": [
+            "2198-6053",
+            "2199-4536"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319900",
+          "host_organization_name": "Springer Science+Business Media",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319900",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Springer Science+Business Media",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Complex &amp; Intelligent Systems",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 113
+    },
+    {
+      "id": "https://openalex.org/W2984729070",
+      "doi": "https://doi.org/10.5194/amt-13-373-2020",
+      "title": "A review and framework for the evaluation of pixel-level uncertainty estimates in satellite aerosol remote sensing",
+      "publication_year": 2020,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.5194/amt-13-373-2020",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.5194/amt-13-373-2020",
+        "pdf_url": "https://amt.copernicus.org/articles/13/373/2020/amt-13-373-2020.pdf",
+        "source": {
+          "id": "https://openalex.org/S70769875",
+          "display_name": "Atmospheric measurement techniques",
+          "issn_l": "1867-1381",
+          "issn": [
+            "1867-1381",
+            "1867-8548"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310313756",
+          "host_organization_name": "Copernicus Publications",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310313756"
+          ],
+          "host_organization_lineage_names": [
+            "Copernicus Publications"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Atmospheric Measurement Techniques",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 127
+    },
+    {
+      "id": "https://openalex.org/W2738082385",
+      "doi": "https://doi.org/10.1038/s41588-018-0090-3",
+      "title": "Genome-wide association analyses identify 44 risk variants and refine the genetic architecture of major depression",
+      "publication_year": 2018,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1038/s41588-018-0090-3",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1038/s41588-018-0090-3",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S137905309",
+          "display_name": "Nature Genetics",
+          "issn_l": "1061-4036",
+          "issn": [
+            "1061-4036",
+            "1546-1718"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319908",
+          "host_organization_name": "Nature Portfolio",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319908",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "Nature Portfolio",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Nature Genetics",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 3330
+    },
+    {
+      "id": "https://openalex.org/W3115025749",
+      "doi": "https://doi.org/10.1016/j.cosrev.2020.100357",
+      "title": "Ensemble learning for intrusion detection systems: A systematic mapping study and cross-benchmark evaluation",
+      "publication_year": 2020,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1016/j.cosrev.2020.100357",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.cosrev.2020.100357",
+        "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1574013720304573",
+        "source": {
+          "id": "https://openalex.org/S73121659",
+          "display_name": "Computer Science Review",
+          "issn_l": "1574-0137",
+          "issn": [
+            "1574-0137",
+            "1876-7745"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Computer Science Review",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 165
+    },
+    {
+      "id": "https://openalex.org/W2273254134",
+      "doi": "https://doi.org/10.5281/zenodo.1331229",
+      "title": "Network Intrusion Detection Design Using Feature Selection Of Soft Computing Paradigms",
+      "publication_year": 2008,
+      "type": "article",
+      "primary_location": {
+        "id": "pmh:oai:zenodo.org:1331229",
+        "is_oa": true,
+        "landing_page_url": "https://zenodo.org/record/1331229",
+        "pdf_url": "https://zenodo.org/record/1331229",
+        "source": {
+          "id": "https://openalex.org/S4306400562",
+          "display_name": "Zenodo (CERN European Organization for Nuclear Research)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I67311998",
+          "host_organization_name": "European Organization for Nuclear Research",
+          "host_organization_lineage": [
+            "https://openalex.org/I67311998"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "International Journal of Information, Control and Computer Sciences 1.0(11)",
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      "cited_by_count": 90
+    },
+    {
+      "id": "https://openalex.org/W2087200541",
+      "doi": "https://doi.org/10.1186/1471-2105-13-164",
+      "title": "SNP interaction detection with Random Forests in high-dimensional genetic data",
+      "publication_year": 2012,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1186/1471-2105-13-164",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1186/1471-2105-13-164",
+        "pdf_url": "https://bmcbioinformatics.biomedcentral.com/counter/pdf/10.1186/1471-2105-13-164",
+        "source": {
+          "id": "https://openalex.org/S19032547",
+          "display_name": "BMC Bioinformatics",
+          "issn_l": "1471-2105",
+          "issn": [
+            "1471-2105"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320256",
+          "host_organization_name": "BioMed Central",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320256",
+            "https://openalex.org/P4310319965"
+          ],
+          "host_organization_lineage_names": [
+            "BioMed Central",
+            "Springer Nature"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "BMC Bioinformatics",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 116
+    },
+    {
+      "id": "https://openalex.org/W2157431481",
+      "doi": "https://doi.org/10.1109/icra.2013.6630567",
+      "title": "Efficient temporal consistency for streaming video scene analysis",
+      "publication_year": 2013,
+      "type": "conference-paper",
+      "primary_location": {
+        "id": "doi:10.1109/icra.2013.6630567",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/icra.2013.6630567",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "2013 IEEE International Conference on Robotics and Automation",
+        "raw_type": "proceedings-article"
+      },
+      "cited_by_count": 59
+    },
+    {
+      "id": "https://openalex.org/W3112792124",
+      "doi": "https://doi.org/10.1109/access.2020.3044941",
+      "title": "A Joint Detection and Recognition Approach to Lung Cancer Diagnosis From CT Images With Label Uncertainty",
+      "publication_year": 2020,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1109/access.2020.3044941",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1109/access.2020.3044941",
+        "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/6514899/09294013.pdf",
+        "source": {
+          "id": "https://openalex.org/S2485537415",
+          "display_name": "IEEE Access",
+          "issn_l": "2169-3536",
+          "issn": [
+            "2169-3536"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Access",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 34
+    },
+    {
+      "id": "https://openalex.org/W4292318628",
+      "doi": "https://doi.org/10.1016/j.survophthal.2022.08.005",
+      "title": "Automatic detection of glaucoma via fundus imaging and artificial intelligence: A review",
+      "publication_year": 2022,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1016/j.survophthal.2022.08.005",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.survophthal.2022.08.005",
+        "pdf_url": "http://www.surveyophthalmol.com/article/S0039625722001163/pdf",
+        "source": {
+          "id": "https://openalex.org/S88857351",
+          "display_name": "Survey of Ophthalmology",
+          "issn_l": "0039-6257",
+          "issn": [
+            "0039-6257",
+            "1879-3304"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Survey of Ophthalmology",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 119
+    },
+    {
+      "id": "https://openalex.org/W4320722432",
+      "doi": "https://doi.org/10.48550/arxiv.2302.05442",
+      "title": "Scaling Vision Transformers to 22 Billion Parameters",
+      "publication_year": 2023,
+      "type": "preprint",
+      "primary_location": {
+        "id": "pmh:oai:arXiv.org:2302.05442",
+        "is_oa": true,
+        "landing_page_url": "http://arxiv.org/abs/2302.05442",
+        "pdf_url": "https://arxiv.org/pdf/2302.05442",
+        "source": {
+          "id": "https://openalex.org/S4306400194",
+          "display_name": "arXiv (Cornell University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I205783295",
+          "host_organization_name": "Cornell University",
+          "host_organization_lineage": [
+            "https://openalex.org/I205783295"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "text"
+      },
+      "cited_by_count": 118
+    },
+    {
+      "id": "https://openalex.org/W4322754183",
+      "doi": "https://doi.org/10.1080/17538947.2023.2181992",
+      "title": "Reliability and consistency assessment of land cover products at macro and local scales in typical cities",
+      "publication_year": 2023,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1080/17538947.2023.2181992",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1080/17538947.2023.2181992",
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/17538947.2023.2181992?needAccess=true&role=button",
+        "source": {
+          "id": "https://openalex.org/S199162493",
+          "display_name": "International Journal of Digital Earth",
+          "issn_l": "1753-8947",
+          "issn": [
+            "1753-8947",
+            "1753-8955"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320547",
+          "host_organization_name": "Taylor & Francis",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320547"
+          ],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International Journal of Digital Earth",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 23
+    },
+    {
+      "id": "https://openalex.org/W3003185269",
+      "doi": "https://doi.org/10.3390/app10030936",
+      "title": "A Heterogeneous Ensemble Learning Framework for Spam Detection in Social Networks with Imbalanced Data",
+      "publication_year": 2020,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.3390/app10030936",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/app10030936",
+        "pdf_url": "https://www.mdpi.com/2076-3417/10/3/936/pdf?version=1582776608",
+        "source": {
+          "id": "https://openalex.org/S4210205812",
+          "display_name": "Applied Sciences",
+          "issn_l": "2076-3417",
+          "issn": [
+            "2076-3417"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Applied Sciences",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 74
+    },
+    {
+      "id": "https://openalex.org/W3095897264",
+      "doi": "https://doi.org/10.1146/annurev-orgpsych-012420-055324",
+      "title": "The Lazy or Dishonest Respondent: Detection and Prevention",
+      "publication_year": 2020,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1146/annurev-orgpsych-012420-055324",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1146/annurev-orgpsych-012420-055324",
+        "pdf_url": "https://www.annualreviews.org/doi/pdf/10.1146/annurev-orgpsych-012420-055324",
+        "source": {
+          "id": "https://openalex.org/S4210200923",
+          "display_name": "Annual Review of Organizational Psychology and Organizational Behavior",
+          "issn_l": "2327-0608",
+          "issn": [
+            "2327-0608",
+            "2327-0616"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320373",
+          "host_organization_name": "Annual Reviews",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320373"
+          ],
+          "host_organization_lineage_names": [
+            "Annual Reviews"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Annual Review of Organizational Psychology and Organizational Behavior",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 76
+    },
+    {
+      "id": "https://openalex.org/W2974786312",
+      "doi": "https://doi.org/10.1109/jproc.2019.2936809",
+      "title": "Machine Learning in PET: From Photon Detection to Quantitative Image Reconstruction",
+      "publication_year": 2019,
+      "type": "article",
+      "primary_location": {
+        "id": "doi:10.1109/jproc.2019.2936809",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/jproc.2019.2936809",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S68686220",
+          "display_name": "Proceedings of the IEEE",
+          "issn_l": "0018-9219",
+          "issn": [
+            "0018-9219",
+            "1558-2256"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Proceedings of the IEEE",
+        "raw_type": "journal-article"
+      },
+      "cited_by_count": 105
+    }
+  ],
+  "group_by": []
+}

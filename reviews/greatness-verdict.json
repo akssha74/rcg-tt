@@ -15,7 +15,7 @@
     },
     {
       "type": "greatness",
-      "path": "reviews/greatness-independent.md",
+      "path": "reviews/greatness-v3-independent.md",
       "adjudicator": "independent",
       "reviewer_kind": "agent",
       "authoring_pass": false,
@@ -23,7 +23,7 @@
       "verdict": "not-great"
     }
   ],
-  "strongest_rejection": "The contribution remains an integrative audit of a bounded internal counterexample; published field-wide prevalence and architecture/event generality are not established.",
+  "strongest_rejection": "The contribution remains an integrative audit of a bounded internal counterexample; no cited widespread published practice is refuted and real-world evidence remains hurricane/task-family limited.",
   "rejection_points": [
     {
       "id": "G1",
@@ -35,7 +35,7 @@
       "id": "G2",
       "point": "Per-example auditability and archive portability were incomplete.",
       "status": "rebutted",
-      "evidence": ["C009", "submission/verification.json", "https://github.com/akssha74/rcg-tt/releases/tag/v2.0.3"]
+      "evidence": ["C009", "submission/verification.json", "https://github.com/akssha74/rcg-tt/releases/tag/v3.0.0"]
     },
     {
       "id": "G3",
@@ -47,18 +47,24 @@
       "id": "G4",
       "point": "The remaining novelty is integrative and the exact failure mode is not shown prevalent in published EO practice.",
       "status": "standing",
-      "evidence": ["research/novelty-matrix.md", "reviews/greatness-independent.md"]
+      "evidence": ["C013", "research/novelty-matrix.md", "reviews/greatness-v3-independent.md"]
     },
     {
       "id": "G5",
       "point": "Central generality is limited to one backbone, bicubic degradation, three geographies, and two hurricane events.",
+      "status": "rebutted",
+      "evidence": ["C012", "C014", "C015"]
+    },
+    {
+      "id": "G6",
+      "point": "Real-world evidence remains hurricane-only, task-family-limited and cross-platform confounded.",
       "status": "standing",
-      "evidence": ["paper/sections/limitations.tex", "C010", "reviews/scientific-independent.md"]
+      "evidence": ["C015", "paper/sections/limitations.tex", "reviews/greatness-v3-independent.md"]
     }
   ],
   "standing_rejections": [
     "Incremental/integrative novelty remains unresolved.",
-    "Architecture, degradation, hazard, and event generality remain insufficient for the locked greatness bar."
+    "Hazard, task, and real-sensor generality remain insufficient for the locked greatness bar."
   ],
   "hard_failure_checks": {
     "proxy_only_operational_evidence": {
@@ -95,16 +101,16 @@
     },
     "incremental_novelty": {
       "status": "unresolved",
-      "evidence": ["research/novelty-matrix.md", "reviews/greatness-independent.md"]
+      "evidence": ["C013", "research/novelty-matrix.md", "reviews/greatness-v3-independent.md"]
     },
     "insufficient_real_world_generalization": {
       "status": "unresolved",
-      "evidence": ["C010", "paper/sections/limitations.tex", "reviews/scientific-independent.md"]
+      "evidence": ["C015", "paper/sections/limitations.tex", "reviews/greatness-v3-independent.md"]
     },
     "incomplete_public_artifacts": {
       "status": "cleared",
       "evidence": [
-        "https://github.com/akssha74/rcg-tt/releases/tag/v2.0.3",
+        "https://github.com/akssha74/rcg-tt/releases/tag/v3.0.0",
         "https://doi.org/10.5281/zenodo.21510152",
         "submission/verification.json"
       ]
