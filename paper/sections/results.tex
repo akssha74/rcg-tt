@@ -39,6 +39,50 @@ than a new confirmatory endpoint.
 
 \input{tables/anchor_matched_sensitivity}
 
+\subsection{Prospective architecture and operator replication}
+
+The second-architecture replication retained the anchor-matched gap for all
+three MobileNetV3-Small seeds and all four operators. Mean MobileNet AIDER gaps
+ranged from \(0.215\pm0.014\) (nearest-neighbour) to
+\(0.465\pm0.260\) (bicubic). ResNet AIDER means ranged from
+\(0.247\pm0.005\) to \(0.336\pm0.122\), and ResNet Hurricane means from
+\(0.331\pm0.069\) to \(0.398\pm0.045\)
+(Table~\ref{tab:architecture-operator}).
+
+All 36 seed-level intervals across the three architecture/corpus series and
+four operators excluded zero. Consequently, pre-specified criteria M1, M2 and
+M3 passed. The gap is therefore not conditional on ResNet-18 or bicubic
+resampling, although all operators still compare finer and coarser degradation
+directions.
+
+\input{tables/architecture_operator_replication}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/architecture_operator_replication.pdf}
+\caption{Prospective architecture and degradation-operator replication of the
+anchor-matched fine-reference minus received-image error-AUROC gap. Bars show
+mean across three independently trained seeds; error bars are sample SD.}
+\label{fig:architecture-operator}
+\end{figure}
+
+\subsection{Fine-reference reveal/mask identification}
+
+Aligned finer views exceeded correspondence-masked finer views in all 24
+ResNet corpus/seed/operator combinations. The smallest aligned-minus-masked
+mean AUROC gap was 0.359, and the largest empirical one-sided probability was
+0.0099. M4 therefore passed.
+
+Mean gaps across seeds ranged from \(0.365\pm0.005\) to
+\(0.425\pm0.003\) on AIDER and from \(0.462\pm0.029\) to
+\(0.490\pm0.004\) on Hurricane (Table~\ref{tab:reveal-mask}). Because masked
+scores preserve the anchor, scale set, score functional, comparison count and
+fine-prediction marginals, this result identifies image-specific fine/coarse
+correspondence as a driver of the diagnostic advantage within the tested
+protocol.
+
+\input{tables/reference_reveal_mask}
+
 \begin{figure}[t]
 \centering
 \includegraphics[width=\textwidth]{figures/information_audit.pdf}
@@ -147,3 +191,22 @@ stricter post-hoc all-seed robustness sensitivity failed. The expanded
 evaluation changes the conclusion from a positive two-site ranking result to
 event-associated heterogeneity with no confirmatory ranking success and no
 seed-uniform threshold-transfer robustness.
+
+\subsection{Third-event Hurricane Idalia sensitivity}
+
+The prospective third-event sensitivity retained 458/605 common Steinhatchee
+River building identifiers with matching eligible UAS/crewed-aircraft labels.
+Measured GSD was 12.70 and 15.02 cm\,px\(^{-1}\), so the 512-pixel crops span
+approximately 65.0 and 76.9 m. Joint UAS/crewed overlap grouping yielded 37
+clusters.
+
+Mean held-out UAS balanced accuracy was 0.572, passing E1; absolute accuracy
+remained below the 0.954 majority baseline because only 21 paired buildings
+were damaged. E2 passed with complete raw outputs and cluster inference.
+Received consistency exceeded confidence on crewed-aircraft errors by 0.312,
+0.389 and 0.274 AUROC across seeds; all three 2,000-replicate cluster intervals
+excluded zero and mean lift was 0.325 (Table~\ref{tab:idalia}). Accuracy
+improved slightly for seed 101 and declined for seeds 202 and 303, consistent
+with the pre-specified absence of an accuracy-direction criterion.
+
+\input{tables/idalia_sensitivity}

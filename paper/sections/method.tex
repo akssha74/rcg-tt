@@ -47,6 +47,28 @@ score, and contrasts finer views \(\{1,2,4\}\) with coarser views
 \(\{16,32,64\}\). This sensitivity controls the anchor and comparison count but
 still changes degradation direction; it is not interpreted causally.
 
+\subsection{Fine-reference reveal/mask identification}
+
+To isolate image-specific fine-reference correspondence, a pre-specified
+permutation experiment holds the \(s=8\) anchor, finer scale set
+\(\{1,2,4\}\), JS functional, comparison count, marginal fine-prediction
+distributions and error labels fixed. The aligned score uses
+\(\boldsymbol{p}_{s,i}\) from the same image. In masked replicate \(b\), one
+global permutation \(\pi_b\) is shared across finer scales:
+\begin{equation}
+D_{\mathrm{mask},i}^{(b)} =
+\frac{1}{3}\sum_{s\in\{1,2,4\}}
+\operatorname{JS}\!\left(
+\boldsymbol{p}_{8,i},
+\boldsymbol{p}_{s,\pi_b(i)}
+\right).
+\end{equation}
+One hundred fixed permutations are used per corpus, seed and operator. The
+empirical one-sided probability counts masked AUROCs at least as large as the
+aligned AUROC, with a plus-one correction. This identifies the contribution of
+correct fine/coarse correspondence within the tested score; it does not make
+the fine views available at deployment.
+
 \subsection{Matched deployable scores}
 
 Every deployable score receives \(\mathbf{z}\), source training data and source
@@ -82,12 +104,14 @@ zero intersections between different splits.
 \subsection{Paired measured-GSD audit}
 
 The measured-GSD evaluation pairs identical building identifiers with matching
-eligible labels in UAS and post-event satellite products. Reliability is
-computed separately from each received crop; no UAS view is supplied when
-scoring its satellite pair. Thresholds at target coverages \(0.5\), \(0.7\)
-and \(0.9\) are calibrated on guarded source validation and transferred
-unchanged. We report realised coverage, absolute coverage error, selective
-risk and false-critical rate.
+eligible labels in UAS and post-event satellite or crewed-aircraft products.
+Reliability is computed separately from each received crop; no UAS view is
+supplied when scoring its paired product. For the primary satellite analysis,
+thresholds at target coverages \(0.5\), \(0.7\) and \(0.9\) are calibrated on
+guarded source validation and transferred unchanged. We report realised
+coverage, absolute coverage error, selective risk and false-critical rate. The
+third-event crewed-aircraft sensitivity is ranking-only and uses no target
+threshold calibration.
 
 All GSD values are read from the fixed CRASAR \texttt{statistics.csv}. The
 exact dataset revision and metadata SHA-256 are recorded in the public

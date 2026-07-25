@@ -1,0 +1,610 @@
+{
+  "protocol": {
+    "dataset": "AIDER v1.0 exact-hash-clean split",
+    "architecture": "timm mobilenetv3_small_100 ImageNet-1K",
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "epochs": 6,
+    "operators": [
+      "bicubic",
+      "bilinear",
+      "nearest",
+      "box"
+    ],
+    "scales": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "bootstrap_repeats": 2000,
+    "device": "mps"
+  },
+  "seeds": {
+    "101": {
+      "seed": 101,
+      "best_val_macro_f1": 0.8856279587458016,
+      "checkpoint": "experiments/derived/architecture_replication/seed_101/best.pt",
+      "checkpoint_sha256": "f5b762b092ee27b5e1cd419f6c886a153d1f1fe6fe1404e29d2a2fc6de51ba2e",
+      "operators": {
+        "bicubic": {
+          "n": 969,
+          "n_errors": 448,
+          "accuracy": 0.5376676986584107,
+          "confidence": {
+            "auroc": 0.7273508191664382,
+            "auprc": 0.6271769684369694,
+            "fpr95": 0.6026871401151631
+          },
+          "reference_consistency": {
+            "auroc": 0.9738312311488895,
+            "auprc": 0.9636822462929987,
+            "fpr95": 0.12476007677543186
+          },
+          "received_consistency": {
+            "auroc": 0.24968295859610637,
+            "auprc": 0.32532759664906524,
+            "fpr95": 0.9251439539347409
+          },
+          "fine_reference_consistency": {
+            "auroc": 0.9753821634219907,
+            "auprc": 0.9764831933475903,
+            "fpr95": 0.16698656429942418
+          },
+          "fine_minus_received": {
+            "mean": 0.7251697515900142,
+            "ci95": [
+              0.6903905540104583,
+              0.760058256659404
+            ],
+            "repeats": 2000
+          },
+          "reference_minus_received": {
+            "mean": 0.7243774918531776,
+            "ci95": [
+              0.6894679853759077,
+              0.7553933139628043
+            ],
+            "repeats": 2000
+          },
+          "score_path": "experiments/derived/architecture_replication/seed_101/scores/bicubic.npz"
+        },
+        "bilinear": {
+          "n": 969,
+          "n_errors": 584,
+          "accuracy": 0.3973168214654283,
+          "confidence": {
+            "auroc": 0.6262742394591709,
+            "auprc": 0.6980291309898248,
+            "fpr95": 0.7168831168831169
+          },
+          "reference_consistency": {
+            "auroc": 0.9824452944315958,
+            "auprc": 0.9854793998399386,
+            "fpr95": 0.02077922077922078
+          },
+          "received_consistency": {
+            "auroc": 0.26265789005515033,
+            "auprc": 0.45274605287294134,
+            "fpr95": 0.9168831168831169
+          },
+          "fine_reference_consistency": {
+            "auroc": 0.9812133072407044,
+            "auprc": 0.9897615218758672,
+            "fpr95": 0.11168831168831168
+          },
+          "fine_minus_received": {
+            "mean": 0.7177335266496746,
+            "ci95": [
+              0.6820087550039652,
+              0.7507062037365974
+            ],
+            "repeats": 2000
+          },
+          "reference_minus_received": {
+            "mean": 0.7198381102971716,
+            "ci95": [
+              0.6814361651682777,
+              0.7559421735986797
+            ],
+            "repeats": 2000
+          },
+          "score_path": "experiments/derived/architecture_replication/seed_101/scores/bilinear.npz"
+        },
+        "nearest": {
+          "n": 969,
+          "n_errors": 234,
+          "accuracy": 0.7585139318885449,
+          "confidence": {
+            "auroc": 0.847834176405605,
+            "auprc": 0.6367303109631516,
+            "fpr95": 0.4925170068027211
+          },
+          "reference_consistency": {
+            "auroc": 0.9663701377987093,
+            "auprc": 0.9000312176523938,
+            "fpr95": 0.16870748299319727
+          },
+          "received_consistency": {
+            "auroc": 0.750462236176522,
+            "auprc": 0.36884919007490163,
+            "fpr95": 0.5061224489795918
+          },
+          "fine_reference_consistency": {
+            "auroc": 0.9650968079539507,
+            "auprc": 0.9244562576994876,
+            "fpr95": 0.23129251700680273
+          },
+          "fine_minus_received": {
+            "mean": 0.21498252378624547,
+            "ci95": [
+              0.18403673675955856,
+              0.2467123621752946
+            ],
+            "repeats": 2000
+          },
+          "reference_minus_received": {
+            "mean": 0.21540626970087876,
+            "ci95": [
+              0.1853388196407326,
+              0.24601181762019333
+            ],
+            "repeats": 2000
+          },
+          "score_path": "experiments/derived/architecture_replication/seed_101/scores/nearest.npz"
+        },
+        "box": {
+          "n": 969,
+          "n_errors": 299,
+          "accuracy": 0.6914344685242518,
+          "confidence": {
+            "auroc": 0.8318798981680228,
+            "auprc": 0.6348655584129722,
+            "fpr95": 0.4761194029850746
+          },
+          "reference_consistency": {
+            "auroc": 0.9696850197174661,
+            "auprc": 0.9390889750259224,
+            "fpr95": 0.17313432835820897
+          },
+          "received_consistency": {
+            "auroc": 0.6568312284730194,
+            "auprc": 0.37152211914038447,
+            "fpr95": 0.6283582089552239
+          },
+          "fine_reference_consistency": {
+            "auroc": 0.9686467328907302,
+            "auprc": 0.9511339223851852,
+            "fpr95": 0.22388059701492538
+          },
+          "fine_minus_received": {
+            "mean": 0.31163031952057085,
+            "ci95": [
+              0.27903223042095976,
+              0.3476320427323277
+            ],
+            "repeats": 2000
+          },
+          "reference_minus_received": {
+            "mean": 0.3126893718058604,
+            "ci95": [
+              0.27718392227904187,
+              0.34778188557331247
+            ],
+            "repeats": 2000
+          },
+          "score_path": "experiments/derived/architecture_replication/seed_101/scores/box.npz"
+        }
+      }
+    },
+    "202": {
+      "seed": 202,
+      "best_val_macro_f1": 0.8646466208619026,
+      "checkpoint": "experiments/derived/architecture_replication/seed_202/best.pt",
+      "checkpoint_sha256": "b9f5d399248d1a79669997806b6f1116b6c4d688bbb5c5dbc5c896dcc6bf9f09",
+      "operators": {
+        "bicubic": {
+          "n": 969,
+          "n_errors": 230,
+          "accuracy": 0.762641898864809,
+          "confidence": {
+            "auroc": 0.8425751603224098,
+            "auprc": 0.560363019613136,
+            "fpr95": 0.4316644113667118
+          },
+          "reference_consistency": {
+            "auroc": 0.9442195681590868,
+            "auprc": 0.7722046644850672,
+            "fpr95": 0.2219215155615697
+          },
+          "received_consistency": {
+            "auroc": 0.7567923751250221,
+            "auprc": 0.3745849612533103,
+            "fpr95": 0.5182679296346414
+          },
+          "fine_reference_consistency": {
+            "auroc": 0.9627699005706889,
+            "auprc": 0.8960272557744703,
+            "fpr95": 0.2165087956698241
+          },
+          "fine_minus_received": {
+            "mean": 0.20537793864368653,
+            "ci95": [
+              0.17507930664287644,
+              0.2366300359180932
+            ],
+            "repeats": 2000
+          },
+          "reference_minus_received": {
+            "mean": 0.18777859574606495,
+            "ci95": [
+              0.155951931099111,
+              0.22085344466197881
+            ],
+            "repeats": 2000
+          },
+          "score_path": "experiments/derived/architecture_replication/seed_202/scores/bicubic.npz"
+        },
+        "bilinear": {
+          "n": 969,
+          "n_errors": 284,
+          "accuracy": 0.7069143446852425,
+          "confidence": {
+            "auroc": 0.8110876940474966,
+            "auprc": 0.5914392956463846,
+            "fpr95": 0.48613138686131385
+          },
+          "reference_consistency": {
+            "auroc": 0.9512850827593297,
+            "auprc": 0.8382871788012658,
+            "fpr95": 0.0948905109489051
+          },
+          "received_consistency": {
+            "auroc": 0.8016243446077929,
+            "auprc": 0.4984844004600396,
+            "fpr95": 0.5503649635036496
+          },
+          "fine_reference_consistency": {
+            "auroc": 0.972221651074329,
+            "auprc": 0.9417024511360087,
+            "fpr95": 0.15036496350364964
+          },
+          "fine_minus_received": {
+            "mean": 0.17030390484118096,
+            "ci95": [
+              0.1429438937836516,
+              0.20058582721626203
+            ],
+            "repeats": 2000
+          },
+          "reference_minus_received": {
+            "mean": 0.15035333460429762,
+            "ci95": [
+              0.12051570951151447,
+              0.18061228364268425
+            ],
+            "repeats": 2000
+          },
+          "score_path": "experiments/derived/architecture_replication/seed_202/scores/bilinear.npz"
+        },
+        "nearest": {
+          "n": 969,
+          "n_errors": 156,
+          "accuracy": 0.8390092879256966,
+          "confidence": {
+            "auroc": 0.8594710947109471,
+            "auprc": 0.504200788058983,
+            "fpr95": 0.36900369003690037
+          },
+          "reference_consistency": {
+            "auroc": 0.9355978175166367,
+            "auprc": 0.6644533720361142,
+            "fpr95": 0.26199261992619927
+          },
+          "received_consistency": {
+            "auroc": 0.7365329422524994,
+            "auprc": 0.2572190475440346,
+            "fpr95": 0.5436654366543665
+          },
+          "fine_reference_consistency": {
+            "auroc": 0.9379553410918724,
+            "auprc": 0.7347258933644989,
+            "fpr95": 0.25461254612546125
+          },
+          "fine_minus_received": {
+            "mean": 0.20116650079600015,
+            "ci95": [
+              0.16446979804963655,
+              0.2394296701569791
+            ],
+            "repeats": 2000
+          },
+          "reference_minus_received": {
+            "mean": 0.19918127793459803,
+            "ci95": [
+              0.16234245550861998,
+              0.23730332614768648
+            ],
+            "repeats": 2000
+          },
+          "score_path": "experiments/derived/architecture_replication/seed_202/scores/nearest.npz"
+        },
+        "box": {
+          "n": 969,
+          "n_errors": 193,
+          "accuracy": 0.8008255933952528,
+          "confidence": {
+            "auroc": 0.8757211153250359,
+            "auprc": 0.5539113244736712,
+            "fpr95": 0.3479381443298969
+          },
+          "reference_consistency": {
+            "auroc": 0.9504967683350248,
+            "auprc": 0.746980188789051,
+            "fpr95": 0.15979381443298968
+          },
+          "received_consistency": {
+            "auroc": 0.7841127610704557,
+            "auprc": 0.3552063294839817,
+            "fpr95": 0.4793814432989691
+          },
+          "fine_reference_consistency": {
+            "auroc": 0.9651861545857593,
+            "auprc": 0.8759641492808589,
+            "fpr95": 0.17654639175257733
+          },
+          "fine_minus_received": {
+            "mean": 0.18149264902157797,
+            "ci95": [
+              0.1512022040613699,
+              0.21110765678202414
+            ],
+            "repeats": 2000
+          },
+          "reference_minus_received": {
+            "mean": 0.1665470809249063,
+            "ci95": [
+              0.1355698408412788,
+              0.1983580539236804
+            ],
+            "repeats": 2000
+          },
+          "score_path": "experiments/derived/architecture_replication/seed_202/scores/box.npz"
+        }
+      }
+    },
+    "303": {
+      "seed": 303,
+      "best_val_macro_f1": 0.8815860315969454,
+      "checkpoint": "experiments/derived/architecture_replication/seed_303/best.pt",
+      "checkpoint_sha256": "0fc8be68b48ce2b5c8295666f6fa797dd51a308ca039ae76d7132492513a1acf",
+      "operators": {
+        "bicubic": {
+          "n": 969,
+          "n_errors": 334,
+          "accuracy": 0.6553147574819401,
+          "confidence": {
+            "auroc": 0.7051440426234146,
+            "auprc": 0.5179212786821048,
+            "fpr95": 0.7039370078740157
+          },
+          "reference_consistency": {
+            "auroc": 0.9719175821585176,
+            "auprc": 0.9311738136498903,
+            "fpr95": 0.08346456692913386
+          },
+          "received_consistency": {
+            "auroc": 0.5106417087085672,
+            "auprc": 0.322488448025902,
+            "fpr95": 0.84251968503937
+          },
+          "fine_reference_consistency": {
+            "auroc": 0.9743505115752746,
+            "auprc": 0.9597632363761829,
+            "fpr95": 0.15905511811023623
+          },
+          "fine_minus_received": {
+            "mean": 0.46336588745360235,
+            "ci95": [
+              0.42547406815269023,
+              0.5014106871980909
+            ],
+            "repeats": 2000
+          },
+          "reference_minus_received": {
+            "mean": 0.46139531717263493,
+            "ci95": [
+              0.42411303845231263,
+              0.4997705932822339
+            ],
+            "repeats": 2000
+          },
+          "score_path": "experiments/derived/architecture_replication/seed_303/scores/bicubic.npz"
+        },
+        "bilinear": {
+          "n": 969,
+          "n_errors": 453,
+          "accuracy": 0.5325077399380805,
+          "confidence": {
+            "auroc": 0.6678025052620771,
+            "auprc": 0.6051745855834865,
+            "fpr95": 0.7751937984496124
+          },
+          "reference_consistency": {
+            "auroc": 0.9767998014956277,
+            "auprc": 0.9626274980890346,
+            "fpr95": 0.04263565891472868
+          },
+          "received_consistency": {
+            "auroc": 0.6104437257217175,
+            "auprc": 0.5191617829855164,
+            "fpr95": 0.8178294573643411
+          },
+          "fine_reference_consistency": {
+            "auroc": 0.9825110803087086,
+            "auprc": 0.9824565522385034,
+            "fpr95": 0.07945736434108527
+          },
+          "fine_minus_received": {
+            "mean": 0.3724055135599183,
+            "ci95": [
+              0.3383421896804763,
+              0.4058735282832116
+            ],
+            "repeats": 2000
+          },
+          "reference_minus_received": {
+            "mean": 0.36660923921616634,
+            "ci95": [
+              0.33035248609178575,
+              0.4002827850295178
+            ],
+            "repeats": 2000
+          },
+          "score_path": "experiments/derived/architecture_replication/seed_303/scores/bilinear.npz"
+        },
+        "nearest": {
+          "n": 969,
+          "n_errors": 151,
+          "accuracy": 0.8441692466460269,
+          "confidence": {
+            "auroc": 0.8820819637623667,
+            "auprc": 0.540215359590416,
+            "fpr95": 0.3410757946210269
+          },
+          "reference_consistency": {
+            "auroc": 0.9721498081251316,
+            "auprc": 0.8516127594182653,
+            "fpr95": 0.11735941320293398
+          },
+          "received_consistency": {
+            "auroc": 0.7447173691283862,
+            "auprc": 0.2606706894548927,
+            "fpr95": 0.5097799511002445
+          },
+          "fine_reference_consistency": {
+            "auroc": 0.9734856458168041,
+            "auprc": 0.888730016430781,
+            "fpr95": 0.13814180929095354
+          },
+          "fine_minus_received": {
+            "mean": 0.2283945314822804,
+            "ci95": [
+              0.19680103271521185,
+              0.26247457810376074
+            ],
+            "repeats": 2000
+          },
+          "reference_minus_received": {
+            "mean": 0.22690215513138004,
+            "ci95": [
+              0.19496534096379217,
+              0.2616610023695914
+            ],
+            "repeats": 2000
+          },
+          "score_path": "experiments/derived/architecture_replication/seed_303/scores/nearest.npz"
+        },
+        "box": {
+          "n": 969,
+          "n_errors": 174,
+          "accuracy": 0.8204334365325078,
+          "confidence": {
+            "auroc": 0.8484710474951204,
+            "auprc": 0.49474550218943036,
+            "fpr95": 0.37358490566037733
+          },
+          "reference_consistency": {
+            "auroc": 0.966941372081255,
+            "auprc": 0.8654547385476213,
+            "fpr95": 0.15849056603773584
+          },
+          "received_consistency": {
+            "auroc": 0.7296175811465337,
+            "auprc": 0.28646559582616904,
+            "fpr95": 0.519496855345912
+          },
+          "fine_reference_consistency": {
+            "auroc": 0.9671148702378369,
+            "auprc": 0.8946702437992526,
+            "fpr95": 0.18238993710691823
+          },
+          "fine_minus_received": {
+            "mean": 0.23756733675318056,
+            "ci95": [
+              0.20536571319106314,
+              0.2719746427064367
+            ],
+            "repeats": 2000
+          },
+          "reference_minus_received": {
+            "mean": 0.23791611223171413,
+            "ci95": [
+              0.20368898655114387,
+              0.27156340339945356
+            ],
+            "repeats": 2000
+          },
+          "score_path": "experiments/derived/architecture_replication/seed_303/scores/box.npz"
+        }
+      }
+    }
+  },
+  "aggregate": {
+    "operators": {
+      "bicubic": {
+        "fine_minus_received_values": [
+          0.7251697515900142,
+          0.20537793864368653,
+          0.46336588745360235
+        ],
+        "mean": 0.464637859229101,
+        "std": 0.25989824092451214,
+        "positive_seeds": 3,
+        "positive_interval_seeds": 3
+      },
+      "bilinear": {
+        "fine_minus_received_values": [
+          0.7177335266496746,
+          0.17030390484118096,
+          0.3724055135599183
+        ],
+        "mean": 0.420147648350258,
+        "std": 0.27681994379759167,
+        "positive_seeds": 3,
+        "positive_interval_seeds": 3
+      },
+      "nearest": {
+        "fine_minus_received_values": [
+          0.21498252378624547,
+          0.20116650079600015,
+          0.2283945314822804
+        ],
+        "mean": 0.2148478520215087,
+        "std": 0.013614514906026495,
+        "positive_seeds": 3,
+        "positive_interval_seeds": 3
+      },
+      "box": {
+        "fine_minus_received_values": [
+          0.31163031952057085,
+          0.18149264902157797,
+          0.23756733675318056
+        ],
+        "mean": 0.24356343509844314,
+        "std": 0.06527570924356667,
+        "positive_seeds": 3,
+        "positive_interval_seeds": 3
+      }
+    },
+    "m1_architecture_pass": true,
+    "m2_operator_pass": true
+  },
+  "runtime_seconds": 482.4300949573517
+}

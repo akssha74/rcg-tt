@@ -1,0 +1,3208 @@
+[
+  {
+    "row": 0,
+    "building_id": "00511e48af484cfb806b4542168187be",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00511e48af484cfb806b4542168187be"
+  },
+  {
+    "row": 1,
+    "building_id": "0068fb517662492a92bd9eb60c119e6c",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0068fb517662492a92bd9eb60c119e6c"
+  },
+  {
+    "row": 2,
+    "building_id": "006e88a12f5a4c45926d12c1bf50588e",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "006e88a12f5a4c45926d12c1bf50588e"
+  },
+  {
+    "row": 3,
+    "building_id": "00782b2d94cc4791ac29579590581c55",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00782b2d94cc4791ac29579590581c55"
+  },
+  {
+    "row": 4,
+    "building_id": "008ba30a99b74b268a5b2472e1ce9c1d",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 5,
+    "building_id": "00b05d298144418098a82c681ff9d809",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 6,
+    "building_id": "00b1be31b6d046c7a400934b3ead8e57",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 7,
+    "building_id": "00e3b60c2dc64868943613e60f58fdf4",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 8,
+    "building_id": "0179960f6b1742ad89f0916e047f53fc",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 9,
+    "building_id": "0256726e6b654828a5191b46bf939aa0",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00782b2d94cc4791ac29579590581c55"
+  },
+  {
+    "row": 10,
+    "building_id": "041a0cf286af4ece930f9969fee5a2fe",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 11,
+    "building_id": "049599328aa04318acfd7b9f953f24f4",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 12,
+    "building_id": "056e2e61d3c34548a2b8e3ec3759e9af",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 13,
+    "building_id": "0597856006a846f1b174b66366a079f1",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 14,
+    "building_id": "05a4527780e0476385aca24850fd2eed",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 15,
+    "building_id": "06586f92a3a44d7b8c48aea60fb8fc41",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 16,
+    "building_id": "068f76d355c54f9a86bd9e57be0648f6",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "068f76d355c54f9a86bd9e57be0648f6"
+  },
+  {
+    "row": 17,
+    "building_id": "0741ce0fdc2647e39a95b1698498e3e1",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 18,
+    "building_id": "077e92a54c204cbdb349ac1c7a3b8ee7",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 19,
+    "building_id": "078d57625a1c481ab98f551812bbe045",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "078d57625a1c481ab98f551812bbe045"
+  },
+  {
+    "row": 20,
+    "building_id": "083e9fb6e13a4972bab1d9efe32b7cba",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 21,
+    "building_id": "0854a8e71f604dcdbc2c500c81846734",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0854a8e71f604dcdbc2c500c81846734"
+  },
+  {
+    "row": 22,
+    "building_id": "085e3963cff642eeba00b64b4c029aec",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0854a8e71f604dcdbc2c500c81846734"
+  },
+  {
+    "row": 23,
+    "building_id": "0968aebc66f74c29b9330a81c9daa375",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 24,
+    "building_id": "09b6b6c224744d00a8ccb0995e35f8ef",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "006e88a12f5a4c45926d12c1bf50588e"
+  },
+  {
+    "row": 25,
+    "building_id": "09f3b4257f0b408084967495290064c9",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 26,
+    "building_id": "0a4d81276f2f43548bafbff007914b5f",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 27,
+    "building_id": "0a77a6732e994135aafc8449682f503e",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 28,
+    "building_id": "0a9ae0155c0d471497ae0332df108df5",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 29,
+    "building_id": "0b24b08614624c1c9c62262d8395bbf6",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 30,
+    "building_id": "0b639c9488354f399297b92c94e261a4",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 31,
+    "building_id": "0b673632d1024658bc1e8401f1f0104e",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00782b2d94cc4791ac29579590581c55"
+  },
+  {
+    "row": 32,
+    "building_id": "0b925603b2144d39b4d5c1bf51ebb1c9",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 33,
+    "building_id": "0c3849eaaba046b4aa546312c152b3e8",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 34,
+    "building_id": "0d5e0338ddb6477ba9af9ab08d411d1f",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 35,
+    "building_id": "0db5b8c5332b416689795dac4adf3ecc",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 36,
+    "building_id": "0dfa6446b7d14c818735962a40bb0872",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 37,
+    "building_id": "0ee656a2dc9c45df8d961e8c670b3473",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 38,
+    "building_id": "0feb6d4708f94db3b66ef1771a86b7d0",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 39,
+    "building_id": "1046a0f8e6e24afe8b521b40362c0821",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "1046a0f8e6e24afe8b521b40362c0821"
+  },
+  {
+    "row": 40,
+    "building_id": "10e68e8db3d940f7ace89e5128d3d8a2",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 41,
+    "building_id": "11c874ae7fd64fde9b6f482b53ad39d4",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 42,
+    "building_id": "11fe8be44b554ff99259aaf08f7f49c7",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 43,
+    "building_id": "12164da17ede402896c48441df4db2be",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 44,
+    "building_id": "122d0fe4bde4483cbe4368faa3f79b38",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 45,
+    "building_id": "13103182a4974a619c22775697efe532",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 46,
+    "building_id": "138643cf30d147faa8f1558b0b47be08",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 47,
+    "building_id": "14eede4d8afb40cd84a1ac22b4c95b80",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 48,
+    "building_id": "158c4a0a21bd4178b97c2bd276b708ee",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 49,
+    "building_id": "15c45b97a15f4174b258007d509ced9c",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 50,
+    "building_id": "16121653ea154ee295b71e0a40ed37ea",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 51,
+    "building_id": "16679cf5a00c4171ae66d99d3a97beba",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 52,
+    "building_id": "1723a19b607d48c7b73583b443446c2a",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 53,
+    "building_id": "173cbea027b74de5b94b8e1518f034c8",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "173cbea027b74de5b94b8e1518f034c8"
+  },
+  {
+    "row": 54,
+    "building_id": "182404f7a1fa459281b8ecd327d68dec",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00782b2d94cc4791ac29579590581c55"
+  },
+  {
+    "row": 55,
+    "building_id": "1927433ac9554d899aee3d3113a7f388",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00511e48af484cfb806b4542168187be"
+  },
+  {
+    "row": 56,
+    "building_id": "19713e041eca4f5b8354b5fb1e427bae",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "006e88a12f5a4c45926d12c1bf50588e"
+  },
+  {
+    "row": 57,
+    "building_id": "19aeece6e6044afc978eca03e9fd5503",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 58,
+    "building_id": "1b7c0d920c6f48d4a09e87fdc21408b1",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 59,
+    "building_id": "1cde29c35e564b7c9fd40205f9ec23df",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 60,
+    "building_id": "1de688c5b1de49d9af9311ff2c57ec65",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 61,
+    "building_id": "1e331853a3c249dcb8db2e6d3bd02cf0",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "1e331853a3c249dcb8db2e6d3bd02cf0"
+  },
+  {
+    "row": 62,
+    "building_id": "1e3ac1b5d4db40668ae5ee73797fd5a1",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "1e3ac1b5d4db40668ae5ee73797fd5a1"
+  },
+  {
+    "row": 63,
+    "building_id": "1e48e260625843a5858d1ae4437cb709",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 64,
+    "building_id": "1edabff4a3d644c98e4fa978645ee105",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 65,
+    "building_id": "221b9900a792404092e410ad04aa4eab",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 66,
+    "building_id": "238b3f6660a84d168af976539c307d56",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 67,
+    "building_id": "250580e904a0499eb8e923dd0eaca742",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 68,
+    "building_id": "2549e16c8d3745fc957b7c1490c8ea78",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00782b2d94cc4791ac29579590581c55"
+  },
+  {
+    "row": 69,
+    "building_id": "2620566bacf9473fa3ff2c5d4b29acaf",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 70,
+    "building_id": "26f935bd49ef440289181d9c51fdcb41",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "26f935bd49ef440289181d9c51fdcb41"
+  },
+  {
+    "row": 71,
+    "building_id": "2733a669685b47e3b70ad0cf43f0564f",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "006e88a12f5a4c45926d12c1bf50588e"
+  },
+  {
+    "row": 72,
+    "building_id": "273e93d55c604471922fa7ba8cb88734",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "173cbea027b74de5b94b8e1518f034c8"
+  },
+  {
+    "row": 73,
+    "building_id": "278abe0c34b54334aec069a2e0b0d0fc",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 74,
+    "building_id": "2852e8aa35bc4317abc8657d9183dcb1",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "2852e8aa35bc4317abc8657d9183dcb1"
+  },
+  {
+    "row": 75,
+    "building_id": "28d9a029982741fda21d08ef5fbbdfda",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 76,
+    "building_id": "294f184bbdfa43dbac25912b344c73f8",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 77,
+    "building_id": "2ad1feafe7df47cca2cff6aef0f9b21d",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 78,
+    "building_id": "2b00268e1fe748c2afc4b6a57c86544b",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 79,
+    "building_id": "2ba23dfdf39c44b58091fe119e7883fc",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 80,
+    "building_id": "2c1a7bc42df24982bd7bc697fe22092b",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 81,
+    "building_id": "2c321ff8311c4031a4ac7bef34da0d69",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 82,
+    "building_id": "2c386997f508460b95012c10c743c642",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 83,
+    "building_id": "2c41d018009c4d3199ca71dc75ce6436",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 84,
+    "building_id": "2cb419ba0379423a8ba6a6b61ac0a011",
+    "label": 1,
+    "source_label": "minor damage",
+    "joint_cluster": "2cb419ba0379423a8ba6a6b61ac0a011"
+  },
+  {
+    "row": 85,
+    "building_id": "2d7b29fcd8db4bf6a3ef56208cefe7c7",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 86,
+    "building_id": "2e021b1b510741849563b64a3893ae07",
+    "label": 1,
+    "source_label": "minor damage",
+    "joint_cluster": "2e021b1b510741849563b64a3893ae07"
+  },
+  {
+    "row": 87,
+    "building_id": "2e8c7b21fbf94c8eae22598c4cb8747b",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "26f935bd49ef440289181d9c51fdcb41"
+  },
+  {
+    "row": 88,
+    "building_id": "2f1d9d18793f43ca9e25275bb3e26756",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00511e48af484cfb806b4542168187be"
+  },
+  {
+    "row": 89,
+    "building_id": "2f7008a6635d44d3bdfa31fb88a8f4b5",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 90,
+    "building_id": "2fe304817e01423db09aa077a316b294",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "2fe304817e01423db09aa077a316b294"
+  },
+  {
+    "row": 91,
+    "building_id": "30a7ef3fb6664cd0a734eda5e7e1df9d",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 92,
+    "building_id": "31dd7abdb2ae4c4483737370bafa8fc2",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "31dd7abdb2ae4c4483737370bafa8fc2"
+  },
+  {
+    "row": 93,
+    "building_id": "323decd8e7324e099cc384da853cb033",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 94,
+    "building_id": "32847fa57b15475693c1229476d63ca6",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 95,
+    "building_id": "3291c9b6819c4a8987b498d503af47db",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 96,
+    "building_id": "32feebf9ae28460a817d351d56157335",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "1e331853a3c249dcb8db2e6d3bd02cf0"
+  },
+  {
+    "row": 97,
+    "building_id": "338e2849fd8749eaa4e337a1a57d18e9",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "1e331853a3c249dcb8db2e6d3bd02cf0"
+  },
+  {
+    "row": 98,
+    "building_id": "353c3cae12d9411bb913359896031fd6",
+    "label": 1,
+    "source_label": "major damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 99,
+    "building_id": "36e1498f62be42a6b63862c37f2f3fa2",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "36e1498f62be42a6b63862c37f2f3fa2"
+  },
+  {
+    "row": 100,
+    "building_id": "39b200692b584c4d824b51f2f36d253d",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 101,
+    "building_id": "3a0b9ead93e142b5812909b844478f41",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "006e88a12f5a4c45926d12c1bf50588e"
+  },
+  {
+    "row": 102,
+    "building_id": "3ad63aa31fef4ecaa296dc4e5ac6c7b4",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 103,
+    "building_id": "3b3501e273294f269a5ffb332771f9e2",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 104,
+    "building_id": "3c617ae3941c48fc9882d3536eedf613",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 105,
+    "building_id": "3d362b54375a48bd809666b2c4c7809b",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 106,
+    "building_id": "3dd005e6afc64de9bb51cb21ef334b1d",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 107,
+    "building_id": "3edf38b9d77c415982f7ef6d314473f9",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 108,
+    "building_id": "403821ac38bd40568b3dcbf9d63014f3",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 109,
+    "building_id": "4047412beaf44bf9b4898cf05b3c47de",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 110,
+    "building_id": "4170275880b34807add6106eafe2b46c",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 111,
+    "building_id": "41746f4d48fb45ba8072a1e30324d31a",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "1e331853a3c249dcb8db2e6d3bd02cf0"
+  },
+  {
+    "row": 112,
+    "building_id": "418589bcf44947879cabdb2c526d2d67",
+    "label": 1,
+    "source_label": "minor damage",
+    "joint_cluster": "068f76d355c54f9a86bd9e57be0648f6"
+  },
+  {
+    "row": 113,
+    "building_id": "420c50f936cd49d49f3dc17cde45c908",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00782b2d94cc4791ac29579590581c55"
+  },
+  {
+    "row": 114,
+    "building_id": "42ec0f37516e4394a17d817b8458a71e",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 115,
+    "building_id": "4399ba40e2b9408292973749e4ab776a",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 116,
+    "building_id": "43ea0d044ea14104a321a67567125f6f",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 117,
+    "building_id": "44a593bdd1564dec833d0b988a3531bf",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 118,
+    "building_id": "44a81dfef3e44c85a529e9d03ec951fc",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 119,
+    "building_id": "44dbb88e92d64674abc71eeac3f47529",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 120,
+    "building_id": "459d85e643af4f1eb73fe4292f923f37",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0854a8e71f604dcdbc2c500c81846734"
+  },
+  {
+    "row": 121,
+    "building_id": "45bae831940a4b7aa7b24b1665b1d331",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 122,
+    "building_id": "463fb818fb004a74b07a2960c79ffc4a",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 123,
+    "building_id": "46839b2a158a4f679e2434750bb697c0",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 124,
+    "building_id": "47430b11df38410986158a59ab88fcfe",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "006e88a12f5a4c45926d12c1bf50588e"
+  },
+  {
+    "row": 125,
+    "building_id": "475d677406594d509fae7d8c5d3e2cea",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "1e3ac1b5d4db40668ae5ee73797fd5a1"
+  },
+  {
+    "row": 126,
+    "building_id": "479f9fc10661404d82a632b979966815",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 127,
+    "building_id": "47e07d0f638842e9ab1f0961113914be",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0854a8e71f604dcdbc2c500c81846734"
+  },
+  {
+    "row": 128,
+    "building_id": "47f0e91d031d4c7e8abd29176436d29b",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 129,
+    "building_id": "4804ebaf98264c0bacf9516c0a152994",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 130,
+    "building_id": "48586d41628e41a886151c6bcad14811",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "48586d41628e41a886151c6bcad14811"
+  },
+  {
+    "row": 131,
+    "building_id": "485d422aaabd47ccb5eb3ffd82d01ca2",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "485d422aaabd47ccb5eb3ffd82d01ca2"
+  },
+  {
+    "row": 132,
+    "building_id": "48f4c8500ecd4cc68459c8b0e74791e9",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 133,
+    "building_id": "491669b9d8a44f348dc691e02123b055",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 134,
+    "building_id": "499124e6b7f849d8ba3ec3773ac6c409",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 135,
+    "building_id": "499a4f72e0324a82ae7a2d2364c28bae",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 136,
+    "building_id": "49d7de53e55a45919d21ac61e2471d6d",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "173cbea027b74de5b94b8e1518f034c8"
+  },
+  {
+    "row": 137,
+    "building_id": "4a4752231bd74a2582c14bded0ec769f",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 138,
+    "building_id": "4b399a5ff20b42f9a21f84c57d8c6549",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 139,
+    "building_id": "4b998178b84f405c84440d177c818c68",
+    "label": 1,
+    "source_label": "minor damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 140,
+    "building_id": "4c3ec6f5494843318feca5de734412e7",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 141,
+    "building_id": "4cdcd96aac2848d190a6551d739ff2f3",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 142,
+    "building_id": "4d28d80b846e46df8ed161c572d190d4",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "006e88a12f5a4c45926d12c1bf50588e"
+  },
+  {
+    "row": 143,
+    "building_id": "4d70ff59cb224b40b4bc7472bba538bb",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 144,
+    "building_id": "4e4e90681c3c4cf28f9770968497b465",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 145,
+    "building_id": "4e57866aa8aa445d9d6f6805aaa2fd7c",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 146,
+    "building_id": "4e5eb1a43cc4424c9123d886f59d8b00",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 147,
+    "building_id": "4f602322a2bf4f95a7ea3ad35ee65286",
+    "label": 1,
+    "source_label": "major damage",
+    "joint_cluster": "48586d41628e41a886151c6bcad14811"
+  },
+  {
+    "row": 148,
+    "building_id": "521bdb0348404954ad09ba0a86aef2bb",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 149,
+    "building_id": "5223618172d448d2bba4f4d48d90d2fa",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 150,
+    "building_id": "52b914843c7b49909a5af2ebe0c02572",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 151,
+    "building_id": "535750c2f8b04d7c86e6571a8548f175",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 152,
+    "building_id": "53c66a88981c40179fdb1bca844d9933",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 153,
+    "building_id": "53d0d6ce353f4cb09a4598b7d93ad530",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 154,
+    "building_id": "544c8d0537c54c809f97fdb9ca8ff1f4",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 155,
+    "building_id": "5493221f204e46b5a11b7cdbc62d210e",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0854a8e71f604dcdbc2c500c81846734"
+  },
+  {
+    "row": 156,
+    "building_id": "54c6cc22d7e5424fa58e86ab5d0b71a1",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 157,
+    "building_id": "54dc3fc82f6748a1aa7b9837ae07f831",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 158,
+    "building_id": "557074d7ee98411eb920398c4b1ca00b",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 159,
+    "building_id": "56e8209f6de34e789ca312bbc464ec89",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 160,
+    "building_id": "57eb8e5b30af44aaa09de3ca5fbdb9f4",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 161,
+    "building_id": "58bc0309799d4302906cad52a50e2cdc",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 162,
+    "building_id": "595328062131493493ddd3e53e3cf04a",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 163,
+    "building_id": "59616f19b1404ff4a793f14f2ebda561",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "006e88a12f5a4c45926d12c1bf50588e"
+  },
+  {
+    "row": 164,
+    "building_id": "59be60e552544560863f49f48e5e54d5",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 165,
+    "building_id": "5a6cbb9d30c74126ab1f749446aa9453",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "5a6cbb9d30c74126ab1f749446aa9453"
+  },
+  {
+    "row": 166,
+    "building_id": "5bbbfc242f0549df996b2ee39ebb1b5e",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 167,
+    "building_id": "5bd2457c3ef34b25b29fcfd2f4c6fe91",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 168,
+    "building_id": "5c59bf867664461b9d9294daa8a676ac",
+    "label": 1,
+    "source_label": "major damage",
+    "joint_cluster": "00511e48af484cfb806b4542168187be"
+  },
+  {
+    "row": 169,
+    "building_id": "5d5f9482cfd8420292834ae170cd0e90",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 170,
+    "building_id": "5e188a373dba42c3804c68d11ecfa373",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 171,
+    "building_id": "5eb31ee464ac4876b1b68cf5f57d7a4a",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 172,
+    "building_id": "5f2aa4e838a649cdae9d98fca255e5da",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 173,
+    "building_id": "608fbf5a5b2944b5a1b2b409f20bf174",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "173cbea027b74de5b94b8e1518f034c8"
+  },
+  {
+    "row": 174,
+    "building_id": "61269f93f2be4a39ad66d6d27f8c28cc",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 175,
+    "building_id": "6141a94ef4154b73a1e44aeda3484f01",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 176,
+    "building_id": "61dfa066819a4770bf9ff262bd7ac2e7",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 177,
+    "building_id": "626a0fae2db84ff68bf70eea13ffcd31",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "1e3ac1b5d4db40668ae5ee73797fd5a1"
+  },
+  {
+    "row": 178,
+    "building_id": "62aad2bc814e462c9d2ed08374bd1df6",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 179,
+    "building_id": "6362274400a54bc6a654e5c853b3877b",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 180,
+    "building_id": "63a9916aae4f41d982f08aa7ceae20e7",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "1046a0f8e6e24afe8b521b40362c0821"
+  },
+  {
+    "row": 181,
+    "building_id": "63f0b46ca30d413588192f4235a147c5",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 182,
+    "building_id": "6479fd46c7f94d2eadc7ff8dda000db4",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "6479fd46c7f94d2eadc7ff8dda000db4"
+  },
+  {
+    "row": 183,
+    "building_id": "64ed260c23b241ae9b6e42ecaa4eefba",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 184,
+    "building_id": "651c82ec5af44f89926fb7a519df2317",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "1e331853a3c249dcb8db2e6d3bd02cf0"
+  },
+  {
+    "row": 185,
+    "building_id": "65376334e5bd458fbd6ce7f2cee795f1",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "31dd7abdb2ae4c4483737370bafa8fc2"
+  },
+  {
+    "row": 186,
+    "building_id": "6672bb63957d4803bdc6a9f96d60af81",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 187,
+    "building_id": "66d4a63c93904b3a9af10699f0e2f24b",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 188,
+    "building_id": "67424c40b4724097bdd79fd0385788ae",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0854a8e71f604dcdbc2c500c81846734"
+  },
+  {
+    "row": 189,
+    "building_id": "685cc520476148cd85a8eadc0e651ec3",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 190,
+    "building_id": "68834a75f447486097e926851e801aa1",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 191,
+    "building_id": "690c21c593694efd8000c3fde6705cce",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 192,
+    "building_id": "696aac9f09604ef59fd8724a746308cf",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "1046a0f8e6e24afe8b521b40362c0821"
+  },
+  {
+    "row": 193,
+    "building_id": "697c39697aac453c95dc1989c5b79c2b",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 194,
+    "building_id": "69b2785898034f37b563c55be3b694a1",
+    "label": 1,
+    "source_label": "major damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 195,
+    "building_id": "69b2cf051db943efb1c5097fe6576642",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "69b2cf051db943efb1c5097fe6576642"
+  },
+  {
+    "row": 196,
+    "building_id": "6a250445dfa54e188fd9c56c5795a701",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 197,
+    "building_id": "6aef86bc1d234265983a46c1d229b13c",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 198,
+    "building_id": "6b70ef63f53348989a7dc01fdbfdb764",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 199,
+    "building_id": "6bbabbf977234f179a87f5821f84e307",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "173cbea027b74de5b94b8e1518f034c8"
+  },
+  {
+    "row": 200,
+    "building_id": "6d59e710632c4de3b233a2fe9cb31d4c",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 201,
+    "building_id": "6d8ea531873b41c487cec9a0a868fe8c",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 202,
+    "building_id": "6dbfe94a16c349118948724038304f97",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "6dbfe94a16c349118948724038304f97"
+  },
+  {
+    "row": 203,
+    "building_id": "70ab3d8feb944f869b701d4a5754495b",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 204,
+    "building_id": "7107c5fb0eed4421a2bda107f1ce78ac",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 205,
+    "building_id": "717e72361c764644ac9749530f866c87",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "1e331853a3c249dcb8db2e6d3bd02cf0"
+  },
+  {
+    "row": 206,
+    "building_id": "724ee9ab822d48f785b658ae016520bd",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 207,
+    "building_id": "727f2b69863c4a8898e07686d8336b60",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 208,
+    "building_id": "72af9739128b4aaaafdee1f09faa45ad",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00782b2d94cc4791ac29579590581c55"
+  },
+  {
+    "row": 209,
+    "building_id": "73f5eaf1b66749dfb1e6a099e15d0bf5",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 210,
+    "building_id": "743e462205034e5fae14b835325e3b0b",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 211,
+    "building_id": "7484160943fe48b6aa91056f3fe8caf2",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 212,
+    "building_id": "7494fbc88b2f4d678612431f02cc8f8b",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 213,
+    "building_id": "74d48c23955e4b9c8f70259d248183a0",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 214,
+    "building_id": "75b87dc0ce1d47ccb24ff5b174dea0c6",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 215,
+    "building_id": "76529ba8a909446aa935d354c485b3ff",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 216,
+    "building_id": "767b0ab08851482c8dcffc78c13052f7",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "173cbea027b74de5b94b8e1518f034c8"
+  },
+  {
+    "row": 217,
+    "building_id": "7682c6d4424b4061a1d5c69ea6bafa67",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 218,
+    "building_id": "776af88538ed41c2829e575052a5f8ea",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 219,
+    "building_id": "78035d46ef4942a3af9eb9d0ccbd712c",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 220,
+    "building_id": "7a167523fae84b5982cbeae2924f98a0",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00782b2d94cc4791ac29579590581c55"
+  },
+  {
+    "row": 221,
+    "building_id": "7a25b73e603041b2a52b59154dea630e",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "31dd7abdb2ae4c4483737370bafa8fc2"
+  },
+  {
+    "row": 222,
+    "building_id": "7ae2c5292bf84f46b0308b6e143d5e2b",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 223,
+    "building_id": "7cd2e57f0a2249a287bee84d35ef00f0",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 224,
+    "building_id": "7e1d3890e7af406a9e559fa290a7b0d8",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "1e3ac1b5d4db40668ae5ee73797fd5a1"
+  },
+  {
+    "row": 225,
+    "building_id": "7e8e029a2be848af9a277e08ea92600b",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "7e8e029a2be848af9a277e08ea92600b"
+  },
+  {
+    "row": 226,
+    "building_id": "7eea4193a95f4ae6a5fc5d0b6b625972",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00782b2d94cc4791ac29579590581c55"
+  },
+  {
+    "row": 227,
+    "building_id": "7fd28cd8a121468894fa995fc788aace",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 228,
+    "building_id": "8015ab6bc5424655bc31bfeb4e4632cb",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "1e331853a3c249dcb8db2e6d3bd02cf0"
+  },
+  {
+    "row": 229,
+    "building_id": "801fd2b3182844509efebec9cf7083b6",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 230,
+    "building_id": "804d2cf750434697a7aa7ef113206fa4",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "2e021b1b510741849563b64a3893ae07"
+  },
+  {
+    "row": 231,
+    "building_id": "80ceae287eb04374ba2a4aa7afd17223",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00511e48af484cfb806b4542168187be"
+  },
+  {
+    "row": 232,
+    "building_id": "80ff3f40944c4856962f9fee8cdc5cdb",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0854a8e71f604dcdbc2c500c81846734"
+  },
+  {
+    "row": 233,
+    "building_id": "815c62df31a54fb3b938c4e50bf7fe3f",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 234,
+    "building_id": "8160216fdce3424ca6d6aef3c58ba182",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "1e331853a3c249dcb8db2e6d3bd02cf0"
+  },
+  {
+    "row": 235,
+    "building_id": "8207ca32d9df469e8217f84c00e3f037",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 236,
+    "building_id": "8284b69e46eb4764b3ffc6a963420c57",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 237,
+    "building_id": "84bc4f448f234a888db439a7be901fa5",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 238,
+    "building_id": "84c1d009d1fa4fe7bbd080e393ab7039",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 239,
+    "building_id": "84d5139cc9bb44c0a74d9be92694e129",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "84d5139cc9bb44c0a74d9be92694e129"
+  },
+  {
+    "row": 240,
+    "building_id": "85e1f457cea94accb7243917fb5abfba",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 241,
+    "building_id": "86cbc4ba7251417bab1b965e83e374d4",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0854a8e71f604dcdbc2c500c81846734"
+  },
+  {
+    "row": 242,
+    "building_id": "873fb39cac834ab2ac998e0494a27a26",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 243,
+    "building_id": "88052c08252f4110bcf9a3fae3c0db7f",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "48586d41628e41a886151c6bcad14811"
+  },
+  {
+    "row": 244,
+    "building_id": "880d06032b7e4797a1223fa2a461f86c",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "880d06032b7e4797a1223fa2a461f86c"
+  },
+  {
+    "row": 245,
+    "building_id": "882a35d68fd24c52948da53fd7d907ea",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 246,
+    "building_id": "8845f99f0f3844ca90470f77837deed7",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "1046a0f8e6e24afe8b521b40362c0821"
+  },
+  {
+    "row": 247,
+    "building_id": "884f2b29de8844178220fe01c22a8285",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "2e021b1b510741849563b64a3893ae07"
+  },
+  {
+    "row": 248,
+    "building_id": "88addd2404b14a19807bc313608c9f80",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "2e021b1b510741849563b64a3893ae07"
+  },
+  {
+    "row": 249,
+    "building_id": "89ba209e491b431cab4030c9d1ee8310",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "1e3ac1b5d4db40668ae5ee73797fd5a1"
+  },
+  {
+    "row": 250,
+    "building_id": "89decb73c1eb480e9ba2fafc402ffef3",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 251,
+    "building_id": "89fd812e8485440f9b64e03a99927604",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00782b2d94cc4791ac29579590581c55"
+  },
+  {
+    "row": 252,
+    "building_id": "8aa8430b04a04b298c11ad82cfa41663",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00782b2d94cc4791ac29579590581c55"
+  },
+  {
+    "row": 253,
+    "building_id": "8aad7121a15e473499b9ce5a199e9eb4",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 254,
+    "building_id": "8b5f13ddcea04b7e8eb0eda7937809f3",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 255,
+    "building_id": "8c10ae6c70e440ba8490d02101268cfd",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 256,
+    "building_id": "8cdc0d2b22294f69b7e32762dd98033c",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "1e331853a3c249dcb8db2e6d3bd02cf0"
+  },
+  {
+    "row": 257,
+    "building_id": "8e3c947a03e94f3eb32ee5d5c23e4819",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 258,
+    "building_id": "8f16860211304caf9c14eb5cedbd34f2",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 259,
+    "building_id": "8fb9971bbfb842778fd226372e713fe2",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 260,
+    "building_id": "9055a4d6b7374701aa4c15429ffd1f25",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 261,
+    "building_id": "90850b44072f4422a5bf2af728c19536",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 262,
+    "building_id": "91573624d3b84aafa65fa6940774d47b",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00782b2d94cc4791ac29579590581c55"
+  },
+  {
+    "row": 263,
+    "building_id": "91e8e33f3ca542d7b2b62cec458c67d1",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0854a8e71f604dcdbc2c500c81846734"
+  },
+  {
+    "row": 264,
+    "building_id": "930211fbf34d420aa4009fc5cc6d9371",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 265,
+    "building_id": "932148f12b4b4cf8a8382f3f136cf1ef",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 266,
+    "building_id": "93aee6dc0b784c6485bfb8e0c7139835",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 267,
+    "building_id": "945da01fafba444eba062d433191e700",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00782b2d94cc4791ac29579590581c55"
+  },
+  {
+    "row": 268,
+    "building_id": "9465cf5c7efb4060abb30addba3dcdf0",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 269,
+    "building_id": "9509c29e8a004d2dad82f4c9bbe3377b",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "1e3ac1b5d4db40668ae5ee73797fd5a1"
+  },
+  {
+    "row": 270,
+    "building_id": "95c1361bd62c4142888ab55046fb0eb0",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 271,
+    "building_id": "97abe9f094b14e99b03cc88bdfa76a69",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 272,
+    "building_id": "97f13d307e7f4f689139da344b18c8cd",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 273,
+    "building_id": "98efa9e02f944d408dc42bfdbf7bc04c",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 274,
+    "building_id": "99c8d05f4d394290bef56d48ecafd5c8",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "006e88a12f5a4c45926d12c1bf50588e"
+  },
+  {
+    "row": 275,
+    "building_id": "9a7f0b1db82e47158d6d8cc1f447b512",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 276,
+    "building_id": "9afc604ae70e4f7d886542de30cec8cc",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 277,
+    "building_id": "9baa7a77b5404e74b52fc7638a40a391",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 278,
+    "building_id": "9cfc7fcc7afa480b8c50d0292ccba3fb",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 279,
+    "building_id": "9d6de863736b489d88a96c33ef8a7221",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 280,
+    "building_id": "9dbd29c68af94e2a9bd8371105dfcc69",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 281,
+    "building_id": "9e2508785c94454d80be299000a6e228",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "880d06032b7e4797a1223fa2a461f86c"
+  },
+  {
+    "row": 282,
+    "building_id": "9ea0d2bad2dd4a01aa601c21c26e3020",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 283,
+    "building_id": "9eaafedee33f4499bbf196a0a4606275",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 284,
+    "building_id": "9ed0f73779e6405f9a375cbcee170c52",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "9ed0f73779e6405f9a375cbcee170c52"
+  },
+  {
+    "row": 285,
+    "building_id": "9f5142c05a784eaba0afc0dcef76de21",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 286,
+    "building_id": "9f63ee1b5ead4b00adb521cdba1b6a25",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 287,
+    "building_id": "9f978d71ba254e0b895f5cac75ddb9ae",
+    "label": 1,
+    "source_label": "major damage",
+    "joint_cluster": "1e331853a3c249dcb8db2e6d3bd02cf0"
+  },
+  {
+    "row": 288,
+    "building_id": "9fa7a9eba50449ec91102e13a060357d",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 289,
+    "building_id": "a01cb30c77534bcdb0ea96f6f8376b13",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 290,
+    "building_id": "a188ff8633154edebbd35a71a5f32e98",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 291,
+    "building_id": "a19555e7b72c405a8ae47632425f76d0",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 292,
+    "building_id": "a1f0e5777c5f467dba6059c61082cfb4",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 293,
+    "building_id": "a20c59da512843e68148ac4fa2ae9bb5",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 294,
+    "building_id": "a28fc6000aac4f37b0081bf4c39f609c",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "173cbea027b74de5b94b8e1518f034c8"
+  },
+  {
+    "row": 295,
+    "building_id": "a3469c49e02444a2b42320adbef4b356",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 296,
+    "building_id": "a3b00f43e9144e578b357e91ef2ac978",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00782b2d94cc4791ac29579590581c55"
+  },
+  {
+    "row": 297,
+    "building_id": "a4b4a582c8d24554bf12c2a675e7fb83",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "1e331853a3c249dcb8db2e6d3bd02cf0"
+  },
+  {
+    "row": 298,
+    "building_id": "a5be761236a4429b96cbc64b3e450bb6",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "2e021b1b510741849563b64a3893ae07"
+  },
+  {
+    "row": 299,
+    "building_id": "a5d8207da25f4e8aaaeea7dd353edce9",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 300,
+    "building_id": "a64a558bd9914784a294bb5df23da0f9",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 301,
+    "building_id": "a79f599c2bf0492dba9301fa6910fcef",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 302,
+    "building_id": "a84dd2b200a04cd99572e884f1954c92",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 303,
+    "building_id": "a927799a7acf401f90b7e3652d7dba8b",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0068fb517662492a92bd9eb60c119e6c"
+  },
+  {
+    "row": 304,
+    "building_id": "a99d379e5d6943bd8b425dfc17d823a5",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "1e331853a3c249dcb8db2e6d3bd02cf0"
+  },
+  {
+    "row": 305,
+    "building_id": "a9b453af8d9f43ffb08f9f7eda134742",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 306,
+    "building_id": "a9b87ac9c00b4835acbaf6007bd473df",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "26f935bd49ef440289181d9c51fdcb41"
+  },
+  {
+    "row": 307,
+    "building_id": "ab3d3e48ca174e74925c6f1c98fadbe0",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 308,
+    "building_id": "ab96e0f418a84ffd83934caf66a74735",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "006e88a12f5a4c45926d12c1bf50588e"
+  },
+  {
+    "row": 309,
+    "building_id": "aba44c0cb5c04de3ba61948693d03aac",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 310,
+    "building_id": "aba5edb321f54aa49bd69ae5d4099cd8",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 311,
+    "building_id": "ac1b563b77824c41828123726052f14c",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 312,
+    "building_id": "ac3956ed59704b79a24563853de0255b",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "173cbea027b74de5b94b8e1518f034c8"
+  },
+  {
+    "row": 313,
+    "building_id": "ac5daed61092405d98d6aa4c196c8b25",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 314,
+    "building_id": "ad46695e641e436896ac1f2143f412ef",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 315,
+    "building_id": "ad5a7fc55d184007b00ac4da2a688e85",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 316,
+    "building_id": "ae1cdc6fd503443997ca12d62681ba18",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 317,
+    "building_id": "ae1d265fa2bd48a68df4a56a2815818c",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 318,
+    "building_id": "aef467ff4f7d442097e9119c338e08d6",
+    "label": 1,
+    "source_label": "minor damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 319,
+    "building_id": "afbf0ea9a121437f8f9e12ebc899c4a2",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 320,
+    "building_id": "afd583de8582473ea576468c9b1986f8",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "afd583de8582473ea576468c9b1986f8"
+  },
+  {
+    "row": 321,
+    "building_id": "affa75a5e5ee41119897d1ecb8d31401",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 322,
+    "building_id": "b02e7b1a8fb84605a7fb79f5589de98b",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 323,
+    "building_id": "b03e510dfb9044aca942009b7696823a",
+    "label": 1,
+    "source_label": "minor damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 324,
+    "building_id": "b055fb72ca134c04bb81ddec87c810aa",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 325,
+    "building_id": "b10556deb13b4605b84b4b0f0e197c58",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 326,
+    "building_id": "b12b9fb305004bd9a9b39e0fb7c99eae",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "1046a0f8e6e24afe8b521b40362c0821"
+  },
+  {
+    "row": 327,
+    "building_id": "b19cbbbe7f6345758673df4c4a1bc666",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 328,
+    "building_id": "b22c3a364a084f4eac80d4359f6f0b7d",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 329,
+    "building_id": "b26c3e8038d64dc88d304e65043bba50",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 330,
+    "building_id": "b3544dd97fc345a5bdca0c09335f19d7",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 331,
+    "building_id": "b36b1a8c3e314f25b0b03bd8bad1571c",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 332,
+    "building_id": "b4459475bada4bc884a9b66e5694d364",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 333,
+    "building_id": "b51ac32ae06f499d986e47ca85e694f6",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 334,
+    "building_id": "b5bdf0919cc144148b981eeba60cb7eb",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0854a8e71f604dcdbc2c500c81846734"
+  },
+  {
+    "row": 335,
+    "building_id": "b72f705de27e4079b252c3391f2e1a0d",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0854a8e71f604dcdbc2c500c81846734"
+  },
+  {
+    "row": 336,
+    "building_id": "b8784a3ffffa43628018b424193de89d",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 337,
+    "building_id": "b8b853ec01c34f74b091015ab715458c",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 338,
+    "building_id": "b9c623fc57424e76bd4f8e1806884729",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 339,
+    "building_id": "baf76eaf00824d68bc3ff7b9ab8d7001",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 340,
+    "building_id": "bb2969a69e6f41fb86bcd3ee3f2d95e6",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 341,
+    "building_id": "bb3595c3ddf546c280436be19bd14ce7",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 342,
+    "building_id": "bc5e9099ff9c4dd89d851c3d115ced19",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "bc5e9099ff9c4dd89d851c3d115ced19"
+  },
+  {
+    "row": 343,
+    "building_id": "bc7c22482e664f99b9f079c09f46a175",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 344,
+    "building_id": "be238d1703fc4113a143c950c8e69def",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "be238d1703fc4113a143c950c8e69def"
+  },
+  {
+    "row": 345,
+    "building_id": "be6c2793a7e54e4f9c0544793ac45247",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 346,
+    "building_id": "be9511541795429fa3b9b22e0bf8ed5e",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 347,
+    "building_id": "c0fc7daa181d41fda0ba01b52d721e88",
+    "label": 1,
+    "source_label": "minor damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 348,
+    "building_id": "c13c3738ba774049914cc395acaa92fb",
+    "label": 1,
+    "source_label": "major damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 349,
+    "building_id": "c1941de1e9424b309c3423ae7f3ea313",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 350,
+    "building_id": "c27eb627c14b49e9aac7bbe66ab02877",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "69b2cf051db943efb1c5097fe6576642"
+  },
+  {
+    "row": 351,
+    "building_id": "c293c05fdfce430f91eb7300d347b0da",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 352,
+    "building_id": "c2de241aa9204ba2953ab82bfff0dafa",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 353,
+    "building_id": "c38cfe053dbf4863b68e18d8ca769b78",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 354,
+    "building_id": "c43712d7d73c4420addba63205eea5d8",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 355,
+    "building_id": "c6e118ecc9bb41c99e5ed4846b3858ad",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 356,
+    "building_id": "c76faa369c434dcda79a76e11ca1f797",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 357,
+    "building_id": "c7842d5910a746969aa802b268ecf8e3",
+    "label": 1,
+    "source_label": "minor damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 358,
+    "building_id": "c93bb0951799457ab45382013a49725d",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 359,
+    "building_id": "c9f4bceaeac44dd68a685d370defc493",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "c9f4bceaeac44dd68a685d370defc493"
+  },
+  {
+    "row": 360,
+    "building_id": "cac12e5a5e004ed28a6587e676e1d958",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 361,
+    "building_id": "cb299917359a47babed9fb7ae4f3e05c",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 362,
+    "building_id": "cbd12f7d555f413eafa1d2aaaef641ca",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 363,
+    "building_id": "cc33a520dc6541de9ead6b042d86e2c0",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "173cbea027b74de5b94b8e1518f034c8"
+  },
+  {
+    "row": 364,
+    "building_id": "cc5a4f768f5048bfb2f6b2681293f6ec",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 365,
+    "building_id": "cd482f4eefa349248991c1c894dda5df",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 366,
+    "building_id": "cd5f1cbd4aef4f41a9c537feaf5a2f80",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 367,
+    "building_id": "cd7caf390de041919113be052df83722",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 368,
+    "building_id": "cdb71d37c5a4424a87ef5cddbaa73c9e",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 369,
+    "building_id": "cde193382ecc424d8faac4caefa3dd81",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 370,
+    "building_id": "ce0b991808be48c3a1a7385732ae9f42",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 371,
+    "building_id": "cefac521d1964ea8a2566d4bd9628a84",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 372,
+    "building_id": "cf5400a820474621bc9a66593b074d34",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "006e88a12f5a4c45926d12c1bf50588e"
+  },
+  {
+    "row": 373,
+    "building_id": "d01c5bc1922e42f09dd1b2115cc96925",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 374,
+    "building_id": "d0394682dc564b23875820c110aeea90",
+    "label": 1,
+    "source_label": "minor damage",
+    "joint_cluster": "2cb419ba0379423a8ba6a6b61ac0a011"
+  },
+  {
+    "row": 375,
+    "building_id": "d09e28e554ca477d88a0cb41b3c87bb0",
+    "label": 1,
+    "source_label": "minor damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 376,
+    "building_id": "d135e62610634d949ed23a3ea1e8ff03",
+    "label": 1,
+    "source_label": "minor damage",
+    "joint_cluster": "0a4d81276f2f43548bafbff007914b5f"
+  },
+  {
+    "row": 377,
+    "building_id": "d1d75eef363f470c8e72925676401429",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 378,
+    "building_id": "d261be57b8d440978267c627cbfb9712",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "84d5139cc9bb44c0a74d9be92694e129"
+  },
+  {
+    "row": 379,
+    "building_id": "d3108ebc40344bf2b643f9af71c858b2",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 380,
+    "building_id": "d36742e1380943bcb4d411247fc647c0",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 381,
+    "building_id": "d392a92301a74470b7ff47e298d87e3c",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 382,
+    "building_id": "d436487b245243b39415951e5f040f64",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "173cbea027b74de5b94b8e1518f034c8"
+  },
+  {
+    "row": 383,
+    "building_id": "d4d2f87938f345be919623469e76e378",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 384,
+    "building_id": "d4e2ec48e5324b91ba5bd2e6626724b7",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 385,
+    "building_id": "d4e68d1db95c4ed2bbfc18116a5e11dc",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 386,
+    "building_id": "d4ebbdab1624467abc087083c1632205",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00782b2d94cc4791ac29579590581c55"
+  },
+  {
+    "row": 387,
+    "building_id": "d518a54a1ac3429892438446773d758a",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 388,
+    "building_id": "d54cb2fdb139479caba9948d2f5ecb5c",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "006e88a12f5a4c45926d12c1bf50588e"
+  },
+  {
+    "row": 389,
+    "building_id": "d5a46771fe8c44f2a880a03ca3de363e",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 390,
+    "building_id": "d65d8e4fb41e4c79b2934c54613df0f7",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 391,
+    "building_id": "d673042262b04eb1bb1d330fc4f98bfd",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 392,
+    "building_id": "d6941b86a3fc4dfb8a7edbbd7f18bf29",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 393,
+    "building_id": "d6b434c4bd9a419d85038813aad03f2a",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 394,
+    "building_id": "d76b96580e83418790f47ce3a5ddbc43",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 395,
+    "building_id": "d770947040a04c1ea86a698e7a59666d",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 396,
+    "building_id": "d789bf10f95347b592f0cac00f89cbff",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 397,
+    "building_id": "d7d28cd2ecc640bc980c5282c865454d",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "006e88a12f5a4c45926d12c1bf50588e"
+  },
+  {
+    "row": 398,
+    "building_id": "d93850a18a3548638dda8743c1d59d98",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 399,
+    "building_id": "d957301fae3b48e6863595b0281014fe",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 400,
+    "building_id": "d9e84d10794c41bcba817141c7f34689",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 401,
+    "building_id": "da029a0e130b4eaabb37619cf8b0a6fc",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 402,
+    "building_id": "da444d7463ac4bfabe463e2ad71a6ea9",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 403,
+    "building_id": "db2414843a474a1098015c1f6da14f2c",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "1e331853a3c249dcb8db2e6d3bd02cf0"
+  },
+  {
+    "row": 404,
+    "building_id": "dba22b7cb8f5458894bdc8a91cc4ce53",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 405,
+    "building_id": "dba996c6e1e845879762d1697855d41a",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "26f935bd49ef440289181d9c51fdcb41"
+  },
+  {
+    "row": 406,
+    "building_id": "dbb794409e634e5e925ec7153646b92d",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00782b2d94cc4791ac29579590581c55"
+  },
+  {
+    "row": 407,
+    "building_id": "dc57534897264e69aa4eb1930e9849a1",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 408,
+    "building_id": "dcca9b38fd544acf8b36c364f668e7c6",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 409,
+    "building_id": "dd66b032d03d49ca85553f83ebafee78",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00782b2d94cc4791ac29579590581c55"
+  },
+  {
+    "row": 410,
+    "building_id": "dd70ff2f0478493cabb2aeda451db502",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00511e48af484cfb806b4542168187be"
+  },
+  {
+    "row": 411,
+    "building_id": "de9b526e7c5e47d482ab09285dbb241c",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 412,
+    "building_id": "dee806e3d9354255be2a698678d43f98",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "dee806e3d9354255be2a698678d43f98"
+  },
+  {
+    "row": 413,
+    "building_id": "df08ccf2c6584833bca14db155099732",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0854a8e71f604dcdbc2c500c81846734"
+  },
+  {
+    "row": 414,
+    "building_id": "df55068c6b68434ab5300ff0b8fad2ba",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 415,
+    "building_id": "e00491f0dc014620806a8e1d956e1ae6",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 416,
+    "building_id": "e0d80dd96ae248dc8317085712759467",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 417,
+    "building_id": "e37e4072fdda4a14a429a8dc7d89efcf",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 418,
+    "building_id": "e5d21039d7e54421964dbd650d6f6bb2",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "2852e8aa35bc4317abc8657d9183dcb1"
+  },
+  {
+    "row": 419,
+    "building_id": "e67faebd00c545beb27c1ff5bd69693d",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 420,
+    "building_id": "e931824f7cda4f7182cb98a6b68fa7aa",
+    "label": 1,
+    "source_label": "major damage",
+    "joint_cluster": "173cbea027b74de5b94b8e1518f034c8"
+  },
+  {
+    "row": 421,
+    "building_id": "e93d76fb880d40949b3338354aef881b",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "173cbea027b74de5b94b8e1518f034c8"
+  },
+  {
+    "row": 422,
+    "building_id": "e9fc5d7abd2a4a24994169543fdb63e7",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 423,
+    "building_id": "eaf1203560f7418889487e5b3279a8fe",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "31dd7abdb2ae4c4483737370bafa8fc2"
+  },
+  {
+    "row": 424,
+    "building_id": "ecf5d3fea63542dc98351b0d8411d6c1",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "880d06032b7e4797a1223fa2a461f86c"
+  },
+  {
+    "row": 425,
+    "building_id": "ee0f2e8e1a6b442887ec6c315a4aa8ab",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "006e88a12f5a4c45926d12c1bf50588e"
+  },
+  {
+    "row": 426,
+    "building_id": "ee6133c77ef64021a6437cc8d2a806b5",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 427,
+    "building_id": "ef7087dc3158436fad9995eb5a58bbc8",
+    "label": 1,
+    "source_label": "minor damage",
+    "joint_cluster": "006e88a12f5a4c45926d12c1bf50588e"
+  },
+  {
+    "row": 428,
+    "building_id": "efff0d1bf9ef4bdfb2328c4451b9e585",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "006e88a12f5a4c45926d12c1bf50588e"
+  },
+  {
+    "row": 429,
+    "building_id": "f09430d3ee504a838e3427a237d38362",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 430,
+    "building_id": "f0a7bb49238841a9ab4d6ba3dd190b36",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00782b2d94cc4791ac29579590581c55"
+  },
+  {
+    "row": 431,
+    "building_id": "f0eafb475f3547409f0b12a0674aef63",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00782b2d94cc4791ac29579590581c55"
+  },
+  {
+    "row": 432,
+    "building_id": "f1727fb300d34598ab1e7a9cd76559cb",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 433,
+    "building_id": "f173df52dc3c4bd58942d3dfc761267e",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 434,
+    "building_id": "f2826a6addfd4172954f23464cf393fc",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "006e88a12f5a4c45926d12c1bf50588e"
+  },
+  {
+    "row": 435,
+    "building_id": "f2d9bd41db324b86aadd07fa5840a141",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 436,
+    "building_id": "f4ea467635424b2e96a73b78af73b5b1",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 437,
+    "building_id": "f54f632546824d60857e1f9d39a92cb7",
+    "label": 1,
+    "source_label": "destroyed",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 438,
+    "building_id": "f55350b834824077b366373c6f1bdbad",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "068f76d355c54f9a86bd9e57be0648f6"
+  },
+  {
+    "row": 439,
+    "building_id": "f648239eec06401facbb088a738aedf2",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 440,
+    "building_id": "f662b720ccd34d4ebb3c32dc06676f7a",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "6dbfe94a16c349118948724038304f97"
+  },
+  {
+    "row": 441,
+    "building_id": "f76ac8c68cac4527b59e23e8bc1bbe8d",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "008ba30a99b74b268a5b2472e1ce9c1d"
+  },
+  {
+    "row": 442,
+    "building_id": "f84c0b74b9f743ff9b6c4ff0c0e778ed",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "0068fb517662492a92bd9eb60c119e6c"
+  },
+  {
+    "row": 443,
+    "building_id": "f85041c97e6648ca9e58e4f64d815b06",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 444,
+    "building_id": "f873cc5dd185497ea99efed0cc35fefc",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 445,
+    "building_id": "f8f9140270dc411f91bbc1eaec05889f",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 446,
+    "building_id": "f959bacee5a94ae3b03a66042c030a9f",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "2852e8aa35bc4317abc8657d9183dcb1"
+  },
+  {
+    "row": 447,
+    "building_id": "f96dc11468394fef9c76e895b48b2d15",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "31dd7abdb2ae4c4483737370bafa8fc2"
+  },
+  {
+    "row": 448,
+    "building_id": "fc049ca6a4d743f293ddfc2baf4e15b5",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 449,
+    "building_id": "fc232c6860db4b07b9f037712b0054c1",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "c9f4bceaeac44dd68a685d370defc493"
+  },
+  {
+    "row": 450,
+    "building_id": "fd15e6df61414daf8e88c1fb8ee5a054",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "26f935bd49ef440289181d9c51fdcb41"
+  },
+  {
+    "row": 451,
+    "building_id": "fd582c52952343b5a6238002669bcdae",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "173cbea027b74de5b94b8e1518f034c8"
+  },
+  {
+    "row": 452,
+    "building_id": "fdf905cf24354860b4f305fbc5b029e9",
+    "label": 1,
+    "source_label": "minor damage",
+    "joint_cluster": "fdf905cf24354860b4f305fbc5b029e9"
+  },
+  {
+    "row": 453,
+    "building_id": "fe7907fd130f4baebef5f725861af2a7",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 454,
+    "building_id": "ff5fd904e9d3480d973bcb9f64bec4cf",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 455,
+    "building_id": "ffbfcb06ada54667859950e999daf8fb",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "173cbea027b74de5b94b8e1518f034c8"
+  },
+  {
+    "row": 456,
+    "building_id": "ffee56a139874b54aed89d8ea988cf46",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  },
+  {
+    "row": 457,
+    "building_id": "fff2b238f0de4a31b966cbd6ac89ef90",
+    "label": 0,
+    "source_label": "no damage",
+    "joint_cluster": "00b1be31b6d046c7a400934b3ead8e57"
+  }
+]

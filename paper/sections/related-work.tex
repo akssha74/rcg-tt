@@ -17,6 +17,22 @@ mode was exposed in a prior internal evaluation and is studied here as a
 concrete counterexample and audit case, not as an estimate of field-wide
 prevalence.
 
+Test-time augmentation confidence methods instead generate transformed views
+from the image actually received at inference~\citep{bahat2020tta,conde2023atta}.
+EO scale-aware networks use multi-resolution inputs for prediction rather than
+claiming an unavailable-reference reliability score~\citep{wang2021sanet}.
+Native-versus-resampled EO studies further show that synthetic resampling is a
+common scale-effect tool but can differ from actual multi-resolution
+observations~\citep{li2023scaleeffect,xu2019upscaling}.
+
+A post-hoc structured scoping audit applied six search queries to 12 primary
+works spanning disagreement, test-time augmentation, EO OOD, multi-resolution
+modelling and spatial validation. None used an unavailable fine image to score
+errors of a genuinely coarse received image while presenting it as a matched
+deployable baseline. This zero count narrows, rather than broadens, our claim:
+the paper contributes a concrete counterexample and checklist, not a prevalence
+estimate.
+
 \subsection{OOD detection in Earth observation}
 
 Remote-sensing OOD work considers unseen classes, sensors and geographical

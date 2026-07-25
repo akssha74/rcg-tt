@@ -29,7 +29,7 @@ important for reliability studies because they change both classifier errors
 and the apparent ability to rank those errors.
 
 This article presents a pre-specified, failure-finding audit of reliability
-under resolution shift. It makes four contributions:
+under resolution shift. It makes six contributions:
 
 \begin{enumerate}
 \item It defines an information-set audit that contrasts
@@ -38,12 +38,16 @@ errors.
 \item It compares maximum-softmax confidence, maximum logit, energy, Earth-
 observation (EO) deep nearest neighbours, virtual-logit matching (ViM), and
 received-image consistency under identical source-only information.
+\item It prospectively replicates the anchor-matched protocol gap with a second
+architecture and four fixed degradation operators across three seeds.
+\item It performs a structured 12-work information-set scoping audit and
+separates the concrete counterexample from any field-prevalence claim.
 \item It replaces contaminated evaluations with encoded-byte duplicate
 exclusion and guarded spatial blocks whose retained 512-pixel crops have zero
 cross-split intersections.
 \item It extends measured-ground-sampling-distance (GSD) evaluation to paired
-UAS and post-event satellite buildings from four held-out acquisitions at
-three geographies and two disaster events, with independent model seeds and
+UAS/satellite and UAS/crewed-aircraft buildings from five held-out acquisitions
+at four geographies and three disaster events, with independent model seeds and
 paired spatial-cluster uncertainty.
 \end{enumerate}
 

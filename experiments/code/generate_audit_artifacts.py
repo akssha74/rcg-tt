@@ -25,6 +25,23 @@ CRASAR_SOURCE = EVIDENCE / "crasar/leakage_free_crasar.json"
 PAIRED_SOURCE = (
     EVIDENCE / "crasar/leakage_free_paired_gsd.json"
 )
+MOBILENET_SOURCE = (
+    ROOT
+    / "experiments/derived/architecture_replication/"
+    "mobilenet_aider_operator_audit.json"
+)
+RESNET_OPERATOR_SOURCE = (
+    ROOT
+    / "experiments/derived/architecture_replication/"
+    "resnet_operator_sensitivity.json"
+)
+IDALIA_SOURCE = (
+    ROOT / "experiments/derived/idalia_paired/idalia_paired_sensitivity.json"
+)
+REVEAL_MASK_SOURCE = (
+    ROOT
+    / "experiments/derived/reference_reveal_mask/reveal_mask_summary.json"
+)
 TABLES = ROOT / "paper/tables"
 FIGURES = ROOT / "paper/figures"
 SCORES = [
@@ -422,6 +439,193 @@ def make_measured_figure(paired: dict) -> None:
     plt.close(fig)
 
 
+def write_architecture_operator_table(mobile: dict, resnet: dict) -> None:
+    labels = {
+        "bicubic": "Bicubic",
+        "bilinear": "Bilinear",
+        "nearest": "Nearest",
+        "box": "Box",
+    }
+    rows = []
+    for operator, label in labels.items():
+        mobile_row = mobile["aggregate"]["operators"][operator]
+        aider_row = resnet["aggregate"]["aider"][operator]
+        hurricane_row = resnet["aggregate"]["hurricane"][operator]
+        rows.append(
+            f"{label} & {mobile_row['mean']:.3f} $\\pm$ "
+            f"{mobile_row['std']:.3f} & {aider_row['mean']:.3f} $\\pm$ "
+            f"{aider_row['std']:.3f} & {hurricane_row['mean']:.3f} $\\pm$ "
+            f"{hurricane_row['std']:.3f} \\\\"
+        )
+    text = "\n".join(
+        [
+            "\\begin{table}[t]",
+            "\\centering",
+            "\\caption{Prospective architecture/operator replication of the "
+            "anchor-matched fine-reference minus received-image error-AUROC "
+            "gap. Values are mean $\\pm$ sample SD over three independently "
+            "trained seeds.}",
+            "\\label{tab:architecture-operator}",
+            "\\resizebox{\\textwidth}{!}{%",
+            "\\begin{tabular}{lccc}",
+            "\\toprule",
+            "Operator & MobileNet AIDER & ResNet AIDER & ResNet Hurricane \\\\",
+            "\\midrule",
+            *rows,
+            "\\bottomrule",
+            "\\end{tabular}}",
+            "\\end{table}",
+            "",
+        ]
+    )
+    (TABLES / "architecture_operator_replication.tex").write_text(text)
+
+
+def make_architecture_operator_figure(mobile: dict, resnet: dict) -> None:
+    operators = ["bicubic", "bilinear", "nearest", "box"]
+    labels = ["Bicubic", "Bilinear", "Nearest", "Box"]
+    series = [
+        (
+            "MobileNet AIDER",
+            [mobile["aggregate"]["operators"][op]["mean"] for op in operators],
+            [mobile["aggregate"]["operators"][op]["std"] for op in operators],
+            "#4C78A8",
+        ),
+        (
+            "ResNet AIDER",
+            [resnet["aggregate"]["aider"][op]["mean"] for op in operators],
+            [resnet["aggregate"]["aider"][op]["std"] for op in operators],
+            "#F2CF5B",
+        ),
+        (
+            "ResNet Hurricane",
+            [
+                resnet["aggregate"]["hurricane"][op]["mean"]
+                for op in operators
+            ],
+            [
+                resnet["aggregate"]["hurricane"][op]["std"]
+                for op in operators
+            ],
+            "#E45756",
+        ),
+    ]
+    x = np.arange(len(operators))
+    width = 0.25
+    fig, axis = plt.subplots(figsize=(7.0, 2.65))
+    for index, (name, means, standard_deviations, colour) in enumerate(series):
+        axis.bar(
+            x + (index - 1) * width,
+            means,
+            width,
+            yerr=standard_deviations,
+            capsize=2,
+            label=name,
+            color=colour,
+        )
+    axis.axhline(0, color="black", linewidth=0.8)
+    axis.set_xticks(x, labels)
+    axis.set_ylabel("Fine-reference $-$ received AUROC")
+    axis.set_title("Architecture and degradation-operator replication")
+    axis.legend(frameon=False, ncol=3, fontsize=7)
+    axis.grid(axis="y", alpha=0.25)
+    fig.tight_layout()
+    fig.savefig(
+        FIGURES / "architecture_operator_replication.pdf",
+        bbox_inches="tight",
+        metadata={"CreationDate": None, "ModDate": None},
+    )
+    plt.close(fig)
+
+
+def write_idalia_table(data: dict) -> None:
+    rows = []
+    for seed in data["protocol"]["seeds"]:
+        result = data["results"][str(seed)]
+        interval = result["cluster_bootstrap"]["ci95"]
+        rows.append(
+            f"{seed} & {result['uas']['balanced_accuracy']:.3f} & "
+            f"{result['crewed']['balanced_accuracy']:.3f} & "
+            f"{result['crewed_rcg_lift']:.3f} & "
+            f"[{interval[0]:.3f}, {interval[1]:.3f}] \\\\"
+        )
+    text = "\n".join(
+        [
+            "\\begin{table}[t]",
+            "\\centering",
+            "\\caption{Prospective third-event Hurricane Idalia sensitivity "
+            "on 458 same-building UAS/crewed-aircraft pairs. The final columns "
+            "report received-consistency minus confidence error-AUROC and its "
+            "joint-overlap-cluster bootstrap interval.}",
+            "\\label{tab:idalia}",
+            "\\begin{tabular}{lrrrr}",
+            "\\toprule",
+            "Seed & UAS balanced acc. & Crewed balanced acc. & AUROC lift & 95\\% CI \\\\",
+            "\\midrule",
+            *rows,
+            "\\bottomrule",
+            "\\end{tabular}",
+            "\\end{table}",
+            "",
+        ]
+    )
+    (TABLES / "idalia_sensitivity.tex").write_text(text)
+
+
+def write_reveal_mask_table(data: dict) -> None:
+    rows = []
+    labels = {
+        "bicubic": "Bicubic",
+        "bilinear": "Bilinear",
+        "nearest": "Nearest",
+        "box": "Box",
+    }
+    for operator, label in labels.items():
+        values = {}
+        probabilities = []
+        for corpus in ("aider", "hurricane"):
+            gaps = [
+                data["results"][corpus][str(seed)][operator][
+                    "aligned_minus_masked_mean"
+                ]
+                for seed in (101, 202, 303)
+            ]
+            values[corpus] = (np.mean(gaps), np.std(gaps, ddof=1))
+            probabilities.extend(
+                data["results"][corpus][str(seed)][operator][
+                    "empirical_probability"
+                ]
+                for seed in (101, 202, 303)
+            )
+        rows.append(
+            f"{label} & {values['aider'][0]:.3f} $\\pm$ "
+            f"{values['aider'][1]:.3f} & {values['hurricane'][0]:.3f} "
+            f"$\\pm$ {values['hurricane'][1]:.3f} & "
+            f"{max(probabilities):.4f} \\\\"
+        )
+    text = "\n".join(
+        [
+            "\\begin{table}[t]",
+            "\\centering",
+            "\\caption{Pre-specified fine-reference reveal/mask experiment. "
+            "Values are aligned-minus-masked-mean error AUROC across three "
+            "ResNet seeds; the final column is the maximum empirical one-sided "
+            "probability across both corpora and all seeds.}",
+            "\\label{tab:reveal-mask}",
+            "\\begin{tabular}{lccc}",
+            "\\toprule",
+            "Operator & AIDER gap & Hurricane gap & Max. probability \\\\",
+            "\\midrule",
+            *rows,
+            "\\bottomrule",
+            "\\end{tabular}",
+            "\\end{table}",
+            "",
+        ]
+    )
+    (TABLES / "reference_reveal_mask.tex").write_text(text)
+
+
 def main() -> None:
     data = json.loads(SOURCE.read_text())
     TABLES.mkdir(parents=True, exist_ok=True)
@@ -436,6 +640,15 @@ def main() -> None:
         paired = json.loads(PAIRED_SOURCE.read_text())
         write_measured_table(training, paired)
         make_measured_figure(paired)
+    if MOBILENET_SOURCE.exists() and RESNET_OPERATOR_SOURCE.exists():
+        mobile = json.loads(MOBILENET_SOURCE.read_text())
+        resnet = json.loads(RESNET_OPERATOR_SOURCE.read_text())
+        write_architecture_operator_table(mobile, resnet)
+        make_architecture_operator_figure(mobile, resnet)
+    if IDALIA_SOURCE.exists():
+        write_idalia_table(json.loads(IDALIA_SOURCE.read_text()))
+    if REVEAL_MASK_SOURCE.exists():
+        write_reveal_mask_table(json.loads(REVEAL_MASK_SOURCE.read_text()))
     print("AUDIT_ARTIFACTS_COMPLETE", flush=True)
 
 

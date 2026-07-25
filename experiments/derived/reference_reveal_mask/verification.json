@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "combinations": true,
+    "all_pass": true,
+    "minimum_gap_positive": true,
+    "maximum_probability": true,
+    "raw_metric_checks": 2448
+  },
+  "all_pass": true
+}

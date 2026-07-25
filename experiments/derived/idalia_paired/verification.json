@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "selection_count": true,
+    "joint_clusters": true,
+    "e1": true,
+    "e2": true,
+    "positive_cluster_interval_101": true,
+    "positive_cluster_interval_202": true,
+    "positive_cluster_interval_303": true
+  },
+  "all_pass": true
+}

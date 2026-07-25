@@ -1,0 +1,149 @@
+{
+  "protocol": {
+    "dataset": "CRASAR/CRASAR-U-DROIDs",
+    "revision": "47cf4ab3a94d42978975f7d23338a996125ac0e9",
+    "event": "Hurricane Idalia",
+    "uas": "20230830-SteinhatcheeRiver.geo.tif",
+    "crewed": "20230830-SteinhatcheeRiver.geo.tif_20230831a_RGB.geo.tif",
+    "uas_gsd_m": 0.127,
+    "crewed_gsd_m": 0.150161,
+    "uas_footprint_m": 65.024,
+    "crewed_footprint_m": 76.882432,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "bootstrap_repeats": 2000,
+    "device": "mps"
+  },
+  "selection": {
+    "uas_annotations": 619,
+    "crewed_annotations": 608,
+    "common_building_ids": 605,
+    "same_eligible_label": 458
+  },
+  "results": {
+    "101": {
+      "uas": {
+        "n": 458,
+        "n_errors": 197,
+        "accuracy": 0.5698689956331878,
+        "balanced_accuracy": 0.5932766699357088,
+        "macro_f1": 0.4161603219899184,
+        "majority_accuracy": 0.9541484716157205,
+        "auroc_confidence": 0.5395589007526693,
+        "auroc_rcg": 0.9565707839819515,
+        "auprc_confidence": 0.4585103702527986,
+        "auprc_rcg": 0.9240534043191704
+      },
+      "crewed": {
+        "n": 458,
+        "n_errors": 173,
+        "accuracy": 0.6222707423580786,
+        "balanced_accuracy": 0.6207366241691185,
+        "macro_f1": 0.44468507110167294,
+        "majority_accuracy": 0.9541484716157205,
+        "auroc_confidence": 0.631376128181726,
+        "auroc_rcg": 0.943535138424095,
+        "auprc_confidence": 0.5244929713814898,
+        "auprc_rcg": 0.9134504296380135
+      },
+      "paired_accuracy_change": -0.05240174672489073,
+      "crewed_rcg_lift": 0.31215901024236903,
+      "cluster_bootstrap": {
+        "clusters": 37,
+        "mean": 0.3136023140366936,
+        "ci95": [
+          0.26094049043062195,
+          0.3720322046260318
+        ],
+        "repeats": 2000
+      },
+      "score_path": "experiments/derived/idalia_paired/seed_101.npz"
+    },
+    "202": {
+      "uas": {
+        "n": 458,
+        "n_errors": 77,
+        "accuracy": 0.8318777292576419,
+        "balanced_accuracy": 0.5265882096545712,
+        "macro_f1": 0.5007291003043817,
+        "majority_accuracy": 0.9541484716157205,
+        "auroc_confidence": 0.7414186863005761,
+        "auroc_rcg": 0.8993762143368443,
+        "auprc_confidence": 0.3677523043937788,
+        "auprc_rcg": 0.771004069632202
+      },
+      "crewed": {
+        "n": 458,
+        "n_errors": 210,
+        "accuracy": 0.5414847161572053,
+        "balanced_accuracy": 0.5784025280592786,
+        "macro_f1": 0.4006729810568295,
+        "majority_accuracy": 0.9541484716157205,
+        "auroc_confidence": 0.550057603686636,
+        "auroc_rcg": 0.9389016897081414,
+        "auprc_confidence": 0.5150446969979916,
+        "auprc_rcg": 0.9286085233772239
+      },
+      "paired_accuracy_change": 0.29039301310043664,
+      "crewed_rcg_lift": 0.38884408602150533,
+      "cluster_bootstrap": {
+        "clusters": 37,
+        "mean": 0.3640890980751116,
+        "ci95": [
+          0.21040015515642527,
+          0.4720453766170705
+        ],
+        "repeats": 2000
+      },
+      "score_path": "experiments/derived/idalia_paired/seed_202.npz"
+    },
+    "303": {
+      "uas": {
+        "n": 458,
+        "n_errors": 76,
+        "accuracy": 0.834061135371179,
+        "balanced_accuracy": 0.5957284515636918,
+        "macro_f1": 0.5317729351627657,
+        "majority_accuracy": 0.9541484716157205,
+        "auroc_confidence": 0.7489666574813998,
+        "auroc_rcg": 0.9030035822540644,
+        "auprc_confidence": 0.3631370321049771,
+        "auprc_rcg": 0.7900536282636365
+      },
+      "crewed": {
+        "n": 458,
+        "n_errors": 118,
+        "accuracy": 0.74235807860262,
+        "balanced_accuracy": 0.5703388907050234,
+        "macro_f1": 0.4842539222048326,
+        "majority_accuracy": 0.9541484716157205,
+        "auroc_confidence": 0.6542372881355932,
+        "auroc_rcg": 0.9281156530408774,
+        "auprc_confidence": 0.3953320349439787,
+        "auprc_rcg": 0.8705096440656915
+      },
+      "paired_accuracy_change": 0.09170305676855894,
+      "crewed_rcg_lift": 0.27387836490528417,
+      "cluster_bootstrap": {
+        "clusters": 37,
+        "mean": 0.25601284542417124,
+        "ci95": [
+          0.14193120484711014,
+          0.3437033077530082
+        ],
+        "repeats": 2000
+      },
+      "score_path": "experiments/derived/idalia_paired/seed_303.npz"
+    }
+  },
+  "aggregate": {
+    "mean_uas_balanced_accuracy": 0.5718644437179906,
+    "e1_classifier_validity": true,
+    "e2_completeness": true,
+    "mean_crewed_rcg_lift": 0.3249604870563862
+  },
+  "runtime_seconds": 56.79749512672424
+}

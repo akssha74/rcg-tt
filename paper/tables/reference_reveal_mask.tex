@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{Pre-specified fine-reference reveal/mask experiment. Values are aligned-minus-masked-mean error AUROC across three ResNet seeds; the final column is the maximum empirical one-sided probability across both corpora and all seeds.}
+\label{tab:reveal-mask}
+\begin{tabular}{lccc}
+\toprule
+Operator & AIDER gap & Hurricane gap & Max. probability \\
+\midrule
+Bicubic & 0.371 $\pm$ 0.008 & 0.490 $\pm$ 0.004 & 0.0099 \\
+Bilinear & 0.365 $\pm$ 0.005 & 0.469 $\pm$ 0.019 & 0.0099 \\
+Nearest & 0.423 $\pm$ 0.006 & 0.482 $\pm$ 0.017 & 0.0099 \\
+Box & 0.425 $\pm$ 0.003 & 0.462 $\pm$ 0.029 & 0.0099 \\
+\bottomrule
+\end{tabular}
+\end{table}

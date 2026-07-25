@@ -1,0 +1,10 @@
+{
+  "checks": {
+    "m1_architecture_pass": true,
+    "m2_operator_pass": true,
+    "m3_cross_architecture_operator_pass": true,
+    "raw_auroc_checks": 72,
+    "all_36_intervals_positive": true
+  },
+  "all_pass": true
+}

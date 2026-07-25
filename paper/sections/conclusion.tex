@@ -4,7 +4,12 @@ Reliability comparisons under resolution shift require an explicit account of
 what each score can observe. This study separates a reference-dependent
 resolution diagnostic from scores that can be computed when only the received
 image is available, then combines that information audit with exact-duplicate,
-spatial-intersection and measured-GSD checks. The resulting protocol is
+spatial-intersection and measured-GSD checks. The anchor-matched gap replicates
+across ResNet-18, MobileNetV3-Small, four resampling operators and all 36
+seed-level intervals; a fixed reveal/mask intervention identifies
+image-specific fine-reference correspondence as a driver in all 24 tested
+combinations. A third measured-GSD event supplies an additional
+positive cluster-level ranking sensitivity. The resulting protocol is
 designed to prevent an unavailable finer view or shared source pixels from
 being mistaken for a stronger uncertainty method. Its practical recommendation
 is simple: declare the inference-time information set, match it across

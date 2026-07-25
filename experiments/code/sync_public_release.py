@@ -28,6 +28,13 @@ def include(path: Path) -> bool:
         return False
     if "__pycache__" in relative.parts or path.suffix == ".pyc":
         return False
+    if (
+        relative.parts[0] == "experiments"
+        and path.suffix.lower() in {".jpg", ".jpeg", ".png", ".tif", ".tiff"}
+    ):
+        return False
+    if relative.as_posix() == "experiments/derived/idalia_paired/pair_manifest.json":
+        return False
     if relative.parts[0] in {"environment"}:
         return False
     return True
@@ -68,7 +75,7 @@ def main() -> None:
         ),
         "upload_type": "software",
         "description": (
-            "Version 2.0.3 source, checkpoints, per-example scores, logs, "
+            "Version 3.0.0 source, checkpoints, per-example scores, logs, "
             "ledgers, and IJRS manuscript for an information-matched audit of "
             "resolution reliability in disaster remote sensing."
         ),
@@ -83,7 +90,7 @@ def main() -> None:
             },
         ],
         "license": "cc-by-4.0",
-        "version": "2.0.3",
+        "version": "3.0.0",
         "keywords": [
             "remote sensing",
             "resolution shift",
@@ -104,7 +111,7 @@ def main() -> None:
         """cff-version: 1.2.0
 message: "If you use this software or evidence package, please cite it."
 title: "When Resolution Consistency Fails: Information-Matched Audit Reproducibility Package"
-version: 2.0.3
+version: 3.0.0
 date-released: 2026-07-25
 authors:
   - family-names: Sharma

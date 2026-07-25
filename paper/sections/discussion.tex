@@ -15,6 +15,21 @@ than hidden input access. A reference-dependent score is retained as an
 explicit upper-information diagnostic, not presented as an operational
 competitor.
 
+The prospective replication strengthens the scope of this conclusion. Positive
+anchor-matched gaps occur for ResNet-18 and MobileNetV3-Small under bicubic,
+bilinear, nearest-neighbour and box resampling, with all 36 seed-level
+intervals excluding zero. The mechanism is therefore robust to the tested
+architecture and operator choices. It remains a directional
+fine-versus-coarse comparison, not a causal estimate of information access.
+
+The reveal/mask experiment addresses the narrower identification question.
+When scale set, anchor, score and marginal fine predictions are fixed, breaking
+only image correspondence reduces error AUROC in all 24 combinations.
+Corresponding fine-reference information therefore drives the aligned
+diagnostic within this intervention. This does not identify the entire
+oracle--received gap, because deployment still substitutes coarser views rather
+than permuted finer views.
+
 The data audits have a related purpose. Exact duplicate checks target literal
 reuse across splits, whereas guarded spatial blocks target shared pixels and
 local spatial dependence between fixed crops. Neither control alone establishes
@@ -31,3 +46,10 @@ reversed the risk ordering and the post-hoc all-seed sensitivity failed.
 Consequently, W12 does not support general ranking and W13 does not establish
 seed-uniform robustness; the measured-GSD evidence supports event-associated
 heterogeneity and audit practice rather than a winning gate.
+
+The held-out Hurricane Idalia UAS/crewed comparison adds a third event, a
+different aerial platform and substantially closer physical footprints than the
+UAS/satellite pairs. Received consistency ranks crewed-aircraft errors above
+confidence for all seeds with positive cluster intervals. This broadens the
+real-world result, but the extreme undamaged majority and one Idalia geography
+still preclude event-general operational claims.

@@ -1,0 +1,34 @@
+[transformers] You passed `num_labels=2` which is incompatible to the `id2label` map of length `1000`.
+Loading weights:   0%|          | 0/122 [00:00<?, ?it/s]Loading weights: 100%|██████████| 122/122 [00:00<00:00, 26933.26it/s]
+[transformers] [1mResNetForImageClassification LOAD REPORT[0m from: /Users/akshay.sharma/.cache/huggingface/hub/models--microsoft--resnet-18/snapshots/65a5785d9156231087c481e0c7dd33a5ff6f7e3e
+Key                 | Status   |                                                                                          
+--------------------+----------+------------------------------------------------------------------------------------------
+classifier.1.bias   | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000]) vs model:torch.Size([2])          
+classifier.1.weight | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000, 512]) vs model:torch.Size([2, 512])
+
+Notes:
+- MISMATCH:	ckpt weights were loaded, but they did not match the original empty weight shapes.
+IDALIA_SEED_COMPLETE 101 {"uas": {"n": 458, "n_errors": 197, "accuracy": 0.5698689956331878, "balanced_accuracy": 0.5932766699357088, "macro_f1": 0.4161603219899184, "majority_accuracy": 0.9541484716157205, "auroc_confidence": 0.5395589007526693, "auroc_rcg": 0.9565707839819515, "auprc_confidence": 0.4585103702527986, "auprc_rcg": 0.9240534043191704}, "crewed": {"n": 458, "n_errors": 173, "accuracy": 0.6222707423580786, "balanced_accuracy": 0.6207366241691185, "macro_f1": 0.44468507110167294, "majority_accuracy": 0.9541484716157205, "auroc_confidence": 0.631376128181726, "auroc_rcg": 0.943535138424095, "auprc_confidence": 0.5244929713814898, "auprc_rcg": 0.9134504296380135}, "paired_accuracy_change": -0.05240174672489073, "crewed_rcg_lift": 0.31215901024236903, "cluster_bootstrap": {"clusters": 37, "mean": 0.3136023140366936, "ci95": [0.26094049043062195, 0.3720322046260318], "repeats": 2000}, "score_path": "experiments/derived/idalia_paired/seed_101.npz"}
+[transformers] You passed `num_labels=2` which is incompatible to the `id2label` map of length `1000`.
+Loading weights:   0%|          | 0/122 [00:00<?, ?it/s]Loading weights: 100%|██████████| 122/122 [00:00<00:00, 21895.81it/s]
+[transformers] [1mResNetForImageClassification LOAD REPORT[0m from: /Users/akshay.sharma/.cache/huggingface/hub/models--microsoft--resnet-18/snapshots/65a5785d9156231087c481e0c7dd33a5ff6f7e3e
+Key                 | Status   |                                                                                          
+--------------------+----------+------------------------------------------------------------------------------------------
+classifier.1.bias   | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000]) vs model:torch.Size([2])          
+classifier.1.weight | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000, 512]) vs model:torch.Size([2, 512])
+
+Notes:
+- MISMATCH:	ckpt weights were loaded, but they did not match the original empty weight shapes.
+IDALIA_SEED_COMPLETE 202 {"uas": {"n": 458, "n_errors": 77, "accuracy": 0.8318777292576419, "balanced_accuracy": 0.5265882096545712, "macro_f1": 0.5007291003043817, "majority_accuracy": 0.9541484716157205, "auroc_confidence": 0.7414186863005761, "auroc_rcg": 0.8993762143368443, "auprc_confidence": 0.3677523043937788, "auprc_rcg": 0.771004069632202}, "crewed": {"n": 458, "n_errors": 210, "accuracy": 0.5414847161572053, "balanced_accuracy": 0.5784025280592786, "macro_f1": 0.4006729810568295, "majority_accuracy": 0.9541484716157205, "auroc_confidence": 0.550057603686636, "auroc_rcg": 0.9389016897081414, "auprc_confidence": 0.5150446969979916, "auprc_rcg": 0.9286085233772239}, "paired_accuracy_change": 0.29039301310043664, "crewed_rcg_lift": 0.38884408602150533, "cluster_bootstrap": {"clusters": 37, "mean": 0.3640890980751116, "ci95": [0.21040015515642527, 0.4720453766170705], "repeats": 2000}, "score_path": "experiments/derived/idalia_paired/seed_202.npz"}
+[transformers] You passed `num_labels=2` which is incompatible to the `id2label` map of length `1000`.
+Loading weights:   0%|          | 0/122 [00:00<?, ?it/s]Loading weights: 100%|██████████| 122/122 [00:00<00:00, 20914.95it/s]
+[transformers] [1mResNetForImageClassification LOAD REPORT[0m from: /Users/akshay.sharma/.cache/huggingface/hub/models--microsoft--resnet-18/snapshots/65a5785d9156231087c481e0c7dd33a5ff6f7e3e
+Key                 | Status   |                                                                                          
+--------------------+----------+------------------------------------------------------------------------------------------
+classifier.1.bias   | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000]) vs model:torch.Size([2])          
+classifier.1.weight | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000, 512]) vs model:torch.Size([2, 512])
+
+Notes:
+- MISMATCH:	ckpt weights were loaded, but they did not match the original empty weight shapes.
+IDALIA_SEED_COMPLETE 303 {"uas": {"n": 458, "n_errors": 76, "accuracy": 0.834061135371179, "balanced_accuracy": 0.5957284515636918, "macro_f1": 0.5317729351627657, "majority_accuracy": 0.9541484716157205, "auroc_confidence": 0.7489666574813998, "auroc_rcg": 0.9030035822540644, "auprc_confidence": 0.3631370321049771, "auprc_rcg": 0.7900536282636365}, "crewed": {"n": 458, "n_errors": 118, "accuracy": 0.74235807860262, "balanced_accuracy": 0.5703388907050234, "macro_f1": 0.4842539222048326, "majority_accuracy": 0.9541484716157205, "auroc_confidence": 0.6542372881355932, "auroc_rcg": 0.9281156530408774, "auprc_confidence": 0.3953320349439787, "auprc_rcg": 0.8705096440656915}, "paired_accuracy_change": 0.09170305676855894, "crewed_rcg_lift": 0.27387836490528417, "cluster_bootstrap": {"clusters": 37, "mean": 0.25601284542417124, "ci95": [0.14193120484711014, 0.3437033077530082], "repeats": 2000}, "score_path": "experiments/derived/idalia_paired/seed_303.npz"}
+IDALIA_PAIRED_SENSITIVITY_COMPLETE /Users/akshay.sharma/Projects/paper-activities/studies/disaster-resolution-audit/experiments/derived/idalia_paired/idalia_paired_sensitivity.json

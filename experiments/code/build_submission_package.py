@@ -53,6 +53,13 @@ def include_reproducibility(path: Path) -> bool:
         return False
     if "__pycache__" in relative.parts or path.suffix == ".pyc":
         return False
+    if (
+        relative.parts[0] == "experiments"
+        and path.suffix.lower() in {".jpg", ".jpeg", ".png", ".tif", ".tiff"}
+    ):
+        return False
+    if relative.as_posix() == "experiments/derived/idalia_paired/pair_manifest.json":
+        return False
     if relative.parts[0] in {
         "experiments",
         "evidence",

@@ -13,14 +13,19 @@ absolute scale regime. Their AUROC difference is therefore a descriptive
 oracle--received protocol gap, not an identified causal effect of reference
 access alone. The anchor-matched sensitivity controls the anchor and comparison
 count but still contrasts finer with coarser degradation directions.
+The reveal/mask intervention isolates image-specific correspondence among the
+finer views, but its masked counterfactual is an identification device rather
+than a deployable score.
 
-The audit evaluates disaster scene and binary building-damage classifiers with
-one backbone family. Three independent seeds quantify training variation but do
-not establish architecture universality. The held-out measured-GSD sites cover
-two hurricane events, not every hazard or geographical region. The two Mexico
-Beach acquisitions share geography and the effective event-level sample size is
-two; event-associated sign differences are descriptive rather than
-event-general inference.
+The audit evaluates ResNet-18 on all corpora and MobileNetV3-Small on AIDER,
+with four resampling operators and three independent seeds. This broadens
+architecture and degradation evidence but does not establish universality
+across vision transformers, detection/segmentation tasks, or physical sensor
+transfer functions. The held-out measured-GSD acquisitions cover three
+hurricane events and four geographies, not every hazard or region. The two
+Mexico Beach acquisitions share geography, and Hurricane Idalia contributes
+one geography with a severe class imbalance. Event-associated differences
+remain descriptive rather than event-general inference.
 
 Paired buildings are restricted to identifiers with the same eligible label in
 both products. This avoids label disagreement as an explanation for prediction

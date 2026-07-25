@@ -32,3 +32,13 @@ to preregistered confirmatory endpoints:
 
 The original summaries, failed branches, and preregistered outcomes remain
 retained.
+
+## MobileNet weight source
+
+The prospective architecture replication initially specified torchvision
+MobileNetV3-Small ImageNet weights. The PyTorch model endpoint returned HTTP
+503 on two runner attempts and ten direct retries before training began. The
+frozen pre-evaluation addendum switched to
+`timm==1.0.28` `mobilenetv3_small_100` ImageNet-1K weights without changing
+seeds, optimisation, splits, operators, endpoints or M1--M3. Both failed runs
+are retained in the run ledger.

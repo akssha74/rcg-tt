@@ -13,6 +13,12 @@ respectively; all six seed-level 10,000-replicate paired bootstrap intervals
 exclude zero. No
 deployable score dominates across corpora and seeds, and native-calibrated
 thresholds do not preserve both coverage and low selective risk. We then
+prospectively replicate the anchor-matched gap with MobileNetV3-Small and four
+resampling operators: all 36 architecture/corpus/operator seed intervals remain
+positive. A reveal/mask experiment holding the anchor, fine-scale set and score
+fixed passes all 24 combinations (minimum aligned-minus-masked gap 0.359;
+maximum empirical probability 0.0099), identifying image-specific
+fine-reference correspondence as a driver. Separately, we
 replace overlapping geospatial crops with guarded blocks and evaluate 1,441
 same-building UAS/post-event-satellite pairs from four acquisitions at three
 geographies and two hurricane events. The intersection-controlled UAS
@@ -20,7 +26,10 @@ classifier exceeds the majority baseline for every seed. Received-image
 consistency has a positive pooled satellite AUROC lift over confidence, but the
 effect reverses at both Hurricane Michael acquisitions; spatial-cluster
 intervals include zero. The mean-based threshold-transfer criterion passes,
-but its post-hoc all-seed robustness sensitivity fails. The findings show a
+but its post-hoc all-seed robustness sensitivity fails. A prospective
+third-event sensitivity adds 458 Hurricane Idalia UAS/crewed-aircraft pairs
+with 37 overlap clusters; mean received-consistency AUROC lift is 0.325 and all
+three cluster intervals are positive. The findings show a
 large oracle--received protocol gap and demonstrate that acquisition pooling
 can reverse operational conclusions, while exact duplicates and spatial
 overlap require explicit controls. We develop an information-set and leakage

@@ -20,8 +20,10 @@ Intersection-controlled CRASAR classifier training uses guarded crops from Lanca
 Gate (Hurricane Harvey) and Summerlin San Carlos (Hurricane Ian). The held-out
 paired evaluation uses Harlem Heights and McGregor College Parkway South 1
 (Hurricane Ian), plus the 13 and 14 October Mexico Beach products (Hurricane
-Michael). Evaluation sites do not contribute images, labels or outcomes to
-training or model selection.
+Michael). A prospective third-event sensitivity pairs Steinhatchee River UAS
+and post-event crewed-aircraft products from Hurricane Idalia. Evaluation
+geographies do not contribute images, labels or outcomes to training or model
+selection.
 
 \subsection{Training}
 
@@ -40,8 +42,24 @@ crop with scale range 0.75--1.0 and a horizontal flip with probability 0.5.
 Evaluation uses resize-to-256 and a 224-pixel centre crop. Both use ImageNet
 channel normalisation. Synthetic resolution degradation uses bicubic
 downsampling and upsampling before these transforms. Runs use Python 3.10.20,
-PyTorch 2.12.1, torchvision 0.27.1, Transformers 5.12.1 and Apple M4 Max
-Metal Performance Shaders.
+PyTorch 2.12.1, torchvision 0.27.1, timm 1.0.28, Transformers 5.12.1 and
+Apple M4 Max Metal Performance Shaders.
+
+\subsection{Architecture and operator replication}
+
+After independent review, we prospectively froze a second-architecture and
+degradation-operator replication before training or test evaluation. Three
+ImageNet-initialised \texttt{timm} MobileNetV3-Small-100 models use the same
+clean AIDER split, seeds, optimiser, batch size and six-epoch schedule.
+Bicubic, bilinear, nearest-neighbour and box down/up sampling are fixed.
+
+For each architecture, seed and operator, errors are defined at \(s=8\). The
+anchor-matched fine-reference score compares \(s=8\) with
+\(\{1,2,4\}\), while received-image consistency compares \(s=8\) with
+\(\{16,32,64\}\). We report 2,000-replicate paired intervals. The original
+torchvision MobileNet weight endpoint returned HTTP 503 before any training;
+the pre-evaluation addendum records the switch to
+\texttt{timm==1.0.28}.
 
 \subsection{Metrics and fixed analysis}
 
@@ -70,3 +88,16 @@ error to be no larger for received consistency than confidence and the mean
 received-consistency selective risk to be no higher at target coverage 0.70.
 Requiring both inequalities for every seed is reported only as a post-hoc
 robustness sensitivity.
+
+The third-event E1 criterion requires mean held-out Idalia UAS balanced
+accuracy of at least 0.55. E2 requires complete metrics, selection counts,
+physical footprints, raw arrays and overlap-cluster uncertainty for all three
+seeds; no ranking-sign or accuracy-direction criterion is imposed.
+
+M1 requires positive bicubic MobileNet anchor-matched gaps and intervals for
+all seeds. M2 extends the sign requirement to all four operators, with at least
+two positive intervals per operator. M3 requires positive ResNet means and at
+least two positive intervals for every corpus/operator combination. M4 requires
+aligned fine-reference AUROC to exceed the mean of 100 correspondence-masked
+permutations with empirical probability at most 0.05 for all 24
+ResNet corpus/seed/operator combinations.

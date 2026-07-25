@@ -1,1 +1,1 @@
-SUBMISSION_PACKAGE_VERIFIED {"source_manifest_files": 23, "reproducibility_manifest_files": 159, "clean_source_build": {"exit_code": 0, "pdf_sha256": "5d355163972a1b24cc73399c27ab719dcfb4d287c516a328a3c90ad9c6501e49", "pdf_bytes": 151538}, "all_pass": true}
+SUBMISSION_PACKAGE_VERIFIED {"source_manifest_files": 27, "reproducibility_manifest_files": 266, "clean_source_build": {"exit_code": 0, "pdf_sha256": "3ae91a024e3725c3659fb5e35d30e6d17c93595a7cf5d466f0211f7dae446390", "pdf_bytes": 183511}, "all_pass": true}

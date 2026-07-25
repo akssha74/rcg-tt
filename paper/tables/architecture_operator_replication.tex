@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering
+\caption{Prospective architecture/operator replication of the anchor-matched fine-reference minus received-image error-AUROC gap. Values are mean $\pm$ sample SD over three independently trained seeds.}
+\label{tab:architecture-operator}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lccc}
+\toprule
+Operator & MobileNet AIDER & ResNet AIDER & ResNet Hurricane \\
+\midrule
+Bicubic & 0.465 $\pm$ 0.260 & 0.336 $\pm$ 0.122 & 0.398 $\pm$ 0.045 \\
+Bilinear & 0.420 $\pm$ 0.277 & 0.329 $\pm$ 0.129 & 0.331 $\pm$ 0.069 \\
+Nearest & 0.215 $\pm$ 0.014 & 0.251 $\pm$ 0.033 & 0.367 $\pm$ 0.059 \\
+Box & 0.244 $\pm$ 0.065 & 0.247 $\pm$ 0.005 & 0.349 $\pm$ 0.079 \\
+\bottomrule
+\end{tabular}}
+\end{table}

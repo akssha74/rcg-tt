@@ -1,0 +1,173 @@
+#!/usr/bin/env python3
+"""Build a structured scoping audit of related information-set protocols."""
+
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+
+ROOT = Path(__file__).resolve().parents[2]
+OUTPUT = ROOT / "experiments/derived/information_set_literature_audit.json"
+
+QUERIES = [
+    "remote sensing multi-resolution prediction consistency disagreement uncertainty",
+    "resolution consistency uncertainty image classification remote sensing",
+    "multi-scale disagreement out-of-distribution detection image classification",
+    "scale consistency misclassification detection uncertainty",
+    "ground sampling distance model uncertainty resolution shift remote sensing classification",
+    "test-time augmentation scale uncertainty Jensen Shannon divergence classification",
+]
+
+RECORDS = [
+    {
+        "key": "schirmer2023divergence",
+        "title": "Beyond Top-Class Agreement: Using Divergences to Forecast Performance under Distribution Shift",
+        "url": "https://openreview.net/forum?id=DwEENEkkLi",
+        "domain": "general vision",
+        "protocol": "predictive-distribution disagreement across models",
+        "test_information": "same received input for all models",
+        "unavailable_fine_reference_for_coarse_error": False,
+    },
+    {
+        "key": "hendrycks2020augmix",
+        "title": "AugMix: A Simple Data Processing Method to Improve Robustness and Uncertainty",
+        "url": "https://openreview.net/forum?id=S1gmrxHFvB",
+        "domain": "general vision",
+        "protocol": "training-time JS consistency across augmentations",
+        "test_information": "no reference-dependent deployment score",
+        "unavailable_fine_reference_for_coarse_error": False,
+    },
+    {
+        "key": "bahat2020tta",
+        "title": "Classification Confidence Estimation with Test-Time Data-Augmentation",
+        "url": "https://arxiv.org/abs/2006.16705",
+        "domain": "general vision",
+        "protocol": "confidence from transformed versions of the received input",
+        "test_information": "all transformations generated from the received input",
+        "unavailable_fine_reference_for_coarse_error": False,
+    },
+    {
+        "key": "conde2023atta",
+        "title": "Approaching Test Time Augmentation in the Context of Uncertainty Calibration for Deep Neural Networks",
+        "url": "https://arxiv.org/abs/2304.05104",
+        "domain": "general vision and AID",
+        "protocol": "adaptive weighted test-time augmentation",
+        "test_information": "augmentations generated from the received input",
+        "unavailable_fine_reference_for_coarse_error": False,
+    },
+    {
+        "key": "gawlikowski2022dpnrs",
+        "title": "An Advanced Dirichlet Prior Network for Out-of-Distribution Detection in Remote Sensing",
+        "url": "https://doi.org/10.1109/TGRS.2022.3140324",
+        "domain": "Earth observation",
+        "protocol": "auxiliary-OOD-trained distributional uncertainty",
+        "test_information": "single received image",
+        "unavailable_fine_reference_for_coarse_error": False,
+    },
+    {
+        "key": "li2024tenood",
+        "title": "Evaluation of Ten Deep-Learning-Based Out-of-Distribution Detection Methods for Remote Sensing Image Scene Classification",
+        "url": "https://doi.org/10.3390/rs16091501",
+        "domain": "Earth observation",
+        "protocol": "post-hoc and trained OOD detector benchmark",
+        "test_information": "single received image per detector",
+        "unavailable_fine_reference_for_coarse_error": False,
+    },
+    {
+        "key": "ekim2025tardis",
+        "title": "Distribution Shifts at Scale: Out-of-Distribution Detection in Earth Observation",
+        "url": "https://doi.org/10.1109/CVPRW67362.2025.00213",
+        "domain": "Earth observation",
+        "protocol": "known/wild target-assisted auxiliary detector",
+        "test_information": "wild target pool, not a hidden fine reference",
+        "unavailable_fine_reference_for_coarse_error": False,
+    },
+    {
+        "key": "doerksen2026earthshift",
+        "title": "EarthShift: A Benchmark for Measuring Robustness to Real-World Distribution Shifts in Earth Observation",
+        "url": "https://arxiv.org/abs/2605.29330",
+        "domain": "Earth observation",
+        "protocol": "benchmark including spatial-resolution shift",
+        "test_information": "shift task; no reference-dependent error score",
+        "unavailable_fine_reference_for_coarse_error": False,
+    },
+    {
+        "key": "wang2021sanet",
+        "title": "Scale-Aware Neural Network for Semantic Segmentation of Multi-Resolution Remote Sensing Images",
+        "url": "https://doi.org/10.3390/rs13245015",
+        "domain": "Earth observation",
+        "protocol": "scale-aware segmentation architecture",
+        "test_information": "received multi-resolution image",
+        "unavailable_fine_reference_for_coarse_error": False,
+    },
+    {
+        "key": "li2023scaleeffect",
+        "title": "Scale Effect of Land Cover Classification from Multi-Resolution Satellite Remote Sensing Data",
+        "url": "https://doi.org/10.3390/s23136136",
+        "domain": "Earth observation",
+        "protocol": "native multi-sensor versus resampled scale-effect analysis",
+        "test_information": "classification comparison, not a reliability gate",
+        "unavailable_fine_reference_for_coarse_error": False,
+    },
+    {
+        "key": "xu2019upscaling",
+        "title": "How Up-Scaling of Remote-Sensing Images Affects Land-Cover Classification by Comparison with Multiscale Satellite Images",
+        "url": "https://doi.org/10.1080/01431161.2018.1533656",
+        "domain": "Earth observation",
+        "protocol": "up-scaled versus native multiscale classification",
+        "test_information": "classification comparison, not an uncertainty score",
+        "unavailable_fine_reference_for_coarse_error": False,
+    },
+    {
+        "key": "karasiak2022spatial",
+        "title": "Spatial Dependence between Training and Test Sets: Another Pitfall of Classification Accuracy Assessment in Remote Sensing",
+        "url": "https://doi.org/10.1007/s10994-021-05972-1",
+        "domain": "Earth observation",
+        "protocol": "spatial validation audit",
+        "test_information": "no multi-resolution reliability score",
+        "unavailable_fine_reference_for_coarse_error": False,
+    },
+]
+
+
+def main() -> None:
+    privileged = [
+        record
+        for record in RECORDS
+        if record["unavailable_fine_reference_for_coarse_error"]
+    ]
+    result = {
+        "status": "post-hoc structured scoping audit prompted by independent review",
+        "searched_at": "2026-07-25",
+        "queries": QUERIES,
+        "inclusion": (
+            "Published or public primary work on predictive disagreement, "
+            "test-time augmentation uncertainty, EO OOD reliability, "
+            "multi-resolution EO modelling, or spatial-validation audit."
+        ),
+        "records": RECORDS,
+        "summary": {
+            "included": len(RECORDS),
+            "exact_unavailable_fine_reference_deployment_comparisons": len(
+                privileged
+            ),
+            "finding": (
+                "No included paper used an unavailable fine image to score "
+                "errors of a genuinely coarse received image while presenting "
+                "the comparison as a matched deployable reliability baseline."
+            ),
+            "interpretation": (
+                "The audit supports a concrete counterexample and protocol "
+                "checklist, not a prevalence estimate or claim that published "
+                "EO methods commonly make this mistake."
+            ),
+        },
+    }
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT.write_text(json.dumps(result, indent=2) + "\n")
+    print("INFORMATION_SET_LITERATURE_AUDIT_COMPLETE", OUTPUT, flush=True)
+
+
+if __name__ == "__main__":
+    main()

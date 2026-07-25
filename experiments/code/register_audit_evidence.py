@@ -59,6 +59,7 @@ def run_from_terminal(
     log_path: str,
     outputs: list[str],
     status: str = "succeeded",
+    cwd: str = "../disaster-rcg-gsd",
 ) -> dict:
     started, completed, exit_code = terminal_times(terminal_id)
     return {
@@ -66,7 +67,7 @@ def run_from_terminal(
         "node_id": node_id,
         "execution_kind": execution_kind,
         "command": command,
-        "cwd": "../disaster-rcg-gsd",
+        "cwd": cwd,
         "started_at": started,
         "completed_at": completed,
         "status": status,
@@ -176,6 +177,48 @@ def main() -> None:
             "experiments/derived/greatness_iteration3/crasar/"
             f"paired_scores/seed_{seed}.npz"
         )
+        for seed in (101, 202, 303)
+    ]
+    mobile_outputs = [
+        "experiments/derived/architecture_replication/"
+        "mobilenet_aider_operator_audit.json"
+    ] + [
+        f"experiments/derived/architecture_replication/seed_{seed}/{name}"
+        for seed in (101, 202, 303)
+        for name in (
+            "best.pt",
+            "history.json",
+            "scores/bicubic.npz",
+            "scores/bilinear.npz",
+            "scores/nearest.npz",
+            "scores/box.npz",
+        )
+    ]
+    resnet_operator_outputs = [
+        "experiments/derived/architecture_replication/"
+        "resnet_operator_sensitivity.json"
+    ] + [
+        "experiments/derived/architecture_replication/resnet_scores/"
+        f"{corpus}/seed_{seed}/{operator}.npz"
+        for corpus in ("aider", "hurricane")
+        for seed in (101, 202, 303)
+        for operator in ("bicubic", "bilinear", "nearest", "box")
+    ]
+    reveal_mask_outputs = [
+        "experiments/derived/reference_reveal_mask/reveal_mask_summary.json"
+    ] + [
+        "experiments/derived/reference_reveal_mask/"
+        f"{corpus}/seed_{seed}/{operator}.npz"
+        for corpus in ("aider", "hurricane")
+        for seed in (101, 202, 303)
+        for operator in ("bicubic", "bilinear", "nearest", "box")
+    ]
+    idalia_outputs = [
+        "experiments/derived/idalia_paired/idalia_paired_sensitivity.json",
+        "experiments/derived/idalia_paired/selection_audit.json",
+        "experiments/derived/idalia_paired/score_index.json",
+    ] + [
+        f"experiments/derived/idalia_paired/seed_{seed}.npz"
         for seed in (101, 202, 303)
     ]
     runs = [
@@ -299,12 +342,110 @@ def main() -> None:
             imported("experiments/logs/R-iter3-paired-gsd-v2.log"),
             paired_v2_outputs,
         ),
+        run_from_terminal(
+            "R-mobilenet-replication-v1-failed",
+            "n007",
+            "training",
+            "python experiments/code/run_mobilenet_operator_replication.py",
+            "489492",
+            "experiments/logs/R-mobilenet-operator-replication.log",
+            [],
+            status="failed",
+            cwd=".",
+        ),
+        run_from_terminal(
+            "R-mobilenet-replication-v2-failed",
+            "n007",
+            "training",
+            "python experiments/code/run_mobilenet_operator_replication.py",
+            "489493",
+            "experiments/logs/R-mobilenet-operator-replication-v2.log",
+            [],
+            status="failed",
+            cwd=".",
+        ),
+        run_from_terminal(
+            "R-mobilenet-replication",
+            "n007",
+            "training-and-evaluation",
+            "python experiments/code/run_mobilenet_operator_replication.py",
+            "489494",
+            "experiments/logs/R-mobilenet-operator-replication-v3.log",
+            mobile_outputs,
+            cwd=".",
+        ),
+        run_from_terminal(
+            "R-resnet-operator-sensitivity",
+            "n008",
+            "evaluation",
+            "python experiments/code/run_resnet_operator_sensitivity.py",
+            "489495",
+            "experiments/logs/R-resnet-operator-sensitivity.log",
+            resnet_operator_outputs,
+            cwd=".",
+        ),
+        run_from_terminal(
+            "R-reference-reveal-mask",
+            "n010",
+            "evaluation",
+            "python experiments/code/run_reference_reveal_mask.py",
+            "489496",
+            "experiments/logs/R-reference-reveal-mask.log",
+            reveal_mask_outputs,
+            cwd=".",
+        ),
+        run_from_terminal(
+            "R-idalia-paired-sensitivity",
+            "n011",
+            "evaluation",
+            "python experiments/code/run_idalia_paired_sensitivity.py",
+            "489498",
+            "experiments/logs/R-idalia-paired-sensitivity.log",
+            idalia_outputs,
+            cwd=".",
+        ),
         local_run(
             "R-import-evidence",
             "packaging",
             "python experiments/code/import_parent_evidence.py",
             "experiments/logs/R-import-parent-evidence.log",
             ["experiments/imported/import_manifest.json"],
+            1.0,
+        ),
+        local_run(
+            "R-literature-audit",
+            "analysis",
+            "python experiments/code/build_information_set_literature_audit.py",
+            "experiments/logs/R-literature-audit.log",
+            ["experiments/derived/information_set_literature_audit.json"],
+            1.0,
+        ),
+        local_run(
+            "R-architecture-verification",
+            "analysis",
+            "python experiments/code/verify_architecture_replication.py",
+            "experiments/logs/R-architecture-verification.log",
+            [
+                "experiments/derived/architecture_replication/verification.json"
+            ],
+            2.0,
+        ),
+        local_run(
+            "R-reference-reveal-mask-verification",
+            "analysis",
+            "python experiments/code/verify_reference_reveal_mask.py",
+            "experiments/logs/R-reference-reveal-mask-verification.log",
+            [
+                "experiments/derived/reference_reveal_mask/verification.json"
+            ],
+            2.0,
+        ),
+        local_run(
+            "R-idalia-verification",
+            "analysis",
+            "python experiments/code/verify_idalia_sensitivity.py",
+            "experiments/logs/R-idalia-verification.log",
+            ["experiments/derived/idalia_paired/verification.json"],
             1.0,
         ),
         local_run(
@@ -346,8 +487,12 @@ def main() -> None:
                 "paper/tables/matched_auroc.tex",
                 "paper/tables/crasar_summary.tex",
                 "paper/tables/measured_gsd.tex",
+                "paper/tables/architecture_operator_replication.tex",
+                "paper/tables/reference_reveal_mask.tex",
+                "paper/tables/idalia_sensitivity.tex",
                 "paper/figures/information_audit.pdf",
                 "paper/figures/measured_gsd_audit.pdf",
+                "paper/figures/architecture_operator_replication.pdf",
             ],
             1.0,
         ),
@@ -362,8 +507,8 @@ def main() -> None:
         local_run(
             "R-environment-capture",
             "environment",
-            "capture Python, library, model and dataset revisions",
-            "experiments/logs/R-environment-capture.log",
+            "python experiments/code/capture_environment.py",
+            "experiments/logs/R-environment-capture-v2.log",
             ["experiments/derived/environment.json"],
             4.0,
         ),
@@ -420,6 +565,32 @@ def main() -> None:
     adjudication_path = "experiments/derived/paired_protocol_adjudication.json"
     per_example_path = "experiments/derived/per_example_verification.json"
     gsd_metadata_path = "experiments/derived/metadata/CRASAR_gsd_records.json"
+    mobile_path = (
+        "experiments/derived/architecture_replication/"
+        "mobilenet_aider_operator_audit.json"
+    )
+    resnet_operator_path = (
+        "experiments/derived/architecture_replication/"
+        "resnet_operator_sensitivity.json"
+    )
+    architecture_verification_path = (
+        "experiments/derived/architecture_replication/verification.json"
+    )
+    literature_audit_path = (
+        "experiments/derived/information_set_literature_audit.json"
+    )
+    reveal_mask_path = (
+        "experiments/derived/reference_reveal_mask/reveal_mask_summary.json"
+    )
+    reveal_mask_verification_path = (
+        "experiments/derived/reference_reveal_mask/verification.json"
+    )
+    idalia_path = (
+        "experiments/derived/idalia_paired/idalia_paired_sensitivity.json"
+    )
+    idalia_verification_path = (
+        "experiments/derived/idalia_paired/verification.json"
+    )
     aider_audit = imported(
         "experiments/derived/greatness_iteration3/aider_dedup_audit.json"
     )
@@ -566,6 +737,74 @@ def main() -> None:
             "paper_locations": ["method"],
             "run_ids": ["R-gsd-metadata"],
         },
+        {
+            "claim_id": "C012",
+            "claim": "The anchor-matched fine-reference minus received-image AUROC gap is positive across ResNet-18 and MobileNetV3-Small, four degradation operators, two corpora where available, and all 36 seed-level intervals; M1-M3 pass.",
+            "type": "quantitative",
+            "scope": "AIDER MobileNet and ResNet; Hurricane ResNet; seeds 101/202/303; bicubic/bilinear/nearest/box",
+            "status": "verified",
+            "verified_at": NOW,
+            "source_artifacts": [
+                source(mobile_path),
+                source(resnet_operator_path),
+                source(architecture_verification_path),
+            ],
+            "analysis_command": "python experiments/code/verify_architecture_replication.py",
+            "paper_locations": ["abstract", "experimental-setup", "results", "discussion"],
+            "run_ids": [
+                "R-mobilenet-replication",
+                "R-resnet-operator-sensitivity",
+                "R-architecture-verification",
+            ],
+        },
+        {
+            "claim_id": "C013",
+            "claim": "A structured scoping audit of 12 primary works found no exact unavailable-fine-reference deployment comparison in the bounded literature set.",
+            "type": "literature-audit",
+            "scope": "Six documented search queries across disagreement, TTA, EO OOD, multi-resolution EO and spatial validation",
+            "status": "verified",
+            "verified_at": NOW,
+            "source_artifacts": [source(literature_audit_path)],
+            "analysis_command": "python experiments/code/build_information_set_literature_audit.py",
+            "paper_locations": ["related-work", "appendix"],
+            "run_ids": ["R-literature-audit"],
+        },
+        {
+            "claim_id": "C014",
+            "claim": "Fine-reference reveal/mask identification passes all 24 ResNet corpus/seed/operator combinations; the minimum aligned-minus-masked mean AUROC gap is 0.359 and the maximum empirical probability is 0.0099.",
+            "type": "quantitative",
+            "scope": "AIDER and Hurricane, ResNet-18 seeds 101/202/303, four operators, 100 correspondence permutations",
+            "status": "verified",
+            "verified_at": NOW,
+            "source_artifacts": [
+                source(reveal_mask_path),
+                source(reveal_mask_verification_path),
+            ],
+            "analysis_command": "python experiments/code/verify_reference_reveal_mask.py",
+            "paper_locations": ["abstract", "method", "results", "discussion", "conclusion"],
+            "run_ids": [
+                "R-reference-reveal-mask",
+                "R-reference-reveal-mask-verification",
+            ],
+        },
+        {
+            "claim_id": "C015",
+            "claim": "The third-event Hurricane Idalia sensitivity contains 458 UAS/crewed pairs in 37 joint clusters; E1/E2 pass and mean received-consistency AUROC lift is 0.325 with positive cluster intervals for all seeds.",
+            "type": "quantitative",
+            "scope": "Held-out Steinhatchee River, CRASAR UAS 12.70 cm/px and crewed 15.02 cm/px, three frozen ResNet seeds",
+            "status": "verified",
+            "verified_at": NOW,
+            "source_artifacts": [
+                source(idalia_path),
+                source(idalia_verification_path),
+            ],
+            "analysis_command": "python experiments/code/verify_idalia_sensitivity.py",
+            "paper_locations": ["abstract", "experimental-setup", "results", "discussion", "limitations"],
+            "run_ids": [
+                "R-idalia-paired-sensitivity",
+                "R-idalia-verification",
+            ],
+        },
     ]
     (ROOT / "evidence/claim-ledger.jsonl").write_text(
         "".join(
@@ -609,6 +848,27 @@ def main() -> None:
             ["C008"],
         ),
         (
+            "A-table-architecture-operator",
+            "table",
+            "paper/tables/architecture_operator_replication.tex",
+            [mobile_path, resnet_operator_path],
+            ["C012"],
+        ),
+        (
+            "A-table-reveal-mask",
+            "table",
+            "paper/tables/reference_reveal_mask.tex",
+            [reveal_mask_path],
+            ["C014"],
+        ),
+        (
+            "A-table-idalia",
+            "table",
+            "paper/tables/idalia_sensitivity.tex",
+            [idalia_path],
+            ["C015"],
+        ),
+        (
             "A-table-matched",
             "table",
             "paper/tables/matched_auroc.tex",
@@ -621,6 +881,13 @@ def main() -> None:
             "paper/figures/information_audit.pdf",
             [information_path],
             ["C002", "C003"],
+        ),
+        (
+            "A-figure-architecture-operator",
+            "figure",
+            "paper/figures/architecture_operator_replication.pdf",
+            [mobile_path, resnet_operator_path],
+            ["C012"],
         ),
         (
             "A-table-crasar",
@@ -702,6 +969,58 @@ def main() -> None:
                 source("experiments/derived/metadata/CRASAR_statistics.csv")
             ],
             "claim_ids": ["C011"],
+        },
+        {
+            "artifact_id": "A-architecture-verification",
+            "type": "algorithm-output",
+            **record(architecture_verification_path),
+            "generator_code": "experiments/code/verify_architecture_replication.py",
+            "generator_command": "python experiments/code/verify_architecture_replication.py",
+            "justification": "Recomputes 72 raw AUROCs and verifies M1-M3 across architectures and operators.",
+            "latex_reference": "architecture_replication_verification.json",
+            "verified_at": NOW,
+            "run_ids": ["R-architecture-verification"],
+            "source_artifacts": [source(mobile_path), source(resnet_operator_path)],
+            "claim_ids": ["C012"],
+        },
+        {
+            "artifact_id": "A-information-set-literature-audit",
+            "type": "appendix",
+            **record(literature_audit_path),
+            "generator_code": "experiments/code/build_information_set_literature_audit.py",
+            "generator_command": "python experiments/code/build_information_set_literature_audit.py",
+            "justification": "Records search queries, included works, information sets, and bounded prevalence result.",
+            "latex_reference": "information_set_literature_audit.json",
+            "verified_at": NOW,
+            "run_ids": ["R-literature-audit"],
+            "source_artifacts": [source("research/literature.jsonl")],
+            "claim_ids": ["C013"],
+        },
+        {
+            "artifact_id": "A-reference-reveal-mask-verification",
+            "type": "algorithm-output",
+            **record(reveal_mask_verification_path),
+            "generator_code": "experiments/code/verify_reference_reveal_mask.py",
+            "generator_command": "python experiments/code/verify_reference_reveal_mask.py",
+            "justification": "Recomputes 2,448 aligned and masked permutation metrics and verifies M4.",
+            "latex_reference": "reference_reveal_mask_verification.json",
+            "verified_at": NOW,
+            "run_ids": ["R-reference-reveal-mask-verification"],
+            "source_artifacts": [source(reveal_mask_path)],
+            "claim_ids": ["C014"],
+        },
+        {
+            "artifact_id": "A-idalia-verification",
+            "type": "algorithm-output",
+            **record(idalia_verification_path),
+            "generator_code": "experiments/code/verify_idalia_sensitivity.py",
+            "generator_command": "python experiments/code/verify_idalia_sensitivity.py",
+            "justification": "Recomputes third-event balanced accuracy and error-ranking metrics from raw arrays.",
+            "latex_reference": "idalia_verification.json",
+            "verified_at": NOW,
+            "run_ids": ["R-idalia-verification"],
+            "source_artifacts": [source(idalia_path)],
+            "claim_ids": ["C015"],
         },
     ]:
         artifacts.append(artifact)

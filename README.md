@@ -18,6 +18,22 @@ acquisitions and two hurricane events. W11 and the preregistered mean-based W13
 pass; W12 and the post-hoc all-seed W13 robustness sensitivity fail. The
 negative and superseded results are retained.
 
+A prospective replication adds three MobileNetV3-Small models and four fixed
+resampling operators. Together with ResNet-18 on AIDER and Hurricane, all 36
+architecture/corpus/operator seed-level intervals for the anchor-matched gap
+are positive. A structured 12-work literature audit found no exact published
+unavailable-fine-reference deployment comparison in its bounded set, so the
+paper does not claim field-wide prevalence.
+
+A pre-specified reveal/mask intervention keeps the s=8 anchor, finer scale set,
+score functional, comparison count, marginal fine predictions and error labels
+fixed while permuting only image correspondence. All 24 ResNet combinations
+pass (minimum AUROC gap 0.359; maximum empirical probability 0.0099).
+
+A prospective Hurricane Idalia UAS/crewed sensitivity adds 458 pairs and 37
+joint-overlap clusters from a third event. Mean received-consistency AUROC lift
+over confidence is 0.325 and all three cluster intervals are positive.
+
 ## Reproduce the registered paper
 
 Requirements:
