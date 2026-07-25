@@ -27,10 +27,6 @@ PY
 "$PYTHON" experiments/code/verify_audit_claims.py
 "$PYTHON" experiments/code/verify_per_example_outputs.py
 "$PYTHON" experiments/code/generate_audit_artifacts.py
-
-(
-    cd paper
-    tectonic main.tex --keep-logs --keep-intermediates
-)
+"$PYTHON" experiments/code/verify_submission_package.py
 
 echo "RESOLUTION_AUDIT_REPRODUCTION_COMPLETE"

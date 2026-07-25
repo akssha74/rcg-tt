@@ -1,5 +1,10 @@
 [
   {
+    "path": "LICENSE",
+    "sha256": "cf532899a3722745f241096c265c0213abe025dd5f201c4bc9434d5b55913677",
+    "bytes": 1306
+  },
+  {
     "path": "LICENSES.md",
     "sha256": "a7a2e6065fc42e8e86713a66178e53f71532ac01d5a4fc11a16ddf4f0c481400",
     "bytes": 714
@@ -11,7 +16,7 @@
   },
   {
     "path": "evidence/artifact-ledger.jsonl",
-    "sha256": "913be91d2b579ee010c41d4a1077ff34a5f2734aeeaa80c37311b7a49c37c9b5",
+    "sha256": "89d163c36cd33fa5fbeed6096de3346daa338d7a3c262ecf83cf420895e642db",
     "bytes": 11625
   },
   {
@@ -31,8 +36,8 @@
   },
   {
     "path": "experiments/code/build_submission_package.py",
-    "sha256": "8c942cb0d109a032f9d4f11ec3c02b459614b33d5e96fb6850e3a0c1e9b3281b",
-    "bytes": 4031
+    "sha256": "9198c8b2c18f9113b95263e03328509357c2c14c53a242b516f61101b6b5a7e0",
+    "bytes": 4050
   },
   {
     "path": "experiments/code/capture_gsd_metadata.py",
@@ -556,12 +561,12 @@
   },
   {
     "path": "experiments/logs/R-submission-verify.log",
-    "sha256": "3a6b3416a934a1abb822f0dc2caf12cdc37d081f7a82879e3cfc83e39f16fa7b",
+    "sha256": "86753d4ce633a267a12dec46fbfd9cdbe1023139f3a66c0d08fe86ea9dea9eee",
     "bytes": 258
   },
   {
     "path": "experiments/run-ledger.jsonl",
-    "sha256": "71a1c870b6bed753ff990b9fc93233c1eaf14838ae7efd91ded0cccdf4f0d8b6",
+    "sha256": "bc97c604e9a6ffd0dfda1cb3e26ce0dbd4964d9848f356cea786510ff6db4bc2",
     "bytes": 18509
   },
   {
@@ -686,8 +691,8 @@
   },
   {
     "path": "reproduce.sh",
-    "sha256": "559fac280a21dfc7f4b35a6582a2e9e915e2ccc2e5ccf465d1850a6e784072dc",
-    "bytes": 965
+    "sha256": "d0f8bf375d808abc3139d5a9f16f79127b77a5cc804fa727c1d26e23861dfa2e",
+    "bytes": 948
   },
   {
     "path": "requirements-lock.txt",

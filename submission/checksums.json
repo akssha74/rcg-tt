@@ -7,8 +7,8 @@
   },
   "reproducibility_archive": {
     "path": "resolution-audit-reproducibility.zip",
-    "sha256": "ce5d91c67e3ecd3d7799b927056e8fbbc7b334a4b68291eb1161b1cb7172f24d",
-    "bytes": 375301394,
-    "files": 155
+    "sha256": "502f28b4c56abc72b0612380c5c6d02844a058cd8cc07e3c819d1d8a0e04338a",
+    "bytes": 375302238,
+    "files": 156
   }
 }
