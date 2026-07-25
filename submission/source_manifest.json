@@ -21,17 +21,17 @@
   },
   {
     "path": "paper/main.pdf",
-    "sha256": "48c47b65b3a6931ebca9dc1b855ddcbb032766e01c1c59cdffdb0975273d14f1",
-    "bytes": 184104
+    "sha256": "3d9dce23a4de46dbdef8ab1d108197e5608f1c3eee4ebd0c167bab35e6b2d85e",
+    "bytes": 184113
   },
   {
     "path": "paper/main.tex",
-    "sha256": "f0b4dae9bb58049bb45b4060d105818e0ebba5be23dc66cc7bc0e40902ec0dbd",
+    "sha256": "671590ad14f3ed816aa52fef47801004b077f9344f2a9cf4b8c794bc36e25cc2",
     "bytes": 3019
   },
   {
     "path": "paper/references.bib",
-    "sha256": "73f8571a5e5f75b0fa54010d699d93e68a1a554767d29c5c76fa39fa4cae82e9",
+    "sha256": "af78a2f362200db40b818a37909acde7d4d0955538365cc0ccdd1ec72623aa14",
     "bytes": 8192
   },
   {

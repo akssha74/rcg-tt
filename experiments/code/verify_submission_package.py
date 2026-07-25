@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import subprocess
 import tempfile
 import zipfile
@@ -13,6 +14,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 SUBMISSION = ROOT / "submission"
+
+# Tectonic stamps the build time into the PDF unless the date is forced, which
+# makes the recorded pdf_sha256 differ on every rerun and invalidates the hash
+# registered for this file in the run and artifact ledgers.
+BUILD_EPOCH = "1700000000"
 
 
 def sha256_bytes(payload: bytes) -> str:
@@ -59,6 +65,9 @@ def main() -> None:
         root = Path(directory)
         with zipfile.ZipFile(source_archive) as archive:
             archive.extractall(root)
+        environment = dict(os.environ)
+        environment["SOURCE_DATE_EPOCH"] = BUILD_EPOCH
+        environment["FORCE_SOURCE_DATE"] = "1"
         completed = subprocess.run(
             [
                 "tectonic",
@@ -70,6 +79,7 @@ def main() -> None:
             check=False,
             text=True,
             capture_output=True,
+            env=environment,
         )
         if completed.returncode != 0:
             raise RuntimeError(completed.stdout + "\n" + completed.stderr)
@@ -78,6 +88,7 @@ def main() -> None:
             raise AssertionError("clean build did not produce paper/main.pdf")
         build = {
             "exit_code": completed.returncode,
+            "source_date_epoch": BUILD_EPOCH,
             "pdf_sha256": sha256_bytes(built_pdf.read_bytes()),
             "pdf_bytes": built_pdf.stat().st_size,
         }

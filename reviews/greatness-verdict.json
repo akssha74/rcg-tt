@@ -35,7 +35,7 @@
       "id": "G2",
       "point": "Per-example auditability and archive portability were incomplete.",
       "status": "rebutted",
-      "evidence": ["C009", "submission/verification.json", "https://github.com/akssha74/rcg-tt/releases/tag/v3.0.0"]
+      "evidence": ["C009", "submission/verification.json", "https://github.com/akssha74/rcg-tt/releases/latest"]
     },
     {
       "id": "G3",
@@ -110,7 +110,7 @@
     "incomplete_public_artifacts": {
       "status": "cleared",
       "evidence": [
-        "https://github.com/akssha74/rcg-tt/releases/tag/v3.0.0",
+        "https://github.com/akssha74/rcg-tt/releases/latest",
         "https://doi.org/10.5281/zenodo.21510152",
         "submission/verification.json"
       ]

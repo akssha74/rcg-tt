@@ -26,7 +26,7 @@
     {
       "requirement": "Accessible data/code provenance",
       "status": "compliant",
-      "source_url": "https://github.com/akssha74/rcg-tt/releases/tag/v3.0.0",
+      "source_url": "https://github.com/akssha74/rcg-tt/releases/latest",
       "verified_at": "2026-07-25T04:25:00Z",
       "evidence": ["submission/verification.json", "https://doi.org/10.5281/zenodo.21510152"]
     }
@@ -123,10 +123,10 @@
     "Hazard, task, and real-sensor generality remain insufficient for the locked greatness bar."
   ],
   "make_it_great_loop": {
-    "status": "in_progress",
-    "iteration": 6,
+    "status": "blocked_on_scope_decision",
+    "iteration": 7,
     "current_gap": "Published-practice target and non-hurricane hazard/task generality",
-    "next_action": "If a broader reproducible search still finds no actual published misuse, pivot to a new-guarantee sibling rather than claim negative-characterization greatness; otherwise add non-hurricane native-resolution tasks.",
+    "next_action": "The reproducible search found no published instance of the exact failure, so the negative-characterization bar cannot be cleared inside this branch. Greatness now requires either a new-guarantee sibling study (a deployable single-view score with a stated guarantee) or non-hurricane native-resolution real-sensor corpora; both change study scope.",
     "history": [
       {
         "iteration": 1,
@@ -168,7 +168,17 @@
         "diagnosis": "Independent review retained one-architecture/operator, mechanism-identification, and event-generalisation objections.",
         "action": "Add three MobileNet seeds, four operators across ResNet/MobileNet, a 24-combination reveal/mask identification experiment, a 12-work literature audit, and a 458-pair third-event Idalia sensitivity.",
         "evidence": ["C012", "C013", "C014", "C015", "https://github.com/akssha74/rcg-tt/releases/tag/v3.0.0"],
-        "independent_verdict": "pending fresh v3 review"
+        "independent_verdict": "not-great",
+        "independent_verdict_evidence": ["reviews/greatness-v3-independent.md"]
+      },
+      {
+        "iteration": 7,
+        "diagnosis": "The v3 adjudication cleared architecture, operator, mechanism and artifact objections but retained the published-prevalence and non-hurricane generality rejections; the literature finding itself rested on a hand-selected work list.",
+        "action": "Make the scoping search reproducible (six raw OpenAlex query exports, 300 rows, 280 unique candidates, 12 title lookups, row-level screening ledger) and publish GitHub v3.1.0 with the fail-closed no-ship state.",
+        "evidence": ["C013", "experiments/derived/literature_screening", "https://github.com/akssha74/rcg-tt/releases/tag/v3.1.0"],
+        "independent_verdict": "not-great",
+        "independent_verdict_evidence": ["reviews/greatness-v3-independent.md"],
+        "note": "The reproducible search confirms zero published instances of the exact unavailable-reference failure, which strengthens transparency but cannot clear a prevalence-based greatness bar on this branch."
       }
     ]
   },

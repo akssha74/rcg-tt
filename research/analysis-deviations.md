@@ -42,3 +42,18 @@ frozen pre-evaluation addendum switched to
 `timm==1.0.28` `mobilenetv3_small_100` ImageNet-1K weights without changing
 seeds, optimisation, splits, operators, endpoints or M1--M3. Both failed runs
 are retained in the run ledger.
+
+## Deterministic clean-build verification
+
+The package verifier recorded the SHA-256 of a freshly built manuscript PDF.
+Tectonic stamps the wall-clock build time into the PDF, so the recorded digest
+changed on every rerun and the hash registered for `submission/verification.json`
+in the run and artifact ledgers no longer matched after an independent
+reproduction attempt. The verifier now pins `SOURCE_DATE_EPOCH=1700000000` and
+`FORCE_SOURCE_DATE=1`, records the pinned epoch alongside the digest, and
+produces byte-identical output across reruns. Two consecutive verifications and
+two independent extractions of the source archive yield PDF digest
+`ab04b84b1ebdc98eb645036aa334f41c7254904b26db356c23f5365fa523b293`. No
+scientific result depends on this change. `reproduce.sh` additionally now invokes
+the architecture, reveal/mask, and third-event verifiers so that a reproduction
+re-checks every registered criterion.

@@ -26,6 +26,9 @@ PY
 "$PYTHON" experiments/code/adjudicate_paired_protocol.py
 "$PYTHON" experiments/code/verify_audit_claims.py
 "$PYTHON" experiments/code/verify_per_example_outputs.py
+"$PYTHON" experiments/code/verify_architecture_replication.py
+"$PYTHON" experiments/code/verify_reference_reveal_mask.py
+"$PYTHON" experiments/code/verify_idalia_sensitivity.py
 "$PYTHON" experiments/code/generate_audit_artifacts.py
 "$PYTHON" experiments/code/verify_submission_package.py
 

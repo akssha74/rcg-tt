@@ -3,8 +3,9 @@
   "reproducibility_manifest_files": 289,
   "clean_source_build": {
     "exit_code": 0,
-    "pdf_sha256": "331f7b4b91d9f5681e1e1427bf2a402112693b9770d1ff3f60c78e0a2279868d",
-    "pdf_bytes": 184104
+    "source_date_epoch": "1700000000",
+    "pdf_sha256": "3d9dce23a4de46dbdef8ab1d108197e5608f1c3eee4ebd0c167bab35e6b2d85e",
+    "pdf_bytes": 184113
   },
   "all_pass": true
 }
