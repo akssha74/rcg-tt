@@ -1,0 +1,88 @@
+{
+  "target_venue": "International Journal of Remote Sensing",
+  "article_type": null,
+  "venue_requirements": [],
+  "dimensions": {
+    "novelty": {
+      "score": null,
+      "evidence": []
+    },
+    "significance": {
+      "score": null,
+      "evidence": []
+    },
+    "methodology": {
+      "score": null,
+      "evidence": []
+    },
+    "evidence": {
+      "score": null,
+      "evidence": []
+    },
+    "statistical_validity": {
+      "score": null,
+      "evidence": []
+    },
+    "reproducibility": {
+      "score": null,
+      "evidence": []
+    },
+    "clarity": {
+      "score": null,
+      "evidence": []
+    },
+    "ethics": {
+      "score": null,
+      "evidence": []
+    },
+    "venue_fit": {
+      "score": null,
+      "evidence": []
+    }
+  },
+  "independent_reviews": [],
+  "greatness_justification": "",
+  "greatness_adjudication": {
+    "adjudicator": "independent",
+    "presumption": "not-great",
+    "strongest_rejection": "",
+    "rebuttals": [],
+    "standing_rejections": [],
+    "verdict": null
+  },
+  "negative_result_bar": {
+    "refutes_cited_belief": "Tests the implicit benchmark assumption that a consistency score using an undegraded reference is comparable with scores that receive only the coarse image.",
+    "mechanism": "Separates unavailable-reference information, exact duplicate leakage, and cross-split crop overlap from the score itself through matched counterfactual evaluations.",
+    "changes_practice": "Requires an information-set declaration, exact-hash audit, exhaustive crop-intersection audit, and received-image-only baseline comparison before operational resolution-reliability claims.",
+    "positive_path_exhausted": "The preregistered received-image RCG failed W8 on both AIDER and Hurricane and failed to clear W9 on both; the failed branch is retained.",
+    "generality": [
+      "AIDER five-class disaster scenes",
+      "Hurricane Damage binary satellite scenes",
+      "CRASAR paired UAS/satellite measured-GSD imagery",
+      "three independently trained ResNet-18 seeds"
+    ]
+  },
+  "verdict_good_not_great": null,
+  "venue_ready": false,
+  "scientifically_great": false,
+  "submission_recommended": false,
+  "greatness_blockers": [
+    "Readiness review not completed"
+  ],
+  "make_it_great_loop": {
+    "status": "in_progress",
+    "iteration": 0,
+    "current_gap": "Readiness review not completed",
+    "next_action": "Complete the evidence-producing research workflow",
+    "history": []
+  },
+  "human_subject_dependency": null,
+  "blocking_issues": [
+    "Readiness review not completed"
+  ],
+  "unresolved_critical_findings": [],
+  "strict_validation_passed": false,
+  "clean_build_command": null,
+  "clean_build_passed": false,
+  "outcome": "not-ready-research"
+}

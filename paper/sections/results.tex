@@ -1,0 +1,149 @@
+\section{Results}
+
+\subsection{Duplicate audits and corrected training}
+
+The encoded-byte audit found two cross-split AIDER hash groups. Both had
+conflicting labels; excluding every member removed four images and left 6,429.
+The Hurricane Damage audit found three cross-split groups with matching labels;
+the all-members rule removed six images and left 9,994. No encoded-byte hash
+remained in more than one split (Table~\ref{tab:hash-audit}).
+
+\input{tables/hash_audit}
+
+\subsection{Oracle--received protocol gap}
+
+The reference-dependent diagnostic and received-image consistency ranked the
+same errors at effective scale 8 but differed in access to finer views. On
+AIDER, their mean AUROCs were \(0.964\pm0.013\) and \(0.623\pm0.113\),
+respectively. The mean oracle--received AUROC gap was \(0.341\pm0.120\).
+On Hurricane Damage, mean AUROC changed from \(0.989\pm0.003\) to
+\(0.590\pm0.045\), a gap of \(0.399\pm0.043\).
+
+All six seed-level differences were positive. Every 10,000-replicate paired
+bootstrap interval excluded zero: AIDER intervals ranged from
+\([0.183,0.249]\) to \([0.415,0.495]\), and Hurricane intervals ranged from
+\([0.330,0.378]\) to \([0.413,0.465]\)
+(Table~\ref{tab:inflation}). The pre-specified A1 criterion therefore passed.
+
+\input{tables/privileged_inflation}
+
+Because the two primary protocols also differ in anchor and absolute
+degradation regime, we ran a post-hoc mechanism sensitivity that anchors both
+scores on \(s=8\) and uses three comparisons. Replacing the unavailable finer
+views \(\{1,2,4\}\) with further degradations \(\{16,32,64\}\) produced mean
+AUROC gaps of \(0.336\pm0.122\) on AIDER and \(0.398\pm0.044\) on Hurricane
+Damage; all six paired intervals remained positive
+(Table~\ref{tab:anchor-matched}). This controls anchor and comparison count,
+but not degradation direction, and is reported as sensitivity evidence rather
+than a new confirmatory endpoint.
+
+\input{tables/anchor_matched_sensitivity}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/information_audit.pdf}
+\caption{Information-matched error detection. Bars in the first two panels are
+mean AUROC across independent training seeds; error bars are sample SD. The red
+bar is a non-deployable diagnostic with access to the retained finer reference.
+The third panel shows its paired AUROC gap over received-image
+consistency for every seed. MSP denotes maximum softmax probability; Recv-JS
+and Ref-JS denote received-image and reference-dependent consistency.}
+\label{fig:information-audit}
+\end{figure}
+
+\subsection{Matched deployable baselines}
+
+Under matched received-image information, no consistency score dominated the
+post-hoc baselines (Table~\ref{tab:matched-auroc}). ViM had the highest mean
+AIDER AUROC (0.758), closely followed by confidence (0.754); received-image
+consistency reached 0.623. On Hurricane Damage, ViM reached 0.643, EO-kNN
+0.618, received-image consistency 0.590, and confidence 0.542. These rankings
+varied by seed: received-image consistency exceeded confidence strongly for
+Hurricane seed 101, was lower for seed 202, and was statistically
+indistinguishable for seed 303. The evidence therefore supports the
+oracle--received gap, not universal superiority of one deployable
+score.
+
+The preregistered paired ViM-minus-EO-kNN comparison was recomputed from
+per-example arrays. All three AIDER intervals were positive
+(\(0.132\) or greater at the lower bound). On Hurricane Damage, seed 101 was
+positive, seed 202 was negative, and seed 303 included zero. ViM therefore did
+not dominate EO-kNN across training runs.
+
+\input{tables/matched_auroc}
+
+\subsection{Threshold transfer}
+
+Native-validation thresholds did not preserve both target coverage and low
+selective risk under severe shift. At target coverage 0.70 on AIDER, mean
+realised coverage was 0.384 for confidence, 0.257 for ViM, and 0.228 for
+received-image consistency. ViM selected a lower-risk subset
+(mean selective risk 0.040) but missed the target by 0.443 on average.
+
+On Hurricane Damage, confidence, EO-kNN and ViM mean coverages were 0.029,
+0.003 and below 0.001. Received-image consistency instead accepted 0.974 on
+average, but its mean selective risk was 0.467. Thus high transferred coverage
+did not indicate safe auto-decision retention. Reporting coverage without risk
+would reverse the operational interpretation.
+
+\subsection{Intersection-controlled measured-GSD replication}
+
+The guarded CRASAR split retained 1,628 crops from two training sites: 975 for
+training, 267 for validation and 386 for internal testing. Exhaustive rectangle
+comparison found zero cross-split 512-pixel intersections. Internal test
+accuracy was \(0.794\pm0.007\), above the 0.635 majority baseline for every
+seed; balanced accuracy was \(0.781\pm0.013\).
+
+The held-out paired evaluation contained 1,441 buildings in 708 UAS spatial
+blocks across four acquisitions at three geographies and two hurricane events
+(Table~\ref{tab:measured-gsd}).
+Same-eligible-label selection retained 531/978 common identifiers at Harlem,
+269/366 at McGregor, 337/507 at Mexico Beach 13 October, and 304/634 at Mexico
+Beach 14 October. These exclusions are reported because the resulting sample
+conditions on cross-product label agreement.
+Pooled UAS accuracy was \(0.747\pm0.014\), above the 0.533 pooled majority
+baseline for every seed, and balanced accuracy was \(0.752\pm0.014\).
+Criterion W11 therefore passed. Satellite accuracy fell to
+\(0.486\pm0.081\), below the same majority baseline on average, confirming a
+severe cross-platform shift without invalidating the UAS classifier.
+
+The post-hoc joint-overlap sensitivity connected pairs whenever either their
+UAS or satellite crops overlapped. It produced two effective clusters at
+Harlem and one at each remaining site because the larger satellite footprints
+overlap extensively. Pooled intervals continued to include zero, while
+site-specific cluster intervals were degenerate and are not interpreted as
+independent site inference.
+
+\input{tables/crasar_summary}
+\input{tables/measured_gsd}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/measured_gsd_audit.pdf}
+\caption{Intersection-controlled paired measured-GSD audit. Error bars in the first two
+panels are sample SD across training seeds. The acquisition panel shows that the
+pooled received-consistency advantage is confined to the two Hurricane Ian
+sites and reverses at both held-out Hurricane Michael sites.}
+\label{fig:measured-gsd}
+\end{figure}
+
+\subsection{Measured-GSD ranking and threshold transfer}
+
+On pooled satellite views, received-image consistency reached error AUROC
+\(0.614\pm0.079\), compared with \(0.465\pm0.067\) for confidence; all three
+seed differences were positive and the mean difference was 0.149. This pooled
+summary did not generalise by site. Mean differences were 0.143 at Harlem
+Heights and 0.159 at McGregor, but \(-0.155\) and \(-0.073\) on the two
+Mexico Beach sites. The paired spatial-cluster bootstrap intervals for the
+pooled difference included zero for every seed. W12 therefore failed.
+
+Measured threshold transfer was also heterogeneous. At target coverage 0.70,
+received-image consistency achieved mean satellite coverage
+\(0.701\pm0.138\), compared with \(0.499\pm0.068\) for confidence. Mean
+selective risk was lower (0.456 versus 0.548), but seed 202 reversed this
+ordering (0.549 versus 0.530), and spatial-cluster risk-difference intervals
+included zero. The preregistered mean-based W13 therefore passed, while the
+stricter post-hoc all-seed robustness sensitivity failed. The expanded
+evaluation changes the conclusion from a positive two-site ranking result to
+event-associated heterogeneity with no confirmatory ranking success and no
+seed-uniform threshold-transfer robustness.

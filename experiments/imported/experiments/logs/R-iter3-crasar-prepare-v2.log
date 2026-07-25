@@ -1,0 +1,31 @@
+GUARDED_SITE_COMPLETE 090403-Lancaster-Canyon-Gate.geo.tif 363
+GUARDED_SITE_COMPLETE 1001-Summerlin-San-Carlos.geo.tif 1628
+{
+  "train": {
+    "n": 975,
+    "undamaged": 580,
+    "damaged": 395,
+    "sites": {
+      "090403-Lancaster-Canyon-Gate.geo.tif": 210,
+      "1001-Summerlin-San-Carlos.geo.tif": 765
+    }
+  },
+  "val": {
+    "n": 267,
+    "undamaged": 162,
+    "damaged": 105,
+    "sites": {
+      "090403-Lancaster-Canyon-Gate.geo.tif": 60,
+      "1001-Summerlin-San-Carlos.geo.tif": 207
+    }
+  },
+  "test": {
+    "n": 386,
+    "undamaged": 245,
+    "damaged": 141,
+    "sites": {
+      "090403-Lancaster-Canyon-Gate.geo.tif": 93,
+      "1001-Summerlin-San-Carlos.geo.tif": 293
+    }
+  }
+}

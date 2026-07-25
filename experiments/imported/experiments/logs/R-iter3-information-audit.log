@@ -1,0 +1,794 @@
+[transformers] You passed `num_labels=5` which is incompatible to the `id2label` map of length `1000`.
+Loading weights:   0%|          | 0/122 [00:00<?, ?it/s]Loading weights: 100%|██████████| 122/122 [00:00<00:00, 18941.52it/s]
+[transformers] [1mResNetForImageClassification LOAD REPORT[0m from: /Users/akshay.sharma/.cache/huggingface/hub/models--microsoft--resnet-18/snapshots/65a5785d9156231087c481e0c7dd33a5ff6f7e3e
+Key                 | Status   |                                                                                          
+--------------------+----------+------------------------------------------------------------------------------------------
+classifier.1.weight | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000, 512]) vs model:torch.Size([5, 512])
+classifier.1.bias   | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000]) vs model:torch.Size([5])          
+
+Notes:
+- MISMATCH:	ckpt weights were loaded, but they did not match the original empty weight shapes.
+/Users/akshay.sharma/Projects/AI_Disaster_IEEE/.venv/lib/python3.10/site-packages/numpy/linalg/_linalg.py:3383: RuntimeWarning: divide by zero encountered in matmul
+  return _core_matmul(x1, x2)
+/Users/akshay.sharma/Projects/AI_Disaster_IEEE/.venv/lib/python3.10/site-packages/numpy/linalg/_linalg.py:3383: RuntimeWarning: overflow encountered in matmul
+  return _core_matmul(x1, x2)
+/Users/akshay.sharma/Projects/AI_Disaster_IEEE/.venv/lib/python3.10/site-packages/numpy/linalg/_linalg.py:3383: RuntimeWarning: invalid value encountered in matmul
+  return _core_matmul(x1, x2)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:107: RuntimeWarning: divide by zero encountered in matmul
+  origin = -np.linalg.pinv(weight) @ bias
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:107: RuntimeWarning: overflow encountered in matmul
+  origin = -np.linalg.pinv(weight) @ bias
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:107: RuntimeWarning: invalid value encountered in matmul
+  origin = -np.linalg.pinv(weight) @ bias
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:109: RuntimeWarning: divide by zero encountered in matmul
+  covariance = centered.T @ centered / max(len(centered) - 1, 1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:109: RuntimeWarning: overflow encountered in matmul
+  covariance = centered.T @ centered / max(len(centered) - 1, 1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:109: RuntimeWarning: invalid value encountered in matmul
+  covariance = centered.T @ centered / max(len(centered) - 1, 1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: divide by zero encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: overflow encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: invalid value encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: divide by zero encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: overflow encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: invalid value encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: divide by zero encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: overflow encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: invalid value encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: divide by zero encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: overflow encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: invalid value encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: divide by zero encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: overflow encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: invalid value encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: divide by zero encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: overflow encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: invalid value encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: divide by zero encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: overflow encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: invalid value encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: divide by zero encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: overflow encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: invalid value encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+INFORMATION_AUDIT_SEED_COMPLETE aider 101 {"confidence": {"auroc": 0.6778689445880635, "auprc": 0.4719167956232501, "fpr95": 0.8284457478005866}, "maxlogit": {"auroc": 0.6272900977857705, "auprc": 0.4282273515043484, "fpr95": 0.8695014662756598}, "energy": {"auroc": 0.6171232386810672, "auprc": 0.4102844988407035, "fpr95": 0.8695014662756598}, "eo_knn": {"auroc": 0.5506605903930845, "auprc": 0.327550143937913, "fpr95": 0.8299120234604106}, "vim": {"auroc": 0.7088855283190454, "auprc": 0.471863887892996, "fpr95": 0.7624633431085044}, "received_consistency": {"auroc": 0.6007847384715992, "auprc": 0.3620904207148916, "fpr95": 0.843108504398827}, "privileged_consistency": {"auroc": 0.9517201916887204, "auprc": 0.907084365790809, "fpr95": 0.30791788856304986}}
+[transformers] You passed `num_labels=5` which is incompatible to the `id2label` map of length `1000`.
+Loading weights:   0%|          | 0/122 [00:00<?, ?it/s]Loading weights: 100%|██████████| 122/122 [00:00<00:00, 39596.46it/s]
+[transformers] [1mResNetForImageClassification LOAD REPORT[0m from: /Users/akshay.sharma/.cache/huggingface/hub/models--microsoft--resnet-18/snapshots/65a5785d9156231087c481e0c7dd33a5ff6f7e3e
+Key                 | Status   |                                                                                          
+--------------------+----------+------------------------------------------------------------------------------------------
+classifier.1.weight | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000, 512]) vs model:torch.Size([5, 512])
+classifier.1.bias   | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000]) vs model:torch.Size([5])          
+
+Notes:
+- MISMATCH:	ckpt weights were loaded, but they did not match the original empty weight shapes.
+/Users/akshay.sharma/Projects/AI_Disaster_IEEE/.venv/lib/python3.10/site-packages/numpy/linalg/_linalg.py:3383: RuntimeWarning: divide by zero encountered in matmul
+  return _core_matmul(x1, x2)
+/Users/akshay.sharma/Projects/AI_Disaster_IEEE/.venv/lib/python3.10/site-packages/numpy/linalg/_linalg.py:3383: RuntimeWarning: overflow encountered in matmul
+  return _core_matmul(x1, x2)
+/Users/akshay.sharma/Projects/AI_Disaster_IEEE/.venv/lib/python3.10/site-packages/numpy/linalg/_linalg.py:3383: RuntimeWarning: invalid value encountered in matmul
+  return _core_matmul(x1, x2)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:107: RuntimeWarning: divide by zero encountered in matmul
+  origin = -np.linalg.pinv(weight) @ bias
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:107: RuntimeWarning: overflow encountered in matmul
+  origin = -np.linalg.pinv(weight) @ bias
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:107: RuntimeWarning: invalid value encountered in matmul
+  origin = -np.linalg.pinv(weight) @ bias
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:109: RuntimeWarning: divide by zero encountered in matmul
+  covariance = centered.T @ centered / max(len(centered) - 1, 1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:109: RuntimeWarning: overflow encountered in matmul
+  covariance = centered.T @ centered / max(len(centered) - 1, 1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:109: RuntimeWarning: invalid value encountered in matmul
+  covariance = centered.T @ centered / max(len(centered) - 1, 1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: divide by zero encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: overflow encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: invalid value encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: divide by zero encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: overflow encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: invalid value encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: divide by zero encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: overflow encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: invalid value encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: divide by zero encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: overflow encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: invalid value encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: divide by zero encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: overflow encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: invalid value encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: divide by zero encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: overflow encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: invalid value encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: divide by zero encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: overflow encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: invalid value encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: divide by zero encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: overflow encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: invalid value encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+INFORMATION_AUDIT_SEED_COMPLETE aider 202 {"confidence": {"auroc": 0.828399333589645, "auprc": 0.49984997815614646, "fpr95": 0.5320261437908497}, "maxlogit": {"auroc": 0.7820261437908496, "auprc": 0.4727212952556431, "fpr95": 0.6901960784313725}, "energy": {"auroc": 0.7698577470203769, "auprc": 0.4619286685473874, "fpr95": 0.6967320261437908}, "eo_knn": {"auroc": 0.6132449058054594, "auprc": 0.3511488206640204, "fpr95": 0.8392156862745098}, "vim": {"auroc": 0.7887030629245162, "auprc": 0.4410195150111391, "fpr95": 0.6222222222222222}, "received_consistency": {"auroc": 0.7461361014994233, "auprc": 0.3331636500580343, "fpr95": 0.5673202614379085}, "privileged_consistency": {"auroc": 0.9620594643085992, "auprc": 0.9013094206956278, "fpr95": 0.19869281045751633}}
+[transformers] You passed `num_labels=5` which is incompatible to the `id2label` map of length `1000`.
+Loading weights:   0%|          | 0/122 [00:00<?, ?it/s]Loading weights: 100%|██████████| 122/122 [00:00<00:00, 38169.86it/s]
+[transformers] [1mResNetForImageClassification LOAD REPORT[0m from: /Users/akshay.sharma/.cache/huggingface/hub/models--microsoft--resnet-18/snapshots/65a5785d9156231087c481e0c7dd33a5ff6f7e3e
+Key                 | Status   |                                                                                          
+--------------------+----------+------------------------------------------------------------------------------------------
+classifier.1.weight | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000, 512]) vs model:torch.Size([5, 512])
+classifier.1.bias   | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000]) vs model:torch.Size([5])          
+
+Notes:
+- MISMATCH:	ckpt weights were loaded, but they did not match the original empty weight shapes.
+/Users/akshay.sharma/Projects/AI_Disaster_IEEE/.venv/lib/python3.10/site-packages/numpy/linalg/_linalg.py:3383: RuntimeWarning: divide by zero encountered in matmul
+  return _core_matmul(x1, x2)
+/Users/akshay.sharma/Projects/AI_Disaster_IEEE/.venv/lib/python3.10/site-packages/numpy/linalg/_linalg.py:3383: RuntimeWarning: overflow encountered in matmul
+  return _core_matmul(x1, x2)
+/Users/akshay.sharma/Projects/AI_Disaster_IEEE/.venv/lib/python3.10/site-packages/numpy/linalg/_linalg.py:3383: RuntimeWarning: invalid value encountered in matmul
+  return _core_matmul(x1, x2)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:107: RuntimeWarning: divide by zero encountered in matmul
+  origin = -np.linalg.pinv(weight) @ bias
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:107: RuntimeWarning: overflow encountered in matmul
+  origin = -np.linalg.pinv(weight) @ bias
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:107: RuntimeWarning: invalid value encountered in matmul
+  origin = -np.linalg.pinv(weight) @ bias
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:109: RuntimeWarning: divide by zero encountered in matmul
+  covariance = centered.T @ centered / max(len(centered) - 1, 1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:109: RuntimeWarning: overflow encountered in matmul
+  covariance = centered.T @ centered / max(len(centered) - 1, 1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:109: RuntimeWarning: invalid value encountered in matmul
+  covariance = centered.T @ centered / max(len(centered) - 1, 1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: divide by zero encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: overflow encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: invalid value encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: divide by zero encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: overflow encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: invalid value encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: divide by zero encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: overflow encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: invalid value encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: divide by zero encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: overflow encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: invalid value encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: divide by zero encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: overflow encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: invalid value encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: divide by zero encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: overflow encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: invalid value encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: divide by zero encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: overflow encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: invalid value encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: divide by zero encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: overflow encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: invalid value encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+INFORMATION_AUDIT_SEED_COMPLETE aider 303 {"confidence": {"auroc": 0.7571505153212976, "auprc": 0.4838603672658881, "fpr95": 0.6857923497267759}, "maxlogit": {"auroc": 0.744887136565908, "auprc": 0.4980253645505149, "fpr95": 0.7745901639344263}, "energy": {"auroc": 0.7382871042862743, "auprc": 0.4897862121603391, "fpr95": 0.7745901639344263}, "eo_knn": {"auroc": 0.6105173964169606, "auprc": 0.3700726720237084, "fpr95": 0.8101092896174863}, "vim": {"auroc": 0.7749533098153145, "auprc": 0.4466177339115594, "fpr95": 0.5423497267759563}, "received_consistency": {"auroc": 0.5231260519702104, "auprc": 0.23315672527080764, "fpr95": 0.8401639344262295}, "privileged_consistency": {"auroc": 0.9777501095201863, "auprc": 0.9462731368405168, "fpr95": 0.1680327868852459}}
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] You passed `num_labels=2` which is incompatible to the `id2label` map of length `1000`.
+Loading weights:   0%|          | 0/122 [00:00<?, ?it/s]Loading weights: 100%|██████████| 122/122 [00:00<00:00, 37971.59it/s]
+[transformers] [1mResNetForImageClassification LOAD REPORT[0m from: /Users/akshay.sharma/.cache/huggingface/hub/models--microsoft--resnet-18/snapshots/65a5785d9156231087c481e0c7dd33a5ff6f7e3e
+Key                 | Status   |                                                                                          
+--------------------+----------+------------------------------------------------------------------------------------------
+classifier.1.bias   | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000]) vs model:torch.Size([2])          
+classifier.1.weight | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000, 512]) vs model:torch.Size([2, 512])
+
+Notes:
+- MISMATCH:	ckpt weights were loaded, but they did not match the original empty weight shapes.
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:107: RuntimeWarning: divide by zero encountered in matmul
+  origin = -np.linalg.pinv(weight) @ bias
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:107: RuntimeWarning: overflow encountered in matmul
+  origin = -np.linalg.pinv(weight) @ bias
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:107: RuntimeWarning: invalid value encountered in matmul
+  origin = -np.linalg.pinv(weight) @ bias
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:109: RuntimeWarning: divide by zero encountered in matmul
+  covariance = centered.T @ centered / max(len(centered) - 1, 1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:109: RuntimeWarning: overflow encountered in matmul
+  covariance = centered.T @ centered / max(len(centered) - 1, 1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:109: RuntimeWarning: invalid value encountered in matmul
+  covariance = centered.T @ centered / max(len(centered) - 1, 1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: divide by zero encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: overflow encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: invalid value encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: divide by zero encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: overflow encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: invalid value encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: divide by zero encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: overflow encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: invalid value encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: divide by zero encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: overflow encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: invalid value encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: divide by zero encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: overflow encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: invalid value encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: divide by zero encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: overflow encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: invalid value encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: divide by zero encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: overflow encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: invalid value encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: divide by zero encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: overflow encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: invalid value encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+INFORMATION_AUDIT_SEED_COMPLETE hurricane 101 {"confidence": {"auroc": 0.4172344444877799, "auprc": 0.46968658735871976, "fpr95": 0.9791459781529295}, "maxlogit": {"auroc": 0.41401428670004825, "auprc": 0.46492868715106916, "fpr95": 0.9801390268123138}, "energy": {"auroc": 0.4126832214778524, "auprc": 0.45957261564433183, "fpr95": 0.9801390268123138}, "eo_knn": {"auroc": 0.4738462184647048, "auprc": 0.49477549020272865, "fpr95": 0.9374379344587885}, "vim": {"auroc": 0.5878098026803313, "auprc": 0.5607279508917815, "fpr95": 0.8530287984111221}, "received_consistency": {"auroc": 0.6360421660661372, "auprc": 0.5965271234281826, "fpr95": 0.8282025819265144}, "privileged_consistency": {"auroc": 0.9900095104660128, "auprc": 0.9900894183851534, "fpr95": 0.04568023833167825}}
+[transformers] You passed `num_labels=2` which is incompatible to the `id2label` map of length `1000`.
+Loading weights:   0%|          | 0/122 [00:00<?, ?it/s]Loading weights: 100%|██████████| 122/122 [00:00<00:00, 33359.74it/s]
+[transformers] [1mResNetForImageClassification LOAD REPORT[0m from: /Users/akshay.sharma/.cache/huggingface/hub/models--microsoft--resnet-18/snapshots/65a5785d9156231087c481e0c7dd33a5ff6f7e3e
+Key                 | Status   |                                                                                          
+--------------------+----------+------------------------------------------------------------------------------------------
+classifier.1.bias   | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000]) vs model:torch.Size([2])          
+classifier.1.weight | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000, 512]) vs model:torch.Size([2, 512])
+
+Notes:
+- MISMATCH:	ckpt weights were loaded, but they did not match the original empty weight shapes.
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:107: RuntimeWarning: divide by zero encountered in matmul
+  origin = -np.linalg.pinv(weight) @ bias
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:107: RuntimeWarning: overflow encountered in matmul
+  origin = -np.linalg.pinv(weight) @ bias
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:107: RuntimeWarning: invalid value encountered in matmul
+  origin = -np.linalg.pinv(weight) @ bias
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:109: RuntimeWarning: divide by zero encountered in matmul
+  covariance = centered.T @ centered / max(len(centered) - 1, 1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:109: RuntimeWarning: overflow encountered in matmul
+  covariance = centered.T @ centered / max(len(centered) - 1, 1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:109: RuntimeWarning: invalid value encountered in matmul
+  covariance = centered.T @ centered / max(len(centered) - 1, 1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: divide by zero encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: overflow encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: invalid value encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: divide by zero encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: overflow encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: invalid value encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: divide by zero encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: overflow encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: invalid value encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: divide by zero encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: overflow encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: invalid value encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: divide by zero encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: overflow encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: invalid value encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: divide by zero encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: overflow encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: invalid value encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: divide by zero encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: overflow encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: invalid value encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: divide by zero encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: overflow encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: invalid value encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+INFORMATION_AUDIT_SEED_COMPLETE hurricane 202 {"confidence": {"auroc": 0.6267548532966033, "auprc": 0.4998280308456969, "fpr95": 0.8092050209205021}, "maxlogit": {"auroc": 0.6244652927570882, "auprc": 0.4905609893531396, "fpr95": 0.797489539748954}, "energy": {"auroc": 0.6224304165908677, "auprc": 0.48363717323006733, "fpr95": 0.796652719665272}, "eo_knn": {"auroc": 0.668912393773227, "auprc": 0.5184664570951993, "fpr95": 0.7188284518828452}, "vim": {"auroc": 0.6151875048727877, "auprc": 0.46149653865803375, "fpr95": 0.7338912133891213}, "received_consistency": {"auroc": 0.546406091634398, "auprc": 0.41951405024086724, "fpr95": 0.901255230125523}, "privileged_consistency": {"auroc": 0.9855089789235687, "auprc": 0.9792235550617313, "fpr95": 0.03933054393305439}}
+[transformers] You passed `num_labels=2` which is incompatible to the `id2label` map of length `1000`.
+Loading weights:   0%|          | 0/122 [00:00<?, ?it/s]Loading weights: 100%|██████████| 122/122 [00:00<00:00, 37806.06it/s]
+[transformers] [1mResNetForImageClassification LOAD REPORT[0m from: /Users/akshay.sharma/.cache/huggingface/hub/models--microsoft--resnet-18/snapshots/65a5785d9156231087c481e0c7dd33a5ff6f7e3e
+Key                 | Status   |                                                                                          
+--------------------+----------+------------------------------------------------------------------------------------------
+classifier.1.bias   | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000]) vs model:torch.Size([2])          
+classifier.1.weight | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000, 512]) vs model:torch.Size([2, 512])
+
+Notes:
+- MISMATCH:	ckpt weights were loaded, but they did not match the original empty weight shapes.
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:107: RuntimeWarning: divide by zero encountered in matmul
+  origin = -np.linalg.pinv(weight) @ bias
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:107: RuntimeWarning: overflow encountered in matmul
+  origin = -np.linalg.pinv(weight) @ bias
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:107: RuntimeWarning: invalid value encountered in matmul
+  origin = -np.linalg.pinv(weight) @ bias
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:109: RuntimeWarning: divide by zero encountered in matmul
+  covariance = centered.T @ centered / max(len(centered) - 1, 1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:109: RuntimeWarning: overflow encountered in matmul
+  covariance = centered.T @ centered / max(len(centered) - 1, 1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:109: RuntimeWarning: invalid value encountered in matmul
+  covariance = centered.T @ centered / max(len(centered) - 1, 1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: divide by zero encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: overflow encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: invalid value encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: divide by zero encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: overflow encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: invalid value encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: divide by zero encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: overflow encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: invalid value encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: divide by zero encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: overflow encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: invalid value encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: divide by zero encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: overflow encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: invalid value encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: divide by zero encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: overflow encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: invalid value encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: divide by zero encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: overflow encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:117: RuntimeWarning: invalid value encountered in matmul
+  train_projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: divide by zero encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: overflow encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:119: RuntimeWarning: invalid value encountered in matmul
+  centered - train_projection @ basis.T, axis=1
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: divide by zero encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: overflow encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:158: RuntimeWarning: invalid value encountered in matmul
+  projection = centered @ basis
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: divide by zero encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: overflow encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/code/run_information_matched_audit.py:159: RuntimeWarning: invalid value encountered in matmul
+  residual = np.linalg.norm(centered - projection @ basis.T, axis=1)
+/opt/homebrew/Cellar/python@3.10/3.10.20_4/Frameworks/Python.framework/Versions/3.10/lib/python3.10/multiprocessing/resource_tracker.py:224: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

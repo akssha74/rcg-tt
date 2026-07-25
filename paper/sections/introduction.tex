@@ -1,0 +1,52 @@
+\section{Introduction}
+
+Spatial resolution varies across uncrewed-aerial-system and satellite disaster
+products because altitude, optics, acquisition geometry, mosaicking and
+delivery constraints vary. A classifier can consequently encounter a coarse
+image while remaining confident in an incorrect prediction. Selective
+prediction and out-of-distribution (OOD) scores are intended to identify such
+unreliable cases, but their evaluation is meaningful only when competing scores
+receive the same information.
+
+Multi-view disagreement is a plausible reliability signal. Predictive-
+distribution divergences can forecast performance under distribution shift
+\citep{schirmer2023divergence}, and Jensen--Shannon (JS) consistency has an
+established role in corruption-robust training \citep{hendrycks2020augmix}.
+However, a synthetic resolution ladder creates a specific failure mode. When
+an error made on an eight-fold degraded image is scored by disagreement with
+the retained undegraded original, the score receives a finer reference that a
+system receiving only the coarse image does not possess. Comparing it with
+confidence or feature distance from the coarse image conflates score quality
+with information access.
+
+Evaluation data can introduce a second form of optimism. Exact images can occur
+across nominal splits, and fixed crops from nearby geospatial objects can share
+source pixels even when object identifiers differ. Duplicate contamination is
+known to bias image benchmarks \citep{barz2020cifair}, while spatial dependence
+can substantially inflate remote-sensing accuracy estimates
+\citep{karasiak2022spatial,kattenborn2022spatial}. These issues are especially
+important for reliability studies because they change both classifier errors
+and the apparent ability to rank those errors.
+
+This article presents a pre-specified, failure-finding audit of reliability
+under resolution shift. It makes four contributions:
+
+\begin{enumerate}
+\item It defines an information-set audit that contrasts
+reference-dependent and received-image consistency for the same coarse-image
+errors.
+\item It compares maximum-softmax confidence, maximum logit, energy, Earth-
+observation (EO) deep nearest neighbours, virtual-logit matching (ViM), and
+received-image consistency under identical source-only information.
+\item It replaces contaminated evaluations with encoded-byte duplicate
+exclusion and guarded spatial blocks whose retained 512-pixel crops have zero
+cross-split intersections.
+\item It extends measured-ground-sampling-distance (GSD) evaluation to paired
+UAS and post-event satellite buildings from four held-out acquisitions at
+three geographies and two disaster events, with independent model seeds and
+paired spatial-cluster uncertainty.
+\end{enumerate}
+
+The intended outcome is deployment guidance and an executable audit protocol,
+not a claim that JS disagreement or any existing OOD score is a new primitive.
+Negative and superseded results are retained as part of the evidence.

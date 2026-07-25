@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "hash_counts": true,
+    "a1": true,
+    "a2": true,
+    "crasar_zero_overlap": true,
+    "crasar_internal_valid": true,
+    "pair_count": true,
+    "four_sites_two_events": true,
+    "w11": true,
+    "w12_failed": true,
+    "w13_preregistered_pass": true,
+    "w13_all_seed_sensitivity_failed": true,
+    "event_reversal": true,
+    "cluster_intervals_include_zero": true
+  },
+  "all_pass": true
+}

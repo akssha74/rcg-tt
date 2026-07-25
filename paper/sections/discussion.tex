@@ -1,0 +1,33 @@
+\section{Discussion}
+
+The audit distinguishes a useful diagnostic question from a deployable
+reliability claim. A reference-dependent score asks whether the prediction on a
+coarse synthetic view disagrees with a finer image that the benchmark retains.
+This can diagnose resolution sensitivity when both views genuinely exist. It
+does not establish that a system receiving only the coarse image can reproduce
+the same ranking or threshold-transfer behaviour.
+
+Information matching changes the interpretation of baseline comparisons.
+Confidence, energy, nearest-neighbour distance, virtual-logit matching, and
+received-image consistency can all be computed from the received image plus
+source data. Their relative performance therefore concerns the score rather
+than hidden input access. A reference-dependent score is retained as an
+explicit upper-information diagnostic, not presented as an operational
+competitor.
+
+The data audits have a related purpose. Exact duplicate checks target literal
+reuse across splits, whereas guarded spatial blocks target shared pixels and
+local spatial dependence between fixed crops. Neither control alone establishes
+geographical generalisation. The held-out site and event design therefore
+complements, rather than replaces, the lower-level leakage checks.
+
+The multi-event result illustrates why pooling is insufficient. Received-image
+consistency had a positive pooled satellite AUROC difference because the two
+Hurricane Ian acquisitions favoured it, while both Hurricane Michael
+acquisitions favoured confidence. Cluster intervals consequently included zero despite three
+positive pooled seed differences. Likewise, mean threshold-transfer coverage
+and risk favoured consistency, so preregistered W13 passed, but one seed
+reversed the risk ordering and the post-hoc all-seed sensitivity failed.
+Consequently, W12 does not support general ranking and W13 does not establish
+seed-uniform robustness; the measured-GSD evidence supports event-associated
+heterogeneity and audit practice rather than a winning gate.

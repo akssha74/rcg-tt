@@ -1,0 +1,74 @@
+\section{Experimental setup}
+
+\subsection{Datasets}
+
+AIDER version 1.0 (CC BY 4.0) supplies five disaster-scene classes and the
+primary synthetic resolution audit~\citep{aiderdata}. Its corrected
+train/validation/test counts are 4,499/961/969. Satellite Images of Hurricane
+Damage (CC BY 4.0) supplies an independent binary corpus through the
+Hugging Face revision
+\texttt{4bb60de01b2d9e323d364d76d8b08c2eaeef1a64}; corrected counts are
+6,997/997/2,000~\citep{hurricanedata}. CRASAR-U-DROIDs (CC BY 4.0) provides
+source coordinates, building-damage labels, measured GSD metadata, and aligned
+UAS/satellite products at revision
+\texttt{47cf4ab3a94d42978975f7d23338a996125ac0e9}~\citep{crasar2024data}.
+
+The AIDER frozen split is corrected only by excluding every member of the two
+conflicting-label exact-duplicate groups discovered by the pre-specified hash
+audit. The Hurricane split uses the fixed seed-0 70/10/20 index assignment and
+the same all-members exclusion rule for cross-split hashes.
+
+Intersection-controlled CRASAR classifier training uses guarded crops from Lancaster Canyon
+Gate (Hurricane Harvey) and Summerlin San Carlos (Hurricane Ian). The held-out
+paired evaluation uses Harlem Heights and McGregor College Parkway South 1
+(Hurricane Ian), plus the 13 and 14 October Mexico Beach products (Hurricane
+Michael). Evaluation sites do not contribute images, labels or outcomes to
+training or model selection.
+
+\subsection{Training}
+
+The primary classifier is the ImageNet-1K-initialised
+\texttt{microsoft/resnet-18} checkpoint at revision
+\texttt{65a5785d9156231087c481e0c7dd33a5ff6f7e3e}. We train independent seeds
+101, 202 and 303 with AdamW (learning rate \(3\times10^{-4}\), weight decay
+\(10^{-4}\)), batch size 64, and class-weighted cross-entropy. For class \(c\),
+the loss weight is \(N/(C n_c)\), where \(N\) is the training-set size, \(C\)
+the number of classes, and \(n_c\) the class count. The checkpoint with the
+highest source-validation macro-F1 is retained. AIDER uses six epochs,
+Hurricane Damage five, and intersection-controlled CRASAR 12.
+
+Training first resizes to 256 pixels, then applies a random 224-pixel resized
+crop with scale range 0.75--1.0 and a horizontal flip with probability 0.5.
+Evaluation uses resize-to-256 and a 224-pixel centre crop. Both use ImageNet
+channel normalisation. Synthetic resolution degradation uses bicubic
+downsampling and upsampling before these transforms. Runs use Python 3.10.20,
+PyTorch 2.12.1, torchvision 0.27.1, Transformers 5.12.1 and Apple M4 Max
+Metal Performance Shaders.
+
+\subsection{Metrics and fixed analysis}
+
+Error detection is evaluated with AUROC, area under the precision--recall curve
+(AUPRC), and false-positive rate at 95\% error recall (FPR95). Classification
+metrics include accuracy, balanced accuracy and macro-F1. Threshold-transfer
+metrics are coverage, absolute target-coverage error, selective risk and
+false-critical rate.
+
+Paired score differences use 10,000 within-seed bootstrap replicates. The
+measured-GSD analysis additionally uses the paired spatial-cluster bootstrap
+defined above. Seed-level values and sample standard deviations are reported;
+model-seed variation is not substituted for building- or site-sampling
+uncertainty.
+
+\subsection{Pre-specified criteria}
+
+Criterion A1 requires positive privileged-minus-received mean AUROC on both
+synthetic corpora, a positive paired bootstrap interval for every seed, and six
+positive seed differences. W11 requires pooled held-out UAS accuracy above the
+pooled majority baseline for all seeds and mean balanced accuracy of at least
+0.60. W12 requires positive mean received-consistency lift on satellite views,
+positive seed-specific spatial-cluster intervals, and positive mean lift at
+three or more of four sites. W13 requires the mean satellite absolute coverage
+error to be no larger for received consistency than confidence and the mean
+received-consistency selective risk to be no higher at target coverage 0.70.
+Requiring both inequalities for every seed is reported only as a post-hoc
+robustness sensitivity.

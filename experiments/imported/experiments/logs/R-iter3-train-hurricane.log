@@ -1,0 +1,50 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] You passed `num_labels=2` which is incompatible to the `id2label` map of length `1000`.
+Loading weights:   0%|          | 0/122 [00:00<?, ?it/s]Loading weights: 100%|██████████| 122/122 [00:00<00:00, 27751.24it/s]
+[transformers] [1mResNetForImageClassification LOAD REPORT[0m from: /Users/akshay.sharma/.cache/huggingface/hub/models--microsoft--resnet-18/snapshots/65a5785d9156231087c481e0c7dd33a5ff6f7e3e
+Key                 | Status   |                                                                                          
+--------------------+----------+------------------------------------------------------------------------------------------
+classifier.1.bias   | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000]) vs model:torch.Size([2])          
+classifier.1.weight | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000, 512]) vs model:torch.Size([2, 512])
+
+Notes:
+- MISMATCH:	ckpt weights were loaded, but they did not match the original empty weight shapes.
+seed=101 epoch=1/5 loss=0.12508 val_f1=0.81577
+seed=101 epoch=2/5 loss=0.06078 val_f1=0.97589
+seed=101 epoch=3/5 loss=0.03436 val_f1=0.98091
+seed=101 epoch=4/5 loss=0.02666 val_f1=0.96889
+seed=101 epoch=5/5 loss=0.02040 val_f1=0.97692
+SEED_COMPLETE hurricane 101 {"auroc_confidence": 0.4172344444877799, "auroc_knn": 0.4588974859768129, "auroc_rcg": 0.9900095104660128, "bootstrap_rcg_minus_confidence": {"ci95": [0.5462049304913813, 0.597337170298067], "mean": 0.5727489403745218}, "bootstrap_rcg_minus_knn": {"ci95": [0.5065014803473992, 0.5563533353853972], "mean": 0.5312026351644937}, "lift_rcg_minus_confidence": 0.5727750659782329, "lift_rcg_minus_knn": 0.5311120244891999}
+[transformers] You passed `num_labels=2` which is incompatible to the `id2label` map of length `1000`.
+Loading weights:   0%|          | 0/122 [00:00<?, ?it/s]Loading weights: 100%|██████████| 122/122 [00:00<00:00, 12151.63it/s]
+[transformers] [1mResNetForImageClassification LOAD REPORT[0m from: /Users/akshay.sharma/.cache/huggingface/hub/models--microsoft--resnet-18/snapshots/65a5785d9156231087c481e0c7dd33a5ff6f7e3e
+Key                 | Status   |                                                                                          
+--------------------+----------+------------------------------------------------------------------------------------------
+classifier.1.bias   | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000]) vs model:torch.Size([2])          
+classifier.1.weight | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000, 512]) vs model:torch.Size([2, 512])
+
+Notes:
+- MISMATCH:	ckpt weights were loaded, but they did not match the original empty weight shapes.
+seed=202 epoch=1/5 loss=0.12466 val_f1=0.97488
+seed=202 epoch=2/5 loss=0.04324 val_f1=0.97793
+seed=202 epoch=3/5 loss=0.03584 val_f1=0.98392
+seed=202 epoch=4/5 loss=0.02776 val_f1=0.98494
+seed=202 epoch=5/5 loss=0.01815 val_f1=0.99197
+SEED_COMPLETE hurricane 202 {"auroc_confidence": 0.6267548532966033, "auroc_knn": 0.6399428259570155, "auroc_rcg": 0.9855089789235687, "bootstrap_rcg_minus_confidence": {"ci95": [0.33448724568922206, 0.384635709618368], "mean": 0.3590942802998459}, "bootstrap_rcg_minus_knn": {"ci95": [0.3233057107768041, 0.3696767998900589], "mean": 0.3455180121281171}, "lift_rcg_minus_confidence": 0.3587541256269654, "lift_rcg_minus_knn": 0.34556615296655324}
+[transformers] You passed `num_labels=2` which is incompatible to the `id2label` map of length `1000`.
+Loading weights:   0%|          | 0/122 [00:00<?, ?it/s]Loading weights: 100%|██████████| 122/122 [00:00<00:00, 13056.70it/s]
+[transformers] [1mResNetForImageClassification LOAD REPORT[0m from: /Users/akshay.sharma/.cache/huggingface/hub/models--microsoft--resnet-18/snapshots/65a5785d9156231087c481e0c7dd33a5ff6f7e3e
+Key                 | Status   |                                                                                          
+--------------------+----------+------------------------------------------------------------------------------------------
+classifier.1.bias   | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000]) vs model:torch.Size([2])          
+classifier.1.weight | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000, 512]) vs model:torch.Size([2, 512])
+
+Notes:
+- MISMATCH:	ckpt weights were loaded, but they did not match the original empty weight shapes.
+seed=303 epoch=1/5 loss=0.12204 val_f1=0.96990
+seed=303 epoch=2/5 loss=0.05647 val_f1=0.98193
+seed=303 epoch=3/5 loss=0.03235 val_f1=0.97893
+seed=303 epoch=4/5 loss=0.02889 val_f1=0.98594
+seed=303 epoch=5/5 loss=0.02287 val_f1=0.87810
+SEED_COMPLETE hurricane 303 {"auroc_confidence": 0.5814927349538335, "auroc_knn": 0.6968863516346354, "auroc_rcg": 0.9919128354483046, "bootstrap_rcg_minus_confidence": {"ci95": [0.386097149922313, 0.4364686441125338], "mean": 0.41039795803805107}, "bootstrap_rcg_minus_knn": {"ci95": [0.2724585758478296, 0.3168166331099973], "mean": 0.2948854509828557}, "lift_rcg_minus_confidence": 0.4104201004944711, "lift_rcg_minus_knn": 0.29502648381366914}
+PRIMARY_MULTISEED_COMPLETE experiments/derived/greatness_iteration3/primary_multiseed.json

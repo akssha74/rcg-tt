@@ -1,0 +1,39 @@
+\section{Limitations and threats to validity}
+
+The synthetic ladder is a controlled image transformation, not a physical
+sensor model. It isolates information access but does not recreate atmospheric,
+optical or processing effects associated with a changed GSD. The paired
+CRASAR comparison adds measured GSD but changes platform, sensor, view geometry,
+processing and physical footprint together; it therefore supports a
+cross-platform resolution-shift conclusion rather than a causal effect of GSD
+alone.
+
+The primary reference-dependent and received-image scores also differ in
+absolute scale regime. Their AUROC difference is therefore a descriptive
+oracle--received protocol gap, not an identified causal effect of reference
+access alone. The anchor-matched sensitivity controls the anchor and comparison
+count but still contrasts finer with coarser degradation directions.
+
+The audit evaluates disaster scene and binary building-damage classifiers with
+one backbone family. Three independent seeds quantify training variation but do
+not establish architecture universality. The held-out measured-GSD sites cover
+two hurricane events, not every hazard or geographical region. The two Mexico
+Beach acquisitions share geography and the effective event-level sample size is
+two; event-associated sign differences are descriptive rather than
+event-general inference.
+
+Paired buildings are restricted to identifiers with the same eligible label in
+both products. This avoids label disagreement as an explanation for prediction
+changes but conditions the sample on cross-product agreement; the resulting
+class proportions are not population prevalence estimates. The protocol files,
+local execution logs and hashes record that criteria were frozen before their
+corresponding evaluations, but they were not deposited in an external
+preregistration registry before execution. Independent external timestamp
+verification is therefore unavailable.
+
+ViM and nearest neighbours are strong source-only post-hoc baselines in EO
+benchmarks, but methods trained with auxiliary OOD data answer a different
+information-budget question. DPN-RS is consequently discussed rather than
+mixed into the matched source-only ranking. Finally, exact hashes do not detect
+all near-duplicates; the public release retains encoded hashes and feature
+outputs so a future perceptual audit can extend the analysis.

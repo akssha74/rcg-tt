@@ -1,0 +1,8 @@
+{
+  "patch_size": 512,
+  "block_size": 2048,
+  "guard": 256,
+  "n_patches": 1628,
+  "cross_split_intersections": [],
+  "w10_crasar_pass": true
+}

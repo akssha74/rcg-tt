@@ -1,0 +1,17 @@
+{
+  "seed": 101,
+  "best_val_macro_f1": 0.8237054861854944,
+  "internal_test": {
+    "n": 386,
+    "n_errors": 81,
+    "accuracy": 0.7901554404145078,
+    "balanced_accuracy": 0.7774931249095383,
+    "macro_f1": 0.7753798627824275,
+    "majority_accuracy": 0.6347150259067358,
+    "auroc_confidence": 0.7465290427039061,
+    "auroc_rcg": 0.6355393645011131,
+    "auprc_confidence": 0.4507529724361798,
+    "auprc_rcg": 0.28901364095424986
+  },
+  "runtime_seconds": 90.53334093093872
+}

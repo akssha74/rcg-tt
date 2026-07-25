@@ -1,0 +1,28 @@
+\section{Reproducibility and audit details}
+
+The supplementary release records the encoded-byte hashes used for duplicate
+audits, every excluded item, guarded-block coordinates, all retained crop
+rectangles, and the exhaustive cross-split intersection result. Seed-level
+checkpoints and raw score arrays are retained so that AUROC, AUPRC, FPR95,
+threshold-transfer, and bootstrap calculations can be independently
+recomputed.
+
+Compressed per-example arrays contain labels, predictions and all synthetic
+audit scores for every corpus/seed. The paired measured-GSD arrays additionally
+contain UAS and satellite predictions, confidence, received consistency, site,
+event, UAS block, satellite block and joint overlap-cluster identifiers.
+Portable indexes omit local filesystem paths. The reproduction command verifies
+their hashes, recomputes headline metrics and the preregistered W13
+adjudication, regenerates publication artefacts and clean-builds the paper.
+
+Failed and superseded branches remain part of the release. In particular, the
+initial unpaired measured-GSD criterion, the overlapping-crop analysis, the
+reference-dependent operational interpretation, and the failed
+received-image-only W8/W9 experiment are not deleted when corrected evidence is
+generated.
+
+The first implementation applied an all-seed W13 rule although the frozen
+criterion was mean-based. The corrected adjudication records W13 as passed and
+the all-seed requirement as a failed post-hoc robustness sensitivity. Other
+independent-review sensitivities, including anchor-matched finer-view scoring
+and joint UAS/satellite overlap clustering, are explicitly labelled post hoc.

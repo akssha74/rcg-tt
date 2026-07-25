@@ -1,0 +1,50 @@
+{
+  "source_counts": {
+    "train": 4501,
+    "val": 962,
+    "test": 970
+  },
+  "corrected_counts": {
+    "train": 4499,
+    "val": 961,
+    "test": 969
+  },
+  "conflicting_groups": {
+    "dbd632c008f834370d9002061c3eee0fd3c2fcd887a1aad4781ad52e22d7cf90": [
+      {
+        "split": "train",
+        "path": "traffic_incident/traffic_incident_image0119.jpg",
+        "label": 3,
+        "class": "traffic_incident"
+      },
+      {
+        "split": "val",
+        "path": "normal/normal_image2334.jpg",
+        "label": 4,
+        "class": "normal"
+      }
+    ],
+    "90d18be1e833acd84206f7fc368c1c1c1a474491a0d216038ff21e2b04f530b6": [
+      {
+        "split": "train",
+        "path": "traffic_incident/traffic_incident_image0411.jpg",
+        "label": 3,
+        "class": "traffic_incident"
+      },
+      {
+        "split": "test",
+        "path": "normal/normal_image2148.jpg",
+        "label": 4,
+        "class": "normal"
+      }
+    ]
+  },
+  "excluded_paths": [
+    "normal/normal_image2148.jpg",
+    "normal/normal_image2334.jpg",
+    "traffic_incident/traffic_incident_image0119.jpg",
+    "traffic_incident/traffic_incident_image0411.jpg"
+  ],
+  "remaining_cross_split_hashes": {},
+  "w10_aider_pass": true
+}

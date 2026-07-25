@@ -1,0 +1,104 @@
+\section{Audit method}
+
+\subsection{Information sets}
+
+Let \(f\) be a classifier and
+\(\boldsymbol{p}_{s}(\mathbf{x})\) its predictive distribution after
+downsampling an original image by factor \(s\) and resizing it to the network
+input. The evaluated coarse prediction is
+\(\hat{y}_{8}=\arg\max_c p_{8,c}(\mathbf{x})\).
+
+The reference-dependent consistency score is
+\begin{equation}
+D_{\mathrm{ref}}(\mathbf{x}) =
+\frac{1}{3}\sum_{s\in\{2,4,8\}}
+\operatorname{JS}\!\left(
+\boldsymbol{p}_{1}(\mathbf{x}),
+\boldsymbol{p}_{s}(\mathbf{x})
+\right).
+\end{equation}
+It uses the retained \(s=1\) image while ranking errors made at \(s=8\).
+Accordingly, we label it a privileged diagnostic.
+
+For the deployable counterpart, let \(\mathbf{z}\) be the image actually
+received at effective scale 8. Only further degradations of \(\mathbf{z}\) are
+available:
+\begin{equation}
+D_{\mathrm{recv}}(\mathbf{z}) =
+\frac{1}{3}\sum_{r\in\{2,4,8\}}
+\operatorname{JS}\!\left(
+\boldsymbol{p}_{1}(\mathbf{z}),
+\boldsymbol{p}_{r}(\mathbf{z})
+\right),
+\end{equation}
+which corresponds to effective original scales \(8,16,32,64\). Both scores
+rank the same errors of \(\boldsymbol{p}_{1}(\mathbf{z})\). Their paired
+error-detection AUROC difference,
+\begin{equation}
+\Delta_{\mathrm{oracle}} =
+\operatorname{AUROC}(D_{\mathrm{ref}})
+-\operatorname{AUROC}(D_{\mathrm{recv}}),
+\end{equation}
+is the descriptive oracle--received protocol gap rather than a method
+improvement. It combines finer-reference access with a change in the absolute
+degradation regime. A post-hoc mechanism sensitivity therefore anchors both
+scores on the received \(s=8\) prediction, uses three comparisons in each
+score, and contrasts finer views \(\{1,2,4\}\) with coarser views
+\(\{16,32,64\}\). This sensitivity controls the anchor and comparison count but
+still changes degradation direction; it is not interpreted causally.
+
+\subsection{Matched deployable scores}
+
+Every deployable score receives \(\mathbf{z}\), source training data and source
+validation data only. We evaluate one minus maximum softmax probability,
+negative maximum logit, energy, deep nearest-neighbour distance, ViM
+\citep{wang2022vim}, and \(D_{\mathrm{recv}}\). The nearest-neighbour bank uses
+normalised penultimate source features \citep{sun2022knn}; \(k\) is selected
+from \(\{1,5,10,20,50\}\) by source-validation error AUROC. Let \(W\) and
+\(\mathbf{b}\) denote the final linear classifier's weight matrix and bias
+vector, and let \(W^{+}\) denote the Moore--Penrose pseudoinverse. ViM
+constructs the classifier origin \(-W^{+}\mathbf{b}\), estimates a principal
+source-feature subspace, and appends the scaled residual norm as a virtual OOD
+logit. Its principal dimension is selected from
+\(\{64,128,256,384\}\) using source validation only.
+Both selections use labelled source-validation images degraded to the target
+synthetic factor \(s=8\). This deliberately favourable, shift-specific
+supervised tuning is reported separately from untuned confidence, max-logit and
+energy scores.
+
+\subsection{Leakage controls}
+
+For AIDER and Hurricane Damage, we compute SHA-256 over encoded image bytes.
+Every member of a cross-split hash group is excluded; conflicting-label groups
+are reported explicitly. All other assignments remain fixed.
+
+For CRASAR-U-DROIDs, 512-by-512 crops are centred on labelled buildings.
+Source-image coordinates are partitioned into 2048-by-2048 blocks assigned
+deterministically to training, validation or internal test sets. A crop is
+retained only when its centroid lies at least 256 pixels inside every block
+boundary. We then exhaustively test axis-aligned crop rectangles and require
+zero intersections between different splits.
+
+\subsection{Paired measured-GSD audit}
+
+The measured-GSD evaluation pairs identical building identifiers with matching
+eligible labels in UAS and post-event satellite products. Reliability is
+computed separately from each received crop; no UAS view is supplied when
+scoring its satellite pair. Thresholds at target coverages \(0.5\), \(0.7\)
+and \(0.9\) are calibrated on guarded source validation and transferred
+unchanged. We report realised coverage, absolute coverage error, selective
+risk and false-critical rate.
+
+All GSD values are read from the fixed CRASAR \texttt{statistics.csv} at
+dataset revision
+\nolinkurl{47cf4ab3a94d42978975f7d23338a996125ac0e9}; the captured metadata file
+has SHA-256
+\nolinkurl{b2a2fee6b1a631e2f2dc5f24a98988f3152728fd5dd793fc62b7707271a38936}.
+
+Uncertainty is estimated with 10,000 paired spatial-cluster bootstrap
+replicates. Sites are top-level clusters and 2048-by-2048 UAS source blocks are
+resampled within site, retaining every paired building in a sampled block.
+A post-hoc dependence sensitivity additionally groups pairs into connected
+components whenever either their UAS or satellite 512-pixel crop rectangles
+overlap, and reports site-specific intervals. This stronger clustering is not
+used to redefine the preregistered criteria.

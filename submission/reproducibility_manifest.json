@@ -1,0 +1,777 @@
+[
+  {
+    "path": "LICENSES.md",
+    "sha256": "a7a2e6065fc42e8e86713a66178e53f71532ac01d5a4fc11a16ddf4f0c481400",
+    "bytes": 714
+  },
+  {
+    "path": "README.md",
+    "sha256": "2648aa8ed9dee4273286e2c7338e2b736cefa6f7aedee1b5f7b6ca712d901ca1",
+    "bytes": 2230
+  },
+  {
+    "path": "evidence/artifact-ledger.jsonl",
+    "sha256": "913be91d2b579ee010c41d4a1077ff34a5f2734aeeaa80c37311b7a49c37c9b5",
+    "bytes": 11625
+  },
+  {
+    "path": "evidence/citation-ledger.jsonl",
+    "sha256": "2bb3755ce7def1d2489c8096c170d3384c125bd55d16abc1599335bfb0c8219e",
+    "bytes": 10063
+  },
+  {
+    "path": "evidence/claim-ledger.jsonl",
+    "sha256": "f2a44c7b7c9ec0efaa0b9ad113aaf2f8000629ea960011025d7c591ec377965f",
+    "bytes": 8591
+  },
+  {
+    "path": "experiments/code/adjudicate_paired_protocol.py",
+    "sha256": "3b96828c63ff35436a352c5a33553cbef06462aa852c0352707152a636407eb5",
+    "bytes": 3918
+  },
+  {
+    "path": "experiments/code/build_submission_package.py",
+    "sha256": "8c942cb0d109a032f9d4f11ec3c02b459614b33d5e96fb6850e3a0c1e9b3281b",
+    "bytes": 4031
+  },
+  {
+    "path": "experiments/code/capture_gsd_metadata.py",
+    "sha256": "1e3a6faf86c99d7472a80eb731c5e1cb2f69a2eb482d4b3c34c8069cb8b84d33",
+    "bytes": 2414
+  },
+  {
+    "path": "experiments/code/generate_audit_artifacts.py",
+    "sha256": "eed89522e9cc04261c86fc83d72e1c799784efee8813e4245adb85e742f2e88f",
+    "bytes": 14707
+  },
+  {
+    "path": "experiments/code/import_parent_evidence.py",
+    "sha256": "79bfc36c8f86bb9896ad877c6041b1acf54f5b9d2aac45273b9654ab604a43c2",
+    "bytes": 7452
+  },
+  {
+    "path": "experiments/code/register_audit_evidence.py",
+    "sha256": "db927fb3e28dc501bcff0719ede8b07e80c1865380d8b3514e7a9eb5a29a8ee7",
+    "bytes": 29490
+  },
+  {
+    "path": "experiments/code/sync_public_release.py",
+    "sha256": "f6f8e36d8f9aa91180ca6a11574b4b06d9a8d2e31ea86205021d2f572d7bb271",
+    "bytes": 4620
+  },
+  {
+    "path": "experiments/code/verify_audit_claims.py",
+    "sha256": "db16dbe1a9291a658c4213950dcc7c5f4ea5f0b3586d007f51da68de1efae7f8",
+    "bytes": 4082
+  },
+  {
+    "path": "experiments/code/verify_per_example_outputs.py",
+    "sha256": "58c425eb9f10cfe6017d317700dfcf1a547b28a8217c1791571c1bbb493e7d2c",
+    "bytes": 6763
+  },
+  {
+    "path": "experiments/code/verify_submission_package.py",
+    "sha256": "c27a233c0c067c56d5369278a9b33d5da0194656c26dbee7485c096b36aa4a7c",
+    "bytes": 3264
+  },
+  {
+    "path": "experiments/derived/claim_verification.json",
+    "sha256": "26432944eb79fe2e99afaf0ae953401a618bc26619cfb3077db5bcb2fb80f6c1",
+    "bytes": 419
+  },
+  {
+    "path": "experiments/derived/environment.json",
+    "sha256": "16fcf7b7e6051b4f1a03f577769bb8f2cf42507893c543c90ae9ae635329e6bd",
+    "bytes": 535
+  },
+  {
+    "path": "experiments/derived/metadata/CRASAR_gsd_records.json",
+    "sha256": "fbb599a5fa20a5a85795972fef580aeb5f40ab521100af52c6dbc99c0048ce5a",
+    "bytes": 3408
+  },
+  {
+    "path": "experiments/derived/metadata/CRASAR_statistics.csv",
+    "sha256": "b2a2fee6b1a631e2f2dc5f24a98988f3152728fd5dd793fc62b7707271a38936",
+    "bytes": 46038
+  },
+  {
+    "path": "experiments/derived/paired_protocol_adjudication.json",
+    "sha256": "64f5fcbde25108a7c8d04e8bb76ee92b18621d818ec7f432f4b3f9e20c74b4d2",
+    "bytes": 1486
+  },
+  {
+    "path": "experiments/derived/per_example_verification.json",
+    "sha256": "fe1267f1c971f6fb828f5a8f428b94841c7f7eea3f207d20e3d78e51b933f9c0",
+    "bytes": 9071
+  },
+  {
+    "path": "experiments/imported/experiments/code/prepare_aider_dedup.py",
+    "sha256": "ab97fbb5c4d6ebaf2b1c533112c8058e2145df67ea0895ac48c6da01201ec470",
+    "bytes": 3144
+  },
+  {
+    "path": "experiments/imported/experiments/code/prepare_hurricane_dedup.py",
+    "sha256": "5c1aefe8877dfb0b0b9485b7263182809b2d9ce699b6de80dea62b770a0f0bdc",
+    "bytes": 2794
+  },
+  {
+    "path": "experiments/imported/experiments/code/run_information_matched_audit.py",
+    "sha256": "2a3e8dce714a0bb33f815975473db9ee30a1163979b4b538e89acec3b6490cde",
+    "bytes": 19057
+  },
+  {
+    "path": "experiments/imported/experiments/code/run_leakage_free_crasar.py",
+    "sha256": "e0c5ff35b2a597dc2a6dd895a95c5e50dd9d0968ec59f3a5c36633f25f86e44e",
+    "bytes": 12459
+  },
+  {
+    "path": "experiments/imported/experiments/code/run_leakage_free_paired_gsd.py",
+    "sha256": "e8f628d60eca836bc9b373b88b51c4ffbba172988360aa3182969acf5eccbd8c",
+    "bytes": 24848
+  },
+  {
+    "path": "experiments/imported/experiments/code/run_primary_multiseed.py",
+    "sha256": "0a945ac884455f2c667a8c8bcd58d74f3107d43b43c61b24606cd300ed0d59e1",
+    "bytes": 20179
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/aider/seed_101/best.pt",
+    "sha256": "1f369db0d30369a4bd443b265cbcaa75f29ea3ad7adc9a5581fdcb2f22a8937a",
+    "bytes": 44797579
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/aider/seed_101/history.json",
+    "sha256": "5fb57d38a36556f1131cb2cbf13f37030e9593da4805e8548549ec06544d1640",
+    "bytes": 618
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/aider/seed_101/metrics.json",
+    "sha256": "fc5e3ce15754009f59abc3a820f75afa891f4f32163071258734b820ce65e610",
+    "bytes": 1492
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/aider/seed_202/best.pt",
+    "sha256": "b7bdf493128650f92d0e479fba147b73ba03ab8b2277d21b4942996e36bdbacc",
+    "bytes": 44797579
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/aider/seed_202/history.json",
+    "sha256": "fcd557537f1df91b0ae5db14c9a5ffe2e3d87e7acb32f9adb846af9fd3e11816",
+    "bytes": 618
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/aider/seed_202/metrics.json",
+    "sha256": "07aef3b2639a11d847035be737d2e32bedd75ca918097ad45eb8e9897fc8cdbc",
+    "bytes": 1496
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/aider/seed_303/best.pt",
+    "sha256": "6333c90919d19f8abb19ce281fc54dcbfec9f73c20d9600634e1740befea32cb",
+    "bytes": 44797579
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/aider/seed_303/history.json",
+    "sha256": "e3ae002bb1a4723f09537192ce530f55aab99f01626b9015db0d60f9e4b30df6",
+    "bytes": 620
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/aider/seed_303/metrics.json",
+    "sha256": "1d314ce8f059dff4eb1f1e7321f28e7c02fcc36404ee9a532783124d02805422",
+    "bytes": 1495
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/aider_dedup_audit.json",
+    "sha256": "b194c9805367d62f0c051b654370412979c0d938279c01236ae06badb6bc59b5",
+    "bytes": 1221
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/aider_splits_dedup.json",
+    "sha256": "0b78e98f720e0ed5956029793b8babb6b515b8851d2c89a5264686b67747f7bd",
+    "bytes": 679884
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/leakage_free_crasar.json",
+    "sha256": "36a8622993afd277281e4300c4491784563f0d122d95e0a5d59f6a4261c13636",
+    "bytes": 4737
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/leakage_free_paired_gsd.json",
+    "sha256": "a208f946caf18409c311bc1c3a5a6012b4f190cd434bc187f9621fe9d12e6c6e",
+    "bytes": 78159
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/leakage_free_paired_gsd_v2.json",
+    "sha256": "2dd557152a21d768a9687601ca0fba34d6ef5adbdc4129e7a7c54007b0835e14",
+    "bytes": 92454
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/paired_evaluation/harlem-heights/pair_manifest.json",
+    "sha256": "e5a37b94fa21c804ed0ea6584fa2a3871a0b0a9855450248a521bd760524f5d9",
+    "bytes": 351567
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/paired_evaluation/harlem-heights/selection_audit.json",
+    "sha256": "b41a985ee6a88f1a7802f393d4b47e4b2e86e79b847846c50803b10a6e237903",
+    "bytes": 187
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/paired_evaluation/mcgregor-college-parkway-south-1/pair_manifest.json",
+    "sha256": "e6599cf0e27e921602a58b8fe415bd81e1f7b0136a1a1504dd2c45581033cc30",
+    "bytes": 208776
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/paired_evaluation/mcgregor-college-parkway-south-1/selection_audit.json",
+    "sha256": "67a39ee1768f1fa733327c81ecdeb9fc413ee879b3829996c6f15fd5700ce295",
+    "bytes": 187
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/paired_evaluation/mexico-beach-2018-10-13/pair_manifest.json",
+    "sha256": "4ff1bb356135a1f9d296929bff7aeec1387feafec92d9a38e3a57b106fa26a69",
+    "bytes": 238233
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/paired_evaluation/mexico-beach-2018-10-13/selection_audit.json",
+    "sha256": "dcda73858cdcb925473fe1cf4d8c77678884306814a25a3013dfbc9bb3083cdf",
+    "bytes": 187
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/paired_evaluation/mexico-beach-2018-10-14/pair_manifest.json",
+    "sha256": "3298c1e7e6c9f7f8411e28fc0e9f4fcba5dec5c342ba4ff83bf00edc8453fe46",
+    "bytes": 214101
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/paired_evaluation/mexico-beach-2018-10-14/selection_audit.json",
+    "sha256": "1caf2e71fb78b87c0ccf0c02255420db493e50a288137ffae09b399d7f1a8ba2",
+    "bytes": 187
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/paired_scores/paired_score_index.json",
+    "sha256": "65093265fa4b25d2eba7a51cb833c75d114318655bd4a93f772143c93a544e01",
+    "bytes": 612272
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/paired_scores/seed_101.npz",
+    "sha256": "ace8962185ee17b339501eee1910c595111739dfd68809e2d86863ce217cf235",
+    "bytes": 23074
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/paired_scores/seed_202.npz",
+    "sha256": "5a691128d50635d50f05c7dec1b11fc68dcb369deb9922d4023536b3af1636e0",
+    "bytes": 23093
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/paired_scores/seed_303.npz",
+    "sha256": "9d43e221f47511b2a02bdf5169f40ab0cde842741df600deeca7df26fb2726b4",
+    "bytes": 22668
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/patch_manifest.json",
+    "sha256": "9450307c36c0072f178e56bbc0a21dadafd733ccca6212f47d69678bd8d3847c",
+    "bytes": 1272981
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/seed_101/best.pt",
+    "sha256": "a290b6d5784fbc32d10b99026173f2f88554b7a46371c619dbe0a1b66d0f84e5",
+    "bytes": 44791435
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/seed_101/history.json",
+    "sha256": "e3d56041fdbf308b21d8ecd076f4d17e6584ac7153bd14f5c56242561308127d",
+    "bytes": 1238
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/seed_101/metrics.json",
+    "sha256": "0dd3bb3f326680b0b1f30890226506ffa701dbcff21a284445b037b20ee459de",
+    "bytes": 485
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/seed_202/best.pt",
+    "sha256": "222ac0a795a1b68e060b8e8f41cf94fdf45f28b7d09bf1ffb4a897a35689c4a2",
+    "bytes": 44791435
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/seed_202/history.json",
+    "sha256": "356d36827a1541f088a44cd7c208e5ced76d4cbc156c20c1011ac3308935079b",
+    "bytes": 1236
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/seed_202/metrics.json",
+    "sha256": "ee9b8ce01851117b7b285db61fe51b5e8d078e9f5fe6fc84225f6b9215b8b45d",
+    "bytes": 487
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/seed_303/best.pt",
+    "sha256": "4005caa39cc7e063dd5cd40b04c85a9ec05f13c624841556f7de4ff36d14f28c",
+    "bytes": 44791435
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/seed_303/history.json",
+    "sha256": "eab6d3a54a62c812b56eee959ad8b05b85bc44f47a5be97313c85c0c518f8abd",
+    "bytes": 1241
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/seed_303/metrics.json",
+    "sha256": "e68f305d11f55bdab4dee31019e00df1481f9fbdf0e5014bd1f976080cc2a058",
+    "bytes": 484
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/crasar/split_audit.json",
+    "sha256": "89e05d10b2c8318eded13a4cc1a892092f4ca387f6539ccbf1cfb738888d65b2",
+    "bytes": 145
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/hurricane/seed_101/best.pt",
+    "sha256": "1893ab5f490d5ce18c208bf6e3f16c1d85635803b807a94ab8588605f8cbf141",
+    "bytes": 44791435
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/hurricane/seed_101/history.json",
+    "sha256": "d0ecfdc7798bca1ee8c81abc5529d814ecd83f0b14ee532ce9a233ee7e8cf8c4",
+    "bytes": 519
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/hurricane/seed_101/metrics.json",
+    "sha256": "fc7c03151b99953c230f4d0a8b5ee110c77e2b0b9f00149a1c52f98ea2c29376",
+    "bytes": 1416
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/hurricane/seed_202/best.pt",
+    "sha256": "077c1e682af314bcdbc513cc6134524bfe43980be80471b534000bd1d9e64176",
+    "bytes": 44791435
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/hurricane/seed_202/history.json",
+    "sha256": "801f601b63c88a7b12939fa6815aca617b8949e3db63e225516d34690ecc5cba",
+    "bytes": 517
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/hurricane/seed_202/metrics.json",
+    "sha256": "31e0c2e0464655c12c9c7f59d3d4d44fa9b6bdef0b7774464574c5d96b9328eb",
+    "bytes": 1399
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/hurricane/seed_303/best.pt",
+    "sha256": "3c1b5cbba0a7b3f98b9393fb0ef9397469b8b025e553a60421a42c2b249b1a37",
+    "bytes": 44791435
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/hurricane/seed_303/history.json",
+    "sha256": "d4b29d5609b0e1c0375568b0391860604d3ae6ec723fd3b2925ea9ce550040f9",
+    "bytes": 518
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/hurricane/seed_303/metrics.json",
+    "sha256": "5eb8117737fa2293c10ecf24f7f1917506a420a0bcfcb6a72e357b132ae0dafe",
+    "bytes": 1397
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/hurricane_dedup_audit.json",
+    "sha256": "6e9bf6ce5bfb3b8625aa0dd69901511c2549a9738498dc7a64d1ee908860154d",
+    "bytes": 1092
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/hurricane_splits_dedup.json",
+    "sha256": "4ed7d75c1a6fad811616185046b1704efc13b7172a2cf97abd07dc8618e8a646",
+    "bytes": 99062
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/information_matched_audit.json",
+    "sha256": "bb6449bec38a6ff5e06e828675280aa035bd650e44f8bfabb4523a58dea2aa6c",
+    "bytes": 66507
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/information_scores/aider_seed_101.npz",
+    "sha256": "841c9979ae2adb44195e48871ca9283a3f9e205aec1a611d2275321904aca910",
+    "bytes": 38332
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/information_scores/aider_seed_202.npz",
+    "sha256": "b7ddb440e7b60bdb8d34349d5175de910b03e8a022104e94c8c07a398f4e6744",
+    "bytes": 38458
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/information_scores/aider_seed_303.npz",
+    "sha256": "ecbec342b44e46b832e167de45db71642c5e37b9818b4712d78a9ba9fe15e62d",
+    "bytes": 38048
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/information_scores/hurricane_seed_101.npz",
+    "sha256": "82d058741edab942cbc55875adf5d622b020dadaf69c9bcc0ad50d0a1710bf0c",
+    "bytes": 75792
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/information_scores/hurricane_seed_202.npz",
+    "sha256": "a56a66a8bc51539439c3fc451a7703648ac72c23b3abf7ece22242fb0d5414ea",
+    "bytes": 76354
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/information_scores/hurricane_seed_303.npz",
+    "sha256": "97106523e348587ef2587ff8505c87b7d29a25281145127bb9c3fb95c2ab28e5",
+    "bytes": 75186
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_iteration3/primary_multiseed.json",
+    "sha256": "5dec0eaa9a06dc5ccff7399b1f71dccc22cb1210fc9b3d777f88a682589c6cdc",
+    "bytes": 14497
+  },
+  {
+    "path": "experiments/imported/experiments/derived/greatness_strengthening/deployable_rcg.json",
+    "sha256": "94bfa7876e73b4c4c69a4c20b414347556c6ec07bc7176d43cd4a669d12b0083",
+    "bytes": 12874
+  },
+  {
+    "path": "experiments/imported/experiments/logs/R-iter3-aider-dedup-prep.log",
+    "sha256": "681cb7cb9547f1bb00659af68237ab9444bcf8fe1e132d2ec46b3b3c0e76280f",
+    "bytes": 294
+  },
+  {
+    "path": "experiments/imported/experiments/logs/R-iter3-crasar-prepare-v2.log",
+    "sha256": "7a9b1f2dec3c57f5e2a365b0489b95246f54e872460a47b8c76d2de82350ca16",
+    "bytes": 701
+  },
+  {
+    "path": "experiments/imported/experiments/logs/R-iter3-crasar-prepare.log",
+    "sha256": "e9497cecd01b97a6932a1f4929bc5577588274e2061521a0021879f3a30510c3",
+    "bytes": 262
+  },
+  {
+    "path": "experiments/imported/experiments/logs/R-iter3-hurricane-dedup-prep.log",
+    "sha256": "14b94e3e9db2b1e754fb061f728f21c2463a3d934977f7cd84be0df645300bd0",
+    "bytes": 444
+  },
+  {
+    "path": "experiments/imported/experiments/logs/R-iter3-information-audit-v2.log",
+    "sha256": "03b5835975cd9fe61929bc89a125528e50df32f36613d62b10a3d29ed69ca89b",
+    "bytes": 11181
+  },
+  {
+    "path": "experiments/imported/experiments/logs/R-iter3-information-audit-v3.log",
+    "sha256": "7213682bc8647bc33e1b012341c73c0e26e2688a6b1809dc41450b4bcfacfeaa",
+    "bytes": 11902
+  },
+  {
+    "path": "experiments/imported/experiments/logs/R-iter3-information-audit.log",
+    "sha256": "01a1cb0568dde3f51f1436f2b1133e9df89ae1f593d9786655948325b8a2b016",
+    "bytes": 92068
+  },
+  {
+    "path": "experiments/imported/experiments/logs/R-iter3-mexico-download.log",
+    "sha256": "d69e4fee46c30215e870c6647604ded830ddd290b99aaff479a5248c27be66a2",
+    "bytes": 2587
+  },
+  {
+    "path": "experiments/imported/experiments/logs/R-iter3-paired-gsd-v2.log",
+    "sha256": "ac19dc5167a29ea4bc2f9faf577f5cb3ddf003dc774f3ff7325de52796722f84",
+    "bytes": 12474
+  },
+  {
+    "path": "experiments/imported/experiments/logs/R-iter3-paired-gsd.log",
+    "sha256": "49e1974acd918c02227b19c8209bb0d5c4d5df911a623b3c93426c53675fb3e0",
+    "bytes": 12470
+  },
+  {
+    "path": "experiments/imported/experiments/logs/R-iter3-train-aider.log",
+    "sha256": "a003a249bc6ffd68b7d16fce769a7b62d05f914095557f3fa89cfa0ef752c3c4",
+    "bytes": 5396
+  },
+  {
+    "path": "experiments/imported/experiments/logs/R-iter3-train-crasar.log",
+    "sha256": "34e02f69da2810bb476d6baf3450a1f7cd808c6836fbbeca3c0a3662cc8fb593",
+    "bytes": 6438
+  },
+  {
+    "path": "experiments/imported/experiments/logs/R-iter3-train-hurricane.log",
+    "sha256": "51cd23c153380d6c7b1c7581c8071bfaa83360a07f36675646f60489742f4a32",
+    "bytes": 5396
+  },
+  {
+    "path": "experiments/imported/import_manifest.json",
+    "sha256": "bf2b86e0fd745cbb02013a5393e45c54e1bf5066501d0aeca50e0bfae463f8e9",
+    "bytes": 25033
+  },
+  {
+    "path": "experiments/imported/research/preregistration-deployable-rcg.md",
+    "sha256": "f4ecb147add5fa929a33abcf02a906bf48309a30eb330a8a12155c459ac08b97",
+    "bytes": 1841
+  },
+  {
+    "path": "experiments/imported/research/preregistration-leakage-free-replication-v2.md",
+    "sha256": "09ce78f3f1fc4fc10049b1fc65fa5f35dc0de63cb58b429f852a9c4ee6457fa0",
+    "bytes": 1140
+  },
+  {
+    "path": "experiments/imported/research/preregistration-leakage-free-replication.md",
+    "sha256": "5cec3e3f9ae684e4ce2b1ed9dfe89f56e52419ffd446d7288fe58ceeaef6682d",
+    "bytes": 4750
+  },
+  {
+    "path": "experiments/logs/R-audit-artifacts-final.log",
+    "sha256": "b4cac4eee35ddcee1549a30e0e9be44e0112e7c69e37318a408cdf075cd3bf27",
+    "bytes": 25
+  },
+  {
+    "path": "experiments/logs/R-audit-artifacts.log",
+    "sha256": "b4cac4eee35ddcee1549a30e0e9be44e0112e7c69e37318a408cdf075cd3bf27",
+    "bytes": 25
+  },
+  {
+    "path": "experiments/logs/R-claim-verification.log",
+    "sha256": "9c5b0ab2501ed0fd9f21dc95799c4ade968002d2ce875b0d1c80b7380f8455e4",
+    "bytes": 150
+  },
+  {
+    "path": "experiments/logs/R-environment-capture.log",
+    "sha256": "424b985c2d0c72485836f44e7a4bd33bca9916d0af37f3cd38e1508dd44e0c29",
+    "bytes": 571
+  },
+  {
+    "path": "experiments/logs/R-gsd-metadata.log",
+    "sha256": "c73bf2f3cf497affa9fbcbc265bce0779c79c4c1cb34e4f5b73469f41856009e",
+    "bytes": 2834
+  },
+  {
+    "path": "experiments/logs/R-import-parent-evidence.log",
+    "sha256": "7eec83d157582844ddb730566caee82a5049b675c930303db392a072e46d0e1d",
+    "bytes": 158
+  },
+  {
+    "path": "experiments/logs/R-paired-adjudication.log",
+    "sha256": "4d1e1a37b13f484603c278eab56502c770e9e605b5f429bdd6e2d7295bf09127",
+    "bytes": 1204
+  },
+  {
+    "path": "experiments/logs/R-paper-build-final.log",
+    "sha256": "766fb24c38a27499ef26c2ee976239e5cc25343ba75b2fb19f7b35f49b6252ae",
+    "bytes": 4921
+  },
+  {
+    "path": "experiments/logs/R-per-example-verify.log",
+    "sha256": "7f7c117c40eb2094f74fdee79cc5894e7f7802beee370b2a1875e9d34782c590",
+    "bytes": 160
+  },
+  {
+    "path": "experiments/logs/R-submission-package.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "experiments/logs/R-submission-verify.log",
+    "sha256": "3a6b3416a934a1abb822f0dc2caf12cdc37d081f7a82879e3cfc83e39f16fa7b",
+    "bytes": 258
+  },
+  {
+    "path": "experiments/run-ledger.jsonl",
+    "sha256": "71a1c870b6bed753ff990b9fc93233c1eaf14838ae7efd91ded0cccdf4f0d8b6",
+    "bytes": 18509
+  },
+  {
+    "path": "experiments/tree.jsonl",
+    "sha256": "764609911656665251541f7a5e3e7dfc5399e3e3109f13f21a1c47d229bab42b",
+    "bytes": 3670
+  },
+  {
+    "path": "paper/figures/information_audit.pdf",
+    "sha256": "e6456b9b92a8526792efcf487b3ee248994b77cfdebe4c1161880dc13e64425c",
+    "bytes": 22032
+  },
+  {
+    "path": "paper/figures/measured_gsd_audit.pdf",
+    "sha256": "75046e404450301e2d8a4f2d1d5f3b760da44d87b8df6c3277c2ddcce48b35a1",
+    "bytes": 17710
+  },
+  {
+    "path": "paper/interact.cls",
+    "sha256": "d9603354ce657c9994fd76dbe0b1e539c22d674aad4bc82492b06d94b7cea0b0",
+    "bytes": 25198
+  },
+  {
+    "path": "paper/main.pdf",
+    "sha256": "881d4786a2260feec3bc5ba51cfca6dd943b32de16373030c2b553b881680f3b",
+    "bytes": 151874
+  },
+  {
+    "path": "paper/main.tex",
+    "sha256": "2ed9a5e4082b72c04b0efea49d50c15749303e71e700c7fbd5291591efa335c4",
+    "bytes": 3099
+  },
+  {
+    "path": "paper/references.bib",
+    "sha256": "13cbe3ed4a87fdb2e216a9e7f8ff759f250d85780af145eaa91d7aa4db94bf9c",
+    "bytes": 6391
+  },
+  {
+    "path": "paper/sections/abstract.tex",
+    "sha256": "767d546405ccd495a82678019fbcb74b874699e8bed34a188ae87fbd29025325",
+    "bytes": 1939
+  },
+  {
+    "path": "paper/sections/appendix.tex",
+    "sha256": "18039e9db415d090c58373d34c5baf954565dad519f0b90797a10a1e2ad9dd71",
+    "bytes": 1654
+  },
+  {
+    "path": "paper/sections/conclusion.tex",
+    "sha256": "f59324301597c9472a7779e0a99d69217aa35b6c957ddf1d24d2e4518ed807c1",
+    "bytes": 770
+  },
+  {
+    "path": "paper/sections/discussion.tex",
+    "sha256": "f999dcc17c227cb795d64d37db639cf644917ad5145e69899d1a30c09fb1c236",
+    "bytes": 2050
+  },
+  {
+    "path": "paper/sections/experimental-setup.tex",
+    "sha256": "2cac583e86c5dd06b466e91660ebc979a9051d5e5defda7e0df7b242b8401ebd",
+    "bytes": 4076
+  },
+  {
+    "path": "paper/sections/introduction.tex",
+    "sha256": "d6e0bcb458c787bc71e16a597801e1a62b5f93b67b956b34ac25433672a7efb0",
+    "bytes": 2994
+  },
+  {
+    "path": "paper/sections/limitations.tex",
+    "sha256": "66179542ad1e9a69d819f283d996b9f691e87a899daeeaf2bc086dcf58b8be09",
+    "bytes": 2385
+  },
+  {
+    "path": "paper/sections/method.tex",
+    "sha256": "b3dc7133f0b051a36c6837eb7015e7625ba0c58f082f2299a3a9ae571eabfaf7",
+    "bytes": 4970
+  },
+  {
+    "path": "paper/sections/related-work.tex",
+    "sha256": "d9b0391a781e01604b5ae68c6f23dc735f900993d6ed983fa8d2c07d76cceb65",
+    "bytes": 3077
+  },
+  {
+    "path": "paper/sections/results.tex",
+    "sha256": "5683ced1783645b33bde8d574bed10e23873f0f95ad157f999e7018ae32a3b55",
+    "bytes": 7780
+  },
+  {
+    "path": "paper/tables/anchor_matched_sensitivity.tex",
+    "sha256": "b7fbc16064f0894014019bc09e67f9d3e3dbb73bb5cca7fbdb5488bd690f75ec",
+    "bytes": 571
+  },
+  {
+    "path": "paper/tables/crasar_summary.tex",
+    "sha256": "6eddfc144344a7e3cee155066007a677979cb9bba1e2fb45e43d9bb365304e83",
+    "bytes": 568
+  },
+  {
+    "path": "paper/tables/hash_audit.tex",
+    "sha256": "540373c859adc942871d7af4f8bf734442c39a8164ccb8a466ef1ce083f16196",
+    "bytes": 348
+  },
+  {
+    "path": "paper/tables/matched_auroc.tex",
+    "sha256": "04013faa753d85b8f4847d226a010f9834d4f52af088b8c7e9e0b0bc43339aa0",
+    "bytes": 797
+  },
+  {
+    "path": "paper/tables/measured_gsd.tex",
+    "sha256": "0e6572c14ca3e4e39bb0bed59d538db3f110a4b803f2bb7e39626db440a630b9",
+    "bytes": 789
+  },
+  {
+    "path": "paper/tables/privileged_inflation.tex",
+    "sha256": "33e7c58894653e2df0c994f71c8248bac465e5691447eb922d45854538f65d6d",
+    "bytes": 445
+  },
+  {
+    "path": "paper/tfcad.bst",
+    "sha256": "30ebc3a77316090922ff3f391b6292c48e24ba1a45e665df660edd5b9f047d73",
+    "bytes": 35584
+  },
+  {
+    "path": "reproduce.sh",
+    "sha256": "559fac280a21dfc7f4b35a6582a2e9e915e2ccc2e5ccf465d1850a6e784072dc",
+    "bytes": 965
+  },
+  {
+    "path": "requirements-lock.txt",
+    "sha256": "a8bf262f05484d73152fdb11338e10e470c863e112c9578de19d13d5846b42bc",
+    "bytes": 225
+  },
+  {
+    "path": "research/analysis-deviations.md",
+    "sha256": "48cecf53a1cc799573ca6ce272d68c1b1625a8c4173cb73dc90c1978d2ead704",
+    "bytes": 1478
+  },
+  {
+    "path": "research/brief.md",
+    "sha256": "a8e097253a698e24825d1996f51f80fa3ec9900a38884b8e1d18566e79c6adf6",
+    "bytes": 3819
+  },
+  {
+    "path": "research/data-sources.jsonl",
+    "sha256": "2225fd47c16ebe4534024aadf7b65086c84e980f961db129688485175f74722c",
+    "bytes": 1749
+  },
+  {
+    "path": "research/greatness-contract.json",
+    "sha256": "d685731b5df2edd80b6d9393edce24c6fb1a5a964e3316d25dfed698cdfb8d82",
+    "bytes": 3192
+  },
+  {
+    "path": "research/ideas.json",
+    "sha256": "f1c28f45e0aa80f20c8c7fb2159862812afe8a839217a95927be0d8fb65580e8",
+    "bytes": 171
+  },
+  {
+    "path": "research/literature.jsonl",
+    "sha256": "e0087c69a8f702b52736ec3ca72eb386452f06820c80f0a45d55ad4e1421ede4",
+    "bytes": 6504
+  },
+  {
+    "path": "research/novelty-matrix.md",
+    "sha256": "265ab06ac93022244326302df2576c839a978e7658b669ce9a6831dc4bb96bce",
+    "bytes": 3027
+  },
+  {
+    "path": "research/preregistration.md",
+    "sha256": "887081b16077a43d33ada28b27d0d0dde9f1d9692676a2056be5417396fbc2a2",
+    "bytes": 5396
+  },
+  {
+    "path": "research/prior-work.jsonl",
+    "sha256": "6c76d96223a563e63a1c464415288480f75df61596c40c06319146cdaaaf1a78",
+    "bytes": 1038
+  },
+  {
+    "path": "research/synopsis.md",
+    "sha256": "3ecc3e084e34f6d34da55797985bbeeb6aaca6eb5cd3a4aec3a8f3bd93890393",
+    "bytes": 1178
+  },
+  {
+    "path": "research/trajectory.jsonl",
+    "sha256": "6b43ed91a6f79a2d7dd2920784737e17acd5bc0cf8c8fb06fa1e43c6b2f099c0",
+    "bytes": 1246
+  },
+  {
+    "path": "reviews/Review_Report_IJRS_Resolution_Audit_Round1.docx",
+    "sha256": "7941af1d7f5bf365688329352b0e5ff2e5237545571b2e3901c194c8af1a7bc3",
+    "bytes": 143924
+  },
+  {
+    "path": "reviews/Review_Report_IJRS_Resolution_Audit_Round2.docx",
+    "sha256": "9b251ee2688a3dfdcfdce149da952be17949e4fc5a29401d38b309992cd3b0c9",
+    "bytes": 92241
+  },
+  {
+    "path": "reviews/greatness-verdict.json",
+    "sha256": "05632e7fd6d3b1329e8cd535aeba6a59e98d94b64ac5a1a8c5930a5c5b5825e7",
+    "bytes": 1467
+  },
+  {
+    "path": "reviews/readiness.json",
+    "sha256": "e3ddc5a457889e045d897bb103dfc1b0f82c7fdcda5380a9e1913abbb8cde505",
+    "bytes": 2741
+  },
+  {
+    "path": "study.json",
+    "sha256": "606435b451f064d90b5d794e95756ff8202127179385a5a78764941582494101",
+    "bytes": 710
+  }
+]

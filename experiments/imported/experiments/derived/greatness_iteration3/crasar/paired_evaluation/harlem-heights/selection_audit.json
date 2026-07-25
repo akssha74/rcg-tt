@@ -1,0 +1,8 @@
+{
+  "uas_annotations": 986,
+  "satellite_annotations": 980,
+  "common_building_ids": 978,
+  "uas_eligible_labels": 915,
+  "satellite_eligible_labels": 914,
+  "same_eligible_label": 531
+}

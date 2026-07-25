@@ -1,6 +1,6 @@
 __pycache__/
-*.pyc
-.venv/
+*.py[cod]
 .DS_Store
-# Full re-computation scratch (level B); the released derived/ artifacts are tracked.
-experiments/derived/**/test_arrays.npz
+.venv/
+environment/
+submission/resolution-audit-reproducibility.zip

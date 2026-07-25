@@ -1,8 +1,18 @@
-\begin{tabular}{lccccc}
+\begin{table}[t]
+\centering
+\caption{Held-out same-building measured-GSD evaluation. GSD is reported in cm\,px$^{-1}$. The final column is the mean received-consistency minus confidence error-AUROC difference across three seeds.}
+\label{tab:measured-gsd}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llrrrr}
 \toprule
-Measured GSD & Accuracy & Error conf. & AUROC$_{1-c}$ & AUROC$_{RCG}$ & Lift \\
+Acquisition & Event & Pairs & UAS GSD & Satellite GSD & AUROC lift \\
 \midrule
-UAS 3.84--4.67\,cm\,px$^{-1}$ & 0.661$\pm$0.040 & 0.782$\pm$0.031 & 0.582$\pm$0.078 & 0.818$\pm$0.030 & 0.236$\pm$0.051 \\
-Satellite 30.52\,cm\,px$^{-1}$ & 0.400$\pm$0.170 & 0.800$\pm$0.094 & 0.483$\pm$0.109 & 0.747$\pm$0.126 & 0.264$\pm$0.121 \\
+Harlem Heights & Hurricane Ian & 531 & 4.67 & 30.52 & 0.143 \\
+Mcgregor College Parkway South 1 & Hurricane Ian & 269 & 3.84 & 30.52 & 0.159 \\
+Mexico Beach 2018 10 13 & Hurricane Michael & 337 & 1.96 & 58.97 & -0.155 \\
+Mexico Beach 2018 10 14 & Hurricane Michael & 304 & 1.95 & 58.97 & -0.073 \\
+\midrule
+Pooled & Two events & 1441 & -- & -- & 0.149 \\
 \bottomrule
-\end{tabular}
+\end{tabular}}
+\end{table}

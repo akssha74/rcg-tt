@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "title": "When Resolution Consistency Fails: An Information-Matched Audit for Disaster Remote Sensing",
+  "created_at": "2026-07-24T20:01:18.982936+00:00",
+  "status": "active",
+  "stage": "experimentation",
+  "repository_commit": "943f43495c2549c6b1ae510c0241a6e9021eba27",
+  "target_venue": "International Journal of Remote Sensing",
+  "owner": "Akshay Sharma",
+  "budget": {
+    "gpu_hours": 12,
+    "api_usd": 0,
+    "device": "Apple M4 Max MPS",
+    "mem_gb": 64
+  },
+  "human_approvals": [],
+  "parent_study": "studies/disaster-rcg-gsd",
+  "pivot_reason": "Preregistered received-image RCG failed W8/W9; the stronger contribution is an information-access and leakage audit."
+}

@@ -1,0 +1,47 @@
+{
+  "source": "experiments/imported/experiments/derived/greatness_iteration3/crasar/leakage_free_paired_gsd.json",
+  "criteria": {
+    "w11_preregistered_pass": true,
+    "w12_preregistered_pass": false,
+    "w13_preregistered_mean_rule_pass": true,
+    "w13_posthoc_all_seed_robustness_pass": false
+  },
+  "w13_values": {
+    "confidence": {
+      "absolute_coverage_error": 0.20057830210501962,
+      "selective_risk": 0.5478808760361836,
+      "seed_values": {
+        "absolute_coverage_error": [
+          0.1330326162387231,
+          0.19895905621096455,
+          0.26974323386537125
+        ],
+        "selective_risk": [
+          0.47123623011015914,
+          0.5304709141274239,
+          0.6419354838709678
+        ]
+      }
+    },
+    "received_consistency": {
+      "absolute_coverage_error": 0.10564422854499189,
+      "selective_risk": 0.4562791609054338,
+      "seed_values": {
+        "absolute_coverage_error": [
+          0.0775156141568355,
+          0.15981956974323386,
+          0.07959750173490632
+        ],
+        "selective_risk": [
+          0.30434782608695654,
+          0.5488297013720742,
+          0.5156599552572707
+        ]
+      }
+    }
+  },
+  "deviation": {
+    "original_result_json_field": "aggregate.criteria.w13_threshold_transfer applies an all-seed rule not present in the frozen mean-based W13",
+    "manuscript_resolution": "Report preregistered W13 as passed and the all-seed result as a failed post-hoc robustness sensitivity."
+  }
+}

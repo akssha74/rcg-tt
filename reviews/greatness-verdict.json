@@ -1,0 +1,53 @@
+{
+  "target_venue": "International Journal of Remote Sensing",
+  "presumption": "not-great",
+  "adjudicator": "independent",
+  "human_reviewers_used": false,
+  "independent_default_reject_reviews": [],
+  "strongest_rejection": "",
+  "rejection_points": [],
+  "standing_rejections": [
+    "Independent default-reject greatness reviews not completed"
+  ],
+  "hard_failure_checks": {
+    "proxy_only_operational_evidence": {
+      "status": "unresolved",
+      "evidence": [],
+      "measured_gsd_required": null,
+      "measured_gsd_artifacts": [],
+      "not_applicable_reason": null
+    },
+    "primary_seed_fragility": {
+      "status": "unresolved",
+      "evidence": [],
+      "minimum_primary_seeds": 3,
+      "primary_models": [],
+      "not_applicable_reason": null
+    },
+    "strongest_domain_baseline_missing": {
+      "status": "unresolved",
+      "evidence": [],
+      "eo_ood_baseline_required": null,
+      "domain_specific_baselines": [],
+      "comparison_artifacts": [],
+      "not_applicable_reason": null
+    },
+    "incremental_novelty": {
+      "status": "unresolved",
+      "evidence": []
+    },
+    "insufficient_real_world_generalization": {
+      "status": "unresolved",
+      "evidence": []
+    },
+    "incomplete_public_artifacts": {
+      "status": "unresolved",
+      "evidence": []
+    }
+  },
+  "venue_ready": false,
+  "scientifically_great": false,
+  "submission_recommended": false,
+  "verdict": "not-great",
+  "adjudicated_at": null
+}

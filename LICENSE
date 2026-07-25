@@ -20,8 +20,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
---------------------------------------------------------------------------------
-NOTE ON DATASETS: This license covers only the code and the derived result
-artifacts in this repository. The AIDER, Satellite Images of Hurricane Damage,
-and xBD datasets are NOT included and are governed by their own licenses;
-obtain them from their official sources (see data/manifests/).
+This license applies to source code. Original research artefacts and
+documentation are licensed separately under CC BY 4.0 as described in
+LICENSES.md. Third-party data and weights are not redistributed or relicensed.

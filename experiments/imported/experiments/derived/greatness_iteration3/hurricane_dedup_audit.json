@@ -1,0 +1,60 @@
+{
+  "source_counts": {
+    "train": 7000,
+    "val": 1000,
+    "test": 2000
+  },
+  "corrected_counts": {
+    "train": 6997,
+    "val": 997,
+    "test": 2000
+  },
+  "cross_split_groups": {
+    "f562426d06536177042dcf595787bb6c5e1e49e2c0adc1e020b287686f8b51be": [
+      {
+        "split": "train",
+        "index": 6241,
+        "label": 1
+      },
+      {
+        "split": "val",
+        "index": 6240,
+        "label": 1
+      }
+    ],
+    "ab2428dea66ff69471aa9c4d1c0c159d23c06711b91f1bef28a7351f04a490f8": [
+      {
+        "split": "train",
+        "index": 6172,
+        "label": 1
+      },
+      {
+        "split": "val",
+        "index": 6173,
+        "label": 1
+      }
+    ],
+    "10c38bdc6d338ab50b46b2d2b370dec8c09f7654fb8208d80bac94e905bcf6e3": [
+      {
+        "split": "train",
+        "index": 5555,
+        "label": 1
+      },
+      {
+        "split": "val",
+        "index": 5554,
+        "label": 1
+      }
+    ]
+  },
+  "excluded_indexes": [
+    5554,
+    5555,
+    6172,
+    6173,
+    6240,
+    6241
+  ],
+  "remaining_cross_split_hashes": {},
+  "a3_hurricane_pass": true
+}

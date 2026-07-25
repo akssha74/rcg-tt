@@ -1,0 +1,2174 @@
+{
+  "protocol": {
+    "dataset": "CRASAR/CRASAR-U-DROIDs",
+    "snapshot": "47cf4ab3a94d42978975f7d23338a996125ac0e9",
+    "sites": [
+      {
+        "id": "harlem-heights",
+        "source_split": "train",
+        "event": "Hurricane Ian",
+        "uas_name": "1001-Harlem-Heights.geo.tif",
+        "sat_name": "1001-Harlem-Heights.geo.tif_10300100DB06A700-visual.tif.geo.tif",
+        "uas_gsd_m": 0.04672,
+        "satellite_gsd_m": 0.305175781
+      },
+      {
+        "id": "mcgregor-college-parkway-south-1",
+        "source_split": "train",
+        "event": "Hurricane Ian",
+        "uas_name": "1001-McGregor-College-Pkwy-South.1.geo.tif",
+        "sat_name": "1001-McGregor-College-Pkwy-South.1.geo.tif_10300100DB06A700-visual.tif.geo.tif",
+        "uas_gsd_m": 0.0383888,
+        "satellite_gsd_m": 0.305175781
+      },
+      {
+        "id": "mexico-beach-2018-10-13",
+        "source_split": "test",
+        "event": "Hurricane Michael",
+        "uas_name": "10132018-MexicoBeach.geo.tif",
+        "sat_name": "10132018-MexicoBeach.geo.tif_104001004384D900.tif.geo.tif",
+        "uas_gsd_m": 0.019646,
+        "satellite_gsd_m": 0.589669
+      },
+      {
+        "id": "mexico-beach-2018-10-14",
+        "source_split": "test",
+        "event": "Hurricane Michael",
+        "uas_name": "10142018-MexicoBeach.geo.tif",
+        "sat_name": "10142018-MexicoBeach.geo.tif_104001004384D900.tif.geo.tif",
+        "uas_gsd_m": 0.019465,
+        "satellite_gsd_m": 0.589669
+      }
+    ],
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "relative_scales": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "gammas": [
+      0.5,
+      0.7,
+      0.9
+    ],
+    "bootstrap_repeats": 10000,
+    "bootstrap_seed": 260724,
+    "device": "mps"
+  },
+  "pair_counts": {
+    "harlem-heights": {
+      "n": 531,
+      "undamaged": 391,
+      "damaged": 140,
+      "spatial_blocks": 85
+    },
+    "mcgregor-college-parkway-south-1": {
+      "n": 269,
+      "undamaged": 231,
+      "damaged": 38,
+      "spatial_blocks": 121
+    },
+    "mexico-beach-2018-10-13": {
+      "n": 337,
+      "undamaged": 52,
+      "damaged": 285,
+      "spatial_blocks": 250
+    },
+    "mexico-beach-2018-10-14": {
+      "n": 304,
+      "undamaged": 94,
+      "damaged": 210,
+      "spatial_blocks": 252
+    }
+  },
+  "seeds": {
+    "101": {
+      "seed": 101,
+      "thresholds": {
+        "0.5": {
+          "confidence": 0.9578320384025574,
+          "rcg": 0.04397823289036751
+        },
+        "0.7": {
+          "confidence": 0.8725533485412598,
+          "rcg": 0.14625854790210724
+        },
+        "0.9": {
+          "confidence": 0.6743952631950378,
+          "rcg": 0.24727608263492584
+        }
+      },
+      "sites": {
+        "harlem-heights": {
+          "uas": {
+            "n": 531,
+            "n_errors": 174,
+            "accuracy": 0.672316384180791,
+            "balanced_accuracy": 0.7499817318231641,
+            "macro_f1": 0.6600161907565498,
+            "majority_accuracy": 0.736346516007533,
+            "auroc_confidence": 0.6792878070768538,
+            "auroc_rcg": 0.8002672333301136,
+            "auprc_confidence": 0.47104928494114945,
+            "auprc_rcg": 0.5765818039887026
+          },
+          "satellite": {
+            "n": 531,
+            "n_errors": 351,
+            "accuracy": 0.3389830508474576,
+            "balanced_accuracy": 0.5259316770186335,
+            "macro_f1": 0.3244054415554758,
+            "majority_accuracy": 0.736346516007533,
+            "auroc_confidence": 0.46674580563469453,
+            "auroc_rcg": 0.5636435580880025,
+            "auprc_confidence": 0.6324270694379907,
+            "auprc_rcg": 0.6900137314703374
+          },
+          "uas_transfer": {
+            "0.5": {
+              "confidence": {
+                "coverage": 0.4293785310734463,
+                "absolute_coverage_error": 0.07062146892655369,
+                "selective_risk": 0.17105263157894737,
+                "false_critical_rate": 0.16666666666666666,
+                "n": 228
+              },
+              "rcg": {
+                "coverage": 0.3427495291902072,
+                "absolute_coverage_error": 0.15725047080979282,
+                "selective_risk": 0.038461538461538464,
+                "false_critical_rate": 0.01098901098901099,
+                "n": 182
+              }
+            },
+            "0.7": {
+              "confidence": {
+                "coverage": 0.6120527306967984,
+                "absolute_coverage_error": 0.08794726930320151,
+                "selective_risk": 0.24923076923076923,
+                "false_critical_rate": 0.24307692307692308,
+                "n": 325
+              },
+              "rcg": {
+                "coverage": 0.5555555555555556,
+                "absolute_coverage_error": 0.14444444444444438,
+                "selective_risk": 0.13898305084745763,
+                "false_critical_rate": 0.09830508474576272,
+                "n": 295
+              }
+            },
+            "0.9": {
+              "confidence": {
+                "coverage": 0.8531073446327684,
+                "absolute_coverage_error": 0.04689265536723164,
+                "selective_risk": 0.2913907284768212,
+                "false_critical_rate": 0.2781456953642384,
+                "n": 453
+              },
+              "rcg": {
+                "coverage": 0.8041431261770244,
+                "absolute_coverage_error": 0.09585687382297559,
+                "selective_risk": 0.25526932084309134,
+                "false_critical_rate": 0.22716627634660422,
+                "n": 427
+              }
+            }
+          },
+          "satellite_transfer": {
+            "0.5": {
+              "confidence": {
+                "coverage": 0.5009416195856874,
+                "absolute_coverage_error": 0.0009416195856873921,
+                "selective_risk": 0.6729323308270677,
+                "false_critical_rate": 0.6729323308270677,
+                "n": 266
+              },
+              "rcg": {
+                "coverage": 0.08097928436911488,
+                "absolute_coverage_error": 0.4190207156308851,
+                "selective_risk": 0.3023255813953488,
+                "false_critical_rate": 0.2558139534883721,
+                "n": 43
+              }
+            },
+            "0.7": {
+              "confidence": {
+                "coverage": 0.7721280602636534,
+                "absolute_coverage_error": 0.07212806026365348,
+                "selective_risk": 0.6829268292682927,
+                "false_critical_rate": 0.6804878048780488,
+                "n": 410
+              },
+              "rcg": {
+                "coverage": 0.3107344632768362,
+                "absolute_coverage_error": 0.3892655367231638,
+                "selective_risk": 0.5696969696969697,
+                "false_critical_rate": 0.503030303030303,
+                "n": 165
+              }
+            },
+            "0.9": {
+              "confidence": {
+                "coverage": 0.9246704331450094,
+                "absolute_coverage_error": 0.024670433145009385,
+                "selective_risk": 0.6680244399185336,
+                "false_critical_rate": 0.659877800407332,
+                "n": 491
+              },
+              "rcg": {
+                "coverage": 0.7608286252354048,
+                "absolute_coverage_error": 0.13917137476459518,
+                "selective_risk": 0.6608910891089109,
+                "false_critical_rate": 0.6336633663366337,
+                "n": 404
+              }
+            }
+          }
+        },
+        "mcgregor-college-parkway-south-1": {
+          "uas": {
+            "n": 269,
+            "n_errors": 65,
+            "accuracy": 0.758364312267658,
+            "balanced_accuracy": 0.6834130781499203,
+            "macro_f1": 0.6260772866277453,
+            "majority_accuracy": 0.8587360594795539,
+            "auroc_confidence": 0.6927601809954751,
+            "auroc_rcg": 0.8688536953242836,
+            "auprc_confidence": 0.38572704537847974,
+            "auprc_rcg": 0.628410923798901
+          },
+          "satellite": {
+            "n": 269,
+            "n_errors": 69,
+            "accuracy": 0.7434944237918215,
+            "balanced_accuracy": 0.5208475734791524,
+            "macro_f1": 0.5179587066614726,
+            "majority_accuracy": 0.8587360594795539,
+            "auroc_confidence": 0.6228260869565216,
+            "auroc_rcg": 0.7667391304347826,
+            "auprc_confidence": 0.3640559994428855,
+            "auprc_rcg": 0.6593453880372824
+          },
+          "uas_transfer": {
+            "0.5": {
+              "confidence": {
+                "coverage": 0.22304832713754646,
+                "absolute_coverage_error": 0.27695167286245354,
+                "selective_risk": 0.11666666666666667,
+                "false_critical_rate": 0.1,
+                "n": 60
+              },
+              "rcg": {
+                "coverage": 0.5985130111524164,
+                "absolute_coverage_error": 0.0985130111524164,
+                "selective_risk": 0.06832298136645963,
+                "false_critical_rate": 0.0,
+                "n": 161
+              }
+            },
+            "0.7": {
+              "confidence": {
+                "coverage": 0.4944237918215613,
+                "absolute_coverage_error": 0.20557620817843864,
+                "selective_risk": 0.13533834586466165,
+                "false_critical_rate": 0.11278195488721804,
+                "n": 133
+              },
+              "rcg": {
+                "coverage": 0.8364312267657993,
+                "absolute_coverage_error": 0.13643122676579933,
+                "selective_risk": 0.1511111111111111,
+                "false_critical_rate": 0.08,
+                "n": 225
+              }
+            },
+            "0.9": {
+              "confidence": {
+                "coverage": 0.8029739776951673,
+                "absolute_coverage_error": 0.0970260223048327,
+                "selective_risk": 0.19907407407407407,
+                "false_critical_rate": 0.14814814814814814,
+                "n": 216
+              },
+              "rcg": {
+                "coverage": 0.9442379182156134,
+                "absolute_coverage_error": 0.0442379182156134,
+                "selective_risk": 0.2204724409448819,
+                "false_critical_rate": 0.15748031496062992,
+                "n": 254
+              }
+            }
+          },
+          "satellite_transfer": {
+            "0.5": {
+              "confidence": {
+                "coverage": 0.3754646840148699,
+                "absolute_coverage_error": 0.12453531598513012,
+                "selective_risk": 0.15841584158415842,
+                "false_critical_rate": 0.04950495049504951,
+                "n": 101
+              },
+              "rcg": {
+                "coverage": 0.6654275092936803,
+                "absolute_coverage_error": 0.16542750929368033,
+                "selective_risk": 0.1564245810055866,
+                "false_critical_rate": 0.0111731843575419,
+                "n": 179
+              }
+            },
+            "0.7": {
+              "confidence": {
+                "coverage": 0.6133828996282528,
+                "absolute_coverage_error": 0.08661710037174719,
+                "selective_risk": 0.20606060606060606,
+                "false_critical_rate": 0.09090909090909091,
+                "n": 165
+              },
+              "rcg": {
+                "coverage": 0.8810408921933085,
+                "absolute_coverage_error": 0.18104089219330854,
+                "selective_risk": 0.18143459915611815,
+                "false_critical_rate": 0.05485232067510549,
+                "n": 237
+              }
+            },
+            "0.9": {
+              "confidence": {
+                "coverage": 0.8661710037174721,
+                "absolute_coverage_error": 0.03382899628252789,
+                "selective_risk": 0.23605150214592274,
+                "false_critical_rate": 0.12017167381974249,
+                "n": 233
+              },
+              "rcg": {
+                "coverage": 0.9405204460966543,
+                "absolute_coverage_error": 0.04052044609665428,
+                "selective_risk": 0.20948616600790515,
+                "false_critical_rate": 0.09090909090909091,
+                "n": 253
+              }
+            }
+          }
+        },
+        "mexico-beach-2018-10-13": {
+          "uas": {
+            "n": 337,
+            "n_errors": 63,
+            "accuracy": 0.8130563798219584,
+            "balanced_accuracy": 0.83444669365722,
+            "macro_f1": 0.7336569944676528,
+            "majority_accuracy": 0.8456973293768546,
+            "auroc_confidence": 0.7669447340980188,
+            "auroc_rcg": 0.25715444328583015,
+            "auprc_confidence": 0.44056434551604035,
+            "auprc_rcg": 0.13746803950406142
+          },
+          "satellite": {
+            "n": 337,
+            "n_errors": 94,
+            "accuracy": 0.7210682492581603,
+            "balanced_accuracy": 0.4892037786774629,
+            "macro_f1": 0.4893939393939394,
+            "majority_accuracy": 0.8456973293768546,
+            "auroc_confidence": 0.5848437089571841,
+            "auroc_rcg": 0.5422467384642325,
+            "auprc_confidence": 0.40793488901669095,
+            "auprc_rcg": 0.3256669955429162
+          },
+          "uas_transfer": {
+            "0.5": {
+              "confidence": {
+                "coverage": 0.49554896142433236,
+                "absolute_coverage_error": 0.004451038575667643,
+                "selective_risk": 0.07784431137724551,
+                "false_critical_rate": 0.005988023952095809,
+                "n": 167
+              },
+              "rcg": {
+                "coverage": 0.4421364985163205,
+                "absolute_coverage_error": 0.057863501483679525,
+                "selective_risk": 0.31543624161073824,
+                "false_critical_rate": 0.0,
+                "n": 149
+              }
+            },
+            "0.7": {
+              "confidence": {
+                "coverage": 0.685459940652819,
+                "absolute_coverage_error": 0.014540059347180945,
+                "selective_risk": 0.11255411255411256,
+                "false_critical_rate": 0.004329004329004329,
+                "n": 231
+              },
+              "rcg": {
+                "coverage": 0.7418397626112759,
+                "absolute_coverage_error": 0.04183976261127598,
+                "selective_risk": 0.24,
+                "false_critical_rate": 0.016,
+                "n": 250
+              }
+            },
+            "0.9": {
+              "confidence": {
+                "coverage": 0.8694362017804155,
+                "absolute_coverage_error": 0.030563798219584548,
+                "selective_risk": 0.13993174061433447,
+                "false_critical_rate": 0.006825938566552901,
+                "n": 293
+              },
+              "rcg": {
+                "coverage": 0.9584569732937686,
+                "absolute_coverage_error": 0.05845697329376853,
+                "selective_risk": 0.19195046439628483,
+                "false_critical_rate": 0.018575851393188854,
+                "n": 323
+              }
+            }
+          },
+          "satellite_transfer": {
+            "0.5": {
+              "confidence": {
+                "coverage": 0.050445103857566766,
+                "absolute_coverage_error": 0.4495548961424332,
+                "selective_risk": 0.47058823529411764,
+                "false_critical_rate": 0.47058823529411764,
+                "n": 17
+              },
+              "rcg": {
+                "coverage": 0.5014836795252225,
+                "absolute_coverage_error": 0.0014836795252225476,
+                "selective_risk": 0.2485207100591716,
+                "false_critical_rate": 0.01775147928994083,
+                "n": 169
+              }
+            },
+            "0.7": {
+              "confidence": {
+                "coverage": 0.22255192878338279,
+                "absolute_coverage_error": 0.47744807121661714,
+                "selective_risk": 0.29333333333333333,
+                "false_critical_rate": 0.28,
+                "n": 75
+              },
+              "rcg": {
+                "coverage": 0.8249258160237388,
+                "absolute_coverage_error": 0.12492581602373887,
+                "selective_risk": 0.26258992805755393,
+                "false_critical_rate": 0.08273381294964029,
+                "n": 278
+              }
+            },
+            "0.9": {
+              "confidence": {
+                "coverage": 0.6439169139465876,
+                "absolute_coverage_error": 0.25608308605341246,
+                "selective_risk": 0.2119815668202765,
+                "false_critical_rate": 0.16129032258064516,
+                "n": 217
+              },
+              "rcg": {
+                "coverage": 0.9317507418397626,
+                "absolute_coverage_error": 0.031750741839762564,
+                "selective_risk": 0.27070063694267515,
+                "false_critical_rate": 0.11146496815286625,
+                "n": 314
+              }
+            }
+          }
+        },
+        "mexico-beach-2018-10-14": {
+          "uas": {
+            "n": 304,
+            "n_errors": 55,
+            "accuracy": 0.819078947368421,
+            "balanced_accuracy": 0.833789260385005,
+            "macro_f1": 0.8037351363406933,
+            "majority_accuracy": 0.6907894736842105,
+            "auroc_confidence": 0.7829134720700985,
+            "auroc_rcg": 0.4050383351588171,
+            "auprc_confidence": 0.41580577059234736,
+            "auprc_rcg": 0.1441976468511266
+          },
+          "satellite": {
+            "n": 304,
+            "n_errors": 94,
+            "accuracy": 0.6907894736842105,
+            "balanced_accuracy": 0.552887537993921,
+            "macro_f1": 0.5401351786289025,
+            "majority_accuracy": 0.6907894736842105,
+            "auroc_confidence": 0.5376393110435664,
+            "auroc_rcg": 0.49376899696048626,
+            "auprc_confidence": 0.364347941176524,
+            "auprc_rcg": 0.31299088129252
+          },
+          "uas_transfer": {
+            "0.5": {
+              "confidence": {
+                "coverage": 0.40131578947368424,
+                "absolute_coverage_error": 0.09868421052631576,
+                "selective_risk": 0.06557377049180328,
+                "false_critical_rate": 0.0,
+                "n": 122
+              },
+              "rcg": {
+                "coverage": 0.5723684210526315,
+                "absolute_coverage_error": 0.07236842105263153,
+                "selective_risk": 0.22988505747126436,
+                "false_critical_rate": 0.028735632183908046,
+                "n": 174
+              }
+            },
+            "0.7": {
+              "confidence": {
+                "coverage": 0.618421052631579,
+                "absolute_coverage_error": 0.08157894736842097,
+                "selective_risk": 0.06914893617021277,
+                "false_critical_rate": 0.010638297872340425,
+                "n": 188
+              },
+              "rcg": {
+                "coverage": 0.8355263157894737,
+                "absolute_coverage_error": 0.13552631578947372,
+                "selective_risk": 0.2047244094488189,
+                "false_critical_rate": 0.03543307086614173,
+                "n": 254
+              }
+            },
+            "0.9": {
+              "confidence": {
+                "coverage": 0.8355263157894737,
+                "absolute_coverage_error": 0.06447368421052635,
+                "selective_risk": 0.12598425196850394,
+                "false_critical_rate": 0.031496062992125984,
+                "n": 254
+              },
+              "rcg": {
+                "coverage": 0.9638157894736842,
+                "absolute_coverage_error": 0.06381578947368416,
+                "selective_risk": 0.18430034129692832,
+                "false_critical_rate": 0.03754266211604096,
+                "n": 293
+              }
+            }
+          },
+          "satellite_transfer": {
+            "0.5": {
+              "confidence": {
+                "coverage": 0.24671052631578946,
+                "absolute_coverage_error": 0.2532894736842105,
+                "selective_risk": 0.32,
+                "false_critical_rate": 0.29333333333333333,
+                "n": 75
+              },
+              "rcg": {
+                "coverage": 0.2565789473684211,
+                "absolute_coverage_error": 0.24342105263157893,
+                "selective_risk": 0.3333333333333333,
+                "false_critical_rate": 0.1794871794871795,
+                "n": 78
+              }
+            },
+            "0.7": {
+              "confidence": {
+                "coverage": 0.5493421052631579,
+                "absolute_coverage_error": 0.1506578947368421,
+                "selective_risk": 0.2934131736526946,
+                "false_critical_rate": 0.2694610778443114,
+                "n": 167
+              },
+              "rcg": {
+                "coverage": 0.7138157894736842,
+                "absolute_coverage_error": 0.013815789473684226,
+                "selective_risk": 0.2903225806451613,
+                "false_critical_rate": 0.2073732718894009,
+                "n": 217
+              }
+            },
+            "0.9": {
+              "confidence": {
+                "coverage": 0.8289473684210527,
+                "absolute_coverage_error": 0.07105263157894737,
+                "selective_risk": 0.2857142857142857,
+                "false_critical_rate": 0.23809523809523808,
+                "n": 252
+              },
+              "rcg": {
+                "coverage": 0.9276315789473685,
+                "absolute_coverage_error": 0.02763157894736845,
+                "selective_risk": 0.31560283687943264,
+                "false_critical_rate": 0.25177304964539005,
+                "n": 282
+              }
+            }
+          }
+        }
+      },
+      "pooled": {
+        "uas": {
+          "n": 1441,
+          "n_errors": 357,
+          "accuracy": 0.7522553782095767,
+          "balanced_accuracy": 0.7559067762506191,
+          "macro_f1": 0.7522477421442803,
+          "majority_accuracy": 0.5329632199861207,
+          "auroc_confidence": 0.7098359639058575,
+          "auroc_rcg": 0.6652118411940421,
+          "auprc_confidence": 0.4207329356486649,
+          "auprc_rcg": 0.4029265095900466
+        },
+        "satellite": {
+          "n": 1441,
+          "n_errors": 608,
+          "accuracy": 0.5780707841776545,
+          "balanced_accuracy": 0.5941495248266468,
+          "macro_f1": 0.5596142865185256,
+          "majority_accuracy": 0.5329632199861207,
+          "auroc_confidence": 0.44641277563657045,
+          "auroc_rcg": 0.6959408763505402,
+          "auprc_confidence": 0.40781923553620214,
+          "auprc_rcg": 0.5745811155693668
+        },
+        "uas_transfer": {
+          "0.5": {
+            "confidence": {
+              "coverage": 0.40041637751561415,
+              "absolute_coverage_error": 0.09958362248438585,
+              "selective_risk": 0.11611785095320624,
+              "false_critical_rate": 0.0779896013864818,
+              "n": 577
+            },
+            "rcg": {
+              "coverage": 0.4621790423317141,
+              "absolute_coverage_error": 0.037820957668285915,
+              "selective_risk": 0.15765765765765766,
+              "false_critical_rate": 0.010510510510510511,
+              "n": 666
+            }
+          },
+          "0.7": {
+            "confidence": {
+              "coverage": 0.6086051353226926,
+              "absolute_coverage_error": 0.0913948646773074,
+              "selective_risk": 0.1573546180159635,
+              "false_critical_rate": 0.11060433295324971,
+              "n": 877
+            },
+            "rcg": {
+              "coverage": 0.710617626648161,
+              "absolute_coverage_error": 0.010617626648161016,
+              "selective_risk": 0.1826171875,
+              "false_critical_rate": 0.05859375,
+              "n": 1024
+            }
+          },
+          "0.9": {
+            "confidence": {
+              "coverage": 0.8438584316446912,
+              "absolute_coverage_error": 0.05614156835530881,
+              "selective_risk": 0.20394736842105263,
+              "false_critical_rate": 0.13815789473684212,
+              "n": 1216
+            },
+            "rcg": {
+              "coverage": 0.9000693962526024,
+              "absolute_coverage_error": 6.93962526023828e-05,
+              "selective_risk": 0.2166538164996145,
+              "false_critical_rate": 0.11873554356206631,
+              "n": 1297
+            }
+          }
+        },
+        "satellite_transfer": {
+          "0.5": {
+            "confidence": {
+              "coverage": 0.31852879944483,
+              "absolute_coverage_error": 0.18147120055517002,
+              "selective_risk": 0.49455337690631807,
+              "false_critical_rate": 0.4662309368191721,
+              "n": 459
+            },
+            "rcg": {
+              "coverage": 0.32546842470506593,
+              "absolute_coverage_error": 0.17453157529493407,
+              "selective_risk": 0.232409381663113,
+              "false_critical_rate": 0.06396588486140725,
+              "n": 469
+            }
+          },
+          "0.7": {
+            "confidence": {
+              "coverage": 0.5669673837612769,
+              "absolute_coverage_error": 0.1330326162387231,
+              "selective_risk": 0.47123623011015914,
+              "false_critical_rate": 0.44063647490820074,
+              "n": 817
+            },
+            "rcg": {
+              "coverage": 0.6224843858431645,
+              "absolute_coverage_error": 0.0775156141568355,
+              "selective_risk": 0.30434782608695654,
+              "false_critical_rate": 0.18283166109253066,
+              "n": 897
+            }
+          },
+          "0.9": {
+            "confidence": {
+              "coverage": 0.8278972935461485,
+              "absolute_coverage_error": 0.07210270645385153,
+              "selective_risk": 0.41994970662196146,
+              "false_critical_rate": 0.37468566638725903,
+              "n": 1193
+            },
+            "rcg": {
+              "coverage": 0.8695350451075642,
+              "absolute_coverage_error": 0.030464954892435836,
+              "selective_risk": 0.3942537909018356,
+              "false_critical_rate": 0.30726256983240224,
+              "n": 1253
+            }
+          }
+        }
+      },
+      "spatial_cluster_bootstrap": {
+        "accuracy_drop": {
+          "mean": 0.1641886529504535,
+          "ci95": [
+            0.037102364257644585,
+            0.2965104795458297
+          ],
+          "repeats": 10000
+        },
+        "satellite_auroc_lift": {
+          "mean": 0.17679821020694236,
+          "ci95": [
+            -0.03850146770849852,
+            0.32176567106313825
+          ],
+          "repeats": 10000
+        },
+        "coverage_difference_gamma_0.7": {
+          "mean": 0.08628649230768631,
+          "ci95": [
+            -0.34592806618668687,
+            0.5063771792948237
+          ],
+          "repeats": 10000
+        },
+        "selective_risk_difference_gamma_0.7": {
+          "mean": -0.1264083242967398,
+          "ci95": [
+            -0.2505212519979836,
+            0.011967103433681188
+          ],
+          "repeats": 10000
+        }
+      }
+    },
+    "202": {
+      "seed": 202,
+      "thresholds": {
+        "0.5": {
+          "confidence": 0.9831812977790833,
+          "rcg": 0.02927173115313053
+        },
+        "0.7": {
+          "confidence": 0.9434839487075806,
+          "rcg": 0.1917104423046112
+        },
+        "0.9": {
+          "confidence": 0.7002448439598083,
+          "rcg": 0.25673234462738037
+        }
+      },
+      "sites": {
+        "harlem-heights": {
+          "uas": {
+            "n": 531,
+            "n_errors": 170,
+            "accuracy": 0.67984934086629,
+            "balanced_accuracy": 0.7505115089514067,
+            "macro_f1": 0.6657656990521327,
+            "majority_accuracy": 0.736346516007533,
+            "auroc_confidence": 0.6565096952908588,
+            "auroc_rcg": 0.7972625061104773,
+            "auprc_confidence": 0.4486346772131555,
+            "auprc_rcg": 0.5713132289877632
+          },
+          "satellite": {
+            "n": 531,
+            "n_errors": 309,
+            "accuracy": 0.4180790960451977,
+            "balanced_accuracy": 0.4879338691998538,
+            "macro_f1": 0.41405588786715475,
+            "majority_accuracy": 0.736346516007533,
+            "auroc_confidence": 0.43944429866759965,
+            "auroc_rcg": 0.7036502521939416,
+            "auprc_confidence": 0.5577676109260526,
+            "auprc_rcg": 0.7267642560825118
+          },
+          "uas_transfer": {
+            "0.5": {
+              "confidence": {
+                "coverage": 0.2806026365348399,
+                "absolute_coverage_error": 0.2193973634651601,
+                "selective_risk": 0.19463087248322147,
+                "false_critical_rate": 0.18791946308724833,
+                "n": 149
+              },
+              "rcg": {
+                "coverage": 0.2749529190207156,
+                "absolute_coverage_error": 0.2250470809792844,
+                "selective_risk": 0.0273972602739726,
+                "false_critical_rate": 0.0,
+                "n": 146
+              }
+            },
+            "0.7": {
+              "confidence": {
+                "coverage": 0.4595103578154426,
+                "absolute_coverage_error": 0.24048964218455737,
+                "selective_risk": 0.20491803278688525,
+                "false_critical_rate": 0.19672131147540983,
+                "n": 244
+              },
+              "rcg": {
+                "coverage": 0.6139359698681732,
+                "absolute_coverage_error": 0.08606403013182673,
+                "selective_risk": 0.1901840490797546,
+                "false_critical_rate": 0.147239263803681,
+                "n": 326
+              }
+            },
+            "0.9": {
+              "confidence": {
+                "coverage": 0.8192090395480226,
+                "absolute_coverage_error": 0.08079096045197742,
+                "selective_risk": 0.29195402298850576,
+                "false_critical_rate": 0.2689655172413793,
+                "n": 435
+              },
+              "rcg": {
+                "coverage": 0.8192090395480226,
+                "absolute_coverage_error": 0.08079096045197742,
+                "selective_risk": 0.25287356321839083,
+                "false_critical_rate": 0.2206896551724138,
+                "n": 435
+              }
+            }
+          },
+          "satellite_transfer": {
+            "0.5": {
+              "confidence": {
+                "coverage": 0.3069679849340866,
+                "absolute_coverage_error": 0.1930320150659134,
+                "selective_risk": 0.6748466257668712,
+                "false_critical_rate": 0.6196319018404908,
+                "n": 163
+              },
+              "rcg": {
+                "coverage": 0.224105461393597,
+                "absolute_coverage_error": 0.275894538606403,
+                "selective_risk": 0.31092436974789917,
+                "false_critical_rate": 0.0,
+                "n": 119
+              }
+            },
+            "0.7": {
+              "confidence": {
+                "coverage": 0.487758945386064,
+                "absolute_coverage_error": 0.21224105461393594,
+                "selective_risk": 0.5945945945945946,
+                "false_critical_rate": 0.5328185328185329,
+                "n": 259
+              },
+              "rcg": {
+                "coverage": 0.6591337099811676,
+                "absolute_coverage_error": 0.04086629001883235,
+                "selective_risk": 0.5028571428571429,
+                "false_critical_rate": 0.35714285714285715,
+                "n": 350
+              }
+            },
+            "0.9": {
+              "confidence": {
+                "coverage": 0.8286252354048964,
+                "absolute_coverage_error": 0.07137476459510361,
+                "selective_risk": 0.5840909090909091,
+                "false_critical_rate": 0.4909090909090909,
+                "n": 440
+              },
+              "rcg": {
+                "coverage": 0.9322033898305084,
+                "absolute_coverage_error": 0.03220338983050841,
+                "selective_risk": 0.5717171717171717,
+                "false_critical_rate": 0.4686868686868687,
+                "n": 495
+              }
+            }
+          }
+        },
+        "mcgregor-college-parkway-south-1": {
+          "uas": {
+            "n": 269,
+            "n_errors": 99,
+            "accuracy": 0.6319702602230484,
+            "balanced_accuracy": 0.6098200045568467,
+            "macro_f1": 0.5285296981499513,
+            "majority_accuracy": 0.8587360594795539,
+            "auroc_confidence": 0.6390968508615568,
+            "auroc_rcg": 0.8633986928104576,
+            "auprc_confidence": 0.47275796108281976,
+            "auprc_rcg": 0.7471442414106082
+          },
+          "satellite": {
+            "n": 269,
+            "n_errors": 55,
+            "accuracy": 0.7955390334572491,
+            "balanced_accuracy": 0.48519024834814306,
+            "macro_f1": 0.47648703159831574,
+            "majority_accuracy": 0.8587360594795539,
+            "auroc_confidence": 0.6097706032285471,
+            "auroc_rcg": 0.664231096006797,
+            "auprc_confidence": 0.2978643217312321,
+            "auprc_rcg": 0.5161121972884364
+          },
+          "uas_transfer": {
+            "0.5": {
+              "confidence": {
+                "coverage": 0.26022304832713755,
+                "absolute_coverage_error": 0.23977695167286245,
+                "selective_risk": 0.22857142857142856,
+                "false_critical_rate": 0.2,
+                "n": 70
+              },
+              "rcg": {
+                "coverage": 0.39776951672862454,
+                "absolute_coverage_error": 0.10223048327137546,
+                "selective_risk": 0.056074766355140186,
+                "false_critical_rate": 0.0,
+                "n": 107
+              }
+            },
+            "0.7": {
+              "confidence": {
+                "coverage": 0.4423791821561338,
+                "absolute_coverage_error": 0.25762081784386615,
+                "selective_risk": 0.2605042016806723,
+                "false_critical_rate": 0.226890756302521,
+                "n": 119
+              },
+              "rcg": {
+                "coverage": 0.7509293680297398,
+                "absolute_coverage_error": 0.0509293680297398,
+                "selective_risk": 0.2376237623762376,
+                "false_critical_rate": 0.15841584158415842,
+                "n": 202
+              }
+            },
+            "0.9": {
+              "confidence": {
+                "coverage": 0.79182156133829,
+                "absolute_coverage_error": 0.10817843866171006,
+                "selective_risk": 0.3427230046948357,
+                "false_critical_rate": 0.29107981220657275,
+                "n": 213
+              },
+              "rcg": {
+                "coverage": 0.9107806691449815,
+                "absolute_coverage_error": 0.010780669144981436,
+                "selective_risk": 0.32653061224489793,
+                "false_critical_rate": 0.2612244897959184,
+                "n": 245
+              }
+            }
+          },
+          "satellite_transfer": {
+            "0.5": {
+              "confidence": {
+                "coverage": 0.5427509293680297,
+                "absolute_coverage_error": 0.04275092936802971,
+                "selective_risk": 0.1643835616438356,
+                "false_critical_rate": 0.0273972602739726,
+                "n": 146
+              },
+              "rcg": {
+                "coverage": 0.8178438661710037,
+                "absolute_coverage_error": 0.3178438661710037,
+                "selective_risk": 0.13636363636363635,
+                "false_critical_rate": 0.0,
+                "n": 220
+              }
+            },
+            "0.7": {
+              "confidence": {
+                "coverage": 0.7026022304832714,
+                "absolute_coverage_error": 0.0026022304832714616,
+                "selective_risk": 0.164021164021164,
+                "false_critical_rate": 0.026455026455026454,
+                "n": 189
+              },
+              "rcg": {
+                "coverage": 0.966542750929368,
+                "absolute_coverage_error": 0.2665427509293681,
+                "selective_risk": 0.18076923076923077,
+                "false_critical_rate": 0.04230769230769231,
+                "n": 260
+              }
+            },
+            "0.9": {
+              "confidence": {
+                "coverage": 0.9330855018587361,
+                "absolute_coverage_error": 0.033085501858736044,
+                "selective_risk": 0.19123505976095617,
+                "false_critical_rate": 0.055776892430278883,
+                "n": 251
+              },
+              "rcg": {
+                "coverage": 1.0,
+                "absolute_coverage_error": 0.09999999999999998,
+                "selective_risk": 0.20446096654275092,
+                "false_critical_rate": 0.07063197026022305,
+                "n": 269
+              }
+            }
+          }
+        },
+        "mexico-beach-2018-10-13": {
+          "uas": {
+            "n": 337,
+            "n_errors": 72,
+            "accuracy": 0.7863501483679525,
+            "balanced_accuracy": 0.810796221322537,
+            "macro_f1": 0.7049610894941635,
+            "majority_accuracy": 0.8456973293768546,
+            "auroc_confidence": 0.7234800838574423,
+            "auroc_rcg": 0.1941299790356394,
+            "auprc_confidence": 0.4068568898697892,
+            "auprc_rcg": 0.14075656518438898
+          },
+          "satellite": {
+            "n": 337,
+            "n_errors": 267,
+            "accuracy": 0.20771513353115728,
+            "balanced_accuracy": 0.44510796221322535,
+            "macro_f1": 0.2067092792594225,
+            "majority_accuracy": 0.8456973293768546,
+            "auroc_confidence": 0.41476725521669344,
+            "auroc_rcg": 0.336864633493847,
+            "auprc_confidence": 0.7602291167734571,
+            "auprc_rcg": 0.6981636550244312
+          },
+          "uas_transfer": {
+            "0.5": {
+              "confidence": {
+                "coverage": 0.56973293768546,
+                "absolute_coverage_error": 0.06973293768545996,
+                "selective_risk": 0.13541666666666666,
+                "false_critical_rate": 0.010416666666666666,
+                "n": 192
+              },
+              "rcg": {
+                "coverage": 0.27002967359050445,
+                "absolute_coverage_error": 0.22997032640949555,
+                "selective_risk": 0.4835164835164835,
+                "false_critical_rate": 0.0,
+                "n": 91
+              }
+            },
+            "0.7": {
+              "confidence": {
+                "coverage": 0.7151335311572701,
+                "absolute_coverage_error": 0.01513353115727012,
+                "selective_risk": 0.14522821576763487,
+                "false_critical_rate": 0.012448132780082987,
+                "n": 241
+              },
+              "rcg": {
+                "coverage": 0.6201780415430267,
+                "absolute_coverage_error": 0.07982195845697326,
+                "selective_risk": 0.32057416267942584,
+                "false_critical_rate": 0.014354066985645933,
+                "n": 209
+              }
+            },
+            "0.9": {
+              "confidence": {
+                "coverage": 0.9347181008902077,
+                "absolute_coverage_error": 0.03471810089020766,
+                "selective_risk": 0.19682539682539682,
+                "false_critical_rate": 0.015873015873015872,
+                "n": 315
+              },
+              "rcg": {
+                "coverage": 0.8961424332344213,
+                "absolute_coverage_error": 0.0038575667655786905,
+                "selective_risk": 0.2251655629139073,
+                "false_critical_rate": 0.013245033112582781,
+                "n": 302
+              }
+            }
+          },
+          "satellite_transfer": {
+            "0.5": {
+              "confidence": {
+                "coverage": 0.11572700296735905,
+                "absolute_coverage_error": 0.38427299703264095,
+                "selective_risk": 0.8205128205128205,
+                "false_critical_rate": 0.0,
+                "n": 39
+              },
+              "rcg": {
+                "coverage": 0.685459940652819,
+                "absolute_coverage_error": 0.185459940652819,
+                "selective_risk": 0.8701298701298701,
+                "false_critical_rate": 0.0,
+                "n": 231
+              }
+            },
+            "0.7": {
+              "confidence": {
+                "coverage": 0.34124629080118696,
+                "absolute_coverage_error": 0.358753709198813,
+                "selective_risk": 0.808695652173913,
+                "false_critical_rate": 0.0,
+                "n": 115
+              },
+              "rcg": {
+                "coverage": 0.9703264094955489,
+                "absolute_coverage_error": 0.270326409495549,
+                "selective_risk": 0.8012232415902141,
+                "false_critical_rate": 0.01834862385321101,
+                "n": 327
+              }
+            },
+            "0.9": {
+              "confidence": {
+                "coverage": 0.8130563798219584,
+                "absolute_coverage_error": 0.08694362017804158,
+                "selective_risk": 0.8138686131386861,
+                "false_critical_rate": 0.025547445255474453,
+                "n": 274
+              },
+              "rcg": {
+                "coverage": 1.0,
+                "absolute_coverage_error": 0.09999999999999998,
+                "selective_risk": 0.7922848664688428,
+                "false_critical_rate": 0.032640949554896145,
+                "n": 337
+              }
+            }
+          }
+        },
+        "mexico-beach-2018-10-14": {
+          "uas": {
+            "n": 304,
+            "n_errors": 46,
+            "accuracy": 0.8486842105263158,
+            "balanced_accuracy": 0.8610942249240121,
+            "macro_f1": 0.8341477299682147,
+            "majority_accuracy": 0.6907894736842105,
+            "auroc_confidence": 0.7703067071115606,
+            "auroc_rcg": 0.32263228850690934,
+            "auprc_confidence": 0.3522386091852305,
+            "auprc_rcg": 0.1075696139380595
+          },
+          "satellite": {
+            "n": 304,
+            "n_errors": 197,
+            "accuracy": 0.3519736842105263,
+            "balanced_accuracy": 0.510385005065856,
+            "macro_f1": 0.3188895333629033,
+            "majority_accuracy": 0.6907894736842105,
+            "auroc_confidence": 0.47673039518003707,
+            "auroc_rcg": 0.4856966649271788,
+            "auprc_confidence": 0.6239037289162985,
+            "auprc_rcg": 0.615185145645901
+          },
+          "uas_transfer": {
+            "0.5": {
+              "confidence": {
+                "coverage": 0.5361842105263158,
+                "absolute_coverage_error": 0.03618421052631582,
+                "selective_risk": 0.049079754601226995,
+                "false_critical_rate": 0.006134969325153374,
+                "n": 163
+              },
+              "rcg": {
+                "coverage": 0.3355263157894737,
+                "absolute_coverage_error": 0.16447368421052633,
+                "selective_risk": 0.20588235294117646,
+                "false_critical_rate": 0.0,
+                "n": 102
+              }
+            },
+            "0.7": {
+              "confidence": {
+                "coverage": 0.6875,
+                "absolute_coverage_error": 0.012499999999999956,
+                "selective_risk": 0.07177033492822966,
+                "false_critical_rate": 0.004784688995215311,
+                "n": 209
+              },
+              "rcg": {
+                "coverage": 0.6743421052631579,
+                "absolute_coverage_error": 0.025657894736842102,
+                "selective_risk": 0.21951219512195122,
+                "false_critical_rate": 0.04390243902439024,
+                "n": 205
+              }
+            },
+            "0.9": {
+              "confidence": {
+                "coverage": 0.8881578947368421,
+                "absolute_coverage_error": 0.011842105263157876,
+                "selective_risk": 0.12222222222222222,
+                "false_critical_rate": 0.022222222222222223,
+                "n": 270
+              },
+              "rcg": {
+                "coverage": 0.8881578947368421,
+                "absolute_coverage_error": 0.011842105263157876,
+                "selective_risk": 0.16666666666666666,
+                "false_critical_rate": 0.03333333333333333,
+                "n": 270
+              }
+            }
+          },
+          "satellite_transfer": {
+            "0.5": {
+              "confidence": {
+                "coverage": 0.23684210526315788,
+                "absolute_coverage_error": 0.26315789473684215,
+                "selective_risk": 0.6388888888888888,
+                "false_critical_rate": 0.013888888888888888,
+                "n": 72
+              },
+              "rcg": {
+                "coverage": 0.8355263157894737,
+                "absolute_coverage_error": 0.3355263157894737,
+                "selective_risk": 0.6692913385826772,
+                "false_critical_rate": 0.0,
+                "n": 254
+              }
+            },
+            "0.7": {
+              "confidence": {
+                "coverage": 0.5230263157894737,
+                "absolute_coverage_error": 0.17697368421052628,
+                "selective_risk": 0.660377358490566,
+                "false_critical_rate": 0.012578616352201259,
+                "n": 159
+              },
+              "rcg": {
+                "coverage": 0.993421052631579,
+                "absolute_coverage_error": 0.293421052631579,
+                "selective_risk": 0.6456953642384106,
+                "false_critical_rate": 0.016556291390728478,
+                "n": 302
+              }
+            },
+            "0.9": {
+              "confidence": {
+                "coverage": 0.9013157894736842,
+                "absolute_coverage_error": 0.001315789473684159,
+                "selective_risk": 0.6605839416058394,
+                "false_critical_rate": 0.010948905109489052,
+                "n": 274
+              },
+              "rcg": {
+                "coverage": 0.993421052631579,
+                "absolute_coverage_error": 0.09342105263157896,
+                "selective_risk": 0.6456953642384106,
+                "false_critical_rate": 0.016556291390728478,
+                "n": 302
+              }
+            }
+          }
+        }
+      },
+      "pooled": {
+        "uas": {
+          "n": 1441,
+          "n_errors": 387,
+          "accuracy": 0.7314365024288688,
+          "balanced_accuracy": 0.7360998250990589,
+          "macro_f1": 0.7313039971437616,
+          "majority_accuracy": 0.5329632199861207,
+          "auroc_confidence": 0.7040877866525455,
+          "auroc_rcg": 0.6089953861014272,
+          "auprc_confidence": 0.4245156196471368,
+          "auprc_rcg": 0.35365919696999565
+        },
+        "satellite": {
+          "n": 1441,
+          "n_errors": 828,
+          "accuracy": 0.4253990284524636,
+          "balanced_accuracy": 0.41195459540614165,
+          "macro_f1": 0.3929828774231885,
+          "majority_accuracy": 0.5329632199861207,
+          "auroc_confidence": 0.5385695202969478,
+          "auroc_rcg": 0.6072948436059296,
+          "auprc_confidence": 0.5938876949674521,
+          "auprc_rcg": 0.666582426990092
+        },
+        "uas_transfer": {
+          "0.5": {
+            "confidence": {
+              "coverage": 0.3983344899375434,
+              "absolute_coverage_error": 0.10166551006245661,
+              "selective_risk": 0.13763066202090593,
+              "false_critical_rate": 0.078397212543554,
+              "n": 574
+            },
+            "rcg": {
+              "coverage": 0.30950728660652327,
+              "absolute_coverage_error": 0.19049271339347673,
+              "selective_risk": 0.1681614349775785,
+              "false_critical_rate": 0.0,
+              "n": 446
+            }
+          },
+          "0.7": {
+            "confidence": {
+              "coverage": 0.5641915336571826,
+              "absolute_coverage_error": 0.1358084663428174,
+              "selective_risk": 0.16113161131611317,
+              "false_critical_rate": 0.0971709717097171,
+              "n": 813
+            },
+            "rcg": {
+              "coverage": 0.6537126995142263,
+              "absolute_coverage_error": 0.046287300485773675,
+              "selective_risk": 0.2356687898089172,
+              "false_critical_rate": 0.09766454352441614,
+              "n": 942
+            }
+          },
+          "0.9": {
+            "confidence": {
+              "coverage": 0.8556557945870923,
+              "absolute_coverage_error": 0.04434420541290773,
+              "selective_risk": 0.23925385239253852,
+              "false_critical_rate": 0.154095701540957,
+              "n": 1233
+            },
+            "rcg": {
+              "coverage": 0.8688410825815406,
+              "absolute_coverage_error": 0.031158917418459442,
+              "selective_risk": 0.24201277955271566,
+              "false_critical_rate": 0.13817891373801916,
+              "n": 1252
+            }
+          }
+        },
+        "satellite_transfer": {
+          "0.5": {
+            "confidence": {
+              "coverage": 0.2914642609299098,
+              "absolute_coverage_error": 0.2085357390700902,
+              "selective_risk": 0.5047619047619047,
+              "false_critical_rate": 0.2523809523809524,
+              "n": 420
+            },
+            "rcg": {
+              "coverage": 0.5718251214434421,
+              "absolute_coverage_error": 0.07182512144344211,
+              "selective_risk": 0.5315533980582524,
+              "false_critical_rate": 0.0,
+              "n": 824
+            }
+          },
+          "0.7": {
+            "confidence": {
+              "coverage": 0.5010409437890354,
+              "absolute_coverage_error": 0.19895905621096455,
+              "selective_risk": 0.5304709141274239,
+              "false_critical_rate": 0.20083102493074792,
+              "n": 722
+            },
+            "rcg": {
+              "coverage": 0.8598195697432338,
+              "absolute_coverage_error": 0.15981956974323386,
+              "selective_risk": 0.5488297013720742,
+              "false_critical_rate": 0.11864406779661017,
+              "n": 1239
+            }
+          },
+          "0.9": {
+            "confidence": {
+              "coverage": 0.8598195697432338,
+              "absolute_coverage_error": 0.04018043025676621,
+              "selective_risk": 0.5722356739305892,
+              "false_critical_rate": 0.1937046004842615,
+              "n": 1239
+            },
+            "rcg": {
+              "coverage": 0.9736294240111034,
+              "absolute_coverage_error": 0.0736294240111034,
+              "selective_risk": 0.5702066999287242,
+              "false_critical_rate": 0.1903064861012117,
+              "n": 1403
+            }
+          }
+        }
+      },
+      "spatial_cluster_bootstrap": {
+        "accuracy_drop": {
+          "mean": 0.3062207575031008,
+          "ci95": [
+            0.025960660730272377,
+            0.5467220680501931
+          ],
+          "repeats": 10000
+        },
+        "satellite_auroc_lift": {
+          "mean": 0.06642649732682847,
+          "ci95": [
+            -0.04449790230424997,
+            0.2558781841261928
+          ],
+          "repeats": 10000
+        },
+        "coverage_difference_gamma_0.7": {
+          "mean": 0.3681623681847348,
+          "ci95": [
+            0.184147458544204,
+            0.569146538917358
+          ],
+          "repeats": 10000
+        },
+        "selective_risk_difference_gamma_0.7": {
+          "mean": 0.010868687462662988,
+          "ci95": [
+            -0.07609669009228563,
+            0.1073615036808858
+          ],
+          "repeats": 10000
+        }
+      }
+    },
+    "303": {
+      "seed": 303,
+      "thresholds": {
+        "0.5": {
+          "confidence": 0.9975895881652832,
+          "rcg": 0.016547903418540955
+        },
+        "0.7": {
+          "confidence": 0.9733606576919556,
+          "rcg": 0.12252302467823029
+        },
+        "0.9": {
+          "confidence": 0.7491964101791382,
+          "rcg": 0.23165512084960938
+        }
+      },
+      "sites": {
+        "harlem-heights": {
+          "uas": {
+            "n": 531,
+            "n_errors": 178,
+            "accuracy": 0.664783427495292,
+            "balanced_accuracy": 0.7471592985020095,
+            "macro_f1": 0.6536990356713661,
+            "majority_accuracy": 0.736346516007533,
+            "auroc_confidence": 0.6903268930833626,
+            "auroc_rcg": 0.8504472101091765,
+            "auprc_confidence": 0.5064010441328646,
+            "auprc_rcg": 0.6659750780038757
+          },
+          "satellite": {
+            "n": 531,
+            "n_errors": 373,
+            "accuracy": 0.2975517890772128,
+            "balanced_accuracy": 0.5207252466203873,
+            "macro_f1": 0.25974637559285546,
+            "majority_accuracy": 0.736346516007533,
+            "auroc_confidence": 0.4018308616418366,
+            "auroc_rcg": 0.4699833712288322,
+            "auprc_confidence": 0.6459901136545445,
+            "auprc_rcg": 0.6975845435092396
+          },
+          "uas_transfer": {
+            "0.5": {
+              "confidence": {
+                "coverage": 0.3672316384180791,
+                "absolute_coverage_error": 0.1327683615819209,
+                "selective_risk": 0.15897435897435896,
+                "false_critical_rate": 0.15897435897435896,
+                "n": 195
+              },
+              "rcg": {
+                "coverage": 0.3295668549905838,
+                "absolute_coverage_error": 0.1704331450094162,
+                "selective_risk": 0.02857142857142857,
+                "false_critical_rate": 0.0,
+                "n": 175
+              }
+            },
+            "0.7": {
+              "confidence": {
+                "coverage": 0.5969868173258004,
+                "absolute_coverage_error": 0.10301318267419957,
+                "selective_risk": 0.2302839116719243,
+                "false_critical_rate": 0.22712933753943218,
+                "n": 317
+              },
+              "rcg": {
+                "coverage": 0.551789077212806,
+                "absolute_coverage_error": 0.14821092278719394,
+                "selective_risk": 0.10238907849829351,
+                "false_critical_rate": 0.06484641638225255,
+                "n": 293
+              }
+            },
+            "0.9": {
+              "confidence": {
+                "coverage": 0.864406779661017,
+                "absolute_coverage_error": 0.035593220338983045,
+                "selective_risk": 0.3006535947712418,
+                "false_critical_rate": 0.2875816993464052,
+                "n": 459
+              },
+              "rcg": {
+                "coverage": 0.8436911487758946,
+                "absolute_coverage_error": 0.05630885122410545,
+                "selective_risk": 0.25892857142857145,
+                "false_critical_rate": 0.234375,
+                "n": 448
+              }
+            }
+          },
+          "satellite_transfer": {
+            "0.5": {
+              "confidence": {
+                "coverage": 0.64030131826742,
+                "absolute_coverage_error": 0.14030131826741998,
+                "selective_risk": 0.7382352941176471,
+                "false_critical_rate": 0.7382352941176471,
+                "n": 340
+              },
+              "rcg": {
+                "coverage": 0.07156308851224105,
+                "absolute_coverage_error": 0.428436911487759,
+                "selective_risk": 0.7105263157894737,
+                "false_critical_rate": 0.7105263157894737,
+                "n": 38
+              }
+            },
+            "0.7": {
+              "confidence": {
+                "coverage": 0.8587570621468926,
+                "absolute_coverage_error": 0.15875706214689267,
+                "selective_risk": 0.7236842105263158,
+                "false_critical_rate": 0.7236842105263158,
+                "n": 456
+              },
+              "rcg": {
+                "coverage": 0.3446327683615819,
+                "absolute_coverage_error": 0.35536723163841805,
+                "selective_risk": 0.7103825136612022,
+                "false_critical_rate": 0.7049180327868853,
+                "n": 183
+              }
+            },
+            "0.9": {
+              "confidence": {
+                "coverage": 0.9698681732580038,
+                "absolute_coverage_error": 0.06986817325800376,
+                "selective_risk": 0.7067961165048544,
+                "false_critical_rate": 0.7048543689320388,
+                "n": 515
+              },
+              "rcg": {
+                "coverage": 0.8907721280602636,
+                "absolute_coverage_error": 0.009227871939736398,
+                "selective_risk": 0.7082452431289641,
+                "false_critical_rate": 0.7061310782241015,
+                "n": 473
+              }
+            }
+          }
+        },
+        "mcgregor-college-parkway-south-1": {
+          "uas": {
+            "n": 269,
+            "n_errors": 72,
+            "accuracy": 0.7323420074349443,
+            "balanced_accuracy": 0.701241740715425,
+            "macro_f1": 0.6183795712484237,
+            "majority_accuracy": 0.8587360594795539,
+            "auroc_confidence": 0.7183446136491822,
+            "auroc_rcg": 0.8820501974055274,
+            "auprc_confidence": 0.4178174147808171,
+            "auprc_rcg": 0.7542378506317428
+          },
+          "satellite": {
+            "n": 269,
+            "n_errors": 107,
+            "accuracy": 0.6022304832713755,
+            "balanced_accuracy": 0.49356345408976987,
+            "macro_f1": 0.4656455954701569,
+            "majority_accuracy": 0.8587360594795539,
+            "auroc_confidence": 0.5392869505019037,
+            "auroc_rcg": 0.8183916003230645,
+            "auprc_confidence": 0.42523474920250875,
+            "auprc_rcg": 0.7564704678672668
+          },
+          "uas_transfer": {
+            "0.5": {
+              "confidence": {
+                "coverage": 0.22304832713754646,
+                "absolute_coverage_error": 0.27695167286245354,
+                "selective_risk": 0.06666666666666667,
+                "false_critical_rate": 0.06666666666666667,
+                "n": 60
+              },
+              "rcg": {
+                "coverage": 0.516728624535316,
+                "absolute_coverage_error": 0.016728624535315983,
+                "selective_risk": 0.07194244604316546,
+                "false_critical_rate": 0.0,
+                "n": 139
+              }
+            },
+            "0.7": {
+              "confidence": {
+                "coverage": 0.4795539033457249,
+                "absolute_coverage_error": 0.22044609665427506,
+                "selective_risk": 0.10077519379844961,
+                "false_critical_rate": 0.09302325581395349,
+                "n": 129
+              },
+              "rcg": {
+                "coverage": 0.758364312267658,
+                "absolute_coverage_error": 0.058364312267658036,
+                "selective_risk": 0.11274509803921569,
+                "false_critical_rate": 0.049019607843137254,
+                "n": 204
+              }
+            },
+            "0.9": {
+              "confidence": {
+                "coverage": 0.8141263940520446,
+                "absolute_coverage_error": 0.08587360594795546,
+                "selective_risk": 0.2328767123287671,
+                "false_critical_rate": 0.182648401826484,
+                "n": 219
+              },
+              "rcg": {
+                "coverage": 0.9330855018587361,
+                "absolute_coverage_error": 0.033085501858736044,
+                "selective_risk": 0.21912350597609562,
+                "false_critical_rate": 0.16733067729083664,
+                "n": 251
+              }
+            }
+          },
+          "satellite_transfer": {
+            "0.5": {
+              "confidence": {
+                "coverage": 0.08178438661710037,
+                "absolute_coverage_error": 0.41821561338289964,
+                "selective_risk": 0.22727272727272727,
+                "false_critical_rate": 0.09090909090909091,
+                "n": 22
+              },
+              "rcg": {
+                "coverage": 0.4312267657992565,
+                "absolute_coverage_error": 0.0687732342007435,
+                "selective_risk": 0.16379310344827586,
+                "false_critical_rate": 0.008620689655172414,
+                "n": 116
+              }
+            },
+            "0.7": {
+              "confidence": {
+                "coverage": 0.32342007434944237,
+                "absolute_coverage_error": 0.3765799256505576,
+                "selective_risk": 0.367816091954023,
+                "false_critical_rate": 0.27586206896551724,
+                "n": 87
+              },
+              "rcg": {
+                "coverage": 0.8215613382899628,
+                "absolute_coverage_error": 0.12156133828996285,
+                "selective_risk": 0.3031674208144796,
+                "false_critical_rate": 0.19004524886877827,
+                "n": 221
+              }
+            },
+            "0.9": {
+              "confidence": {
+                "coverage": 0.7286245353159851,
+                "absolute_coverage_error": 0.17137546468401488,
+                "selective_risk": 0.3826530612244898,
+                "false_critical_rate": 0.29081632653061223,
+                "n": 196
+              },
+              "rcg": {
+                "coverage": 0.9851301115241635,
+                "absolute_coverage_error": 0.0851301115241635,
+                "selective_risk": 0.39245283018867927,
+                "false_critical_rate": 0.2981132075471698,
+                "n": 265
+              }
+            }
+          }
+        },
+        "mexico-beach-2018-10-13": {
+          "uas": {
+            "n": 337,
+            "n_errors": 52,
+            "accuracy": 0.8456973293768546,
+            "balanced_accuracy": 0.8773279352226722,
+            "macro_f1": 0.7748946665296476,
+            "majority_accuracy": 0.8456973293768546,
+            "auroc_confidence": 0.780634278002699,
+            "auroc_rcg": 0.28947368421052627,
+            "auprc_confidence": 0.419430264170278,
+            "auprc_rcg": 0.10949896726173168
+          },
+          "satellite": {
+            "n": 337,
+            "n_errors": 146,
+            "accuracy": 0.5667655786350149,
+            "balanced_accuracy": 0.437280701754386,
+            "macro_f1": 0.43016306865561016,
+            "majority_accuracy": 0.8456973293768546,
+            "auroc_confidence": 0.6020225202610628,
+            "auroc_rcg": 0.2588754213583877,
+            "auprc_confidence": 0.5274020793750058,
+            "auprc_rcg": 0.35611622797262366
+          },
+          "uas_transfer": {
+            "0.5": {
+              "confidence": {
+                "coverage": 0.4896142433234421,
+                "absolute_coverage_error": 0.010385756676557889,
+                "selective_risk": 0.03636363636363636,
+                "false_critical_rate": 0.0,
+                "n": 165
+              },
+              "rcg": {
+                "coverage": 0.33827893175074186,
+                "absolute_coverage_error": 0.16172106824925814,
+                "selective_risk": 0.2894736842105263,
+                "false_critical_rate": 0.0,
+                "n": 114
+              }
+            },
+            "0.7": {
+              "confidence": {
+                "coverage": 0.7091988130563798,
+                "absolute_coverage_error": 0.009198813056379818,
+                "selective_risk": 0.08786610878661087,
+                "false_critical_rate": 0.008368200836820083,
+                "n": 239
+              },
+              "rcg": {
+                "coverage": 0.6973293768545994,
+                "absolute_coverage_error": 0.0026706231454005636,
+                "selective_risk": 0.2,
+                "false_critical_rate": 0.0,
+                "n": 235
+              }
+            },
+            "0.9": {
+              "confidence": {
+                "coverage": 0.9080118694362018,
+                "absolute_coverage_error": 0.008011869436201802,
+                "selective_risk": 0.12091503267973856,
+                "false_critical_rate": 0.013071895424836602,
+                "n": 306
+              },
+              "rcg": {
+                "coverage": 0.9465875370919882,
+                "absolute_coverage_error": 0.04658753709198815,
+                "selective_risk": 0.15673981191222572,
+                "false_critical_rate": 0.006269592476489028,
+                "n": 319
+              }
+            }
+          },
+          "satellite_transfer": {
+            "0.5": {
+              "confidence": {
+                "coverage": 0.008902077151335312,
+                "absolute_coverage_error": 0.4910979228486647,
+                "selective_risk": 0.6666666666666666,
+                "false_critical_rate": 0.6666666666666666,
+                "n": 3
+              },
+              "rcg": {
+                "coverage": 0.13056379821958458,
+                "absolute_coverage_error": 0.3694362017804154,
+                "selective_risk": 0.8636363636363636,
+                "false_critical_rate": 0.0,
+                "n": 44
+              }
+            },
+            "0.7": {
+              "confidence": {
+                "coverage": 0.06231454005934718,
+                "absolute_coverage_error": 0.6376854599406527,
+                "selective_risk": 0.3333333333333333,
+                "false_critical_rate": 0.2857142857142857,
+                "n": 21
+              },
+              "rcg": {
+                "coverage": 0.7388724035608308,
+                "absolute_coverage_error": 0.03887240356083088,
+                "selective_risk": 0.4899598393574297,
+                "false_critical_rate": 0.060240963855421686,
+                "n": 249
+              }
+            },
+            "0.9": {
+              "confidence": {
+                "coverage": 0.5103857566765578,
+                "absolute_coverage_error": 0.3896142433234422,
+                "selective_risk": 0.3546511627906977,
+                "false_critical_rate": 0.12209302325581395,
+                "n": 172
+              },
+              "rcg": {
+                "coverage": 0.9495548961424333,
+                "absolute_coverage_error": 0.04955489614243325,
+                "selective_risk": 0.43125,
+                "false_critical_rate": 0.096875,
+                "n": 320
+              }
+            }
+          }
+        },
+        "mexico-beach-2018-10-14": {
+          "uas": {
+            "n": 304,
+            "n_errors": 46,
+            "accuracy": 0.8486842105263158,
+            "balanced_accuracy": 0.8522796352583586,
+            "macro_f1": 0.831923076923077,
+            "majority_accuracy": 0.6907894736842105,
+            "auroc_confidence": 0.7398887765419616,
+            "auroc_rcg": 0.4570273003033367,
+            "auprc_confidence": 0.37259506966883904,
+            "auprc_rcg": 0.1472573918443959
+          },
+          "satellite": {
+            "n": 304,
+            "n_errors": 161,
+            "accuracy": 0.47039473684210525,
+            "balanced_accuracy": 0.5285207700101318,
+            "macro_f1": 0.46910219001854847,
+            "majority_accuracy": 0.6907894736842105,
+            "auroc_confidence": 0.5176128219606481,
+            "auroc_rcg": 0.3321461147548105,
+            "auprc_confidence": 0.5473270527156997,
+            "auprc_rcg": 0.43051935274763165
+          },
+          "uas_transfer": {
+            "0.5": {
+              "confidence": {
+                "coverage": 0.3980263157894737,
+                "absolute_coverage_error": 0.10197368421052633,
+                "selective_risk": 0.03305785123966942,
+                "false_critical_rate": 0.0,
+                "n": 121
+              },
+              "rcg": {
+                "coverage": 0.40131578947368424,
+                "absolute_coverage_error": 0.09868421052631576,
+                "selective_risk": 0.14754098360655737,
+                "false_critical_rate": 0.0,
+                "n": 122
+              }
+            },
+            "0.7": {
+              "confidence": {
+                "coverage": 0.631578947368421,
+                "absolute_coverage_error": 0.06842105263157894,
+                "selective_risk": 0.08854166666666667,
+                "false_critical_rate": 0.010416666666666666,
+                "n": 192
+              },
+              "rcg": {
+                "coverage": 0.7894736842105263,
+                "absolute_coverage_error": 0.08947368421052637,
+                "selective_risk": 0.16666666666666666,
+                "false_critical_rate": 0.03333333333333333,
+                "n": 240
+              }
+            },
+            "0.9": {
+              "confidence": {
+                "coverage": 0.8947368421052632,
+                "absolute_coverage_error": 0.0052631578947368585,
+                "selective_risk": 0.11397058823529412,
+                "false_critical_rate": 0.022058823529411766,
+                "n": 272
+              },
+              "rcg": {
+                "coverage": 0.9736842105263158,
+                "absolute_coverage_error": 0.0736842105263158,
+                "selective_risk": 0.14864864864864866,
+                "false_critical_rate": 0.037162162162162164,
+                "n": 296
+              }
+            }
+          },
+          "satellite_transfer": {
+            "0.5": {
+              "confidence": {
+                "coverage": 0.013157894736842105,
+                "absolute_coverage_error": 0.4868421052631579,
+                "selective_risk": 0.25,
+                "false_critical_rate": 0.0,
+                "n": 4
+              },
+              "rcg": {
+                "coverage": 0.3815789473684211,
+                "absolute_coverage_error": 0.11842105263157893,
+                "selective_risk": 0.6551724137931034,
+                "false_critical_rate": 0.0,
+                "n": 116
+              }
+            },
+            "0.7": {
+              "confidence": {
+                "coverage": 0.18421052631578946,
+                "absolute_coverage_error": 0.5157894736842105,
+                "selective_risk": 0.5178571428571429,
+                "false_critical_rate": 0.03571428571428571,
+                "n": 56
+              },
+              "rcg": {
+                "coverage": 0.7927631578947368,
+                "absolute_coverage_error": 0.09276315789473688,
+                "selective_risk": 0.5892116182572614,
+                "false_critical_rate": 0.04979253112033195,
+                "n": 241
+              }
+            },
+            "0.9": {
+              "confidence": {
+                "coverage": 0.6973684210526315,
+                "absolute_coverage_error": 0.2026315789473685,
+                "selective_risk": 0.5094339622641509,
+                "false_critical_rate": 0.07547169811320754,
+                "n": 212
+              },
+              "rcg": {
+                "coverage": 0.9605263157894737,
+                "absolute_coverage_error": 0.06052631578947365,
+                "selective_risk": 0.5342465753424658,
+                "false_critical_rate": 0.08561643835616438,
+                "n": 292
+              }
+            }
+          }
+        }
+      },
+      "pooled": {
+        "uas": {
+          "n": 1441,
+          "n_errors": 348,
+          "accuracy": 0.758501040943789,
+          "balanced_accuracy": 0.7637879596953938,
+          "macro_f1": 0.7582858068322478,
+          "majority_accuracy": 0.5329632199861207,
+          "auroc_confidence": 0.7222055715051897,
+          "auroc_rcg": 0.7254498322659348,
+          "auprc_confidence": 0.4292768833396686,
+          "auprc_rcg": 0.4844460907991276
+        },
+        "satellite": {
+          "n": 1441,
+          "n_errors": 787,
+          "accuracy": 0.4538514920194309,
+          "balanced_accuracy": 0.4633685069960376,
+          "macro_f1": 0.44668457273057716,
+          "majority_accuracy": 0.5329632199861207,
+          "auroc_confidence": 0.40888929041884753,
+          "auroc_rcg": 0.5386751065673463,
+          "auprc_confidence": 0.5063658383171837,
+          "auprc_rcg": 0.5873532413978135
+        },
+        "uas_transfer": {
+          "0.5": {
+            "confidence": {
+              "coverage": 0.3754337265787647,
+              "absolute_coverage_error": 0.12456627342123527,
+              "selective_risk": 0.08317929759704251,
+              "false_critical_rate": 0.06469500924214418,
+              "n": 541
+            },
+            "rcg": {
+              "coverage": 0.3816793893129771,
+              "absolute_coverage_error": 0.11832061068702288,
+              "selective_risk": 0.12,
+              "false_critical_rate": 0.0,
+              "n": 550
+            }
+          },
+          "0.7": {
+            "confidence": {
+              "coverage": 0.6086051353226926,
+              "absolute_coverage_error": 0.0913948646773074,
+              "selective_risk": 0.14139110604332952,
+              "false_critical_rate": 0.10034207525655645,
+              "n": 877
+            },
+            "rcg": {
+              "coverage": 0.6745315752949341,
+              "absolute_coverage_error": 0.02546842470506583,
+              "selective_risk": 0.1440329218106996,
+              "false_critical_rate": 0.03806584362139918,
+              "n": 972
+            }
+          },
+          "0.9": {
+            "confidence": {
+              "coverage": 0.871616932685635,
+              "absolute_coverage_error": 0.028383067314365018,
+              "selective_risk": 0.20461783439490447,
+              "false_critical_rate": 0.1449044585987261,
+              "n": 1256
+            },
+            "rcg": {
+              "coverage": 0.9118667591950035,
+              "absolute_coverage_error": 0.011866759195003462,
+              "selective_risk": 0.20167427701674276,
+              "false_critical_rate": 0.121765601217656,
+              "n": 1314
+            }
+          }
+        },
+        "satellite_transfer": {
+          "0.5": {
+            "confidence": {
+              "coverage": 0.25607217210270644,
+              "absolute_coverage_error": 0.24392782789729356,
+              "selective_risk": 0.7018970189701897,
+              "false_critical_rate": 0.6910569105691057,
+              "n": 369
+            },
+            "rcg": {
+              "coverage": 0.21790423317140875,
+              "absolute_coverage_error": 0.2820957668285913,
+              "selective_risk": 0.5095541401273885,
+              "false_critical_rate": 0.08917197452229299,
+              "n": 314
+            }
+          },
+          "0.7": {
+            "confidence": {
+              "coverage": 0.4302567661346287,
+              "absolute_coverage_error": 0.26974323386537125,
+              "selective_risk": 0.6419354838709678,
+              "false_critical_rate": 0.5838709677419355,
+              "n": 620
+            },
+            "rcg": {
+              "coverage": 0.6204024982650936,
+              "absolute_coverage_error": 0.07959750173490632,
+              "selective_risk": 0.5156599552572707,
+              "false_critical_rate": 0.2214765100671141,
+              "n": 894
+            }
+          },
+          "0.9": {
+            "confidence": {
+              "coverage": 0.7598889659958362,
+              "absolute_coverage_error": 0.1401110340041638,
+              "selective_risk": 0.5552511415525114,
+              "false_critical_rate": 0.41735159817351597,
+              "n": 1095
+            },
+            "rcg": {
+              "coverage": 0.9368494101318529,
+              "absolute_coverage_error": 0.03684941013185283,
+              "selective_risk": 0.542962962962963,
+              "false_critical_rate": 0.3474074074074074,
+              "n": 1350
+            }
+          }
+        }
+      },
+      "spatial_cluster_bootstrap": {
+        "accuracy_drop": {
+          "mean": 0.2997135352319224,
+          "ci95": [
+            0.19094616121497834,
+            0.37844878596830706
+          ],
+          "repeats": 10000
+        },
+        "satellite_auroc_lift": {
+          "mean": 0.0737494209159454,
+          "ci95": [
+            -0.26419806144536256,
+            0.3163362591650742
+          ],
+          "repeats": 10000
+        },
+        "coverage_difference_gamma_0.7": {
+          "mean": 0.22300070893680335,
+          "ci95": [
+            -0.34839253257232156,
+            0.6539945492975544
+          ],
+          "repeats": 10000
+        },
+        "selective_risk_difference_gamma_0.7": {
+          "mean": -0.06943340667534846,
+          "ci95": [
+            -0.19908949983749977,
+            0.11269046675877047
+          ],
+          "repeats": 10000
+        }
+      }
+    }
+  },
+  "aggregate": {
+    "pooled_uas_accuracy": [
+      0.7522553782095767,
+      0.7314365024288688,
+      0.758501040943789
+    ],
+    "pooled_uas_majority_accuracy": [
+      0.5329632199861207,
+      0.5329632199861207,
+      0.5329632199861207
+    ],
+    "pooled_uas_balanced_accuracy": [
+      0.7559067762506191,
+      0.7360998250990589,
+      0.7637879596953938
+    ],
+    "satellite_auroc_lifts": [
+      0.2495281007139698,
+      0.06872532330898173,
+      0.12978581614849877
+    ],
+    "mean_satellite_auroc_lift": 0.14934641339048343,
+    "site_mean_satellite_auroc_lifts": {
+      "harlem-heights": 0.14308540518888183,
+      "mcgregor-college-parkway-south-1": 0.15915939535922385,
+      "mexico-beach-2018-10-13": -0.15454889703949104,
+      "mexico-beach-2018-10-14": -0.07345691718059201
+    },
+    "criteria": {
+      "w11_classifier_validity": true,
+      "w12_deployable_ranking": false,
+      "w13_threshold_transfer": false
+    }
+  }
+}

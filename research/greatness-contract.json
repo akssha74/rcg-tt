@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "locked_at": "2026-07-24T20:01:18.982936+00:00",
+  "locked": true,
+  "user_ambition_verbatim": "Ensure all reviews are addressed and do whatever necessary to make paper great.",
+  "target_venue": {
+    "name": "International Journal of Remote Sensing",
+    "article_type": "research article",
+    "tier": "top",
+    "acceptance_bar": "A novel and operationally consequential remote-sensing reliability audit with information-matched baselines, multiple independent seeds, measured-GSD multi-event evidence, leakage controls, valid uncertainty, and fully reproducible artifacts.",
+    "verified_url": "https://www.tandfonline.com/action/authorSubmission?show=instructions&journalCode=tres20",
+    "verified_at": "2026-07-24T14:30:00Z"
+  },
+  "great_claim": "Reference-dependent multi-scale consistency can substantially overstate reliability gains under spatial-resolution shift because it compares a received coarse image with unavailable finer views. A preregistered information-matched audit on exact-hash-clean AIDER data, independent AIDER and Hurricane model seeds, and leakage-free paired measured-GSD CRASAR sites identifies this inflation, tests current deployable EO reliability baselines fairly, and provides evidence-backed deployment guidance.",
+  "contribution_type": "negative-characterization",
+  "win_condition": "On three independently trained seeds per primary corpus: (W1) the privileged-minus-deployable consistency AUROC advantage is positive on both AIDER and Hurricane, with a paired bootstrap 95% interval excluding zero; (W2) all compared deployable scores use only the received image and identical source training/validation information, including confidence, EO-kNN, ViM, energy, and received-image consistency; (W3) exact-hash AIDER deduplication and guarded CRASAR spatial blocks yield zero audited cross-split duplicates/intersections; (W4) paired measured-GSD evaluation includes at least four sites, two disaster events, three model seeds, a classifier above the majority baseline, site-level results, and spatial-cluster uncertainty; (W5) every negative result, protocol deviation, and superseded contaminated result is retained and linked to execution proof.",
+  "kill_criteria": "Restart if privileged-information inflation does not replicate on both primary corpora, if leakage-free measured-GSD evidence cannot be produced with a classifier above the majority baseline, if current EO baselines cannot be compared under matched information, or if novelty search finds an existing remote-sensing study already combining privileged-view inflation measurement, exact-hash and spatial-overlap audits, and multi-event paired measured-GSD reliability evaluation.",
+  "anti_goals": [
+    "Claiming the failed received-image RCG is operationally superior",
+    "Treating unavailable fine-resolution views as deployable inputs",
+    "Hiding negative threshold-transfer or leakage findings",
+    "Reusing contaminated AIDER or overlapping CRASAR endpoints as primary evidence",
+    "Paid APIs, cloud or HPC compute, new human labels, or human rating panels",
+    "Downgrading the locked IJRS greatness bar"
+  ],
+  "venue_change_log": []
+}

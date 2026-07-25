@@ -1,0 +1,328 @@
+{
+  "information_scores": {
+    "aider": {
+      "101": {
+        "n": 969,
+        "n_errors": 287,
+        "auroc": {
+          "confidence": 0.6778689445880635,
+          "maxlogit": 0.6272900977857705,
+          "energy": 0.6171232386810672,
+          "eo_knn": 0.5506605903930845,
+          "vim": 0.7088855283190454,
+          "received_consistency": 0.6007847384715992,
+          "privileged_consistency": 0.9517201916887204,
+          "fine_reference_consistency": 0.9471527685532406
+        },
+        "vim_minus_eo_knn": {
+          "mean": 0.15819912968663966,
+          "ci95": [
+            0.13176603733670758,
+            0.1857099184255565
+          ],
+          "repeats": 10000
+        }
+      },
+      "202": {
+        "n": 969,
+        "n_errors": 204,
+        "auroc": {
+          "confidence": 0.828399333589645,
+          "maxlogit": 0.7820261437908496,
+          "energy": 0.7698577470203769,
+          "eo_knn": 0.6132449058054594,
+          "vim": 0.7887030629245162,
+          "received_consistency": 0.7461361014994233,
+          "privileged_consistency": 0.9620594643085992,
+          "fine_reference_consistency": 0.9546905036524413
+        },
+        "vim_minus_eo_knn": {
+          "mean": 0.17531376038983468,
+          "ci95": [
+            0.14074792230728655,
+            0.21156984993470604
+          ],
+          "repeats": 10000
+        }
+      },
+      "303": {
+        "n": 969,
+        "n_errors": 237,
+        "auroc": {
+          "confidence": 0.7571505153212976,
+          "maxlogit": 0.744887136565908,
+          "energy": 0.7382871042862743,
+          "eo_knn": 0.6105173964169606,
+          "vim": 0.7749533098153145,
+          "received_consistency": 0.5231260519702104,
+          "privileged_consistency": 0.9777501095201863,
+          "fine_reference_consistency": 0.9751907956929746
+        },
+        "vim_minus_eo_knn": {
+          "mean": 0.16436722076534357,
+          "ci95": [
+            0.13109067941969058,
+            0.19806716680692782
+          ],
+          "repeats": 10000
+        }
+      }
+    },
+    "hurricane": {
+      "101": {
+        "n": 2000,
+        "n_errors": 993,
+        "auroc": {
+          "confidence": 0.4172344444877799,
+          "maxlogit": 0.41401428670004825,
+          "energy": 0.4126832214778524,
+          "eo_knn": 0.4738462184647048,
+          "vim": 0.5878098026803313,
+          "received_consistency": 0.6360421660661372,
+          "privileged_consistency": 0.9900095104660128,
+          "fine_reference_consistency": 0.9872493752193858
+        },
+        "vim_minus_eo_knn": {
+          "mean": 0.11396306692724822,
+          "ci95": [
+            0.09702751156492191,
+            0.13105481233813776
+          ],
+          "repeats": 10000
+        }
+      },
+      "202": {
+        "n": 2000,
+        "n_errors": 805,
+        "auroc": {
+          "confidence": 0.6267548532966033,
+          "maxlogit": 0.6244652927570882,
+          "energy": 0.6224304165908677,
+          "eo_knn": 0.668912393773227,
+          "vim": 0.6151875048727877,
+          "received_consistency": 0.546406091634398,
+          "privileged_consistency": 0.9855089789235687,
+          "fine_reference_consistency": 0.9857303983991268
+        },
+        "vim_minus_eo_knn": {
+          "mean": -0.05363818495227195,
+          "ci95": [
+            -0.06807852600267769,
+            -0.03909575334200612
+          ],
+          "repeats": 10000
+        }
+      },
+      "303": {
+        "n": 2000,
+        "n_errors": 988,
+        "auroc": {
+          "confidence": 0.5814927349538335,
+          "maxlogit": 0.5964058824470724,
+          "energy": 0.5999673953049238,
+          "eo_knn": 0.7123805828039238,
+          "vim": 0.727024691555584,
+          "received_consistency": 0.5867824966795219,
+          "privileged_consistency": 0.9919128354483046,
+          "fine_reference_consistency": 0.9904646269062746
+        },
+        "vim_minus_eo_knn": {
+          "mean": 0.014711279902570073,
+          "ci95": [
+            -0.003926589904027894,
+            0.033135211688384146
+          ],
+          "repeats": 10000
+        }
+      }
+    }
+  },
+  "paired_scores": {
+    "101": {
+      "n": 1441,
+      "satellite_confidence_auroc": 0.44641277563657045,
+      "satellite_rcg_auroc": 0.6959408763505402,
+      "prediction_transitions": {
+        "harlem-heights": {
+          "n": 531,
+          "uas_correct_satellite_wrong": 199,
+          "uas_wrong_satellite_correct": 22
+        },
+        "mcgregor-college-parkway-south-1": {
+          "n": 269,
+          "uas_correct_satellite_wrong": 46,
+          "uas_wrong_satellite_correct": 42
+        },
+        "mexico-beach-2018-10-13": {
+          "n": 337,
+          "uas_correct_satellite_wrong": 75,
+          "uas_wrong_satellite_correct": 44
+        },
+        "mexico-beach-2018-10-14": {
+          "n": 304,
+          "uas_correct_satellite_wrong": 76,
+          "uas_wrong_satellite_correct": 37
+        }
+      }
+    },
+    "202": {
+      "n": 1441,
+      "satellite_confidence_auroc": 0.5385695202969478,
+      "satellite_rcg_auroc": 0.6072948436059296,
+      "prediction_transitions": {
+        "harlem-heights": {
+          "n": 531,
+          "uas_correct_satellite_wrong": 191,
+          "uas_wrong_satellite_correct": 52
+        },
+        "mcgregor-college-parkway-south-1": {
+          "n": 269,
+          "uas_correct_satellite_wrong": 35,
+          "uas_wrong_satellite_correct": 79
+        },
+        "mexico-beach-2018-10-13": {
+          "n": 337,
+          "uas_correct_satellite_wrong": 206,
+          "uas_wrong_satellite_correct": 11
+        },
+        "mexico-beach-2018-10-14": {
+          "n": 304,
+          "uas_correct_satellite_wrong": 162,
+          "uas_wrong_satellite_correct": 11
+        }
+      }
+    },
+    "303": {
+      "n": 1441,
+      "satellite_confidence_auroc": 0.40888929041884753,
+      "satellite_rcg_auroc": 0.5386751065673463,
+      "prediction_transitions": {
+        "harlem-heights": {
+          "n": 531,
+          "uas_correct_satellite_wrong": 209,
+          "uas_wrong_satellite_correct": 14
+        },
+        "mcgregor-college-parkway-south-1": {
+          "n": 269,
+          "uas_correct_satellite_wrong": 66,
+          "uas_wrong_satellite_correct": 31
+        },
+        "mexico-beach-2018-10-13": {
+          "n": 337,
+          "uas_correct_satellite_wrong": 125,
+          "uas_wrong_satellite_correct": 31
+        },
+        "mexico-beach-2018-10-14": {
+          "n": 304,
+          "uas_correct_satellite_wrong": 137,
+          "uas_wrong_satellite_correct": 22
+        }
+      }
+    }
+  },
+  "site_specific_intervals": {
+    "101": {
+      "harlem-heights": {
+        "mean": 0.09631328088178759,
+        "ci95": [
+          0.09509939677537438,
+          0.09689775245330795
+        ],
+        "repeats": 7523
+      },
+      "mcgregor-college-parkway-south-1": {
+        "mean": 0.14391304347826095,
+        "ci95": [
+          0.14391304347826095,
+          0.14391304347826095
+        ],
+        "repeats": 10000
+      },
+      "mexico-beach-2018-10-13": {
+        "mean": -0.042596970492951525,
+        "ci95": [
+          -0.042596970492951525,
+          -0.042596970492951525
+        ],
+        "repeats": 10000
+      },
+      "mexico-beach-2018-10-14": {
+        "mean": -0.043870314083080175,
+        "ci95": [
+          -0.043870314083080175,
+          -0.043870314083080175
+        ],
+        "repeats": 10000
+      }
+    },
+    "202": {
+      "harlem-heights": {
+        "mean": 0.2652068968419762,
+        "ci95": [
+          0.26420595352634196,
+          0.2671879804946624
+        ],
+        "repeats": 7454
+      },
+      "mcgregor-college-parkway-south-1": {
+        "mean": 0.05446049277824983,
+        "ci95": [
+          0.054460492778249825,
+          0.054460492778249825
+        ],
+        "repeats": 10000
+      },
+      "mexico-beach-2018-10-13": {
+        "mean": -0.07790262172284644,
+        "ci95": [
+          -0.07790262172284645,
+          -0.07790262172284645
+        ],
+        "repeats": 10000
+      },
+      "mexico-beach-2018-10-14": {
+        "mean": 0.008966269747141709,
+        "ci95": [
+          0.008966269747141709,
+          0.008966269747141709
+        ],
+        "repeats": 10000
+      }
+    },
+    "303": {
+      "harlem-heights": {
+        "mean": 0.06671116592380762,
+        "ci95": [
+          0.06383941531053094,
+          0.06815250958699559
+        ],
+        "repeats": 7493
+      },
+      "mcgregor-college-parkway-south-1": {
+        "mean": 0.27910464982116073,
+        "ci95": [
+          0.2791046498211608,
+          0.2791046498211608
+        ],
+        "repeats": 10000
+      },
+      "mexico-beach-2018-10-13": {
+        "mean": -0.3431470989026752,
+        "ci95": [
+          -0.34314709890267514,
+          -0.34314709890267514
+        ],
+        "repeats": 10000
+      },
+      "mexico-beach-2018-10-14": {
+        "mean": -0.18546670720583763,
+        "ci95": [
+          -0.18546670720583758,
+          -0.18546670720583758
+        ],
+        "repeats": 10000
+      }
+    }
+  },
+  "all_pass": true
+}

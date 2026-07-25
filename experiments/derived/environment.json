@@ -1,0 +1,16 @@
+{
+  "python": "3.10.20",
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "torch": "2.12.1",
+  "torchvision": "0.27.1",
+  "transformers": "5.12.1",
+  "datasets": "5.0.0",
+  "numpy": "2.2.6",
+  "scikit_learn": "1.7.2",
+  "pillow": "12.2.0",
+  "device": "Apple M4 Max MPS",
+  "pretrained_model": "microsoft/resnet-18",
+  "pretrained_revision": "65a5785d9156231087c481e0c7dd33a5ff6f7e3e",
+  "hurricane_dataset_revision": "4bb60de01b2d9e323d364d76d8b08c2eaeef1a64",
+  "crasar_dataset_revision": "47cf4ab3a94d42978975f7d23338a996125ac0e9"
+}

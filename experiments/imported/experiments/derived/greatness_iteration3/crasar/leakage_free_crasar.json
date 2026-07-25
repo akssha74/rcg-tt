@@ -1,0 +1,191 @@
+{
+  "protocol": {
+    "dataset": "CRASAR/CRASAR-U-DROIDs",
+    "snapshot": "47cf4ab3a94d42978975f7d23338a996125ac0e9",
+    "training_sites": [
+      {
+        "name": "090403-Lancaster-Canyon-Gate.geo.tif",
+        "gsd_m": 0.03651
+      },
+      {
+        "name": "1001-Summerlin-San-Carlos.geo.tif",
+        "gsd_m": 0.040596
+      }
+    ],
+    "patch_size": 512,
+    "block_size": 2048,
+    "guard": 256,
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "epochs": 12,
+    "device": "mps"
+  },
+  "manifest_summary": {
+    "train": {
+      "n": 975,
+      "undamaged": 580,
+      "damaged": 395,
+      "sites": {
+        "090403-Lancaster-Canyon-Gate.geo.tif": 210,
+        "1001-Summerlin-San-Carlos.geo.tif": 765
+      }
+    },
+    "val": {
+      "n": 267,
+      "undamaged": 162,
+      "damaged": 105,
+      "sites": {
+        "090403-Lancaster-Canyon-Gate.geo.tif": 60,
+        "1001-Summerlin-San-Carlos.geo.tif": 207
+      }
+    },
+    "test": {
+      "n": 386,
+      "undamaged": 245,
+      "damaged": 141,
+      "sites": {
+        "090403-Lancaster-Canyon-Gate.geo.tif": 93,
+        "1001-Summerlin-San-Carlos.geo.tif": 293
+      }
+    }
+  },
+  "split_audit": {
+    "patch_size": 512,
+    "block_size": 2048,
+    "guard": 256,
+    "n_patches": 1628,
+    "cross_split_intersections": [],
+    "w10_crasar_pass": true
+  },
+  "seeds": {
+    "101": {
+      "seed": 101,
+      "best_val_macro_f1": 0.8237054861854944,
+      "internal_test": {
+        "n": 386,
+        "n_errors": 81,
+        "accuracy": 0.7901554404145078,
+        "balanced_accuracy": 0.7774931249095383,
+        "macro_f1": 0.7753798627824275,
+        "majority_accuracy": 0.6347150259067358,
+        "auroc_confidence": 0.7465290427039061,
+        "auroc_rcg": 0.6355393645011131,
+        "auprc_confidence": 0.4507529724361798,
+        "auprc_rcg": 0.28901364095424986
+      },
+      "runtime_seconds": 90.53334093093872
+    },
+    "202": {
+      "seed": 202,
+      "best_val_macro_f1": 0.8088989621853752,
+      "internal_test": {
+        "n": 386,
+        "n_errors": 76,
+        "accuracy": 0.8031088082901554,
+        "balanced_accuracy": 0.7952236213634389,
+        "macro_f1": 0.7906963470319635,
+        "majority_accuracy": 0.6347150259067358,
+        "auroc_confidence": 0.6908743633276739,
+        "auroc_rcg": 0.6051358234295416,
+        "auprc_confidence": 0.35285833553350865,
+        "auprc_rcg": 0.24528490413456192
+      },
+      "runtime_seconds": 144.02880311012268
+    },
+    "303": {
+      "seed": 303,
+      "best_val_macro_f1": 0.8248159218488007,
+      "internal_test": {
+        "n": 386,
+        "n_errors": 81,
+        "accuracy": 0.7901554404145078,
+        "balanced_accuracy": 0.7699667100882907,
+        "macro_f1": 0.7719724319002297,
+        "majority_accuracy": 0.6347150259067358,
+        "auroc_confidence": 0.7355596033191663,
+        "auroc_rcg": 0.6581663630843958,
+        "auprc_confidence": 0.3783913004459468,
+        "auprc_rcg": 0.3223588199071434
+      },
+      "runtime_seconds": 232.5700180530548
+    }
+  },
+  "aggregate": {
+    "accuracy": {
+      "values": [
+        0.7901554404145078,
+        0.8031088082901554,
+        0.7901554404145078
+      ],
+      "mean": 0.7944732297063903,
+      "std": 0.007478630429917395
+    },
+    "balanced_accuracy": {
+      "values": [
+        0.7774931249095383,
+        0.7952236213634389,
+        0.7699667100882907
+      ],
+      "mean": 0.780894485453756,
+      "std": 0.01296745279359053
+    },
+    "macro_f1": {
+      "values": [
+        0.7753798627824275,
+        0.7906963470319635,
+        0.7719724319002297
+      ],
+      "mean": 0.7793495472382069,
+      "std": 0.009973216405650404
+    },
+    "majority_accuracy": {
+      "values": [
+        0.6347150259067358,
+        0.6347150259067358,
+        0.6347150259067358
+      ],
+      "mean": 0.6347150259067358,
+      "std": 0.0
+    },
+    "auroc_confidence": {
+      "values": [
+        0.7465290427039061,
+        0.6908743633276739,
+        0.7355596033191663
+      ],
+      "mean": 0.7243210031169154,
+      "std": 0.029480339804644793
+    },
+    "auroc_rcg": {
+      "values": [
+        0.6355393645011131,
+        0.6051358234295416,
+        0.6581663630843958
+      ],
+      "mean": 0.6329471836716835,
+      "std": 0.026610131249405963
+    },
+    "auprc_confidence": {
+      "values": [
+        0.4507529724361798,
+        0.35285833553350865,
+        0.3783913004459468
+      ],
+      "mean": 0.39400086947187846,
+      "std": 0.050779759426940456
+    },
+    "auprc_rcg": {
+      "values": [
+        0.28901364095424986,
+        0.24528490413456192,
+        0.3223588199071434
+      ],
+      "mean": 0.28555245499865173,
+      "std": 0.03865335663683256
+    },
+    "w11_internal_pass": true
+  }
+}

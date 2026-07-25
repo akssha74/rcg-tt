@@ -1,21 +1,15 @@
 cff-version: 1.2.0
-message: "If you use this code or the derived artifacts, please cite the paper."
-title: "Resolution Consistency Gate with Threshold Transfer for Trust Collapse under Variable GSD in Disaster Remote Sensing"
+message: "If you use this software or evidence package, please cite it."
+title: "When Resolution Consistency Fails: Information-Matched Audit Reproducibility Package"
+version: 2.0.0
+date-released: 2026-07-25
 authors:
   - family-names: Sharma
     given-names: Akshay
-    affiliation: "SAGE University, Indore, India"
+    affiliation: SAGE University, Indore, India
   - family-names: Prasad
     given-names: Lalji
-    affiliation: "SAGE University, Indore, India"
-year: 2026
-preferred-citation:
-  type: article
-  title: "Resolution Consistency Gate with Threshold Transfer for Trust Collapse under Variable GSD in Disaster Remote Sensing"
-  authors:
-    - family-names: Sharma
-      given-names: Akshay
-    - family-names: Prasad
-      given-names: Lalji
-  journal: "International Journal of Remote Sensing"
-  year: 2026
+    affiliation: SAGE University, Indore, India
+repository-code: "https://github.com/akssha74/rcg-tt"
+doi: "10.5281/zenodo.21510152"
+license: CC-BY-4.0

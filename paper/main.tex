@@ -1,0 +1,59 @@
+\documentclass[]{interact}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{url}
+\usepackage[hidelinks]{hyperref}
+\usepackage[authoryear]{natbib}
+\bibpunct{(}{)}{,}{a}{}{,}
+\renewcommand\bibfont{\fontsize{10}{12}\selectfont}
+
+\begin{document}
+
+\articletype{Research Article}
+
+\title{When resolution consistency fails: an information-matched audit for disaster remote sensing}
+
+\author{
+\name{AKSHAY SHARMA\textsuperscript{a*} and LALJI PRASAD\textsuperscript{a}}
+\affil{\textsuperscript{a}Department of Computer Science and Engineering, SAGE University, Indore, Madhya Pradesh 452020, India}
+\thanks{*Corresponding author. Email: akssha74@gmail.com}
+}
+
+\maketitle
+
+\noindent\textbf{Running head:} Auditing resolution reliability
+\par\medskip
+
+\begin{abstract}
+\input{sections/abstract}
+\end{abstract}
+
+\input{sections/introduction}
+\input{sections/related-work}
+\input{sections/method}
+\input{sections/experimental-setup}
+\input{sections/results}
+\input{sections/discussion}
+\input{sections/limitations}
+\input{sections/conclusion}
+
+\section*{Acknowledgements}
+During preparation of this work, the authors used the Cursor artificial-intelligence assistant with GPT-5.6 Sol for software-development assistance, reference checking, result verification, and language refinement. The authors reviewed the source and revised versions, checked all quantitative claims against the registered execution artefacts, and take full responsibility for the final manuscript. No artificial-intelligence tool is listed as an author, and no artificial-intelligence-generated image is included.
+
+\section*{Funding}
+No specific funding was received for this work.
+
+\section*{Disclosure statement}
+No competing interest was reported by the authors.
+
+\section*{Data availability statement}
+AIDER version 1.0 is available from Zenodo under CC BY 4.0 at \url{https://doi.org/10.5281/zenodo.3888300}~\citep{aiderdata}. Satellite Images of Hurricane Damage is available from IEEE DataPort and its documented Hugging Face mirror under CC BY 4.0 at \url{https://doi.org/10.21227/sdad-1e56}~\citep{hurricanedata}; this study fixes mirror revision \texttt{4bb60de01b2d9e323d364d76d8b08c2eaeef1a64}. CRASAR-U-DROIDs version 1 is available from DesignSafe-CI and Hugging Face under CC BY 4.0 at \url{https://doi.org/10.17603/ds2-fqy5-n314}~\citep{crasar2024data}; this study fixes revision \texttt{47cf4ab3a94d42978975f7d23338a996125ac0e9}. No third-party imagery is redistributed. Version 2.0.0 of the complete code and evidence package is available at \url{https://github.com/akssha74/rcg-tt} and archived under the version-independent DOI \url{https://doi.org/10.5281/zenodo.21510152}~\citep{auditsoftware}. The archive contains exact split files, portable per-example scores, source manifests, checkpoints, execution logs, claim and citation ledgers, and generated tables and figures. Code is MIT-licensed and generated research artefacts are CC BY 4.0.
+
+\appendix
+\input{sections/appendix}
+
+\bibliographystyle{tfcad}
+\bibliography{references}
+\end{document}

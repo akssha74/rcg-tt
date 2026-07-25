@@ -1,0 +1,117 @@
+[
+  {
+    "path": "paper/figures/information_audit.pdf",
+    "sha256": "e6456b9b92a8526792efcf487b3ee248994b77cfdebe4c1161880dc13e64425c",
+    "bytes": 22032
+  },
+  {
+    "path": "paper/figures/measured_gsd_audit.pdf",
+    "sha256": "75046e404450301e2d8a4f2d1d5f3b760da44d87b8df6c3277c2ddcce48b35a1",
+    "bytes": 17710
+  },
+  {
+    "path": "paper/interact.cls",
+    "sha256": "d9603354ce657c9994fd76dbe0b1e539c22d674aad4bc82492b06d94b7cea0b0",
+    "bytes": 25198
+  },
+  {
+    "path": "paper/main.pdf",
+    "sha256": "881d4786a2260feec3bc5ba51cfca6dd943b32de16373030c2b553b881680f3b",
+    "bytes": 151874
+  },
+  {
+    "path": "paper/main.tex",
+    "sha256": "2ed9a5e4082b72c04b0efea49d50c15749303e71e700c7fbd5291591efa335c4",
+    "bytes": 3099
+  },
+  {
+    "path": "paper/references.bib",
+    "sha256": "13cbe3ed4a87fdb2e216a9e7f8ff759f250d85780af145eaa91d7aa4db94bf9c",
+    "bytes": 6391
+  },
+  {
+    "path": "paper/sections/abstract.tex",
+    "sha256": "767d546405ccd495a82678019fbcb74b874699e8bed34a188ae87fbd29025325",
+    "bytes": 1939
+  },
+  {
+    "path": "paper/sections/appendix.tex",
+    "sha256": "18039e9db415d090c58373d34c5baf954565dad519f0b90797a10a1e2ad9dd71",
+    "bytes": 1654
+  },
+  {
+    "path": "paper/sections/conclusion.tex",
+    "sha256": "f59324301597c9472a7779e0a99d69217aa35b6c957ddf1d24d2e4518ed807c1",
+    "bytes": 770
+  },
+  {
+    "path": "paper/sections/discussion.tex",
+    "sha256": "f999dcc17c227cb795d64d37db639cf644917ad5145e69899d1a30c09fb1c236",
+    "bytes": 2050
+  },
+  {
+    "path": "paper/sections/experimental-setup.tex",
+    "sha256": "2cac583e86c5dd06b466e91660ebc979a9051d5e5defda7e0df7b242b8401ebd",
+    "bytes": 4076
+  },
+  {
+    "path": "paper/sections/introduction.tex",
+    "sha256": "d6e0bcb458c787bc71e16a597801e1a62b5f93b67b956b34ac25433672a7efb0",
+    "bytes": 2994
+  },
+  {
+    "path": "paper/sections/limitations.tex",
+    "sha256": "66179542ad1e9a69d819f283d996b9f691e87a899daeeaf2bc086dcf58b8be09",
+    "bytes": 2385
+  },
+  {
+    "path": "paper/sections/method.tex",
+    "sha256": "b3dc7133f0b051a36c6837eb7015e7625ba0c58f082f2299a3a9ae571eabfaf7",
+    "bytes": 4970
+  },
+  {
+    "path": "paper/sections/related-work.tex",
+    "sha256": "d9b0391a781e01604b5ae68c6f23dc735f900993d6ed983fa8d2c07d76cceb65",
+    "bytes": 3077
+  },
+  {
+    "path": "paper/sections/results.tex",
+    "sha256": "5683ced1783645b33bde8d574bed10e23873f0f95ad157f999e7018ae32a3b55",
+    "bytes": 7780
+  },
+  {
+    "path": "paper/tables/anchor_matched_sensitivity.tex",
+    "sha256": "b7fbc16064f0894014019bc09e67f9d3e3dbb73bb5cca7fbdb5488bd690f75ec",
+    "bytes": 571
+  },
+  {
+    "path": "paper/tables/crasar_summary.tex",
+    "sha256": "6eddfc144344a7e3cee155066007a677979cb9bba1e2fb45e43d9bb365304e83",
+    "bytes": 568
+  },
+  {
+    "path": "paper/tables/hash_audit.tex",
+    "sha256": "540373c859adc942871d7af4f8bf734442c39a8164ccb8a466ef1ce083f16196",
+    "bytes": 348
+  },
+  {
+    "path": "paper/tables/matched_auroc.tex",
+    "sha256": "04013faa753d85b8f4847d226a010f9834d4f52af088b8c7e9e0b0bc43339aa0",
+    "bytes": 797
+  },
+  {
+    "path": "paper/tables/measured_gsd.tex",
+    "sha256": "0e6572c14ca3e4e39bb0bed59d538db3f110a4b803f2bb7e39626db440a630b9",
+    "bytes": 789
+  },
+  {
+    "path": "paper/tables/privileged_inflation.tex",
+    "sha256": "33e7c58894653e2df0c994f71c8248bac465e5691447eb922d45854538f65d6d",
+    "bytes": 445
+  },
+  {
+    "path": "paper/tfcad.bst",
+    "sha256": "30ebc3a77316090922ff3f391b6292c48e24ba1a45e665df660edd5b9f047d73",
+    "bytes": 35584
+  }
+]

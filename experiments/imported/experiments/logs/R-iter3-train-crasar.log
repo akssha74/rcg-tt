@@ -1,0 +1,70 @@
+[transformers] You passed `num_labels=2` which is incompatible to the `id2label` map of length `1000`.
+Loading weights:   0%|          | 0/122 [00:00<?, ?it/s]Loading weights: 100%|██████████| 122/122 [00:00<00:00, 47782.71it/s]
+[transformers] [1mResNetForImageClassification LOAD REPORT[0m from: /Users/akshay.sharma/.cache/huggingface/hub/models--microsoft--resnet-18/snapshots/65a5785d9156231087c481e0c7dd33a5ff6f7e3e
+Key                 | Status   |                                                                                          
+--------------------+----------+------------------------------------------------------------------------------------------
+classifier.1.bias   | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000]) vs model:torch.Size([2])          
+classifier.1.weight | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000, 512]) vs model:torch.Size([2, 512])
+
+Notes:
+- MISMATCH:	ckpt weights were loaded, but they did not match the original empty weight shapes.
+seed=101 epoch=1/12 loss=0.57503 val_f1=0.63465
+seed=101 epoch=2/12 loss=0.34702 val_f1=0.71241
+seed=101 epoch=3/12 loss=0.28611 val_f1=0.76103
+seed=101 epoch=4/12 loss=0.16022 val_f1=0.82371
+seed=101 epoch=5/12 loss=0.09175 val_f1=0.80564
+seed=101 epoch=6/12 loss=0.08878 val_f1=0.65640
+seed=101 epoch=7/12 loss=0.09005 val_f1=0.78341
+seed=101 epoch=8/12 loss=0.06819 val_f1=0.79428
+seed=101 epoch=9/12 loss=0.09018 val_f1=0.80621
+seed=101 epoch=10/12 loss=0.06635 val_f1=0.81631
+seed=101 epoch=11/12 loss=0.06313 val_f1=0.78453
+seed=101 epoch=12/12 loss=0.14083 val_f1=0.67298
+LEAKAGE_FREE_CRASAR_SEED_COMPLETE 101 {"seed": 101, "best_val_macro_f1": 0.8237054861854944, "internal_test": {"n": 386, "n_errors": 81, "accuracy": 0.7901554404145078, "balanced_accuracy": 0.7774931249095383, "macro_f1": 0.7753798627824275, "majority_accuracy": 0.6347150259067358, "auroc_confidence": 0.7465290427039061, "auroc_rcg": 0.6355393645011131, "auprc_confidence": 0.4507529724361798, "auprc_rcg": 0.28901364095424986}, "runtime_seconds": 90.53334093093872}
+[transformers] You passed `num_labels=2` which is incompatible to the `id2label` map of length `1000`.
+Loading weights:   0%|          | 0/122 [00:00<?, ?it/s]Loading weights: 100%|██████████| 122/122 [00:00<00:00, 27115.95it/s]
+[transformers] [1mResNetForImageClassification LOAD REPORT[0m from: /Users/akshay.sharma/.cache/huggingface/hub/models--microsoft--resnet-18/snapshots/65a5785d9156231087c481e0c7dd33a5ff6f7e3e
+Key                 | Status   |                                                                                          
+--------------------+----------+------------------------------------------------------------------------------------------
+classifier.1.bias   | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000]) vs model:torch.Size([2])          
+classifier.1.weight | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000, 512]) vs model:torch.Size([2, 512])
+
+Notes:
+- MISMATCH:	ckpt weights were loaded, but they did not match the original empty weight shapes.
+seed=202 epoch=1/12 loss=0.60531 val_f1=0.65887
+seed=202 epoch=2/12 loss=0.35853 val_f1=0.73596
+seed=202 epoch=3/12 loss=0.23791 val_f1=0.76462
+seed=202 epoch=4/12 loss=0.19812 val_f1=0.78060
+seed=202 epoch=5/12 loss=0.14675 val_f1=0.75782
+seed=202 epoch=6/12 loss=0.15401 val_f1=0.76373
+seed=202 epoch=7/12 loss=0.11861 val_f1=0.70786
+seed=202 epoch=8/12 loss=0.07820 val_f1=0.80890
+seed=202 epoch=9/12 loss=0.08581 val_f1=0.76516
+seed=202 epoch=10/12 loss=0.08723 val_f1=0.77950
+seed=202 epoch=11/12 loss=0.07438 val_f1=0.74666
+seed=202 epoch=12/12 loss=0.07342 val_f1=0.80463
+LEAKAGE_FREE_CRASAR_SEED_COMPLETE 202 {"seed": 202, "best_val_macro_f1": 0.8088989621853752, "internal_test": {"n": 386, "n_errors": 76, "accuracy": 0.8031088082901554, "balanced_accuracy": 0.7952236213634389, "macro_f1": 0.7906963470319635, "majority_accuracy": 0.6347150259067358, "auroc_confidence": 0.6908743633276739, "auroc_rcg": 0.6051358234295416, "auprc_confidence": 0.35285833553350865, "auprc_rcg": 0.24528490413456192}, "runtime_seconds": 144.02880311012268}
+[transformers] You passed `num_labels=2` which is incompatible to the `id2label` map of length `1000`.
+Loading weights:   0%|          | 0/122 [00:00<?, ?it/s]Loading weights: 100%|██████████| 122/122 [00:00<00:00, 3269.62it/s]
+[transformers] [1mResNetForImageClassification LOAD REPORT[0m from: /Users/akshay.sharma/.cache/huggingface/hub/models--microsoft--resnet-18/snapshots/65a5785d9156231087c481e0c7dd33a5ff6f7e3e
+Key                 | Status   |                                                                                          
+--------------------+----------+------------------------------------------------------------------------------------------
+classifier.1.bias   | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000]) vs model:torch.Size([2])          
+classifier.1.weight | MISMATCH | Reinit due to size mismatch - ckpt: torch.Size([1000, 512]) vs model:torch.Size([2, 512])
+
+Notes:
+- MISMATCH:	ckpt weights were loaded, but they did not match the original empty weight shapes.
+seed=303 epoch=1/12 loss=0.62846 val_f1=0.58420
+seed=303 epoch=2/12 loss=0.33919 val_f1=0.69548
+seed=303 epoch=3/12 loss=0.21616 val_f1=0.78414
+seed=303 epoch=4/12 loss=0.15799 val_f1=0.74765
+seed=303 epoch=5/12 loss=0.16496 val_f1=0.80814
+seed=303 epoch=6/12 loss=0.15139 val_f1=0.79334
+seed=303 epoch=7/12 loss=0.12352 val_f1=0.71904
+seed=303 epoch=8/12 loss=0.08411 val_f1=0.73572
+seed=303 epoch=9/12 loss=0.05812 val_f1=0.75588
+seed=303 epoch=10/12 loss=0.07697 val_f1=0.80146
+seed=303 epoch=11/12 loss=0.05138 val_f1=0.76996
+seed=303 epoch=12/12 loss=0.06185 val_f1=0.82482
+LEAKAGE_FREE_CRASAR_SEED_COMPLETE 303 {"seed": 303, "best_val_macro_f1": 0.8248159218488007, "internal_test": {"n": 386, "n_errors": 81, "accuracy": 0.7901554404145078, "balanced_accuracy": 0.7699667100882907, "macro_f1": 0.7719724319002297, "majority_accuracy": 0.6347150259067358, "auroc_confidence": 0.7355596033191663, "auroc_rcg": 0.6581663630843958, "auprc_confidence": 0.3783913004459468, "auprc_rcg": 0.3223588199071434}, "runtime_seconds": 232.5700180530548}
+LEAKAGE_FREE_CRASAR_COMPLETE /Users/akshay.sharma/Projects/paper-activities/studies/disaster-rcg-gsd/experiments/derived/greatness_iteration3/crasar/leakage_free_crasar.json

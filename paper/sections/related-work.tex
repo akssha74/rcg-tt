@@ -1,0 +1,53 @@
+\section{Related work}
+
+\subsection{Disagreement and reliability}
+
+Predictive disagreement is widely used as a proxy for epistemic uncertainty.
+\citet{schirmer2023divergence} show that full-distribution divergences, including
+JS divergence, can be more informative than top-class agreement for performance
+forecasting under shift. AugMix instead uses JS consistency as a training
+objective across augmentations \citep{hendrycks2020augmix}. These precedents
+mean that neither JS divergence nor transformation consistency is itself the
+novelty of this study. The present question is whether a divergence-based score
+has been evaluated with information unavailable at deployment.
+
+Our verified literature set does not establish that this exact unavailable-
+fine-reference comparison is prevalent in published EO practice. The failure
+mode was exposed in a prior internal evaluation and is studied here as a
+concrete counterexample and audit case, not as an estimate of field-wide
+prevalence.
+
+\subsection{OOD detection in Earth observation}
+
+Remote-sensing OOD work considers unseen classes, sensors and geographical
+domains. The remote-sensing Dirichlet prior network (DPN-RS) uses in-domain and
+auxiliary OOD examples to learn distributional uncertainty
+\citep{gawlikowski2022dpnrs}. Post-hoc alternatives
+avoid additional OOD training. Deep nearest neighbours use distance to
+normalised source features \citep{sun2022knn}; ViM combines a principal-space
+feature residual with classifier logits \citep{wang2022vim}. A ten-method EO
+benchmark found ViM and nearest neighbours among the strongest methods without
+retraining \citep{li2024tenood}. We therefore include both, but distinguish
+prediction-error detection from conventional binary in-/out-of-distribution
+classification.
+
+Target-assisted EO detectors answer a different information-budget question.
+TARDIS uses known and wild-domain samples to construct an auxiliary shift
+detector~\citep{ekim2025tardis}; allowing the evaluation pool as its wild set
+would be transductive relative to our source-only scores. EarthShift supplies
+real-world EO shift tasks, including spatial-resolution variation, rather than
+a directly interchangeable per-image error score~\citep{doerksen2026earthshift}.
+We therefore treat these as adjacent protocols and compare the strongest
+source-only post-hoc methods under a common received-image budget.
+
+\subsection{Leakage and spatial validation}
+
+Near-duplicate removal changes measured performance on established image
+benchmarks \citep{barz2020cifair}. Geospatial collections can contain even more
+severe split duplication \citep{geospatialdedup2023}. Separately, nearby
+remote-sensing observations are spatially dependent. Buffered or spatial
+leave-one-out validation is needed when the intended inference concerns new
+areas \citep{karasiak2022spatial}, and random hold-outs can overstate
+convolutional-network performance \citep{kattenborn2022spatial}. Our audit
+checks both encoded-image identity and source-pixel intersection between fixed
+crops; these are complementary failure modes.

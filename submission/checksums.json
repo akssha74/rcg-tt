@@ -1,0 +1,14 @@
+{
+  "source_archive": {
+    "path": "resolution-audit-source.zip",
+    "sha256": "d4af156a8efec7c73080fdc52ae6fa0b5a1a0e4a16019437eb5c89508d8b2e18",
+    "bytes": 199411,
+    "files": 23
+  },
+  "reproducibility_archive": {
+    "path": "resolution-audit-reproducibility.zip",
+    "sha256": "ce5d91c67e3ecd3d7799b927056e8fbbc7b334a4b68291eb1161b1cb7172f24d",
+    "bytes": 375301394,
+    "files": 155
+  }
+}
